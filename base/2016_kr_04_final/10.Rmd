@@ -35,7 +35,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 10
+exname: coefficients_intervals
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient confidence interval

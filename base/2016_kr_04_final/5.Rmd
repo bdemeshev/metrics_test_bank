@@ -5,6 +5,7 @@ Question
 
 Answerlist
 ----------
+*  нет верного ответа
 *  $t_n$-распределение
 *  $\cN(0;1)$-распределение
 *  $\cN(\mu;\sigma^2)$-распределение
@@ -16,6 +17,7 @@ Solution
 
 Answerlist
 ----------
+*  Good answer :)
 *  Bad answer :(
 *  Bad answer :(
 *  Bad answer :(
@@ -24,7 +26,12 @@ Answerlist
 
 Meta-information
 ================
-exname: 5
+exname: dw_distribution
 extype: schoice
-exsolution: 00000
-exshuffle: 5
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS
+

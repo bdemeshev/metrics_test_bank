@@ -5,6 +5,7 @@ Question
 
 Answerlist
 ----------
+*  нет верного ответа
 *  оценки логит и пробит моделей всегда совпадают
 *  оценки логит моделей всегда выше, чем пробит
 *  оценки пробит моделей всегда выше, чем логит
@@ -16,6 +17,7 @@ Solution
 
 Answerlist
 ----------
+*  Good answer :)
 *  Bad answer :(
 *  Bad answer :(
 *  Bad answer :(
@@ -24,7 +26,12 @@ Answerlist
 
 Meta-information
 ================
-exname: 6
+exname: logit_vs_probit
 extype: schoice
-exsolution: 00000
-exshuffle: 5
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Binary models
+
