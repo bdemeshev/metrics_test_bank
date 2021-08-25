@@ -1,5 +1,7 @@
 #Statistics
 Distribution
+Moments
+
 
 # ols without statistics
 OLS
