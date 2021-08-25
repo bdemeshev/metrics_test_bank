@@ -23,3 +23,7 @@ exname: sargan_test
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Causality/Instrumental variables
