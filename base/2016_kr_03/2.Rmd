@@ -5,7 +5,6 @@ Question
 
 Answerlist
 ----------
-*  
 *  если ковариационная матрица случайной составляющей пропорциональна единичной
 *  никогда
 *  всегда
@@ -18,7 +17,6 @@ Solution
 Answerlist
 ----------
 *  Good answer :)
-*  Good answer :)
 *  Bad answer :(
 *  Bad answer :(
 *  Bad answer :(
@@ -26,7 +24,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 2
+exname: ols_vs_ml
 extype: schoice
-exsolution: 110000
+exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Maximum Likelihood

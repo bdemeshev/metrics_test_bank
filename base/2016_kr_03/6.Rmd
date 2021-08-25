@@ -7,7 +7,9 @@ Question
 Считая, что всё время суток распределяется между трудом, сном и отдыхом,
 оценка регрессии в виде
 $$
-E_i = {
+E_i = {\beta_1} + {\beta_2}WH_i + {\beta _3}LH_i + {\beta _4}SH_i + u_i
+$$
+приведет к тому, что 
 
 Answerlist
 ----------
@@ -30,7 +32,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 6
+exname: dummy_overfit
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Dummy variables

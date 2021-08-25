@@ -29,7 +29,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 10
+exname: constant_model
 extype: schoice
 exsolution: 000000
-exshuffle: 5
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Gauss-Markov theorem
