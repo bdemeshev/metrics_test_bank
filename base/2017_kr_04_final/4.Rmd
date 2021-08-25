@@ -25,7 +25,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 4
+exname: overfitting
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Causality/Instrumental variables

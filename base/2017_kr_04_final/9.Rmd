@@ -29,3 +29,7 @@ exname: 9
 extype: schoice
 exsolution: 00000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Stationarity
