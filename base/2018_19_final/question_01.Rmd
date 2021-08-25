@@ -18,10 +18,11 @@ Solution
 
 Meta-information
 ================
-exname: almon_hypo
+exname: almon hypothesis
 extype: schoice
 exsolution: 10000
 exshuffle: 5
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
+exsection: TS/Almon lag model

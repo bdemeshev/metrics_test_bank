@@ -33,6 +33,15 @@ Autocorrelation
 Autocorrelation/Durbin Watson test
 Autocorrelation/Breusch Pagan test
 
+
+WLS
+GLS
+GLS/Feasible GLS
+
+GMM
+GMM/Efficient GMM
+
+
 # binary choice
 Logit
 Probit
@@ -43,11 +52,16 @@ Classification/Specificity
 Classification/Sencitivity
 
 # time series
-Stationarity
-ARIMA
-Autocorrelation function
-Partial autocorrelation function
-
+TS
+TS/Almon lag model
+TS/Stationarity
+TS/ARIMA
+TS/ARIMA/Invertibility
+TS/Autocorrelation function
+TS/Partial autocorrelation function
+TS/Unit root test
+TS/Unit root test/Dickey Fuller test
+TS/Unit root test/KPSS test
 
 
 
