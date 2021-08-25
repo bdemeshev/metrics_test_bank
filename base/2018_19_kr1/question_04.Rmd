@@ -23,3 +23,7 @@ exname: hat_var_hat_beta
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Sum of squares
