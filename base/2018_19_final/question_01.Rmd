@@ -2,7 +2,7 @@ Question
 ========
 
 Гипотеза Алмон при оценивании модели с распределенными лагами $Y_t = \alpha + \sum_{j=0}^J\beta_j X_{t-j} + \varepsilon_t$ 
-состоит в том, что $\beta_j$ представимо в виде
+состоит в том, что коэффициент $\beta_j$ представим в виде
 
 Answerlist
 ----------
@@ -22,3 +22,6 @@ exname: almon_hypo
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy

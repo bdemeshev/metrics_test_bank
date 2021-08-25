@@ -1,0 +1,88 @@
+# ols without statistics
+OLS
+OLS/Sum of squares
+OLS/R2
+OLS/Residuals
+OLS/Coefficients formula
+OLS/Coefficients interpretation
+OLS/Point forecast
+OLS/Dummy variables
+
+# ols under classical assumptions
+OLS/Gauss-Markov theorem
+OLS/Coefficient t-test
+OLS/Coefficient confidence interval
+OLS/Predictive interval
+OLS/Mean forecast confidence interval
+OLS/Nested models F-test
+OLS/Nested models LR test
+OLS/Nested models LM test
+OLS/Nested models Wald test
+
+# near-violation
+Multicollinearity
+Multicollinearity/VIF
+
+# violations
+Heteroskedasticity
+Heteroskedasticity/Robust standard errors
+Heteroskedasticity/Goldfeldt Quandt test
+Heteroskedasticity/White test
+
+Autocorrelation
+Autocorrelation/Durbin Watson test
+Autocorrelation/Breusch Pagan test
+
+# binary choice
+Logit
+Probit
+
+ROC-curve
+ROC-curve/AUC
+Classification/Specificity
+Classification/Sencitivity
+
+# time series
+Stationarity
+ARIMA
+Autocorrelation function
+Partial autocorrelation function
+
+
+
+
+PCA
+
+Maximum Likelihood
+Maximum Likelihood/LR test
+Maximum Likelihood/LM test
+Maximum Likelihood/Wald test
+Maximum Likelihood/Information matrix
+
+Random forest
+Random forest/Variable importance
+
+Bayesian approach
+Bayesian approach/Posterior distribution
+Bayesian approach/Spike and slab regression
+
+Quantile regression
+
+
+Causality/Endogeneity
+Causality/2SLS
+Causality/Instrumental variables
+Causality/Matching
+Causality/Difference in Difference
+Causality/Event studies
+Causality/Regression discontinuity design
+
+
+Bootstrap
+Bootstrap/Naive bootstrap
+Bootstrap/t-statistic bootstrap
+Bootstrap/Regression bootstrap
+
+
+
+
