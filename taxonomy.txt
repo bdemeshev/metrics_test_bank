@@ -1,3 +1,6 @@
+#Statistics
+Distribution
+
 # ols without statistics
 OLS
 OLS/Sum of squares
@@ -43,6 +46,7 @@ GMM/Efficient GMM
 
 
 # binary choice
+Binary models
 Logit
 Probit
 
