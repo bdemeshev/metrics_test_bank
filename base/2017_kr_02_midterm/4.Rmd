@@ -1,6 +1,6 @@
 Question
 ========
-По 546 наблюдениям за 1987 г. оценили зависимость стоимости частных домов в канаде price (измеряемой в долларах США) от общей площади square (измеряемой в кв. м.) наличия подъездного пути driveway  (1 — если есть, 0 — если нет):
+По 546 наблюдениям за 1987 г. оценили зависимость стоимости частных домов в Канаде price (измеряемой в долларах США) от общей площади square (измеряемой в кв. м.) наличия подъездного пути driveway  (1 — если есть, 0 — если нет):
 
 \begin{tabular}{lrrrr}
 \toprule
@@ -40,7 +40,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 4
+exname: ols_interpretation
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients interpretation
