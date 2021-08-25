@@ -38,6 +38,8 @@ Autocorrelation
 Autocorrelation/Durbin Watson test
 Autocorrelation/Breusch Pagan test
 
+#Panel Data Models
+Panel Models
 
 WLS
 GLS
