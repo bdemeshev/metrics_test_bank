@@ -17,6 +17,8 @@ OLS/Coefficient t-test
 OLS/Coefficient confidence interval
 OLS/Predictive interval
 OLS/Mean forecast confidence interval
+OLS/Linear restrictions
+OLS/Model selection
 OLS/Nested models F-test
 OLS/Nested models LR test
 OLS/Nested models LM test
