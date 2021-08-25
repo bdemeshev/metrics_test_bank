@@ -1,0 +1,37 @@
+Question
+========
+По данным для 27 фирм была оценена зависимость выпуска Y от труда L и капитала K с помощью моделей:
+
+$\ln Y_i = b_1 + b_2 \ln L_i + b_3 \ln K_i + \varepsilon_i$ (1)
+
+$\ln Y_i = b_1 + b_2 (\ln L_i + \ln K_i) + \varepsilon_i$ (2)
+
+Суммы квадратов остатков в этих моделях известны, $RSS_1=8$ и $RSS_2=10$. $F$-статистика для проверки гипотезы о равенстве эластичностей по труду и по капиталу равна
+
+
+
+Answerlist
+----------
+*  6
+*  2
+*  4
+*  8
+*  12
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 7
+extype: schoice
+exsolution: 10000
+exshuffle: 5

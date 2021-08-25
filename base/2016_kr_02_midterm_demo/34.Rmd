@@ -1,0 +1,25 @@
+Question
+========
+
+
+Answerlist
+----------
+*  обязательно вырастет
+*  обязательно упадёт
+*  может как вырасти, так и упасть
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 34
+extype: schoice
+exsolution: 100
+exshuffle: 5

@@ -1,0 +1,30 @@
+Question
+========
+Процесс $\e_t$ является белым шумом. Нестационарным является процесс
+
+
+Answerlist
+----------
+*  $Y_t = -1Y_{t-1} + \e_t$
+*  $Y_t = 2017\e_t$
+*  $Y_t = 0.1Y_{t-1} + \e_t$
+*  $Y_t = 2017$
+*  $Y_t = \e_t + 0.1\e_{t-1} + 1.5\e_{t-2}$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 8
+extype: schoice
+exsolution: 10000
+exshuffle: 5

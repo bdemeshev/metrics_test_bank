@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  особому распределению Дарбина-Уотсона
+*  стандартному нормальному распределению
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 66
+extype: schoice
+exsolution: 10
+exshuffle: 5

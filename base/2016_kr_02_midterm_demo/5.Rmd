@@ -1,0 +1,29 @@
+Question
+========
+По данным  500 индивидуумов оценили зависимость веса индивидуума $Y$,
+измеряемого в фунтах (1 фунт $\approx$ 0.5 кг) от его роста $Х$,
+измеряемого в в футах (1 фут $\approx$ 30 см):
+
+Answerlist
+----------
+*  $2.4$
+*  $8$
+*  $1.2$
+*  $4.8$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 5
+extype: schoice
+exsolution: 1000
+exshuffle: 5

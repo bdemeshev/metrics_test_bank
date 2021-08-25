@@ -1,0 +1,34 @@
+Question
+========
+В множественной регрессии с константой матрица $X$ имеет размер
+$55 \times 5$, $TSS=600$, $ESS=100$.
+Несмещённая оценка для дисперсии случайных ошибок модели равна
+
+
+Answerlist
+----------
+*  $10$
+*  $9$
+*  $20$
+*  $4.47$
+*  $5.48$
+*  $30$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 1
+extype: schoice
+exsolution: 100000
+exshuffle: 5

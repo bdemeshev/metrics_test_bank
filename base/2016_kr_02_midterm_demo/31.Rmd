@@ -1,0 +1,33 @@
+Question
+========
+Если в регрессии с константой, оценённой с помощью МНК, сумма квадратов остатков равна нулю,
+то показатель $R^2$
+
+
+Answerlist
+----------
+*  равен $0$
+*  равен $-1$
+*  не существует
+*  может принимать любое значение на $[0;1]$
+*  равен $1$
+*  не существует
+
+Solution
+========
+
+Answerlist
+----------
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 31
+extype: schoice
+exsolution: 000010
+exshuffle: 5

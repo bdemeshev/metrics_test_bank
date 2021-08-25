@@ -1,0 +1,30 @@
+Question
+========
+Если основная гипотеза в тесте Дики-Фуллера отвергается, то временной ряд является
+
+
+Answerlist
+----------
+*  стационарным
+*  нестационарным
+*  коинтегрированным
+*  стационарным в первых разностях
+*  нормально распределённым
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 1
+extype: schoice
+exsolution: 10000
+exshuffle: 5

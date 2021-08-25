@@ -1,0 +1,31 @@
+Question
+========
+Пусть $\varepsilon_t$ - белый шум. Тогда стационарным будет следующий процесс
+
+
+
+Answerlist
+----------
+*  $Y_t = \sum_{i = 0}^{10} \varepsilon_{t-i}$
+*  $Y_t = 2018t + \varepsilon_t$
+*  $Y_t = t \varepsilon_t$
+*  $Y_t = Y_{t-1} - \varepsilon_t$
+*  $Y_t = 2Y_{t-1} - \varepsilon_t$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 7
+extype: schoice
+exsolution: 10000
+exshuffle: 5

@@ -1,0 +1,39 @@
+Question
+========
+Оценка максимального правдоподобия параметра  $\lambda$ по случайной выборке $X_1$, \ldots, $X_n$ из распределения с функцией плотности
+$$
+f(x|\lambda ) = \begin{cases}
+\lambda^{-1} x^{- 1 + 1/\lambda},
+\text{ если }0 < x < 1; \\
+0, \text{ иначе.}
+\end{cases}
+$$
+имеет вид:
+
+
+
+Answerlist
+----------
+*  $\hat\lambda_{ML} = -\frac{\ln X_1 + \ldots + \ln X_n}{n}$
+*  $\hat\lambda_{ML} = \frac{\ln X_1 + \ldots + \ln X_n}{n}$
+*  $\hat\lambda_{ML} = -\frac{X_1 + \ldots + X_n}{n}$
+*  $\hat\lambda_{ML} = \frac{X_1 + \ldots + X_n}{n}$
+*  $\hat\lambda_{ML} = \frac{X_1^2 + \ldots + X_n^2}{n}$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 7
+extype: schoice
+exsolution: 10000
+exshuffle: 5

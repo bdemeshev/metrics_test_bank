@@ -1,0 +1,25 @@
+Question
+========
+
+
+Answerlist
+----------
+*  несмещёнными
+*  состоятельными
+*  эффективными
+
+Solution
+========
+
+Answerlist
+----------
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 44
+extype: schoice
+exsolution: 000
+exshuffle: 5

@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  равна нулю
+*  не обязательно равна нулю
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 76
+extype: schoice
+exsolution: 10
+exshuffle: 5

@@ -1,0 +1,32 @@
+Question
+========
+Свободно распространяемым программным обеспечением является
+
+
+Answerlist
+----------
+*  R
+*  Excel
+*  Stata
+*  Eviews
+*  SPSS
+*  Matlab
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 11
+extype: schoice
+exsolution: 100000
+exshuffle: 5

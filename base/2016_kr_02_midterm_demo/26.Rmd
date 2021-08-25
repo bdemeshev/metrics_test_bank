@@ -1,0 +1,30 @@
+Question
+========
+Квартальные данные о ВВП России за 10 лет являются
+
+
+Answerlist
+----------
+*  панельными данными
+*  перекрестной выборкой
+*  случайной выборкой
+*  сходящимся рядом
+*  временным рядом
+
+Solution
+========
+
+Answerlist
+----------
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Good answer :)
+
+Meta-information
+================
+exname: 26
+extype: schoice
+exsolution: 00001
+exshuffle: 5

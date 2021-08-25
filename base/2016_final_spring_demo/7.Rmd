@@ -1,0 +1,31 @@
+Question
+========
+Инструмент $Z_t$ для оценивания динамической модели $Y_t = \beta_1 + \beta_2 X_t + \beta_3 Y_{t-1} + u_t$
+с экзогенным вектором $X$ и AR(1) процессом в ошибках $u_t$ должен удовлетворять требованию
+
+
+Answerlist
+----------
+*  $\Corr(Y_{t-1}, Z_t) \neq 0$
+*  $\Corr(Y_{t-1}, Z_t)=0$
+*  $\Corr(X_t, Z_t)=0$
+*  $\Corr(u_t, Z_t)=0$
+*  $\Corr(u_t, Z_t) \to 1$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 7
+extype: schoice
+exsolution: 10000
+exshuffle: 5

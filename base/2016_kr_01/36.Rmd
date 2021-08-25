@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  может быть не равна $TSS$
+*  обязательно равна $TSS$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 36
+extype: schoice
+exsolution: 10
+exshuffle: 5

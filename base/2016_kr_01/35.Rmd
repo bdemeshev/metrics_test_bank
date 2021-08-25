@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  может быть не связана с мультиколлинеарностью
+*  обязательно свидетельствует о наличии мультиколлинеарности
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 35
+extype: schoice
+exsolution: 10
+exshuffle: 5

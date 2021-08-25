@@ -1,0 +1,25 @@
+Question
+========
+
+
+Answerlist
+----------
+*  вырастет
+*  упадёт
+*  не изменится
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 41
+extype: schoice
+exsolution: 100
+exshuffle: 5

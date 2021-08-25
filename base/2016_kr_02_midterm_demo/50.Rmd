@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  отсутствии автокорреляции
+*  наличии автокорреляции
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 50
+extype: schoice
+exsolution: 10
+exshuffle: 5

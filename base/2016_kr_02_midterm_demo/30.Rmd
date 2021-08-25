@@ -1,0 +1,32 @@
+Question
+========
+В регрессии с константой, оценённой с помощью МНК, сумма остатков
+
+
+Answerlist
+----------
+*  может принимать любое неположитлеьное значение
+*  может принимать любое положительное значение
+*  может принимать любое значение из $\mathbb{R}$
+*  равна $1$
+*  равна $0$
+*  не существует
+
+Solution
+========
+
+Answerlist
+----------
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 30
+extype: schoice
+exsolution: 000010
+exshuffle: 5

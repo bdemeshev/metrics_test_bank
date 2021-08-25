@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  можно использовать, т.к. они по прежнему имеют $t$-распределение
+*  нельзя использовать т.к. они не имеют $t$-распределения
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 35
+extype: schoice
+exsolution: 10
+exshuffle: 5

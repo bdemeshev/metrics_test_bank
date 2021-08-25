@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  неприменим
+*  применим
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 80
+extype: schoice
+exsolution: 10
+exshuffle: 5

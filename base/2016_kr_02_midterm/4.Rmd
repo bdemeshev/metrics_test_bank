@@ -1,0 +1,34 @@
+Question
+========
+Гипотеза о том, что одновременно $\beta_1 + \beta_2 =1$  и $\beta_3=0$
+в множественной линейной регрессии построенной по $n$ наблюдениям
+проверяется с помощью  статистики, имеющей распределение
+
+
+Answerlist
+----------
+*  $F$
+*  $t_n$
+*  $t_{n-2}$
+*  $t_{n-k}$
+*  $N(0;1)$
+*  Демешева-Мамонтова
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 4
+extype: schoice
+exsolution: 100000
+exshuffle: 5

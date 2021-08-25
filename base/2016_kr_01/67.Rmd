@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  несмещёнными
+*  смещёнными
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 67
+extype: schoice
+exsolution: 10
+exshuffle: 5

@@ -1,0 +1,32 @@
+Question
+========
+Коэффициент $R^2$ может быть представлен в виде
+
+
+Answerlist
+----------
+*  $\sum_{j=2}^k \hb_j \frac{\sCov(X_j, Y)}{\sVar(Y)}$
+*  $\sum_{j=2}^k \hb_j \frac{\sVar(Y)}{\sCov(X_j, Y)}$
+*  $\sum_{j=2}^k \hb_j \frac{\sCorr(X_j, Y)}{\sVar(Y)}$
+*  $\sum_{j=2}^k \hb_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}$
+*  $\sum_{j=2}^k \beta_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}$
+*  $\sum_{j=2}^k \beta_j \frac{\sVar(Y)}{\sCov(X_j, Y)}$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 2
+extype: schoice
+exsolution: 100000
+exshuffle: 5

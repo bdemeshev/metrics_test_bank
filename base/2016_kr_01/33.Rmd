@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  $\Var(\varepsilon_i)=0$
+*  $\Var(\varepsilon_i) \neq 0$
+
+Solution
+========
+
+Answerlist
+----------
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 33
+extype: schoice
+exsolution: 00
+exshuffle: 5

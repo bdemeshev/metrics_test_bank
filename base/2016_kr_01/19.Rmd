@@ -1,0 +1,33 @@
+Question
+========
+Регрессия по 25 наблюдениям имеет вид $\hat Y_i = \underset{(2)}{-1}  - \underset{(0.5)}{1.5}X_i$.
+В скобках указаны стандартные ошибки.
+При проверке гипотезы о равенстве коэффициента наклона $(-1)$ расчётное значение
+$t$-статистики равно
+
+
+Answerlist
+----------
+*  $-2$
+*  $0.5$
+*  $2$
+*  $-0.5$
+*  $-1$
+
+Solution
+========
+
+Answerlist
+----------
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Good answer :)
+
+Meta-information
+================
+exname: 19
+extype: schoice
+exsolution: 00001
+exshuffle: 5

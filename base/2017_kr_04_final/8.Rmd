@@ -1,0 +1,31 @@
+Question
+========
+Процесс случайного блуждания с дрейфом описывается уравнением
+
+
+
+Answerlist
+----------
+*  $X_t = \mu + X_{t-1} + \varepsilon_t$
+*  $X_t = \mu + 0.7 X_{t-1} + \varepsilon_t$
+*  $X_t = X_{t-1} + \varepsilon_t$
+*  $X_t = 0.7 X_{t-1} + \varepsilon_t$
+*  $X_t = \mu + \varepsilon_t$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 8
+extype: schoice
+exsolution: 10000
+exshuffle: 5

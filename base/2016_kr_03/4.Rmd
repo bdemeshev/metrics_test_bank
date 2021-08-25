@@ -1,0 +1,29 @@
+Question
+========
+
+
+Answerlist
+----------
+*  $\e \sim \cN(0; \Omega)$ и структура $\Omega$ неизвестна
+*  $\e \sim \cN(0; \Omega)$ и структура $\Omega$ известна, но зависит от набора неизвестных параметров
+*  $\e \sim \cN(0; \Omega)$ и $\Omega = 2017 \cdot I$
+*  $\e \sim \cN(0; \Omega)$ и  $\Omega =  b \cdot I$, где $b$ — неизвестный параметр
+*  закон  распределения вектора $\e$ известен, но не является нормальным
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 4
+extype: schoice
+exsolution: 10000
+exshuffle: 5

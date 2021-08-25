@@ -1,0 +1,30 @@
+Question
+========
+Рассмотрим логит-модель $\hat Y_i^* = \hb_1 + \hb_2 X_i + \hb_3 D_i$, и $Y_i = 1$, если $Y_i^* > 0$. Если переменная $X_i$ является количественной, то предельный эффект увеличения $X_i$ можно посчитать по формуле
+
+
+Answerlist
+----------
+*  $\hb_2 f(\hat Y_i^*)$
+*  $\hb_2 /f(\hat Y_i^*)$
+*  $\hb_2 / F(\hat Y_i^*)$
+*  $\hb_2 / f^2(\hat Y_i^*)$
+*  $\hb_2 /F^2(\hat Y_i^*)$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 7
+extype: schoice
+exsolution: 10000
+exshuffle: 5

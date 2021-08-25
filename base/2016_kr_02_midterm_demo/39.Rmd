@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  устранить смещённость оценок коэффициентов
+*  устранить несостоятельность оценок коэффициентов
+
+Solution
+========
+
+Answerlist
+----------
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 39
+extype: schoice
+exsolution: 00
+exshuffle: 5

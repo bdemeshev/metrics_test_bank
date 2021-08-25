@@ -1,0 +1,40 @@
+Question
+========
+Рассмотрим модель $Y_i = {\beta_1} + {\beta_2}{X_{i2}} + {\beta_3}{X_{i3}} + {\beta_4}{X_{i4}} + {\beta_5}{X_{i5}} + u_i$.
+Гипотезу
+$$
+\begin{cases}
+{\beta_2} + {\beta _3} = 1\\
+{\beta_5} = 0 \\
+\end{cases}
+$$
+можно проверить с помощью оценки дополнительной модели
+
+
+
+
+Answerlist
+----------
+*  $Y_i - X_{i3} = \beta_1 + \beta_2 (X_{i2} - X_{i3}) + \beta_4 X_{i4} + u_i$
+*  $Y_i - X_{i2} = \beta_1 + \beta_2 (X_{i2} - X_{i3}) + \beta_4 X_{i4} + u_i$
+*  $Y_i - X_{i3} = \beta_1 + \beta_2 (X_{i2} + X_{i3}) + \beta_4 X_{i4} + u_i$
+*  $Y_i - \beta_2 = \beta_1 + \beta_2 (X_{i2} + X_{i3}) + \beta_4 X_{i4} + u_i$
+*  $Y_i = \beta_1 + \beta_2 (X_{i2} + X_{i3} - 1) + \beta_4 X_{i4} + u_i$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 8
+extype: schoice
+exsolution: 10000
+exshuffle: 5

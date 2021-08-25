@@ -1,0 +1,31 @@
+Question
+========
+Оценка $\hb_{2SLS}$  модели  $Y = X\beta + \e$ получена двухшаговым МНК с матрицей инструментальных переменных  $Z$. Если число инструментов превышает количество включенных в модель факторов, то $\hb_{2SLS}$ имеет вид
+
+
+
+Answerlist
+----------
+*  $(X'Z(Z'Z)^{-1}Z'X)^{-1}X'Z(Z'Z)^{-1}Z'Y$
+*  $(X'Z(Z'Z)^{-1}Z'X)^{-1}Z'Z(Z'Z)^{-1}X'Y$
+*  $(Z'X)^{-1}Z'Y$
+*  $(Z'Z)^{-1}Z'Y$
+*  $Z(Z'Z)^{-1}Z'X$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 2
+extype: schoice
+exsolution: 10000
+exshuffle: 5

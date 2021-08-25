@@ -1,0 +1,30 @@
+Question
+========
+Если в регрессии отсутствует свободный член, то в общем случае
+
+
+Answerlist
+----------
+*  $TSS \neq ESS + RSS$
+*  $R^2$ является мерой качества подгонки регрессии
+*  сумма остатков равна нулю
+*  сумма квадратов остатков равна нулю
+*  $\sum_i \hat Y_i = \sum_i Y_i$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 7
+extype: schoice
+exsolution: 10000
+exshuffle: 5

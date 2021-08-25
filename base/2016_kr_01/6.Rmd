@@ -1,0 +1,32 @@
+Question
+========
+В парной регрессии величина $\bar Y - \hat\beta_1 - \hat\beta_2 \bar X$
+
+
+Answerlist
+----------
+*  равна 0
+*  равна 1
+*  равна (-1)
+*  не существует
+*  может принимать любое неотрицательное значение
+*  может принимать любое положительное значение
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 6
+extype: schoice
+exsolution: 100000
+exshuffle: 5

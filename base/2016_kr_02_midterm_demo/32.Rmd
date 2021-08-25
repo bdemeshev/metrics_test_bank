@@ -1,0 +1,30 @@
+Question
+========
+Необходимым условием теоремы Гаусса-Маркова является
+
+
+Answerlist
+----------
+*  наличие в матрице $X$ единичного столбца
+*  нормальность остатков
+*  нормальность $Y_i$
+*  постоянство дисперсии остатков
+*  постоянство дисперсии случайной ошибки
+
+Solution
+========
+
+Answerlist
+----------
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Good answer :)
+
+Meta-information
+================
+exname: 32
+extype: schoice
+exsolution: 00001
+exshuffle: 5

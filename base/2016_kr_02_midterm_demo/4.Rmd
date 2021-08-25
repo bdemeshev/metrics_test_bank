@@ -1,0 +1,32 @@
+Question
+========
+Зависимость спроса на некоторый вид услуг $Y$ от его цены $Р$
+имеет вид $\widehat{\ln Y_i} = \underset{(2)}{30} - \underset{(0.001)}{0.03} P_i$.
+Чтобы спрос в среднем снизился на 3\% цена должна увеличиться на
+
+
+Answerlist
+----------
+*  1 единицу
+*  100 единиц
+*  10 единиц
+*  1\%
+*  10\%
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 4
+extype: schoice
+exsolution: 10000
+exshuffle: 5

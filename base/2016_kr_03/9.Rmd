@@ -1,0 +1,30 @@
+Question
+========
+Обобщенный МНК служит для оценивания регрессионных моделей в случае нарушений следующего условия теоремы Гаусса-Маркова:
+
+
+Answerlist
+----------
+*  $\Var(u) = \sigma^2 I$
+*  $\E(u_i)=0$
+*  $\rank X = k$
+*  $u_i$ распределены нормально
+*  Величина $Y_i$ линейна по $\beta_1$, $\beta_2$, \ldots
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 9
+extype: schoice
+exsolution: 10000
+exshuffle: 5

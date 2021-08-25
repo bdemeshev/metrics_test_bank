@@ -1,0 +1,23 @@
+Question
+========
+
+
+Answerlist
+----------
+*  остаются состоятельными
+*  перестают быть состоятельными
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+
+Meta-information
+================
+exname: 26
+extype: schoice
+exsolution: 10
+exshuffle: 5

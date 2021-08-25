@@ -1,0 +1,27 @@
+Question
+========
+
+
+Answerlist
+----------
+*  гомоскедастичности
+*  гетероскедастичности
+*  наличии автокорреляции
+*  отсутствии автокорреляции
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 81
+extype: schoice
+exsolution: 1000
+exshuffle: 5
