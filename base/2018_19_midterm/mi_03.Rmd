@@ -43,3 +43,7 @@ exname: mi_03_r2
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/R2
