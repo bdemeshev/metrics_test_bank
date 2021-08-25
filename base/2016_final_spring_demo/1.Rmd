@@ -24,7 +24,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 1
+exname: DF-test
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Unit root test/Dickey Fuller test
