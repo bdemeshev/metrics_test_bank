@@ -30,7 +30,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 3
+exname: ci_beta2
 extype: schoice
 exsolution: 100000
-exshuffle: 5
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient confidence interval

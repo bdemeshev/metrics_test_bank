@@ -6,6 +6,7 @@ Question
 
 Answerlist
 ----------
+*  нет верного ответа
 *  $H_0$: $\beta_2 = 0$ отвергается
 *  $H_0$: $\beta_2 = 0$ не отвергается
 *  $H_a$: $\beta_2 \neq 0$ не отвергается
@@ -17,6 +18,7 @@ Solution
 
 Answerlist
 ----------
+*  Good answer :)
 *  Bad answer :(
 *  Bad answer :(
 *  Bad answer :(
@@ -25,7 +27,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 5
+exname: hypothesis check
 extype: schoice
-exsolution: 00000
-exshuffle: 5
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient confidence interval

@@ -7,7 +7,7 @@ Question
 
 Answerlist
 ----------
-*  
+*  нет верного ответа
 *  $\hat Y_i = 6 X_i$
 *  $\hat Y_i = 11 X_i$
 *  $\hat Y_i = 5$
@@ -30,7 +30,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 2
+exname: no_constant
 extype: schoice
 exsolution: 1000000
-exshuffle: 5
+exshuffle: 7
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS

@@ -27,7 +27,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 7
+exname: bias
 extype: schoice
 exsolution: 100000
-exshuffle: 5
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Gauss-Markov theorem
