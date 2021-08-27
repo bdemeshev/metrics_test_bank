@@ -8,7 +8,7 @@ Question
 
 Answerlist
 ----------
-*  $\frac{\sum Y_i / \sqrt{X_i}}{\sum 1/X_i}$
+*  $\frac{\sum Y_i / X_i}{\sum 1/X_i}$
 *  $\frac{\sum Y_i / X_i}{\sum 1/X_i^2}$
 *  $\frac{\sum Y_i X_i}{\sum X_i}$
 *  $\frac{\sum Y_i X_i}{\sum X_i^2}$
@@ -20,7 +20,7 @@ Solution
 
 Answerlist
 ----------
-*  Bad answer :(
+*  Good answer :)
 *  Bad answer :(
 *  Bad answer :(
 *  Bad answer :(
@@ -29,9 +29,9 @@ Answerlist
 
 Meta-information
 ================
-exname: constant_model
+exname: constant model with heteroskedasticity
 extype: schoice
-exsolution: 000000
+exsolution: 100000
 exshuffle: 6
 exextra[Type]: Calculation
 exextra[Language]: Russian
