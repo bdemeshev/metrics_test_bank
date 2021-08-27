@@ -28,7 +28,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 6
+exname: omitted variables
 extype: schoice
 exsolution: 100000
-exshuffle: 5
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Gauss-Markov theorem

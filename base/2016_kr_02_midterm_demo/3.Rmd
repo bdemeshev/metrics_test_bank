@@ -8,7 +8,7 @@ $$
 \widehat{\ln EARN}_i = \underset{(0.124)}{0.904} +
 \underset{(0.056)}{0.01}S_i + \underset{(0.002)}{0.0157} ASVABC_i + \underset{(0.1)}{0.27} MALE_i
 $$
-
+Почасовая оплата труда мужчин
 
 Answerlist
 ----------
@@ -31,7 +31,11 @@ Answerlist
 
 Meta-information
 ================
-exname: 3
+exname: dummy coefficients
 extype: schoice
 exsolution: 10000
 exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Dummy variables
