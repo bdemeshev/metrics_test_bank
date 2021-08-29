@@ -1,13 +1,14 @@
 Question
 ========
-Для модели $Y_i = \beta_1 + \beta_2 X_i + u_i, i = 1, \ldots, n, u_i`\sim \mathcal{N}(0, \sigma^2_{\mathbb{E}})$ тестовая статистика $\frac{ \hat \beta_2 - \beta^0_2 }{ se(\hat \beta_2)} $ имеет распределение
+Для модели $Y_i = \beta_1 + \beta_2 X_i + u_i$, где $u_i \sim \mathcal{N}(0, \sigma^2_u)$ 
+тестовая статистика $\frac{ \hat \beta_2 - \beta^0_2 }{ se(\hat \beta_2)} $ имеет распределение
 
 
 Answerlist
 ----------
-*  $\ t_{n-2}$
+*  $t_{n-2}$
 *  $\mathcal{N}(0,1)$
-*  $\mathcal{N}(0, \sigma_u)$
+*  $\mathcal{N}(0, \sigma_u^2)$
 *  $\chi^2_1$
 *  $\chi^2_{n-2}$
 

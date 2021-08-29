@@ -24,8 +24,8 @@
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -37,17 +37,7 @@
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-нормально распределённым
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-стационарным в первых разностях
+нестационарным
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -77,7 +67,17 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-нестационарным
+стационарным в первых разностях
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+нормально распределённым
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -108,8 +108,8 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
@@ -121,16 +121,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(Y_t\)</span> независимо и одинаково распределены <span class="math inline">\(\mathcal{N}(7; 16)\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(Y_t = - Y_{t-1} + u_t\)</span>
@@ -138,16 +128,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(Y_t = 7 + u_t + 0.2 u_{t-1} - 1.2 u_t{-2}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -164,6 +144,26 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(Y_t = 5 + 0.1 Y_{t-1} + u_{t} + 0.2 u_{t-1}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(Y_t = 7 + u_t + 0.2 u_{t-1} - 1.2 u_t{-2}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(Y_t\)</span> независимо и одинаково распределены <span class="math inline">\(\mathcal{N}(7; 16)\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -195,8 +195,8 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -217,6 +217,16 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+только временной ряд с детерминированным трендом
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 как временной ряд с детерминированным трендом, так и со случайным трендом
@@ -224,16 +234,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-ни временной ряд с детерминированным трендом, ни со случайным трендом
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -249,7 +249,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-только временной ряд с детерминированным трендом
+ни временной ряд с детерминированным трендом, ни со случайным трендом
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -295,7 +295,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat\rho \approx DW/2\)</span>
+<span class="math inline">\(\hat\rho \approx 2(1-DW)\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -315,7 +315,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat\rho \approx 2(1-DW)\)</span>
+<span class="math inline">\(\hat\rho \approx DW/2\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -381,7 +381,17 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-нельзя включать в качестве независимых дамми-переменные
+ROC кривая является выпуклой для любой логит-модели
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+значимость коэффициентов проверяется с помощью статистики, имеющей <span class="math inline">\(t\)</span>-распределение
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -392,16 +402,6 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 оценки коэффициентов логит и пробит моделей всегда имеют один и тот же знак
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-ROC кривая является выпуклой для любой логит-модели
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -421,7 +421,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-значимость коэффициентов проверяется с помощью статистики, имеющей <span class="math inline">\(t\)</span>-распределение
+нельзя включать в качестве независимых дамми-переменные
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -456,8 +456,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -468,7 +468,17 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.4\)</span>
+<span class="math inline">\(\sqrt{0.6}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sqrt{0.84}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -488,7 +498,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\sqrt{0.84}\)</span>
+<span class="math inline">\(0.4\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -513,16 +523,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\sqrt{0.6}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -552,8 +552,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -563,16 +563,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-не меньше числа экзогенных переменных, включенных в это уравнение
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 не меньше числа экзогенных переменных, исключенных из этого уравнения
@@ -585,7 +575,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-не больше числа эндогенных переменных, исключенных из этого уравнения
+не меньше числа экзогенных переменных, включенных в это уравнение
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -595,7 +585,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-не больше числа эндогенных переменных, включенных в это уравнение
+не больше числа экзогенных переменных, включенных в это уравнение
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -615,7 +605,17 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-не больше числа экзогенных переменных, включенных в это уравнение
+не больше числа эндогенных переменных, включенных в это уравнение
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+не больше числа эндогенных переменных, исключенных из этого уравнения
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -649,8 +649,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -661,27 +661,17 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\Corr(u_t, Z_t) \to 1\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\Corr(X_t, Z_t)=0\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(\Corr(u_t, Z_t)=0\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\Corr(u_t, Z_t) \to 1\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -706,6 +696,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\Corr(X_t, Z_t)=0\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -738,8 +738,8 @@ Good answer :)
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -760,16 +760,6 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(Y_i - X_{i3} = \beta_1 + \beta_2 (X_{i2} - X_{i3}) + \beta_4 X_{i4} + u_i\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(Y_i - \beta_2 = \beta_1 + \beta_2 (X_{i2} + X_{i3}) + \beta_4 X_{i4} + u_i\)</span>
@@ -777,6 +767,16 @@ Good answer :)
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(Y_i - X_{i3} = \beta_1 + \beta_2 (X_{i2} - X_{i3}) + \beta_4 X_{i4} + u_i\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -825,9 +825,9 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -839,7 +839,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-нестрогая мультиколлинеарность
+корреляция ошибок по схеме MA(1)
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -854,16 +854,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-эндогенность одного из регрессоров
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -887,9 +877,19 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+эндогенность одного из регрессоров
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-корреляция ошибок по схеме MA(1)
+нестрогая мультиколлинеарность
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -924,8 +924,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -934,26 +934,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-9
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
--4
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 8
@@ -976,7 +956,17 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
--9
+-4
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+9
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -991,6 +981,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+-9
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -1020,8 +1020,8 @@ Good answer :)
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -1033,7 +1033,7 @@ Good answer :)
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(H_a\)</span> отвергается
+<span class="math inline">\(H_a\)</span> не отвергается
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1053,7 +1053,17 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(H_a\)</span> не отвергается
+недостаточно информации для ответа
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(H_a\)</span> принимается
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1073,17 +1083,7 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-недостаточно информации для ответа
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(H_a\)</span> принимается
+<span class="math inline">\(H_a\)</span> отвергается
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1117,9 +1117,9 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -1130,37 +1130,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-SPSS
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-Eviews
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
 Stata
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-Matlab
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1178,6 +1148,16 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Eviews
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 R
@@ -1185,6 +1165,26 @@ R
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+SPSS
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Matlab
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -1212,11 +1212,11 @@ Good answer :)
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -1226,6 +1226,26 @@ Good answer :)
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-16.66667" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat Y_i = 6 X_i\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-16.66667" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\hat Y_i = 5.5\)</span>
@@ -1248,16 +1268,6 @@ Bad answer :(
 </answer>
 <answer fraction="-16.66667" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat Y_i = 11 X_i\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-16.66667" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(\hat Y_i = 5\)</span>
 </p>]]></text>
 <feedback format="html">
@@ -1268,7 +1278,7 @@ Bad answer :(
 </answer>
 <answer fraction="-16.66667" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat Y_i = 11\)</span>
+<span class="math inline">\(\hat Y_i = 11 X_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1276,19 +1286,9 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-нет верного ответа
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-16.66667" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat Y_i = 6 X_i\)</span>
+<span class="math inline">\(\hat Y_i = 11\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1319,10 +1319,10 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -1333,13 +1333,13 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-20" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\([4.85; 5.15]\)</span>
+<span class="math inline">\([4.67; 5.33]\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -1355,7 +1355,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\([1.72; 8.28]\)</span>
+<span class="math inline">\([3.36; 6.64]\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1363,13 +1363,13 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\([4.67; 5.33]\)</span>
+<span class="math inline">\([4.85; 5.15]\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -1385,7 +1385,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\([3.36; 6.64]\)</span>
+<span class="math inline">\([1.72; 8.28]\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1419,8 +1419,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -1432,7 +1432,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-недостаточно данных для ответа
+<span class="math inline">\(\hat Y_i = 10-X_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1442,7 +1442,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat Y_i = 30+5X_i\)</span>
+<span class="math inline">\(\hat Y_i = 20+3X_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1453,6 +1453,16 @@ Bad answer :(
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\hat Y_i = 15+2.5X_i\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat Y_i = 30+5X_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1472,17 +1482,7 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat Y_i = 20+3X_i\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat Y_i = 10-X_i\)</span>
+недостаточно данных для ответа
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1514,11 +1514,11 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -1529,31 +1529,21 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-доверительный интервал для <span class="math inline">\(\beta_2\)</span> не содержит ноль
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(H_a\)</span>: <span class="math inline">\(\beta_2 \neq 0\)</span> не отвергается
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(H_0\)</span>: <span class="math inline">\(\beta_2 = 0\)</span> не отвергается
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -1577,13 +1567,23 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-нет верного ответа
+<span class="math inline">\(H_a\)</span>: <span class="math inline">\(\beta_2 \neq 0\)</span> не отвергается
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+доверительный интервал для <span class="math inline">\(\beta_2\)</span> не содержит ноль
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -1610,11 +1610,11 @@ Good answer :)
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -1624,19 +1624,9 @@ Good answer :)
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-равна 0
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-равна 1
+может принимать любое неотрицательное значение
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1656,7 +1646,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-равна (-1)
+равна 1
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1666,11 +1656,21 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-может принимать любое неотрицательное значение
+равна (-1)
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+равна 0
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -1708,9 +1708,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -1723,27 +1723,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-гетероскедастичность случайных ошибок
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(\mathbb{E}(u_i)\neq 0\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-некоррелированность случайных ошибок
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1763,6 +1743,16 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
+некоррелированность случайных ошибок
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
 нормальность случайных ошибок
 </p>]]></text>
 <feedback format="html">
@@ -1774,6 +1764,16 @@ Bad answer :(
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 гомоскедастичность случайных ошибок
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+гетероскедастичность случайных ошибок
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1806,10 +1806,10 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -1830,7 +1830,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1.1\)</span>
+<span class="math inline">\(1.3\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1838,13 +1838,13 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1\)</span>
+<span class="math inline">\(1.1\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -1868,13 +1868,13 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-20" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1.3\)</span>
+<span class="math inline">\(1\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -1901,8 +1901,8 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
@@ -1915,16 +1915,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-не изменится
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 помножится на <span class="math inline">\(2\)</span>
@@ -1937,7 +1927,7 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-поделится на <span class="math inline">\(2\)</span>
+не изменится
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1957,7 +1947,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-изменится в произвольную сторону, в зависимости от <span class="math inline">\(X_i\)</span>
+поделится на <span class="math inline">\(2\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -1968,6 +1958,16 @@ Bad answer :(
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 помножится на <span class="math inline">\(4\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+изменится в произвольную сторону, в зависимости от <span class="math inline">\(X_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2001,9 +2001,9 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -2012,6 +2012,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(4.47\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(30\)</span>
@@ -2025,6 +2035,16 @@ Bad answer :(
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(5.48\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(20\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2052,26 +2072,6 @@ Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(4.47\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(20\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 </question>
 
 
@@ -2095,8 +2095,8 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
@@ -2109,6 +2109,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(3.2^{e-16}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(3.2\cdot 10^{-16}\)</span>
@@ -2121,7 +2131,17 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(3.2\cdot e^{-16}\)</span>
+<span class="math inline">\(3.2\cdot e - 16\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Ошибка с кодом 16
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2141,27 +2161,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(3.2^{e-16}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(3.2\cdot e - 16\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-Ошибка с кодом 16
+<span class="math inline">\(3.2\cdot e^{-16}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2194,10 +2194,10 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -2208,7 +2208,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\sum_{j=2}^k \beta_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}\)</span>
+<span class="math inline">\(\sum_{j=2}^k \hat \beta_j \frac{\sCorr(X_j, Y)}{\sVar(Y)}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2226,19 +2226,19 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\sum_{j=2}^k \hat \beta_j \frac{\sCov(X_j, Y)}{\sVar(Y)}\)</span>
+<span class="math inline">\(\sum_{j=2}^k \hat \beta_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\sum_{j=2}^k \hat \beta_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}\)</span>
+<span class="math inline">\(\sum_{j=2}^k \beta_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2256,13 +2256,13 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-20" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\sum_{j=2}^k \hat \beta_j \frac{\sCorr(X_j, Y)}{\sVar(Y)}\)</span>
+<span class="math inline">\(\sum_{j=2}^k \hat \beta_j \frac{\sCov(X_j, Y)}{\sVar(Y)}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -2293,9 +2293,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -2307,27 +2307,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-больше на 27 долларов
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 больше на 0.27 процента
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-не отличается от оплаты труда женщин
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2342,6 +2322,26 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+не отличается от оплаты труда женщин
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+больше на 27 долларов
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -2381,8 +2381,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -2393,7 +2393,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-10%
+10 единиц
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2403,7 +2403,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-10 единиц
+100 единиц
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2421,6 +2421,16 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+10%
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 1 единицу
@@ -2428,16 +2438,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-100 единиц
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -2465,9 +2465,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -2478,27 +2478,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(4.8\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-33.33333" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(8\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-33.33333" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(1.2\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2513,6 +2493,26 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(4.8\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(1.2\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -2555,7 +2555,7 @@ Good answer :)
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-эффективной
+всегда несмещённой
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2585,6 +2585,16 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
+эффективной
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
 равной нулю
 </p>]]></text>
 <feedback format="html">
@@ -2596,16 +2606,6 @@ Bad answer :(
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 всегда смещённой
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-всегда несмещённой
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2639,8 +2639,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -2649,6 +2649,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(R^2\)</span> является мерой качества подгонки регрессии
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 сумма остатков равна нулю
@@ -2671,7 +2681,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(R^2\)</span> является мерой качества подгонки регрессии
+сумма квадратов остатков равна нулю
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2686,16 +2696,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-сумма квадратов остатков равна нулю
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -2717,7 +2717,7 @@ Bad answer :(
 <text><![CDATA[
 <p>
 <p>На третьем шаге теста МакАлера исследователь получил следующие результаты: <span class="math display">\[
-\widehat{\ln Y_i} = \underset{(0.20)}{1.54} - \underset{(0.05)}{1.2}X_i + \underset{(0.3)}{3.1}\hat v_{\mathbb{E}xp(\widehat{\ln Y}),i}
+\widehat{\ln Y_i} = \underset{(0.20)}{1.54} - \underset{(0.05)}{1.2}X_i + \underset{(0.3)}{3.1}\hat v_{\exp(\widehat{\ln Y}),i}
 \]</span> <span class="math display">\[
 \hat Y_i = \underset{(0.02)}{1.24} + \underset{(0.03)}{1.1}X_i + \underset{(0.2)}{2.4}\hat v_{\ln \hat Y, i}
 \]</span></p>
@@ -2729,9 +2729,9 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -2741,26 +2741,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-должен сделать вывод о наличии пропущенных переменных
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-должен сделать вывод об отсутствии пропущенных переменных
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 должен отвергнуть гипотезу об адекватности исходной модели
@@ -2773,7 +2753,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-должен предпочесть линейную модель
+должен предпочесть полулогарифмическую модель
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2793,7 +2773,27 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-должен предпочесть полулогарифмическую модель
+должен сделать вывод об отсутствии пропущенных переменных
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+должен сделать вывод о наличии пропущенных переменных
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+должен предпочесть линейную модель
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2849,16 +2849,6 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_1\)</span> не значим, <span class="math inline">\(\hat \beta_2\)</span> не значим
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 значимость проверить невозможно
 </p>]]></text>
 <feedback format="html">
@@ -2870,6 +2860,16 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\hat \beta_1\)</span> значим, <span class="math inline">\(\hat \beta_2\)</span> не значим
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta_1\)</span> не значим, <span class="math inline">\(\hat \beta_2\)</span> не значим
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2910,10 +2910,10 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -2924,9 +2924,19 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(6\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(2.83\)</span>
+<span class="math inline">\(2.45\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -2946,21 +2956,11 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(2.45\)</span>
+<span class="math inline">\(2.83\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(6\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -3008,8 +3008,8 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -3022,17 +3022,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-оценки <span class="math inline">\(\hat \beta_2\)</span> и <span class="math inline">\(\hat\gamma_2\)</span> являются неэффективными
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-оценка <span class="math inline">\(\hat \beta_2\)</span> является смещённой, а оценка <span class="math inline">\(\hat\gamma_2\)</span> — несмещённой
+оценки <span class="math inline">\(\hat \beta_2\)</span> и <span class="math inline">\(\hat\gamma_2\)</span> являются эффективными
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3052,7 +3042,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-оценки <span class="math inline">\(\hat \beta_2\)</span> и <span class="math inline">\(\hat\gamma_2\)</span> являются эффективными
+оценка <span class="math inline">\(\hat \beta_2\)</span> является несмещённой, а оценка <span class="math inline">\(\hat\gamma_2\)</span> — смещённой
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3062,7 +3052,17 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-оценка <span class="math inline">\(\hat \beta_2\)</span> является несмещённой, а оценка <span class="math inline">\(\hat\gamma_2\)</span> — смещённой
+оценки <span class="math inline">\(\hat \beta_2\)</span> и <span class="math inline">\(\hat\gamma_2\)</span> являются неэффективными
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+оценка <span class="math inline">\(\hat \beta_2\)</span> является смещённой, а оценка <span class="math inline">\(\hat\gamma_2\)</span> — несмещённой
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3093,9 +3093,9 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
@@ -3107,13 +3107,13 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(Y_i = \beta_1 + \beta_2 \frac{1}{X_i} + u_i\)</span>
+<span class="math inline">\(Y_i = \beta_1 + \beta_2 X_i + u_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -3127,13 +3127,13 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-20" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(Y_i = \beta_1 + \beta_2 X_i + u_i\)</span>
+<span class="math inline">\(Y_i = \beta_1 + \beta_2 \frac{1}{X_i} + u_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -3149,7 +3149,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\ln Y_i = \beta_1 - \beta_2 \ln X_i + u_i\)</span>
+<span class="math inline">\(Y_i = \beta_1 + \beta_2 \ln X_i + u_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3159,7 +3159,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(Y_i = \beta_1 + \beta_2 \ln X_i + u_i\)</span>
+<span class="math inline">\(\ln Y_i = \beta_1 - \beta_2 \ln X_i + u_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3192,8 +3192,8 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -3203,6 +3203,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta_2\)</span> — смещённая оценка для <span class="math inline">\(\alpha_2\)</span>; <span class="math inline">\(\hat \gamma_2\)</span> — смещённая оценка для <span class="math inline">\(\alpha_3\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\hat \beta_2\)</span> — смещённая оценка для <span class="math inline">\(\alpha_2\)</span>; <span class="math inline">\(\hat \gamma_2\)</span> — несмещённая оценка для <span class="math inline">\(\alpha_3\)</span>
@@ -3243,16 +3253,6 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_2\)</span> — смещённая оценка для <span class="math inline">\(\alpha_2\)</span>; <span class="math inline">\(\hat \gamma_2\)</span> — смещённая оценка для <span class="math inline">\(\alpha_3\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 </question>
 
 
@@ -3276,11 +3276,11 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -3290,39 +3290,9 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(F\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(t_{n-k}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(t_{n-2}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(N(0;1)\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3342,7 +3312,37 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(N(0;1)\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
 Демешева-Мамонтова
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(F\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(t_{n-k}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3389,27 +3389,27 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-добавить дамми-переменные <span class="math inline">\(one_i\)</span>, <span class="math inline">\(two_i\)</span> и <span class="math inline">\(three_i\)</span>, равные 1 для отелей с одной, двумя и тремя звёздами соответственно
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-добавить в модель переменную <span class="math inline">\(z_i = star^2_i\)</span>, так как эффект звёздности наверняка нелинейный
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
 заменить переменную <span class="math inline">\(star_i\)</span> на дамми-переменные <span class="math inline">\(one_i\)</span>, <span class="math inline">\(two_i\)</span> и <span class="math inline">\(three_i\)</span>, равные 1 для отелей с одной, двумя и тремя звёздами соответственно
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+добавить в модель переменную <span class="math inline">\(z_i = star_i \cdot dist_i\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+использовать МНК для оценки данной модели
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3429,7 +3429,7 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-использовать МНК для оценки данной модели
+добавить в модель переменную <span class="math inline">\(z_i = star^2_i\)</span>, так как эффект звёздности наверняка нелинейный
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3439,7 +3439,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-добавить в модель переменную <span class="math inline">\(z_i = star_i \cdot dist_i\)</span>
+добавить дамми-переменные <span class="math inline">\(one_i\)</span>, <span class="math inline">\(two_i\)</span> и <span class="math inline">\(three_i\)</span>, равные 1 для отелей с одной, двумя и тремя звёздами соответственно
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3470,9 +3470,9 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
@@ -3484,6 +3484,26 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(R^2_{adj} = \frac{k-1}{n-k} - R^2 \cdot \frac{n-1}{n-k}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(R^2_{adj} = \frac{k-1}{n-k} + R^2 \cdot \frac{n-1}{n-k}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(R^2_{adj} = (-1)\cdot \frac{k-1}{n-k} + R^2 \cdot \frac{n-1}{n-k}\)</span>
@@ -3496,7 +3516,7 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(R^2_{adj} = \frac{k}{n-k} + R^2 \cdot \frac{n-1}{n-k}\)</span>
+<span class="math inline">\(R^2_{adj} = \frac{k-1}{n-k} + R^2 \cdot \frac{n-k}{n-1}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3516,27 +3536,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(R^2_{adj} = \frac{k-1}{n-k} + R^2 \cdot \frac{n-1}{n-k}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(R^2_{adj} = \frac{k-1}{n-k} + R^2 \cdot \frac{n-k}{n-1}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(R^2_{adj} = \frac{k-1}{n-k} - R^2 \cdot \frac{n-1}{n-k}\)</span>
+<span class="math inline">\(R^2_{adj} = \frac{k}{n-k} + R^2 \cdot \frac{n-1}{n-k}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3567,9 +3567,9 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -3580,13 +3580,13 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-$(Y_i/Z_i) = _1 + _2 (Y_i/Z_i) + u_i $
+$(Y_i/Z_i) = _1 + _2 (X_i/Z_i) + u_i $
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -3600,19 +3600,19 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-$(Y_i/Z_i) = _1 + _2 (X_i/Z_i) + u_i $
+$(Y_i/Z_i) = _1 + _2 (Y_i/X_i) + u_i $
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-$(Y_i/Z_i) = _1 + _2 (Y_i/X_i) + u_i $
+$(Y_i/Z_i) = _1 + _2 (Y_i/Z_i) + u_i $
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3655,9 +3655,9 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -3669,7 +3669,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\frac{TSS/(n-1)}{RSS/(n-k)}\)</span>
+<span class="math inline">\(\frac{TSS/(n-1)}{ESS/(k-1)}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3680,26 +3680,6 @@ Bad answer :(
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\frac{ESS}{TSS}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\frac{\hat \beta - \beta}{se(\hat \beta)}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\frac{TSS/(n-1)}{ESS/(k-1)}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3719,7 +3699,27 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(\frac{TSS/(n-1)}{RSS/(n-k)}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
 <span class="math inline">\(\frac{RSS}{TSS}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\frac{\hat \beta - \beta}{se(\hat \beta)}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3744,18 +3744,18 @@ Bad answer :(
 <questiontext format="html">
 <text><![CDATA[
 <p>
-<p>Исследователь выполнил второй шаг в PE-тесте МакКиннона. В регрессии <span class="math inline">\(\ln Y_i\)</span> на исходные регрессоры и <span class="math inline">\(Z_i = \hat Y_i - \mathbb{E}xp(\widehat{\ln Y_i})\)</span> коэффициент при <span class="math inline">\(Z_i\)</span> оказался значимым. А в регрессии <span class="math inline">\(Y_i\)</span> на исходные регрессоры и <span class="math inline">\(W_i = \ln \hat Y_i - \widehat{\ln Y_i}\)</span> коэффициент при <span class="math inline">\(W_i\)</span> оказался незначимым. Из результатов следует сделать вывод, что</p>
+<p>Исследователь выполнил второй шаг в PE-тесте МакКиннона. В регрессии <span class="math inline">\(\ln Y_i\)</span> на исходные регрессоры и <span class="math inline">\(Z_i = \hat Y_i - \exp(\widehat{\ln Y_i})\)</span> коэффициент при <span class="math inline">\(Z_i\)</span> оказался значимым. А в регрессии <span class="math inline">\(Y_i\)</span> на исходные регрессоры и <span class="math inline">\(W_i = \ln \hat Y_i - \widehat{\ln Y_i}\)</span> коэффициент при <span class="math inline">\(W_i\)</span> оказался незначимым. Из результатов следует сделать вывод, что</p>
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -3764,23 +3764,13 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-20" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-тесты противоречат друг другу, ни одна из моделей не предпочитается
+следует предпочесть линейную модель
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-в исходной модели пропущен регрессор <span class="math inline">\(Z_i\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -3814,13 +3804,23 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-следует предпочесть линейную модель
+в исходной модели пропущен регрессор <span class="math inline">\(Z_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+тесты противоречат друг другу, ни одна из моделей не предпочитается
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -3848,11 +3848,11 @@ Good answer :)
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -3868,16 +3868,6 @@ Good answer :)
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-поделив исходное уравнение на <span class="math inline">\(Z\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -3921,6 +3911,16 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+поделив исходное уравнение на <span class="math inline">\(Z\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 </question>
 
 
@@ -3945,12 +3945,12 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -3959,19 +3959,9 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\frac{\sum Y_i / X_i}{\sum 1/X_i}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\frac{\sum Y_i X_i}{\sum X_i^2}\)</span>
+<span class="math inline">\(\frac{\sum Y_i / X_i}{\sum 1/X_i^2}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -3981,7 +3971,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\((I&#39;I)^{-1}I&#39;Y\)</span>
+<span class="math inline">\(\frac{\sum Y_i X_i}{\sum X_i^2}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4001,7 +3991,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\frac{\sum Y_i / X_i}{\sum 1/X_i^2}\)</span>
+<span class="math inline">\((I&#39;I)^{-1}I&#39;Y\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4016,6 +4006,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\frac{\sum Y_i / X_i}{\sum 1/X_i}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -4042,9 +4042,9 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -4055,26 +4055,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-если ковариационная матрица случайной составляющей пропорциональна единичной
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-всегда
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 если ковариационная матрица случайной составляющей диагональна
@@ -4088,6 +4068,26 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 если ковариационная матрица случайной составляющей нулевая
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+если ковариационная матрица случайной составляющей пропорциональна единичной
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+всегда
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4156,27 +4156,7 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.5\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(0.48\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(24/7\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4196,7 +4176,27 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(0.5\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
 не существует
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(24/7\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4229,9 +4229,9 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -4242,7 +4242,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\mathbb{E} \sim \mathcal{N}(0; \Omega)\)</span> и <span class="math inline">\(\Omega = b \cdot I\)</span>, где <span class="math inline">\(b\)</span> — неизвестный параметр
+закон распределения вектора <span class="math inline">\(\mathbb{E}\)</span> известен, но не является нормальным
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4252,21 +4252,11 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-закон распределения вектора <span class="math inline">\(\mathbb{E}\)</span> известен, но не является нормальным
+<span class="math inline">\(\mathbb{E} \sim \mathcal{N}(0; \Omega)\)</span> и <span class="math inline">\(\Omega = b \cdot I\)</span>, где <span class="math inline">\(b\)</span> — неизвестный параметр
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\mathbb{E} \sim \mathcal{N}(0; \Omega)\)</span> и структура <span class="math inline">\(\Omega\)</span> неизвестна
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -4287,6 +4277,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E} \sim \mathcal{N}(0; \Omega)\)</span> и структура <span class="math inline">\(\Omega\)</span> неизвестна
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -4338,7 +4338,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-равенство нулю суммы остатков
+несмещённость
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4358,7 +4358,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-эффективность в классе линейных и несмещенных оценок
+равенство нулю суммы остатков
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4368,7 +4368,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-несмещённость
+эффективность в классе линейных и несмещенных оценок
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4401,9 +4401,9 @@ E_i = {\beta_1} + {\beta_2}WH_i + {\beta _3}LH_i + {\beta _4}SH_i + u_i
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -4414,13 +4414,13 @@ E_i = {\beta_1} + {\beta_2}WH_i + {\beta _3}LH_i + {\beta _4}SH_i + u_i
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-МНК-оценки параметров окажутся смещёнными
+МНК–оценки получить не удастся
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -4434,13 +4434,13 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-МНК–оценки получить не удастся
+МНК-оценки параметров регрессии будут несмещенными и эффективными
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -4456,7 +4456,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-МНК-оценки параметров регрессии будут несмещенными и эффективными
+МНК-оценки параметров окажутся смещёнными
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4493,11 +4493,11 @@ f(x|\lambda ) = \begin{cases}
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -4506,19 +4506,9 @@ f(x|\lambda ) = \begin{cases}
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat\lambda_{ML} = -\frac{\ln X_1 + \ldots + \ln X_n}{n}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat\lambda_{ML} = -\frac{X_1 + \ldots + X_n}{n}\)</span>
+<span class="math inline">\(\hat\lambda_{ML} = \frac{X_1 + \ldots + X_n}{n}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4528,7 +4518,17 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat\lambda_{ML} = \frac{X_1 + \ldots + X_n}{n}\)</span>
+<span class="math inline">\(\hat\lambda_{ML} = \frac{X_1^2 + \ldots + X_n^2}{n}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat\lambda_{ML} = -\frac{X_1 + \ldots + X_n}{n}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4546,13 +4546,13 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat\lambda_{ML} = \frac{X_1^2 + \ldots + X_n^2}{n}\)</span>
+<span class="math inline">\(\hat\lambda_{ML} = -\frac{\ln X_1 + \ldots + \ln X_n}{n}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -4584,8 +4584,8 @@ Y_i = \beta_1 + \beta_2 X_{i2} + \ldots + \beta_k X_{ik} + u_i.
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -4616,16 +4616,6 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-гомоскедастичности не отвергается
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 гомоскедастичности отвергается
@@ -4633,6 +4623,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+верной функциональной форме отвергается
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -4648,7 +4648,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-верной функциональной форме отвергается
+гомоскедастичности не отвергается
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4681,8 +4681,8 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -4694,7 +4694,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(u_i\)</span> распределены нормально
+<span class="math inline">\(\mathbb{E}(u_i)=0\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4705,6 +4705,16 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\rank X = k\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(u_i\)</span> распределены нормально
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4725,16 +4735,6 @@ Good answer :)
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 Величина <span class="math inline">\(Y_i\)</span> линейна по <span class="math inline">\(\beta_1\)</span>, <span class="math inline">\(\beta_2\)</span>, 
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\mathbb{E}(u_i)=0\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4765,9 +4765,9 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -4778,26 +4778,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(0.7\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(0.09\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(0.49\)</span>
@@ -4805,6 +4785,26 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.3\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.7\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -4820,7 +4820,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.3\)</span>
+<span class="math inline">\(0.09\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4862,8 +4862,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -4874,7 +4874,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(10\)</span>
+<span class="math inline">\(25\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4894,7 +4894,17 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(25\)</span>
+<span class="math inline">\(10\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(5\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -4909,16 +4919,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(5\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -4946,9 +4946,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -4958,6 +4958,26 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\((X&#39;Z(Z&#39;Z)^{-1}Z&#39;X)^{-1}Z&#39;Z(Z&#39;Z)^{-1}X&#39;Y\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\((Z&#39;X)^{-1}Z&#39;Y\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\((Z&#39;Z)^{-1}Z&#39;Y\)</span>
@@ -4981,26 +5001,6 @@ Good answer :)
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(Z(Z&#39;Z)^{-1}Z&#39;X\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\((X&#39;Z(Z&#39;Z)^{-1}Z&#39;X)^{-1}Z&#39;Z(Z&#39;Z)^{-1}X&#39;Y\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\((Z&#39;X)^{-1}Z&#39;Y\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5032,9 +5032,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -5046,7 +5046,27 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\mathbb{E}(u_i)=0\)</span>
+<span class="math inline">\(\rank X = k\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathrm{Cov}(Y_i, u_i)=0\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathrm{Cov}(u_i, X_i)=0\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5066,27 +5086,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\mathrm{Cov}(u_i, X_i)=0\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\rank X = k\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\mathrm{Cov}(Y_i, u_i)=0\)</span>
+<span class="math inline">\(\mathbb{E}(u_i)=0\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5132,7 +5132,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-тест Бройша–Пагана
+поиск на сетке
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5142,7 +5142,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-поиск на сетке
+тест отношения правдоподобия
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5172,7 +5172,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-тест отношения правдоподобия
+тест Бройша–Пагана
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5219,17 +5219,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\mathcal{N}(0;1)\)</span>-распределение
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\mathcal{N}(\mu;\sigma^2)\)</span>-распределение
+<span class="math inline">\(t_{n-k}\)</span>-распределение
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5249,7 +5239,17 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(t_{n-k}\)</span>-распределение
+<span class="math inline">\(\mathcal{N}(\mu;\sigma^2)\)</span>-распределение
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(F_{k,n}\)</span>-распределение
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5269,7 +5269,7 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(F_{k,n}\)</span>-распределение
+<span class="math inline">\(\mathcal{N}(0;1)\)</span>-распределение
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5316,7 +5316,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-оценки логит и пробит моделей имеют противоположные знаки
+оценки логит и пробит моделей всегда совпадают
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5326,7 +5326,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-оценки пробит моделей всегда выше, чем логит
+оценки логит моделей всегда выше, чем пробит
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5346,27 +5346,27 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
+оценки пробит моделей всегда выше, чем логит
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+оценки логит и пробит моделей имеют противоположные знаки
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
 оценки пробит модели имеют более высокую значимосить, чем логит
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-оценки логит и пробит моделей всегда совпадают
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-оценки логит моделей всегда выше, чем пробит
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5397,10 +5397,10 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -5410,9 +5410,29 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta_2 f(\hat Y_i^*)\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_2 /f(\hat Y_i^*)\)</span>
+<span class="math inline">\(\hat \beta_2 / F(\hat Y_i^*)\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta_2 / f^2(\hat Y_i^*)\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5432,27 +5452,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_2 / f^2(\hat Y_i^*)\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_2 f(\hat Y_i^*)\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_2 / F(\hat Y_i^*)\)</span>
+<span class="math inline">\(\hat \beta_2 /f(\hat Y_i^*)\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5498,6 +5498,16 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(Y_t = 2017\mathbb{E}_t\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
 <span class="math inline">\(Y_t = \mathbb{E}_t + 0.1\mathbb{E}_{t-1} + 1.5\mathbb{E}_{t-2}\)</span>
 </p>]]></text>
 <feedback format="html">
@@ -5509,16 +5519,6 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(Y_t = 0.1Y_{t-1} + \mathbb{E}_t\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(Y_t = 2017\mathbb{E}_t\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5569,11 +5569,11 @@ Good answer :)
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -5582,19 +5582,29 @@ Good answer :)
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-строить корректные доверительные интервалы для коэффициентов
+получить эффективные оценки коэффициентов
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 устранить смещённость оценок коэффициентов
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+увеличить точность прогнозов
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5612,23 +5622,13 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-получить эффективные оценки коэффициентов
+строить корректные доверительные интервалы для коэффициентов
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-увеличить точность прогнозов
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -5656,11 +5656,11 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -5669,6 +5669,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+4
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 2
@@ -5681,7 +5691,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-3.4
+6
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5701,21 +5711,11 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-6
+3.4
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-4
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -5758,7 +5758,7 @@ Good answer :)
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.5\)</span>
+<span class="math inline">\(13/30\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5768,7 +5768,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(13/28\)</span>
+<span class="math inline">\(15/32\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5788,6 +5788,16 @@ Good answer :)
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(0.5\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
 <span class="math inline">\(2\)</span>
 </p>]]></text>
 <feedback format="html">
@@ -5798,17 +5808,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(13/30\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(15/32\)</span>
+<span class="math inline">\(13/28\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5840,9 +5840,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -5854,7 +5854,27 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n X_i^2}\)</span>
+<span class="math inline">\(\hat \beta = \frac{\sum_{i=1}^n X_i Y_i }{\sum_{i=1}^n Y_i^2}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n y_i^2}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n x_i^2}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5874,27 +5894,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n x_i^2}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat \beta = \frac{\sum_{i=1}^n X_i Y_i }{\sum_{i=1}^n Y_i^2}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n y_i^2}\)</span>
+<span class="math inline">\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n X_i^2}\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -5925,8 +5925,8 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
@@ -5938,6 +5938,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{2i}) }{\sum_{i=1}^n (Y_{i} - X_{2i})^2 }\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{2i}) }{\sum_{i=1}^n (X_{1i} + X_{2i})^2 }\)</span>
@@ -5945,6 +5955,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{1i}) }{\sum_{i=1}^n (X_{1i} + X_{2i})^2 }\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -5960,27 +5980,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{2i}) }{\sum_{i=1}^n (Y_{i} - X_{2i})^2 }\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(\frac{\sum_{i=1}^n (X_{1i} - Y_{i}) (Y_i - X_{2i}) }{\sum_{i=1}^n (X_{1i} + X_{2i})^2 }\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{1i}) }{\sum_{i=1}^n (X_{1i} + X_{2i})^2 }\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6011,8 +6011,8 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
@@ -6024,6 +6024,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(30 \alpha - 15 \beta = 15; -15 \alpha - 12 \beta = 1\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(2 \alpha - \beta = 5; \alpha - 4 \beta = -1\)</span>
@@ -6031,6 +6041,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(2 \alpha - \beta = -1; \alpha - 4 \beta = 5\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -6047,26 +6067,6 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(30 \alpha + 15 \beta = 75; 15 \alpha + 60 \beta = 15\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(30 \alpha - 15 \beta = 15; -15 \alpha - 12 \beta = 1\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(2 \alpha - \beta = -1; \alpha - 4 \beta = 5\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6097,10 +6097,10 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -6110,6 +6110,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(e\)</span> и <span class="math inline">\(I_n\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(Y\)</span> и <span class="math inline">\(\hat y\)</span>
@@ -6137,16 +6147,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(e\)</span> и <span class="math inline">\(I_n\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -6185,8 +6185,8 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -6199,6 +6199,16 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\hat \beta_B = \hat \beta_E\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta_E = 65 \hat \beta_B\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6236,16 +6246,6 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_E = 65 \hat \beta_B\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 </question>
 
 
@@ -6270,10 +6270,10 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -6284,7 +6284,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-длина 95% доверительного интервала для этого коэффициента больше 0.07
+длина 95% доверительного интервала для этого коэффициента равна 0.07
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6292,9 +6292,19 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+соответствующий коэффициент не значим при уровне значимости 5%
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-длина 95% доверительного интервала для этого коэффициента равна 0.07
+соответствующий коэффициент значим при уровне значимости 1%
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6314,21 +6324,11 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-соответствующий коэффициент значим при уровне значимости 1%
+длина 95% доверительного интервала для этого коэффициента больше 0.07
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-соответствующий коэффициент не значим при уровне значимости 5%
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -6349,15 +6349,15 @@ Good answer :)
 <questiontext format="html">
 <text><![CDATA[
 <p>
-<p>Для модели <span class="math inline">\(Y_i = \beta_1 + \beta_2 X_i + u_i, i = 1, \ldots, n, u_i`\sim \mathcal{N}(0, \sigma^2_{\mathbb{E}})\)</span> тестовая статистика $ $ имеет распределение</p>
+<p>Для модели <span class="math inline">\(Y_i = \beta_1 + \beta_2 X_i + u_i\)</span>, где <span class="math inline">\(u_i \sim \mathcal{N}(0, \sigma^2_u)\)</span> тестовая статистика $ $ имеет распределение</p>
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -6368,6 +6368,26 @@ Good answer :)
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(t_{n-2}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\chi^2_1\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\chi^2_{n-2}\)</span>
@@ -6388,29 +6408,9 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\ t_{n-2}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\mathcal{N}(0, \sigma_u)\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\chi^2_1\)</span>
+<span class="math inline">\(\mathcal{N}(0, \sigma_u^2)\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6442,9 +6442,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -6464,26 +6464,6 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-оценка стандартной ошибки коэффициента регрессии равна единице
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-стандартная ошибка коэффициента регрессии равна единице
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 коэффициент регрессии равен единице
@@ -6496,7 +6476,27 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
+оценка стандартной ошибки коэффициента регрессии равна единице
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
 оценка коэффициента регрессии равна единице
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+стандартная ошибка коэффициента регрессии равна единице
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6542,7 +6542,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\sigma^2_{u} I\)</span>
+<span class="math inline">\(\sigma^2_{u} P\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6552,7 +6552,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\sigma^2_{u} P\)</span>
+<span class="math inline">\(\sigma^2_{u} (P-I)\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6572,7 +6572,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\sigma^2_{u} (P-I)\)</span>
+<span class="math inline">\(\sigma^2_{u} I\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6617,9 +6617,9 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -6630,17 +6630,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-1 и 4
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-2 и 4
+3 и 4
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6660,17 +6650,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-3 и 4
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-1 и 2
+1 и 4
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6685,6 +6665,26 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+1 и 2
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+2 и 4
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -6711,11 +6711,11 @@ Good answer :)
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -6724,9 +6724,19 @@ Good answer :)
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+96
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-11/9
+99
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6736,7 +6746,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-невозможно вычислить по имеющимся данным
+11/9
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6756,21 +6766,11 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-99
+невозможно вычислить по имеющимся данным
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-96
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -6800,8 +6800,8 @@ Good answer :)
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -6810,6 +6810,26 @@ Good answer :)
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Значимость коэффициентов регрессии нельзя проверять при помощи t-статистики
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(R^2\)</span> является показателем качества подгонки регрессии
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 Сумма остатков регрессии равна 0
@@ -6830,16 +6850,6 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(R^2\)</span> является показателем качества подгонки регрессии
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 К этой модели применима теорема Гаусса-Маркова
@@ -6847,16 +6857,6 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-Значимость коэффициентов регрессии нельзя проверять при помощи t-статистики
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -6884,11 +6884,11 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -6897,19 +6897,9 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-3.479 $
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-0
+-922.563 $
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6919,7 +6909,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
--922.563 $
+2.724 $
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6939,11 +6929,21 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-2.724 $
+0
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+3.479 $
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -6987,7 +6987,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat y = 8 + 0.1t + 3 D_1 + 2.6 D_2 + 2D_4\)</span>
+<span class="math inline">\(\hat y = 5.4 + 0.1t - 3 D_1 - 2.6 D_2 - 2 D_4\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -6997,7 +6997,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat y = 8 + 0.1t - 3 D_1 - 2.6 D_2 - 2 D_4\)</span>
+<span class="math inline">\(\hat y = 5.4 + 0.1t - 3 D_1 - 0.4 D_2 - D_4\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7017,7 +7017,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat y = 5.4 + 0.1t - 3 D_1 - 0.4 D_2 - D_4\)</span>
+<span class="math inline">\(\hat y = 8 + 0.1t + 3 D_1 + 2.6 D_2 + 2D_4\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7027,7 +7027,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat y = 5.4 + 0.1t - 3 D_1 - 2.6 D_2 - 2 D_4\)</span>
+<span class="math inline">\(\hat y = 8 + 0.1t - 3 D_1 - 2.6 D_2 - 2 D_4\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7053,17 +7053,17 @@ Bad answer :(
 <text><![CDATA[
 <p>
 <p>Для выбора между линейной и полулогарифмической моделями (где EARNINGS — почасовая заработная плата в $, S — длительность обучения, ASVABC - результаты тестов, характеризующие успеваемость) был проведен тест Дэвидсона, Уайта и МакКиннона и получены следующие результаты:</p>
-<p>Где <span class="math inline">\(\text{lin\_add} = \ln(\hat y) - \widehat{\ln} Y, \text{semilog\_add} = \hat y - \mathbb{E}xp(\widehat{\ln} Y)\)</span> и в скобках указаны стандартные ошибки.</p>
+<p>Где <span class="math inline">\(\text{lin\_add} = \ln(\hat y) - \widehat{\ln} Y, \text{semilog\_add} = \hat y - \exp(\widehat{\ln} Y)\)</span> и в скобках указаны стандартные ошибки.</p>
 <p>На уровне значимости 5% можно сделать вывод, что</p>
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -7073,16 +7073,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-Лучше полулогарифмическая модель
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 Невозможно выбрать лучшую модель
@@ -7095,7 +7085,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-Лучше линейная модель
+Лучше линейная в логарифмах модель
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7113,9 +7103,19 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Лучше полулогарифмическая модель
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-Лучше линейная в логарифмах модель
+Лучше линейная модель
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7151,9 +7151,9 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -7162,26 +7162,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-8
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-2
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 12
@@ -7212,6 +7192,26 @@ Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+2
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+8
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 </question>
 
 
@@ -7230,16 +7230,16 @@ Good answer :)
 <text><![CDATA[
 <p>
 <p>По одним и тем же наблюдениям оценили две регрессии: <span class="math inline">\(\hat y = 1 + 3X_1\)</span> и <span class="math inline">\(\hat y = 2 + 5X_2\)</span>.</p>
-<p>Известно, что <span class="math inline">\(\hCov(X_1, X_2) &gt; 0\)</span>. Оценки МНК коэффициентов регрессии <span class="math inline">\(Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + u\)</span>:</p>
+<p>Известно, что <span class="math inline">\(\widehat{\mathrm{Cov}}(X_1, X_2) &gt; 0\)</span>. Оценки МНК коэффициентов регрессии <span class="math inline">\(Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + u\)</span>:</p>
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -7249,9 +7249,29 @@ Good answer :)
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+оценки коэффициентов невозможно найти по имеющимся данным
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_0 = 3, \hat \beta_1 = 3, \hat \beta_2 = 5\)</span>
+<span class="math inline">\(\hat \beta_1, \hat \beta_2\)</span> найти невозможно, <span class="math inline">\(\hat \beta_0 = 3\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta_0 = 1.5, \hat \beta_1 = 3, \hat \beta_2 = 5\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7271,27 +7291,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_0 = 1.5, \hat \beta_1 = 3, \hat \beta_2 = 5\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-оценки коэффициентов невозможно найти по имеющимся данным
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat \beta_1, \hat \beta_2\)</span> найти невозможно, <span class="math inline">\(\hat \beta_0 = 3\)</span>
+<span class="math inline">\(\hat \beta_0 = 3, \hat \beta_1 = 3, \hat \beta_2 = 5\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7347,7 +7347,17 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-невозможно вычислить по имеющимся данным
+[0.04; 3.96]
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+[-0.94; 4.94]
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7367,17 +7377,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-[0.04; 3.96]
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-[-0.94; 4.94]
+невозможно вычислить по имеющимся данным
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7408,10 +7408,10 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -7421,19 +7421,19 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-смещёнными и неэффективными
+состоятельными и неэффективными
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Bad answer :(
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-несостоятельными
+состоятельными и эффективными
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7451,19 +7451,19 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-состоятельными и неэффективными
+смещёнными и неэффективными
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-Good answer :)
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-состоятельными и эффективными
+несостоятельными
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7498,8 +7498,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -7508,26 +7508,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-Положительной автокорреляции
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-Отрицательной автокорреляции
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 Отсутствии автокорреляции
@@ -7548,16 +7528,6 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-Попадании в зону неопределенности
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 3 и 4
@@ -7565,6 +7535,36 @@ Good answer :)
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Отрицательной автокорреляции
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Положительной автокорреляции
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Попадании в зону неопределенности
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -7591,8 +7591,8 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
@@ -7604,16 +7604,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-10
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 5
@@ -7621,6 +7611,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+100
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -7636,7 +7636,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-0
+10
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7646,7 +7646,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-100
+0
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7692,17 +7692,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-Несостоятельной, завышенной
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-Несмещенной, но не состоятельной
+Смещённой, но состоятельной
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7713,6 +7703,16 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 Несостоятельной
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Несмещенной, но не состоятельной
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7732,7 +7732,7 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-Смещённой, но состоятельной
+Несостоятельной, завышенной
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7763,9 +7763,9 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -7776,9 +7776,19 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+состоятельной, но не эффективной
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-состоятельной
+невозможно сказать по имеющимся данным
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7796,16 +7806,6 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-состоятельной, но не эффективной
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 несостоятельной
@@ -7818,7 +7818,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-невозможно сказать по имеющимся данным
+состоятельной
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7850,9 +7850,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -7864,7 +7864,27 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
+-0.2
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
 0
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+0.00032
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7885,26 +7905,6 @@ Good answer :)
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 0.2
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-0.00032
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
--0.2
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -7938,8 +7938,8 @@ Bad answer :(
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -7970,16 +7970,6 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} ) + u_t\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t\)</span>
 </p>]]></text>
 <feedback format="html">
@@ -7995,6 +7985,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} ) + u_t\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -8022,9 +8022,9 @@ Good answer :)
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -8036,21 +8036,11 @@ Good answer :)
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(Y_t = Y_{t-1} - u_t\)</span>
+<span class="math inline">\(Y_t = 2Y_{t-1} - u_t\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(Y_t = \sum_{i = 0}^{10} u_{t-i}\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -8074,9 +8064,19 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(Y_t = \sum_{i = 0}^{10} u_{t-i}\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(Y_t = 2Y_{t-1} - u_t\)</span>
+<span class="math inline">\(Y_t = Y_{t-1} - u_t\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -8109,8 +8109,8 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -8122,7 +8122,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(X_t = \mu + 0.7 X_{t-1} + u_t\)</span>
+<span class="math inline">\(X_t = \mu + u_t\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -8133,16 +8133,6 @@ Bad answer :(
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(X_t = 0.7 X_{t-1} + u_t\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(X_t = X_{t-1} + u_t\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -8162,7 +8152,17 @@ Good answer :)
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(X_t = \mu + u_t\)</span>
+<span class="math inline">\(X_t = X_{t-1} + u_t\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(X_t = \mu + 0.7 X_{t-1} + u_t\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -8193,10 +8193,10 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -8207,16 +8207,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-его приращения являются стационарным процессом
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 это AR процесс с корнями характеристического уравнения, меньшими 1
@@ -8239,7 +8229,7 @@ Bad answer :(
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-это белый шум
+его автоковариационная функция является постоянной
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -8247,9 +8237,19 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+его приращения являются стационарным процессом
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-его автоковариационная функция является постоянной
+это белый шум
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -8292,11 +8292,6 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\alpha_0 + \alpha_1 j + \alpha_2 j^2 + \ldots + \alpha_r j^r\)</span>
-</p>]]></text>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\alpha_0 \lambda^j\)</span>
@@ -8304,7 +8299,12 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\alpha_0 + \alpha_1 \lambda + \alpha_2 \lambda^2 +\ldots + \alpha_j \lambda^j\)</span>
+<span class="math inline">\(\alpha_0 + \alpha_1 j + \alpha_2 j^2 + \ldots + \alpha_r j^r\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\alpha_0 \ln j\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8314,7 +8314,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\alpha_0 \ln j\)</span>
+<span class="math inline">\(\alpha_0 + \alpha_1 \lambda + \alpha_2 \lambda^2 +\ldots + \alpha_j \lambda^j\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -8342,14 +8342,14 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-удовлетворяет условию <span class="math inline">\(\Corr(Z_t, Y_{t-1}) \neq 0\)</span>
-</p>]]></text>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 удовлетворяет условию <span class="math inline">\(\Corr(Z_t, u_t) \to 1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+удовлетворяет условию <span class="math inline">\(\Corr(Z_t, Y_{t-1}) \neq 0\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8359,12 +8359,12 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-удовлетворяет условию <span class="math inline">\(\Corr(Z_t, X_t) =0\)</span>
+удовлетворяет условию <span class="math inline">\(\Corr(Z_t, Y_{t-1}) =0\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-удовлетворяет условию <span class="math inline">\(\Corr(Z_t, Y_{t-1}) =0\)</span>
+удовлетворяет условию <span class="math inline">\(\Corr(Z_t, X_t) =0\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -8399,7 +8399,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(y_t = 1.2 + 0.8 y_{t-1} - 0.12 y_{t-2} + u_t - 3u_{t-1}\)</span>
+<span class="math inline">\(y_t = tu_{t}\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -8409,7 +8409,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(y_t = tu_{t}\)</span>
+<span class="math inline">\(y_t = u_1 + u_2 + \ldots + u_t\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8419,7 +8419,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(y_t = u_1 + u_2 + \ldots + u_t\)</span>
+<span class="math inline">\(y_t = 1.2 + 0.8 y_{t-1} - 0.12 y_{t-2} + u_t - 3u_{t-1}\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -8449,16 +8449,6 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-стационарным в первых разностях
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-нестационарным
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 возрастающим
 </p>]]></text>
 </answer>
@@ -8470,6 +8460,16 @@ Bad answer :(
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 стационарным
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+стационарным в первых разностях
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+нестационарным
 </p>]]></text>
 </answer>
 </question>
@@ -8504,12 +8504,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-between-регрессии
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-RE-оценки
+сквозной регрессии
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -8519,12 +8514,17 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-сквозной регрессии
+метода максимального правдоподобия
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-метода максимального правдоподобия
+RE-оценки
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+between-регрессии
 </p>]]></text>
 </answer>
 </question>
@@ -8552,9 +8552,19 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+оба ряда нестационарны и имеют разные порядки интегрирования
+</p>]]></text>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 оба ряда нестационарны и имеют одинаковый порядок интегрирования
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+один ряд стационарен, а второй — нет
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8565,16 +8575,6 @@ RE-оценки
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 оба ряда стационарны
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-один ряд стационарен, а второй — нет
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-оба ряда нестационарны и имеют разные порядки интегрирования
 </p>]]></text>
 </answer>
 </question>
@@ -8609,7 +8609,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(Y_t^e = \left(1 - \frac{1}{\delta}\right) Y_{t-1} + \frac{1}{\delta} Y_{t}, \; 0 &lt; \delta \leq 1\)</span>
+<span class="math inline">\(X_{t+1}^e - X_{t}^e = \lambda (X_{t} - X_{t}^e), \; 0 \leq \lambda &lt; 1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(X_t^e - X_{t-1}^e = (1-\lambda) (X_t - X_{t-1}), \; 0 \leq \lambda &lt; 1\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -8619,12 +8624,7 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(X_{t+1}^e - X_{t}^e = \lambda (X_{t} - X_{t}^e), \; 0 \leq \lambda &lt; 1\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(X_t^e - X_{t-1}^e = (1-\lambda) (X_t - X_{t-1}), \; 0 \leq \lambda &lt; 1\)</span>
+<span class="math inline">\(Y_t^e = \left(1 - \frac{1}{\delta}\right) Y_{t-1} + \frac{1}{\delta} Y_{t}, \; 0 &lt; \delta \leq 1\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -8652,14 +8652,9 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.16\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(0.40\)</span>
+<span class="math inline">\(0.14\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8669,12 +8664,17 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(0.16\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
 <span class="math inline">\(0.32\)</span>
 </p>]]></text>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.14\)</span>
+<span class="math inline">\(0.40\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -8709,7 +8709,12 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1000\)</span>
+<span class="math inline">\(1600\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(1500\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -8719,17 +8724,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(1000\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
 <span class="math inline">\(1400\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(1600\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(1500\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -8760,7 +8760,12 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(5\)</span>
+<span class="math inline">\(1010\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(10\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -8770,17 +8775,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1010\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(10\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(500\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(5\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -8809,9 +8809,9 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.5\)</span>
+<span class="math inline">\(0.2\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8821,12 +8821,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.2\)</span>
+<span class="math inline">\(0.3\)</span>
 </p>]]></text>
 </answer>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0.3\)</span>
+<span class="math inline">\(0.5\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8859,9 +8859,9 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-выборочную дисперсию объясняемой переменной
+выборочную дисперсию остатков
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8879,9 +8879,9 @@ RE-оценки
 выборочную дисперсию объясняющей переменной
 </p>]]></text>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-выборочную дисперсию остатков
+выборочную дисперсию объясняемой переменной
 </p>]]></text>
 </answer>
 </question>
@@ -8914,14 +8914,14 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0\)</span>
+</p>]]></text>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(0.25\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(0.75\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8931,7 +8931,7 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(0\)</span>
+<span class="math inline">\(0.75\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -8971,12 +8971,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(RSS/n\)</span>
+<span class="math inline">\(RSS/(n-2)\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(RSS/(n-2)\)</span>
+<span class="math inline">\(RSS/n\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -9022,12 +9022,12 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1\)</span>
+<span class="math inline">\(3\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(5\)</span>
+<span class="math inline">\(2\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -9037,12 +9037,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(3\)</span>
+<span class="math inline">\(1\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(2\)</span>
+<span class="math inline">\(5\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -9072,7 +9072,7 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-оценки <span class="math inline">\(\hat\beta_0\)</span> и <span class="math inline">\(\hat\beta_1\)</span> не изменились
+оценки <span class="math inline">\(\hat\beta_0\)</span> и <span class="math inline">\(\hat\beta_1\)</span> увеличились
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9080,19 +9080,19 @@ RE-оценки
 оценка <span class="math inline">\(\hat\beta_0\)</span> уменьшилась, а оценка <span class="math inline">\(\hat\beta_1\)</span> не изменилась
 </p>]]></text>
 </answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+оценка <span class="math inline">\(\hat\beta_0\)</span> увеличилась, а оценка <span class="math inline">\(\hat\beta_1\)</span> не изменилась
+</p>]]></text>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-оценки <span class="math inline">\(\hat\beta_0\)</span> и <span class="math inline">\(\hat\beta_1\)</span> увеличились
+оценки <span class="math inline">\(\hat\beta_0\)</span> и <span class="math inline">\(\hat\beta_1\)</span> не изменились
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 оценки <span class="math inline">\(\hat\beta_0\)</span> и <span class="math inline">\(\hat\beta_1\)</span> уменьшились
-</p>]]></text>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-оценка <span class="math inline">\(\hat\beta_0\)</span> увеличилась, а оценка <span class="math inline">\(\hat\beta_1\)</span> не изменилась
 </p>]]></text>
 </answer>
 </question>
@@ -9120,16 +9120,6 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\mathcal{N}(0;\sigma^2)\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\chi^2_1\)</span>
-</p>]]></text>
-</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(t_{n-2}\)</span>
@@ -9137,12 +9127,22 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\chi^2_{n-2}\)</span>
+<span class="math inline">\(\mathcal{N}(0;1)\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\mathcal{N}(0;1)\)</span>
+<span class="math inline">\(\chi^2_1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathcal{N}(0;\sigma^2)\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\chi^2_{n-2}\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -9172,12 +9172,12 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\([1; 19]\)</span>
+<span class="math inline">\([6; 14]\)</span>
 </p>]]></text>
 </answer>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\([6; 14]\)</span>
+<span class="math inline">\([6.4; 13.6]\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9190,9 +9190,9 @@ RE-оценки
 <span class="math inline">\([5; 15]\)</span>
 </p>]]></text>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\([6.4; 13.6]\)</span>
+<span class="math inline">\([1; 19]\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -9225,9 +9225,19 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\((X&#39;X)^{-1}X&#39;Y\)</span>
+</p>]]></text>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(X&#39;Y(X&#39;X)^{-1}\)</span>
+<span class="math inline">\((XX&#39;)^{-1}X&#39;Y\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\((X&#39;X)^{-1}YX\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9237,17 +9247,7 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\((XX&#39;)^{-1}X&#39;Y\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\((X&#39;X)^{-1}X&#39;Y\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\((X&#39;X)^{-1}YX\)</span>
+<span class="math inline">\(X&#39;Y(X&#39;X)^{-1}\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -9275,9 +9275,9 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(e\)</span>
+<span class="math inline">\(Y-\bar Y\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9295,9 +9295,9 @@ RE-оценки
 <span class="math inline">\(u\)</span>
 </p>]]></text>
 </answer>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(Y-\bar Y\)</span>
+<span class="math inline">\(e\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -9317,7 +9317,8 @@ RE-оценки
 <questiontext format="html">
 <text><![CDATA[
 <p>
-<p>Рассмотрим модель <span class="math inline">\(Y_i= \beta_0 + \beta_z Z_{i} + \beta_w W_{i} + u\)</span> при гетероскедастичности. Стандартная ошибка МНК-оценки, рассчитываемая по формуле <span class="math inline">\(se(\hat\beta_w)=\sqrt{RSS \cdot (X&#39;X)^{-1}_{33}/(n-3)}\)</span>, является</p>
+<p>Рассмотрим модель <span class="math inline">\(Y_i= \beta_0 + \beta_z Z_{i} + \beta_w W_{i} + u\)</span> при гетероскедастичности. Василий рассчитывает стандартную ошибку <span class="math inline">\(se(\hat\beta_w)\)</span> по формуле <span class="math inline">\(se(\hat\beta_w)=\sqrt{RSS \cdot (X&#39;X)^{-1}_{33}/(n-3)}\)</span>, где <span class="math inline">\(X\)</span> — матрица всех регрессоров.</p>
+<p>Эта стандартная ошибка является</p>
 </p>]]></text>
 </questiontext>
 <penalty>0</penalty>
@@ -9327,12 +9328,17 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-смещённой вниз
+смещённой вверх
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 несмещённой
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+смещённой вниз
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -9343,11 +9349,6 @@ RE-оценки
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 состоятельной
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-смещённой вверх
 </p>]]></text>
 </answer>
 </question>
@@ -9377,7 +9378,7 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-на первом шаге при проведении теста Годфельда-Квандта
+в методе главных компонент
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9387,17 +9388,17 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-в методе главных компонент
-</p>]]></text>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-для выявления выбросов
+на первом шаге при проведении теста Годфельда-Квандта
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 на первом шаге двухшагового МНК
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+для выявления выбросов
 </p>]]></text>
 </answer>
 </question>
@@ -9430,9 +9431,19 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+смещённости МНК оценок коэффициентов
+</p>]]></text>
+</answer>
 <answer fraction="100" format="html">
 <text><![CDATA[<p>
 получению состоятельной оценки дисперсии случайной ошибки
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+повышению эффективности МНК оценок коэффициентов
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9442,17 +9453,7 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-смещённости МНК оценок коэффициентов
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 понижению эффективности МНК оценок коэффициентов
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-повышению эффективности МНК оценок коэффициентов
 </p>]]></text>
 </answer>
 </question>
@@ -9482,12 +9483,12 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-регрессии на константу
+только модели без ограничений
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-регрессии на все факторы кроме константы
+модели с ограничениями, и модели без ограничений
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -9497,12 +9498,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-модели с ограничениями, и модели без ограничений
+регрессии на все факторы кроме константы
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-только модели без ограничений
+регрессии на константу
 </p>]]></text>
 </answer>
 </question>
@@ -9537,6 +9538,11 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(t\)</span>-распределение с <span class="math inline">\(n-6\)</span> степенями свободы
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
 <span class="math inline">\(t\)</span>-распределение с <span class="math inline">\(n\)</span> степенями свободы
 </p>]]></text>
 </answer>
@@ -9545,19 +9551,14 @@ RE-оценки
 <span class="math inline">\(\chi^2\)</span>-распределение с одной степенью свободы
 </p>]]></text>
 </answer>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(t\)</span>-распределение с <span class="math inline">\(n-6\)</span> степенями свободы
+асимптотически нормальное распределение
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(t\)</span>-распределение с <span class="math inline">\(n-5\)</span> степенями свободы
-</p>]]></text>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-асимптотически нормальное распределение
 </p>]]></text>
 </answer>
 </question>
@@ -9587,17 +9588,7 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-совпадает с числом экзогенных переменных
-</p>]]></text>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-меньше числа экзогенных переменных
-</p>]]></text>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-больше числа эндогенных переменных
+совпадает с числом эндогенных переменных
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9607,7 +9598,17 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-совпадает с числом эндогенных переменных
+совпадает с числом экзогенных переменных
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+больше числа эндогенных переменных
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+меньше числа экзогенных переменных
 </p>]]></text>
 </answer>
 </question>
@@ -9637,12 +9638,7 @@ RE-оценки
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-состоятельными
-</p>]]></text>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-несмещёнными
+асимптотически эффективными
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9657,7 +9653,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-асимптотически эффективными
+состоятельными
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+несмещёнными
 </p>]]></text>
 </answer>
 </question>
@@ -9697,12 +9698,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-метода наименьших квадратов
+метода главных компонент
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-метода главных компонент
+метода наименьших квадратов
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -9740,9 +9741,9 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
+<answer fraction="100" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) - (1 - Y_i) \ln (1 - F(X_i \beta))\)</span>
+<span class="math inline">\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) + (1 - Y_i) \ln (1 - F(X_i \beta))\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9752,12 +9753,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) - (1 - Y_i) \ln F(X_i \beta)\)</span>
+<span class="math inline">\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) - (1 - Y_i) \ln (1 - F(X_i \beta))\)</span>
 </p>]]></text>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) + (1 - Y_i) \ln (1 - F(X_i \beta))\)</span>
+<span class="math inline">\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) - (1 - Y_i) \ln F(X_i \beta)\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9798,7 +9799,7 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1/X_i^2\)</span>
+<span class="math inline">\(X_i^2\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
@@ -9808,12 +9809,12 @@ RE-оценки
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(X_i^2\)</span>
+<span class="math inline">\(1/X_i\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1/X_i\)</span>
+<span class="math inline">\(1/X_i^2\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -9842,8 +9843,8 @@ RE-оценки
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -9852,16 +9853,6 @@ RE-оценки
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(1\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(5\)</span>
@@ -9874,7 +9865,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(2\)</span>
+<span class="math inline">\(1\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -9899,6 +9890,16 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(2\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -9946,17 +9947,7 @@ Good answer :)
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(1/2\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(10/3\)</span>
+<span class="math inline">\(3/2\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -9976,7 +9967,17 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(3/2\)</span>
+<span class="math inline">\(10/3\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(1/2\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10032,8 +10033,8 @@ X&#39;Y = \begin{pmatrix}
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -10042,6 +10043,16 @@ X&#39;Y = \begin{pmatrix}
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.5\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 недостаточно информации, чтобы вычислить <span class="math inline">\(R^2\)</span>
@@ -10082,16 +10093,6 @@ Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(0.5\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
 </question>
 
 
@@ -10116,9 +10117,9 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
 </p>]]></text>
@@ -10130,27 +10131,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\ln(Y_i/W_i^2) = \gamma_0 + \gamma_1 \ln (X_i/W_i) + \gamma_2 \ln Z_i + u_i\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(\ln(Y_i/W_i) = \gamma_0 + \gamma_1 \ln (X_i \cdot W_i^2) + \gamma_2 \ln Z_i + u_i\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\ln(Y_i \cdot W_i) = \gamma_0 + \gamma_1 \ln (X_i/W_i^2) + \gamma_2 \ln Z_i + u_i\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10165,6 +10146,26 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\ln(Y_i/W_i^2) = \gamma_0 + \gamma_1 \ln (X_i/W_i) + \gamma_2 \ln Z_i + u_i\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\ln(Y_i \cdot W_i) = \gamma_0 + \gamma_1 \ln (X_i/W_i^2) + \gamma_2 \ln Z_i + u_i\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
@@ -10204,9 +10205,9 @@ Bad answer :(
 <ol type = "a">
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -10217,27 +10218,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(189/2\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(5/9\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(45\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10265,6 +10246,26 @@ Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(45\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(189/2\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 </question>
 
 
@@ -10289,10 +10290,10 @@ Good answer :)
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Good answer :) </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 </ol>
 </p>]]></text>
 </generalfeedback>
@@ -10303,37 +10304,17 @@ Good answer :)
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-случайные ошибки <span class="math inline">\(u_i\)</span> не коррелированы
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-случайные ошибки <span class="math inline">\(u_i\)</span> нормально распределены
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-случайные ошибки <span class="math inline">\(u_i\)</span> имеют одинаковые дисперсии
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
 матрица регрессоров <span class="math inline">\(X\)</span> имеет полный ранг
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+случайные ошибки <span class="math inline">\(u_i\)</span> не коррелированы
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10348,6 +10329,26 @@ Bad answer :(
 <feedback format="html">
 <text><![CDATA[<p>
 Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+случайные ошибки <span class="math inline">\(u_i\)</span> имеют одинаковые дисперсии
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+случайные ошибки <span class="math inline">\(u_i\)</span> нормально распределены
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
 </p>]]></text>
 </feedback>
 </answer>
@@ -10375,8 +10376,8 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -10387,6 +10388,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(3/4\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(1/2\)</span>
@@ -10410,16 +10421,6 @@ Good answer :)
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(2\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(3/4\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10462,9 +10463,9 @@ Bad answer :(
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ol type = "a">
-<li> Bad answer :( </li>
-<li> Bad answer :( </li>
 <li> Good answer :) </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -10475,6 +10476,16 @@ Bad answer :(
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(X\)</span>, <span class="math inline">\(Q\)</span>, <span class="math inline">\(S\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(X\)</span>, <span class="math inline">\(Q\)</span>
@@ -10495,19 +10506,9 @@ Bad answer :(
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(X\)</span>, <span class="math inline">\(Q\)</span>, <span class="math inline">\(S\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Good answer :)
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(S\)</span>
+<span class="math inline">\(X\)</span>, <span class="math inline">\(S\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10517,7 +10518,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(X\)</span>, <span class="math inline">\(S\)</span>
+<span class="math inline">\(S\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10550,8 +10551,8 @@ Bad answer :(
 <text><![CDATA[<p>
 <ol type = "a">
 <li> Bad answer :( </li>
-<li> Good answer :) </li>
 <li> Bad answer :( </li>
+<li> Good answer :) </li>
 <li> Bad answer :( </li>
 <li> Bad answer :( </li>
 </ol>
@@ -10564,7 +10565,17 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(30/7\)</span>
+<span class="math inline">\(10/3\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(11/3\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10594,17 +10605,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(11/3\)</span>
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-Bad answer :(
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-25" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(10/3\)</span>
+<span class="math inline">\(30/7\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10654,7 +10655,7 @@ Bad answer :(
 <answernumbering>abc</answernumbering>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat\alpha_1 = \hat\beta_0\)</span>
+<span class="math inline">\(\hat\alpha_0 = \hat\beta_0\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -10674,7 +10675,7 @@ Bad answer :(
 </answer>
 <answer fraction="-25" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat\alpha_0 = \hat\beta_0\)</span>
+<span class="math inline">\(\hat\alpha_1 = \hat\beta_0\)</span>
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>

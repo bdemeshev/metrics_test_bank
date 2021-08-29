@@ -9,7 +9,7 @@ Question
 1 &  $Y = \beta_1 + \beta_2 X_2 + \beta_3 X_3 + u$ \\
 2 &  $\ln Y = \beta_1 + \beta_2 X_2 + \beta_3 X_3 + u$ \\
 3 &  $Y = \beta_1 + \beta_4 X_4 + \beta_5 X_5 + u$ \\
-4 &  $\ Y/X_2 = \beta_1 + \beta_2 X_2 + \beta_3 X_3 + u$ \\
+4 &  $Y/X_2 = \beta_1 + \beta_2 X_2 + \beta_3 X_3 + u$ \\
 \bottomrule
 \end{tabular}
 

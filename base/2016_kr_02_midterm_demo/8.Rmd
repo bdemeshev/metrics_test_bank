@@ -2,7 +2,7 @@ Question
 ========
 На третьем шаге теста МакАлера исследователь получил следующие результаты:
 $$
-\widehat{\ln Y_i} = \underset{(0.20)}{1.54} - \underset{(0.05)}{1.2}X_i + \underset{(0.3)}{3.1}\hat v_{\mathbb{E}xp(\widehat{\ln Y}),i}
+\widehat{\ln Y_i} = \underset{(0.20)}{1.54} - \underset{(0.05)}{1.2}X_i + \underset{(0.3)}{3.1}\hat v_{\exp(\widehat{\ln Y}),i}
 $$
 $$
 \hat Y_i = \underset{(0.02)}{1.24} + \underset{(0.03)}{1.1}X_i + \underset{(0.2)}{2.4}\hat v_{\ln \hat Y, i}

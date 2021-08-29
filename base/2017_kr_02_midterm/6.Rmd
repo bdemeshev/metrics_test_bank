@@ -30,7 +30,7 @@ $\hat\sigma$ & 13.04        & 0.5256      \\
 
 
 
-Где $\text{lin\_add} = \ln(\hat y) - \widehat{\ln} Y, \text{semilog\_add} = \hat y - \mathbb{E}xp(\widehat{\ln} Y)$ и в скобках указаны стандартные ошибки.
+Где $\text{lin\_add} = \ln(\hat y) - \widehat{\ln} Y, \text{semilog\_add} = \hat y - \exp(\widehat{\ln} Y)$ и в скобках указаны стандартные ошибки.
 
 На уровне значимости 5\% можно сделать вывод, что
 
