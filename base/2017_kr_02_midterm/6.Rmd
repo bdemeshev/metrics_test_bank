@@ -25,12 +25,12 @@ Num. obs.    & 540            & 540           \\
 RSS          & 90975.57          & 148.1      \\
 $\hat\sigma$ & 13.04        & 0.5256      \\
 \bottomrule
-\end{tabular}
+\mathbb{E}nd{tabular}
 
 
 
 
-Где $\text{lin\_add} = \ln(\hY) - \widehat{\ln} Y, \text{semilog\_add} = \hY - \exp(\widehat{\ln} Y)$ и в скобках указаны стандартные ошибки.
+Где $\text{lin\_add} = \ln(\hat y) - \widehat{\ln} Y, \text{semilog\_add} = \hat y - \mathbb{E}xp(\widehat{\ln} Y)$ и в скобках указаны стандартные ошибки.
 
 На уровне значимости 5\% можно сделать вывод, что
 

@@ -7,8 +7,8 @@ Question
 $x$ & 0 & 1 & 2 & 3 \\ 
 $\P(X=x)$ & $-b$ & $0.5-b$ & $0.5+b$ & $b$ \\
 \bottomrule
-\end{tabular}
-\end{center}
+\mathbb{E}nd{tabular}
+\mathbb{E}nd{center}
 
 Вероятность $\P(X=1)$ равна 
 

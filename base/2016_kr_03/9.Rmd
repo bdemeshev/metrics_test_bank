@@ -5,8 +5,8 @@ Question
 
 Answerlist
 ----------
-*  $\Var(u) = \sigma^2 I$
-*  $\E(u_i)=0$
+*  $\mathrm{Var}(u) = \sigma^2 I$
+*  $\mathbb{E}(u_i)=0$
 *  $\rank X = k$
 *  $u_i$ распределены нормально
 *  Величина $Y_i$ линейна по $\beta_1$, $\beta_2$, \ldots

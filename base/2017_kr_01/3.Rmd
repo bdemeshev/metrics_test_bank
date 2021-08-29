@@ -1,6 +1,6 @@
 Question
 ========
-Оценка МНК неизвестного параметра $\theta$ для модели $Y_i = \theta X_{1i} + (1 + \theta) X_{2i} + \e_i, i = 1, \ldots, n$ равна
+Оценка МНК неизвестного параметра $\theta$ для модели $Y_i = \theta X_{1i} + (1 + \theta) X_{2i} + u_i, i = 1, \ldots, n$ равна
 
 
 Answerlist

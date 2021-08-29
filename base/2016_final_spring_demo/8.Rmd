@@ -6,7 +6,7 @@ $$
 \begin{cases}
 {\beta_2} + {\beta _3} = 1\\
 {\beta_5} = 0 \\
-\end{cases}
+\mathbb{E}nd{cases}
 $$
 можно проверить с помощью оценки дополнительной модели
 

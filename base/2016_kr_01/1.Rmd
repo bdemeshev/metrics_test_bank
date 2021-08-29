@@ -1,7 +1,7 @@
 Question
 ========
-Если $\E(X) = 4$, $\E(Y) = 3$, $\Var(X) = 6$, $\Var(Y) = 7$,
-$\Cov(X,Y) = -1$, то $\Cov(1 - X + 2Y, X)$  равна
+Если $\mathbb{E}(X) = 4$, $\mathbb{E}(Y) = 3$, $\mathrm{Var}(X) = 6$, $\mathrm{Var}(Y) = 7$,
+$\mathrm{Cov}(X,Y) = -1$, то $\mathrm{Cov}(1 - X + 2Y, X)$  равна
 
 
 Answerlist

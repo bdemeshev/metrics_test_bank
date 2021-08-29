@@ -1,16 +1,16 @@
 Question
 ========
-Рассмотрим модель $Y = X \beta + \varepsilon$. Условия теоремы Гаусса-Маркова выполнены, причём $\Var(\varepsilon_i) = \sigma^2_{\varepsilon}$, $\hY = PY$, $P = X (X'X)^{-1} X'$ и $I$ - единичная матрица. Ковариационная матрица случайного вектора $e=Y-\hY$ равна
+Рассмотрим модель $Y = X \beta + \mathrm{Var}epsilon$. Условия теоремы Гаусса-Маркова выполнены, причём $\mathrm{Var}(\mathrm{Var}epsilon_i) = \sigma^2_{\mathrm{Var}epsilon}$, $\hat y = PY$, $P = X (X'X)^{-1} X'$ и $I$ - единичная матрица. Ковариационная матрица случайного вектора $e=Y-\hat y$ равна
 
 
 
 Answerlist
 ----------
-*  $\sigma^2_{\varepsilon} (I - P)$
-*  $\sigma^2_{\varepsilon} P$
-*  $\sigma^2_{\varepsilon} (P-I)$
-*  $\sigma^2_{\varepsilon} I$
-*  $\sigma^2_{\varepsilon} (I+P)$
+*  $\sigma^2_{\mathrm{Var}epsilon} (I - P)$
+*  $\sigma^2_{\mathrm{Var}epsilon} P$
+*  $\sigma^2_{\mathrm{Var}epsilon} (P-I)$
+*  $\sigma^2_{\mathrm{Var}epsilon} I$
+*  $\sigma^2_{\mathrm{Var}epsilon} (I+P)$
 
 Solution
 ========

@@ -6,7 +6,7 @@ f(x|\lambda ) = \begin{cases}
 \lambda^{-1} x^{- 1 + 1/\lambda},
 \text{ если }0 < x < 1; \\
 0, \text{ иначе.}
-\end{cases}
+\mathbb{E}nd{cases}
 $$
 имеет вид:
 

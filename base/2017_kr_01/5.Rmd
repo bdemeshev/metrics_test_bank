@@ -1,15 +1,15 @@
 Question
 ========
-Для модели парной регрессии $Y = \beta_1 I_n + \beta_2 X + \e$, где $Y = (Y_1, \ldots, Y_n), X = (X_1, \ldots, X_n), I_n = (1, \ldots, 1), \e = (\e_1, \ldots, \e_n), \hY = \hb_1 I_n + \hb_2 X, e = Y - \hY$ в пространстве $\R^n$ ортогональны вектора
+Для модели парной регрессии $Y = \beta_1 I_n + \beta_2 X + \mathbb{E}$, где $Y = (Y_1, \ldots, Y_n), X = (X_1, \ldots, X_n), I_n = (1, \ldots, 1), \mathbb{E} = (\mathbb{E}_1, \ldots, \mathbb{E}_n), \hat y = \hat \beta_1 I_n + \hat \beta_2 X, e = Y - \hat y$ в пространстве $\R^n$ ортогональны вектора
 
 
 Answerlist
 ----------
 *  $e$ и $I_n$
-*  $\e$ и $\hY$
-*  $Y$ и $\hY$
+*  $\mathbb{E}$ и $\hat y$
+*  $Y$ и $\hat y$
 *  $Y$ и $I_n$
-*  $X$ и $\hY$
+*  $X$ и $\hat y$
 
 Solution
 ========

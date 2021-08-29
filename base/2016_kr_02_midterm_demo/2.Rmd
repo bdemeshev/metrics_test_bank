@@ -5,10 +5,10 @@ Question
 
 Answerlist
 ----------
-*  $\sum_{j=2}^k \hb_j \frac{\sCov(X_j, Y)}{\sVar(Y)}$
-*  $\sum_{j=2}^k \hb_j \frac{\sVar(Y)}{\sCov(X_j, Y)}$
-*  $\sum_{j=2}^k \hb_j \frac{\sCorr(X_j, Y)}{\sVar(Y)}$
-*  $\sum_{j=2}^k \hb_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}$
+*  $\sum_{j=2}^k \hat \beta_j \frac{\sCov(X_j, Y)}{\sVar(Y)}$
+*  $\sum_{j=2}^k \hat \beta_j \frac{\sVar(Y)}{\sCov(X_j, Y)}$
+*  $\sum_{j=2}^k \hat \beta_j \frac{\sCorr(X_j, Y)}{\sVar(Y)}$
+*  $\sum_{j=2}^k \hat \beta_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}$
 *  $\sum_{j=2}^k \beta_j \frac{\sCorr(X_j, Y)}{\sVar(\hat Y)}$
 *  $\sum_{j=2}^k \beta_j \frac{\sVar(Y)}{\sCov(X_j, Y)}$
 
