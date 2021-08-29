@@ -1,6 +1,6 @@
 Question
 ========
-Чебурашка оценил модель $Y_i = \beta_0 + \beta_1 X_i + \mathrm{Var}epsilon_i$, а Крокодил Гена — модель $X_i = \gamma_0 + \gamma_1 Y_i + u_i$.
+Чебурашка оценил модель $Y_i = \beta_0 + \beta_1 X_i + u_i$, а Крокодил Гена — модель $X_i = \gamma_0 + \gamma_1 Y_i + u_i$.
 Оказалось, что $\hat\gamma_1 = 0.25/\hat\beta_1$. Величина $R^2$ в регрессии Чебурашки равна
 
 Answerlist

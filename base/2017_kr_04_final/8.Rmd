@@ -6,11 +6,11 @@ Question
 
 Answerlist
 ----------
-*  $X_t = \mu + X_{t-1} + \mathrm{Var}epsilon_t$
-*  $X_t = \mu + 0.7 X_{t-1} + \mathrm{Var}epsilon_t$
-*  $X_t = X_{t-1} + \mathrm{Var}epsilon_t$
-*  $X_t = 0.7 X_{t-1} + \mathrm{Var}epsilon_t$
-*  $X_t = \mu + \mathrm{Var}epsilon_t$
+*  $X_t = \mu + X_{t-1} + u_t$
+*  $X_t = \mu + 0.7 X_{t-1} + u_t$
+*  $X_t = X_{t-1} + u_t$
+*  $X_t = 0.7 X_{t-1} + u_t$
+*  $X_t = \mu + u_t$
 
 Solution
 ========

@@ -5,12 +5,12 @@ Question
 \begin{tabular}{ccccc}
 \toprule
 $x$ & 0 & 1 & 2 & 3 \\ 
-$\P(X=x)$ & $-b$ & $0.5-b$ & $0.5+b$ & $b$ \\
+$\mathbb{P}(X=x)$ & $-b$ & $0.5-b$ & $0.5+b$ & $b$ \\
 \bottomrule
-\mathbb{E}nd{tabular}
-\mathbb{E}nd{center}
+\end{tabular}
+\end{center}
 
-Вероятность $\P(X=1)$ равна 
+Вероятность $\mathbb{P}(X=1)$ равна 
 
 Answerlist
 ----------

@@ -7,11 +7,11 @@ Question
 
 Answerlist
 ----------
-*  $\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + \mathrm{Var}epsilon_t$
-*  $Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + \mathrm{Var}epsilon_t$
-*  $\Delta Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + \mathrm{Var}epsilon_t$
-*  $Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + \mathrm{Var}epsilon_t$
-*  $\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} ) + \mathrm{Var}epsilon_t$
+*  $\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t$
+*  $Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t$
+*  $\Delta Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t$
+*  $Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t$
+*  $\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} ) + u_t$
 
 Solution
 ========

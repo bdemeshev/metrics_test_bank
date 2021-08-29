@@ -1,10 +1,10 @@
 Question
 ========
-Для модели $Y_i = \beta X_i + \mathrm{Var}epsilon_i$ c $\mathbb{E}(\mathrm{Var}epsilon_i) = 0$ известно,
+Для модели $Y_i = \beta X_i + u_i$ c $\mathbb{E}(u_i) = 0$ известно,
 что оценка $\hat \beta = \frac{\sum_{i=1}^n Y_i}{\sum_{i=1}^n X_i}$ обладает наименьшей дисперсией 
 среди линейных несмещённых оценок. 
 
-Дисперсии $\mathrm{Var}(\mathrm{Var}epsilon_i)$ пропорциональны
+Дисперсии $\mathrm{Var}(u_i)$ пропорциональны
 
 Answerlist
 ----------

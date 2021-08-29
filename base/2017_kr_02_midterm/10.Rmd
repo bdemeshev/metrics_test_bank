@@ -11,7 +11,7 @@ Question
 3 &  $Y = \beta_1 + \beta_4 X_4 + \beta_5 X_5 + u$ \\
 4 &  $\ Y/X_2 = \beta_1 + \beta_2 X_2 + \beta_3 X_3 + u$ \\
 \bottomrule
-\mathbb{E}nd{tabular}
+\end{tabular}
 
 С помощью $R^2_{adj}$ можно выбрать лучшую из пар моделей
 

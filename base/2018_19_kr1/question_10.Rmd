@@ -1,12 +1,12 @@
 Question
 ========
-Рассмотрим модель множественной регрессии $Y=X\beta+\mathrm{Var}epsilon$, где $\hat Y = X\hat\beta$, $e=Y-\hat Y$.
+Рассмотрим модель множественной регрессии $Y=X\beta+u$, где $\hat Y = X\hat\beta$, $e=Y-\hat Y$.
 Величина $RSS$ — это квадрат длины вектора
 
 Answerlist
 ----------
 * $e$
-* $\mathrm{Var}epsilon$
+* $u$
 * $Y-\bar Y$
 * $\hat Y - \bar Y$
 * $\hat Y$

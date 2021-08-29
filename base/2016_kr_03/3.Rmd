@@ -2,7 +2,7 @@ Question
 ========
 Методом максимального правдоподобия Гоша оценил модель
 $$
-Y_i = \beta_1 + \beta_2 X_{i2} +  \ldots  + \beta _6 X_{i6} + \mathrm{Var}epsilon_i,
+Y_i = \beta_1 + \beta_2 X_{i2} +  \ldots  + \beta _6 X_{i6} + u_i,
 $$
 где $\mathbb{E} \sim \mathcal{N} (0,\sigma_u^2I)$, по 12 наблюдениям. Оказалось, что $RSS = 24$.  Оценка дисперсии случайной составляющей равна
 

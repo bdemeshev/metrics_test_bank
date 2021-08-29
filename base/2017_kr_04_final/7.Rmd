@@ -1,16 +1,16 @@
 Question
 ========
-Пусть $\mathrm{Var}epsilon_t$ - белый шум. Тогда стационарным будет следующий процесс
+Пусть $u_t$ - белый шум. Тогда стационарным будет следующий процесс
 
 
 
 Answerlist
 ----------
-*  $Y_t = \sum_{i = 0}^{10} \mathrm{Var}epsilon_{t-i}$
-*  $Y_t = 2018t + \mathrm{Var}epsilon_t$
-*  $Y_t = t \mathrm{Var}epsilon_t$
-*  $Y_t = Y_{t-1} - \mathrm{Var}epsilon_t$
-*  $Y_t = 2Y_{t-1} - \mathrm{Var}epsilon_t$
+*  $Y_t = \sum_{i = 0}^{10} u_{t-i}$
+*  $Y_t = 2018t + u_t$
+*  $Y_t = t u_t$
+*  $Y_t = Y_{t-1} - u_t$
+*  $Y_t = 2Y_{t-1} - u_t$
 
 Solution
 ========

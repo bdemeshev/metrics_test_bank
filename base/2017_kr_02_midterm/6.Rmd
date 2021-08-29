@@ -25,7 +25,7 @@ Num. obs.    & 540            & 540           \\
 RSS          & 90975.57          & 148.1      \\
 $\hat\sigma$ & 13.04        & 0.5256      \\
 \bottomrule
-\mathbb{E}nd{tabular}
+\end{tabular}
 
 
 

@@ -1,7 +1,7 @@
 Question
 ========
 В модели парной линейной регрессии со свободным членом
-$Y_i = \beta_0 + \beta_1 X_i + \mathrm{Var}epsilon_i$
+$Y_i = \beta_0 + \beta_1 X_i + u_i$
 несмещённой оценкой дисперсии оценки МНК $\hat\beta_1$ является
 
 Answerlist
