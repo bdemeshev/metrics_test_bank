@@ -1,0 +1,34 @@
+Question
+========
+
+Выберите верную формулу
+
+Answerlist
+----------
+*  $\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i (x_i - \bar x)$
+*  $\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i x_i$
+*  $\sum (y_i - \bar y)(x_i - \bar x) = -\sum \bar y (x_i - \bar x)$
+*  $\sum (y_i - \bar y)(x_i - \bar x) = \bar y \bar x$
+*  $\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i x_i + \sum \bar y  \bar x$ 
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: correct formula for sums of xi yi
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients formula

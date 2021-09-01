@@ -1,0 +1,27 @@
+Question
+========
+
+Исследовательница Надежда по пяти наблюдениям оценила регрессию
+$\hat y_i = \hat \beta_1 + \hat\beta_x x_i + \hat\beta_w w_i$ с помощью МНК.
+
+И получила вектор остатков $(5, 4, 3, 2, ?)$, а последний остаток Надежда забыла записать.
+
+Чему равен пропущенный остаток?
+
+Solution
+========
+
+$$\sum \hat u_i = 0$$.
+
+
+Meta-information
+================
+exname: mi_01_centered
+extype: num
+exsolution: -14
+exname: t statistic
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Residuals

@@ -1,0 +1,25 @@
+Question
+========
+
+Исследователь Ярополк хочет оценить коэффициент $\beta_x$ в модели $y_i = \beta_1 + \beta_x x_i + u_i$.
+
+По исходным наблюдениям 
+он рассчитал суммы $\sum (x_i - \bar x)(y_i - \bar y)=300$, $\sum (y_i - \bar y)^2=1000$ и $\sum (x_i - \bar x)^2=100$.
+
+Чему равна МНК-оценка $\hat\beta_x$?
+
+Solution
+========
+
+$$\frac{\sum (x_i - \bar x)(y_i - \bar y)}{\sum (x_i - \bar x)^2}$$
+
+Meta-information
+================
+exname: calculate beta x
+extype: num
+exsolution: 3
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients formula
