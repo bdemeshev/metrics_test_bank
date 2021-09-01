@@ -1,7 +1,7 @@
 Question
 ========
 Для модели $Y_i = \beta_1 + \beta_2 X_i + u_i$, где $u_i \sim \mathcal{N}(0, \sigma^2_u)$ 
-тестовая статистика $\frac{ \hat \beta_2 - \beta^0_2 }{ se(\hat \beta_2)} $ имеет распределение
+тестовая статистика $\frac{ \hat \beta_2 - \beta^0_2 }{ se(\hat \beta_2)}$ имеет распределение
 
 
 Answerlist
