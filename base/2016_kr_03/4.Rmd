@@ -4,11 +4,11 @@ Question
 
 Answerlist
 ----------
-*  $\mathbb{E} \sim \mathcal{N}(0; \Omega)$ и структура $\Omega$ неизвестна
-*  $\mathbb{E} \sim \mathcal{N}(0; \Omega)$ и структура $\Omega$ известна, но зависит от набора неизвестных параметров
-*  $\mathbb{E} \sim \mathcal{N}(0; \Omega)$ и $\Omega = 2017 \cdot I$
-*  $\mathbb{E} \sim \mathcal{N}(0; \Omega)$ и  $\Omega =  b \cdot I$, где $b$ — неизвестный параметр
-*  закон  распределения вектора $\mathbb{E}$ известен, но не является нормальным
+*  $u \sim \mathcal{N}(0; \Omega)$ и структура $\Omega$ неизвестна
+*  $u \sim \mathcal{N}(0; \Omega)$ и структура $\Omega$ известна, но зависит от набора неизвестных параметров
+*  $u \sim \mathcal{N}(0; \Omega)$ и $\Omega = 2017 \cdot I$, где $I$ — единичная матрица
+*  $u \sim \mathcal{N}(0; \Omega)$ и  $\Omega =  b \cdot I$, где $b$ — неизвестный параметр
+*  закон  распределения вектора $u$ известен, но не является нормальным
 
 Solution
 ========
