@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q1 : base_om_2021_fall_train_01_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>У Винни-Пуха есть четыре наблюдения <span class="math inline">\(5\)</span>, <span class="math inline">\(6\)</span>, <span class="math inline">\(8\)</span>, <span class="math inline">\(9\)</span> и он оценивает модель вида <span class="math inline">\(y_i = 1 + \beta + u_i\)</span> с помощью МНК.</p>
+<p>Оценка <span class="math inline">\(\hat \beta\)</span> окажется равна</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Если бы не было единицы, то оценка равнялась бы…</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(7\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(6\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(5\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(8\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(10\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(9\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q2 : base_om_2021_fall_train_01_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Выберите верную формулу</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ol type = "a">
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Bad answer :( </li>
+<li> Good answer :) </li>
+<li> Bad answer :( </li>
+</ol>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum (y_i - \bar y)(x_i - \bar x) = -\sum \bar y (x_i - \bar x)\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i x_i\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i x_i + \sum \bar y \bar x\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i (x_i - \bar x)\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Good answer :)
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum (y_i - \bar y)(x_i - \bar x) = \bar y \bar x\)</span>
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Bad answer :(
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q3 : base_om_2021_fall_train_01_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Исследователь Ярополк хочет оценить коэффициент <span class="math inline">\(\beta_x\)</span> в модели <span class="math inline">\(y_i = \beta_1 + \beta_x x_i + u_i\)</span>.</p>
+<p>По исходным наблюдениям он рассчитал суммы <span class="math inline">\(\sum (x_i - \bar x)(y_i - \bar y)=300\)</span>, <span class="math inline">\(\sum (y_i - \bar y)^2=1000\)</span> и <span class="math inline">\(\sum (x_i - \bar x)^2=100\)</span>.</p>
+<p>Чему равна МНК-оценка <span class="math inline">\(\hat\beta_x\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p><span class="math display">\[\frac{\sum (x_i - \bar x)(y_i - \bar y)}{\sum (x_i - \bar x)^2}\]</span></p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Residuals</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q4 : base_om_2021_fall_train_01_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Исследовательница Надежда по пяти наблюдениям оценила регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_x x_i + \hat\beta_w w_i\)</span> с помощью МНК.</p>
+<p>И получила вектор остатков <span class="math inline">\((5, 4, 3, 2, ?)\)</span>, а последний остаток Надежда забыла записать.</p>
+<p>Чему равен пропущенный остаток?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p><span class="math display">\[\sum \hat u_i = 0\]</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-14</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Residuals</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q5 : base_om_2021_fall_train_01_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассеянная исследовательница Надежда ошибочно оценила модель <span class="math inline">\(y_i = \beta_1 + \beta_x x_i + \beta_w w_i + u_i\)</span> и получила неверные оценки <span class="math inline">\(\hat \beta\)</span>.</p>
+<p>А затем, используя неверные оценки коэффициентов, посчитала <span class="math inline">\(\sum \hat u_i^2\)</span> и <span class="math inline">\(\sum \hat u_i\)</span>.</p>
+<p>Сравните эти две суммы с верно рассчитанными.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>МНК минимизирует <span class="math inline">\(\sum \hat u_i^2\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum \hat u_i^2\)</span> завышена, а <span class="math inline">\(\sum \hat u_i\)</span> занижена.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum \hat u_i^2\)</span> может быть и завышена, и занижена, а <span class="math inline">\(\sum \hat u_i\)</span> занижена.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+обе суммы могут быть и завышены, и занижены.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum \hat u_i^2\)</span> занижена, а <span class="math inline">\(\sum \hat u_i\)</span> завышена.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum \hat u_i^2\)</span> может быть и завышена, и занижена, а <span class="math inline">\(\sum \hat u_i\)</span> завышена.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum \hat u_i^2\)</span> завышена, а <span class="math inline">\(\sum \hat u_i\)</span> может быть и завышена, и занижена.
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>

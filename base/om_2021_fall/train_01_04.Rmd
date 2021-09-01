@@ -16,10 +16,9 @@ $$\sum \hat u_i = 0$$.
 
 Meta-information
 ================
-exname: mi_01_centered
 extype: num
 exsolution: -14
-exname: t statistic
+exname: recover missing residual
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian

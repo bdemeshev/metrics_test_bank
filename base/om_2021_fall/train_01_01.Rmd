@@ -17,13 +17,7 @@ Answerlist
 Solution
 ========
 
-Answerlist
-----------
-*  Good answer :)
-*  Bad answer :(
-*  Bad answer :(
-*  Bad answer :(
-*  Bad answer :(
+Если бы не было единицы, то оценка равнялась бы...
 
 Meta-information
 ================
