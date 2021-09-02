@@ -13,14 +13,8 @@ Answerlist
 
 Solution
 ========
+$$\sum (x_i - \bar x)=0$$
 
-Answerlist
-----------
-*  Good answer :)
-*  Bad answer :(
-*  Bad answer :(
-*  Bad answer :(
-*  Bad answer :(
 
 Meta-information
 ================
