@@ -24,6 +24,8 @@ files_df
 # res = exams2canvas(files_df$filename)
 
 # to moodle!
-res = exams2moodle(files_df$filename, dir = '../snapshots/')
+res = exams2moodle(files_df$filename, dir = '../snapshots/',
+                   mchoice = list(shuffle = TRUE, enumerate = FALSE),
+                   schoice = list(shuffle = TRUE, enumerate = FALSE))
 
 # ПЕРЕИМЕНУЙТЕ СРАЗУ ФАЙЛ xml УНИКАЛЬНЫМ ИМЕНЕМ
