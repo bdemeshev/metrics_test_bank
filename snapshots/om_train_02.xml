@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Residuals</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q1 : base_om_2021_fall_train_02_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель без константы <span class="math inline">\(y_i = \beta x_i + u_i\)</span>, оцениваемую с помощью МНК. Вектор остатков обозначим <span class="math inline">\(\hat u\)</span>, а вектор из единичек обозначим <span class="math inline">\(s\)</span>.</p>
+<p>Выберите верное утверждение</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>По условию первого порядка остатки перпендикулярны регрессорам.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u \perp s\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat y \perp u\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u \perp x\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(x \perp u\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat y \perp x\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat x \perp \hat u\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q2 : base_om_2021_fall_train_02_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Известны средние <span class="math inline">\(\bar x = 3\)</span>, <span class="math inline">\(\bar y =2\)</span> и скалярное произведение <span class="math inline">\(\langle x, y\rangle = 9\)</span>.</p>
+<p>Определим <span class="math inline">\(a_i = x_i - \bar x\)</span> и <span class="math inline">\(b_i = y_i - \bar y\)</span>.</p>
+<p>Чему равно скалярное произведение <span class="math inline">\(\langle a, b\rangle\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подсказка: запишите скалярные произведения как суммы.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/R2</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q3 : base_om_2021_fall_train_02_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Винни-Пух оценил модель множественной регрессии с константой с помощью МНК. Выборочная корреляция между прогнозами <span class="math inline">\(\hat y\)</span> и фактическим вектором <span class="math inline">\(y\)</span> оказалась равной <span class="math inline">\(0.7\)</span>.</p>
+<p>Чему равно отношение <span class="math inline">\(\sum (\hat y_i - \bar y)^2 /\sum (y_i - \bar y)^2\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подсказка: вспомните два смысла <span class="math inline">\(R^2\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.49</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Residuals</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q4 : base_om_2021_fall_train_02_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Илон Маск по 100 наблюдениям оценил множественную регрессию с константой с помощью МНК. Оказалось, что <span class="math inline">\(\sum (\hat y_i - \bar y)^2 = 200\)</span>, и <span class="math inline">\(\sum (y_i - \bar y)^2 = 600\)</span>.</p>
+<p>Чему равна средняя величина квадрата остатка?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подсказка: <span class="math inline">\(TSS = ESS + RSS\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Residuals</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q5 : base_om_2021_fall_train_02_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассеянная исследовательница Надежда ошибочно оценила модель <span class="math inline">\(y_i = \beta_1 + \beta_x x_i + \beta_w w_i + u_i\)</span> и получила неверные оценки коэффициентов <span class="math inline">\(\hat \beta_{wrong}\)</span>. Корректно используя неверные оценки коэффициентов, она нашла остатки <span class="math inline">\(\hat u_{wrong}\)</span> и прогнозы <span class="math inline">\(\hat y_{wrong}\)</span>.</p>
+<p>Верные величины обозначим <span class="math inline">\(\hat \beta\)</span>, <span class="math inline">\(\hat u\)</span> и <span class="math inline">\(\hat y\)</span>.</p>
+<p>Выберите верное утверждение.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подсказка: прогнозы — это линейная комбинация регрессоров.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u \perp \hat \beta_{wrong}\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u_{wrong} \perp \hat y_{wrong}\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u \perp \hat y_{wrong}\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta \perp \hat \beta_{wrong}\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u_{wrong} \perp \hat \beta\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u_{wrong} \perp \hat y\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>

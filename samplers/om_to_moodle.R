@@ -7,7 +7,7 @@ library(rio)
 library(exams)
 # library(rexamsconverter)
 
-files_df = tibble(filename = list.files('../base/', pattern = "*.Rmd", full.names = TRUE, recursive = TRUE))
+files_df = tibble(filename = list.files('../base/om_2021_fall/', pattern = "train_02", full.names = TRUE, recursive = TRUE))
 
 files_df
 
