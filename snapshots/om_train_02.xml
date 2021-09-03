@@ -27,24 +27,9 @@
 </generalfeedback>
 <penalty>0</penalty>
 <defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
+<shuffleanswers>true</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat u \perp s\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat y \perp u\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat u \perp x\)</span>
-</p>]]></text>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(x \perp u\)</span>
@@ -57,7 +42,22 @@
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
+<span class="math inline">\(\hat u \perp s\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat y \perp u\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
 <span class="math inline">\(\hat x \perp \hat u\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u \perp x\)</span>
 </p>]]></text>
 </answer>
 </question>
@@ -186,9 +186,19 @@
 </generalfeedback>
 <penalty>0</penalty>
 <defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
+<shuffleanswers>true</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat \beta \perp \hat \beta_{wrong}\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u_{wrong} \perp \hat y_{wrong}\)</span>
+</p>]]></text>
+</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 <span class="math inline">\(\hat u \perp \hat \beta_{wrong}\)</span>
@@ -196,7 +206,7 @@
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat u_{wrong} \perp \hat y_{wrong}\)</span>
+<span class="math inline">\(\hat u_{wrong} \perp \hat y\)</span>
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -206,17 +216,7 @@
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-<span class="math inline">\(\hat \beta \perp \hat \beta_{wrong}\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
 <span class="math inline">\(\hat u_{wrong} \perp \hat \beta\)</span>
-</p>]]></text>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-<span class="math inline">\(\hat u_{wrong} \perp \hat y\)</span>
 </p>]]></text>
 </answer>
 </question>
