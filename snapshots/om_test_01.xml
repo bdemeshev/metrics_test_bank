@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q01 : base_om_2021_fall_test_01_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>У меня набор данных из трёх наблюдений: <span class="math inline">\(x = (1, 2, 3)\)</span>, <span class="math inline">\(y = (5, 6, 10)\)</span>.</p>
+<p>Чему равна МНК-оценка <span class="math inline">\(\hat\beta\)</span> в модели <span class="math inline">\(y_i = \beta + u_i\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>В модели нет предикторов!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q02 : base_om_2021_fall_test_01_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>У меня набор данных из трёх наблюдений: <span class="math inline">\(x = (1, 2, 3)\)</span>, <span class="math inline">\(y = (5, 6, 10)\)</span>.</p>
+<p>Чему равна МНК-оценка <span class="math inline">\(\hat\beta\)</span> в модели <span class="math inline">\(y_i = \beta x_i + u_i\)</span>?</p>
+<p>Ответ вводите с точностью до двух знаков после запятой.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>В модели нет константы!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.36</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q03 : base_om_2021_fall_test_01_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>У меня набор данных из трёх наблюдений: <span class="math inline">\(x = (1, 2, 3)\)</span>, <span class="math inline">\(y = (5, 6, 10)\)</span>.</p>
+<p>Чему равна МНК-оценка <span class="math inline">\(\hat\beta_x\)</span> в модели <span class="math inline">\(y_i = \beta_1 + \beta_x x_i + u_i\)</span>?</p>
+<p>Ответ вводите с точностью до двух знаков после запятой.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p><span class="math display">\[\frac{\sum (x_i - \bar x)(y_i - \bar y)}{\sum (x_i - \bar x)^2}\]</span></p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.5</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q04 : base_om_2021_fall_test_01_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>У меня набор данных из трёх наблюдений: <span class="math inline">\(x = (1, 2, 3)\)</span>, <span class="math inline">\(y = (5, 6, 10)\)</span>.</p>
+<p>Чему равна МНК-оценка <span class="math inline">\(\hat\beta\)</span> в модели <span class="math inline">\(y_i = 3 + \beta x_i + u_i\)</span>?</p>
+<p>Ответ вводите с точностью до двух знаков после запятой.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Это почти что модель без константы…</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.07</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q05 : base_om_2021_fall_test_01_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>У меня набор данных из трёх наблюдений: <span class="math inline">\(x = (0, 1, 1)\)</span>, <span class="math inline">\(y = (1, 2, 8)\)</span>.</p>
+<p>Чему равен МНК-прогноз <span class="math inline">\(\hat y_3\)</span> в модели <span class="math inline">\(y_i = \beta_1 + \beta x x_i + u_i\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>График сильно помогает :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>5</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q06 : base_om_2021_fall_test_01_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>У меня набор данных из трёх наблюдений: <span class="math inline">\(x = (2, 2, 2)\)</span>, <span class="math inline">\(y = (3, 6, 12)\)</span>.</p>
+<p>Чему равен МНК-прогноз <span class="math inline">\(\hat y_3\)</span> в модели <span class="math inline">\(y_i = \beta x_i + u_i\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>График помогает :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q07 : base_om_2021_fall_test_01_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Известно, что <span class="math inline">\(y_3 = 2\)</span>, а соответствующий остаток равен <span class="math inline">\(5\)</span>.</p>
+<p>Чему равен прогноз <span class="math inline">\(\hat y_3\)</span> в модели множественной регрессии?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>По определению остатка!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-3</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q08 : base_om_2021_fall_test_01_08 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Модель <span class="math inline">\(y_i = \beta_1 + \beta_x x_i + u_i\)</span> оценивают с помощью МНК. Известно, что <span class="math inline">\(\bar x= 2\)</span>, <span class="math inline">\(\bar y = 4\)</span>, и <span class="math inline">\(\hat \beta_1 = 2\)</span>.</p>
+<p>Чему равна МНК-оценка <span class="math inline">\(\hat\beta_x\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p><span class="math inline">\(2 + 2 = 4\)</span></p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q09 : base_om_2021_fall_test_01_09 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Модель <span class="math inline">\(y_i = \beta_1 + \beta_x x_i + u_i\)</span> оценивают с помощью МНК. Известно, что <span class="math inline">\(\bar x= 2\)</span>, <span class="math inline">\(\bar y = 4\)</span>, и <span class="math inline">\(\hat \beta_x = 5\)</span>.</p>
+<p>Чему равна ордината пересечения линии регрессии с вертикальной осью <span class="math inline">\(Oy\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Регрессия проходит через среднюю точку.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-6</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Coefficients formula</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q10 : base_om_2021_fall_test_01_10 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верное равенство для множественной регрессии <span class="math inline">\(y_i = \beta_x x_i + \beta z z_i + \beta_w w_i + u_i\)</span>, оцениваемой с помощью МНК.</p>
+<p>Остатки обозначим <span class="math inline">\(\hat u_i\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Модель без константы!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum \hat u_i y_i = 0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum x_i z_i = 0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum x_i u_i = 0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum w_i \hat u_i = 0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum x_i y_i = 0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sum \hat u_i = 0\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>
