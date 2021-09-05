@@ -1,0 +1,23 @@
+Question
+========
+
+Модель $y_i = \beta_1 + \beta_x x_i + u_i$ оценивают с помощью МНК.
+Известно, что $\bar x= 2$, $\bar y = 4$, и $\hat \beta_x = 5$.
+
+Чему равна ордината пересечения линии регрессии с вертикальной осью $Oy$?
+
+Solution
+========
+
+Регрессия проходит через среднюю точку.
+
+Meta-information
+================
+exname: calculate beta x
+extype: num
+exsolution: -6
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients formula

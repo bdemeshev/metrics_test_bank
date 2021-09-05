@@ -1,0 +1,22 @@
+Question
+========
+
+У меня набор данных из трёх наблюдений: $x = (1, 2, 3)$, $y = (5, 6, 10)$. 
+
+Чему равна МНК-оценка $\hat\beta$ в модели $y_i = \beta + u_i$?
+
+Solution
+========
+
+В модели нет предикторов!
+
+Meta-information
+================
+exname: calculate beta on constant
+extype: num
+exsolution: 7
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients formula

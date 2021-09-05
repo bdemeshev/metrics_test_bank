@@ -1,0 +1,23 @@
+Question
+========
+
+У меня набор данных из трёх наблюдений: $x = (0, 1, 1)$, $y = (1, 2, 8)$. 
+
+Чему равен МНК-прогноз $\hat y_3$ в модели $y_i = \beta_1 + \beta x x_i + u_i$?
+
+
+Solution
+========
+
+График сильно помогает :)
+
+Meta-information
+================
+exname: calculate forecast
+extype: num
+exsolution: 5
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients formula
