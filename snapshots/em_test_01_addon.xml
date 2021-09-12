@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q1 : base_om_2021_fall_test_01_11 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Метод наименьших квадратов в задаче парной регрессии подбирает оценки коэффициентов так, чтобы</p>
+</p>]]></text>
+</questiontext>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+прогнозы регрессора были наиболее похожими на фактические значения регрессора
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+прогнозы зависимой переменной были наименее похожими на фактические значения регрессора
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+прогнозы зависимой переменной были наиболее похожими на фактические значения регрессора
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+прогнозы зависимой переменной были наиболее похожими на фактические значения зависимой переменной
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+прогнозы зависимой переменной были наименее похожими на фактические значения зависимой переменной
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q2 : base_om_2021_fall_test_01_12 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Используя метод наименьших квадратов в задаче парной регрессии, исследователь</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>========</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+может найти истинные значения коэффициентов и построить доверительный интервал для них.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+может найти истинные значения коэффициентов, но не оценки коэффициентов.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+может найти и оценки коэффициентов, и истинные значения коэффициентов.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+может найти оценки коэффициентов, но не истинные значения коэффициентов.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+не может найти оценки коэффициентов, но может построить доверительный интервал для них.
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>
