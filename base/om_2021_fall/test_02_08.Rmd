@@ -1,23 +1,23 @@
 Question
 ========
 
-Модель $y_i = \beta_1 + \beta_x x_i + u_i$ оценивают с помощью МНК.
-Известно, что $\bar x= 2$, $\bar y = 4$, и $\hat \beta_1 = 2$.
+В модели множественной регрессии с константой оказалось, что сумма квадратов остатков равна $100$, 
+а общая сумма квадратов равна $1000$.
 
-Чему равна МНК-оценка $\hat\beta_x$?
+Найдите $\sum_i (y_i - \hat y_i)^2$.
 
 Solution
 ========
 
-$2 + 2 = 4$
+Теорема Пифагора в действии. 
 
 Meta-information
 ================
-exname: calculate beta x using mean point
+exname: find ess
 extype: num
-exsolution: 1
+exsolution: 900
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Coefficients formula
+exsection: OLS/Sum of squares

@@ -1,22 +1,22 @@
 Question
 ========
 
-Известно, что $y_3 = 2$, а соответствующий остаток равен $5$.
+У исследователя всего четыре наблюдения, $y= (1, 3, 5, 7)$. 
 
-Чему равен прогноз $\hat y_3$ в модели множественной регрессии?
+Найдите общую сумму квадратов $TSS$.
 
 Solution
 ========
 
-По определению остатка!
+По определению $TSS$.
 
 Meta-information
 ================
-exname: calculate forecast given residual and y
+exname: find tss
 extype: num
-exsolution: -3
+exsolution: 20
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Coefficients formula
+exsection: OLS/Sum of squares

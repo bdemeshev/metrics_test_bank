@@ -1,23 +1,23 @@
 Question
 ========
 
-Модель $y_i = \beta_1 + \beta_x x_i + u_i$ оценивают с помощью МНК.
-Известно, что $\bar x= 2$, $\bar y = 4$, и $\hat \beta_x = 5$.
+В модели множественной регрессии $\hat y_i = 2 + 3 x_i + 7 z_i -6 w_i$ оценённая сумма квадратов равна $777$. 
+Для оценивания использовали 200 наблюдений. 
 
-Чему равна ордината пересечения линии регрессии с вертикальной осью $Oy$?
+Найдите сумму $\sum_i \hat y_i (\hat y_i - \bar y)$.
 
 Solution
 ========
 
-Регрессия проходит через среднюю точку.
+По определению $TSS$.
 
 Meta-information
 ================
-exname: calculate beta x
+exname: find modified ess
 extype: num
-exsolution: -6
+exsolution: 777
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Coefficients formula
+exsection: OLS/Sum of squares

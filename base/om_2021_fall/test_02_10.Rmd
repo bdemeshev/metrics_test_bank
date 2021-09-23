@@ -1,31 +1,23 @@
 Question
 ========
 
-Выберите верное равенство для множественной регрессии $y_i = \beta_x x_i + \beta z z_i + \beta_w w_i + u_i$, оцениваемой с помощью МНК.
+В модели множественной регрессии $\hat y_i = 2 + 3 x_i + 7 z_i -6 w_i$ оценённая сумма квадратов равна $777$. 
+Для оценивания использовали 200 наблюдений. Остатки обозначим вектором $\hat u$.
 
-Остатки обозначим $\hat u_i$.
-
-Answerlist
-----------
-* $\sum w_i \hat u_i = 0$
-* $\sum \hat u_i = 0$
-* $\sum \hat u_i y_i = 0$
-* $\sum x_i y_i = 0$
-* $\sum x_i z_i = 0$
-* $\sum x_i u_i = 0$
+Найдите сумму $\sum_i \hat y_i \hat u_i$.
 
 Solution
 ========
 
-Модель без константы!
+Остатки ортогональны регрессорам, а прогнозы строятся из регрессоров. 
 
 Meta-information
 ================
-exname: regression foc
-extype: schoice
-exsolution: 100000
-exshuffle: 6
+exname: orthogonality of residuals and predictions
+extype: num
+exsolution: 0
+extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Coefficients formula
+exsection: OLS/Orthogonality
