@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/R2</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q01 : base_om_2021_fall_test_02_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>В модели парной регрессии выборочная корреляция между зависимой переменной и предиктором равна <span class="math inline">\(-0.7\)</span>.</p>
+<p>Найдите выборочную корреляцию между зависимой переменной и прогнозами.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Прогнозы линейно зависят от предиктора…</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.7</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/R2</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q02 : base_om_2021_fall_test_02_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Исследовательница Василиса построила парную регрессию <span class="math inline">\(\hat y_i = 2 - 3 x_i\)</span> c <span class="math inline">\(R^2=0.64\)</span>.</p>
+<p>Найдите выборочную корреляцию между зависимой переменной <span class="math inline">\(y\)</span> и предиктором <span class="math inline">\(x\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Прогнозы линейно зависят от предиктора…</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-0.8</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/R2</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q03 : base_om_2021_fall_test_02_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Что может произойти с <span class="math inline">\(R^2\)</span> при добавлении нового наблюдения в модель множественной регрессии с константой?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Достаточно поэкспериментировать с парной регрессией или картинкой на плоскости.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Коэффициент <span class="math inline">\(R^2\)</span> может измениться в любую сторону.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Коэффициент <span class="math inline">\(R^2\)</span> обязательно вырастет.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Коэффициент <span class="math inline">\(R^2\)</span> обязательно упадёт.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Коэффициент <span class="math inline">\(R^2\)</span> может остаться неизменным или упасть.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Коэффициент <span class="math inline">\(R^2\)</span> может остаться неизменным или вырасти.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/R2</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q04 : base_om_2021_fall_test_02_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Спящая Красавица построила парную регрессию с <span class="math inline">\(R^2=0.9\)</span> по 99 наблюдениям. Злая Фея-Крестная Карабос добавляет Спящей Красавице ровно одно наблюдение, чтобы максимально снизить коэффициент детерминации.</p>
+<p>Какого значения <span class="math inline">\(R^2\)</span> сможет добиться Злая Фея?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Картинка на плоскости может помочь…</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Sum of squares</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q05 : base_om_2021_fall_test_02_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Аркадий оценил модель множественной регрессии с константой, а Борислав добавил в эту модель ещё два предиктора.</p>
+<p>Они, соответственно, получили суммы квадратов остатков <span class="math inline">\(RSS_a\)</span> и <span class="math inline">\(RSS_b\)</span>, общие суммы квадратов <span class="math inline">\(TSS_a\)</span> и <span class="math inline">\(TSS_b\)</span>, и оценённые суммы квадратов <span class="math inline">\(ESS_a\)</span>, <span class="math inline">\(ESS_b\)</span>.</p>
+<p>Выберите верное утверждение.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Выбор модели не влияет на исходные значения <span class="math inline">\(y_i\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(ESS_a = ESS_b\)</span>, <span class="math inline">\(TSS_a \leq TSS_b\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(RSS_a = RSS_b\)</span>, <span class="math inline">\(ESS_a \geq ESS_b\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(RSS_a = RSS_b\)</span>, <span class="math inline">\(ESS_a \leq ESS_b\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(TSS_a = TSS_b\)</span>, <span class="math inline">\(RSS_a \leq RSS_b\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(TSS_a = TSS_b\)</span>, <span class="math inline">\(RSS_a \geq RSS_b\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(ESS_a = ESS_b\)</span>, <span class="math inline">\(TSS_a \geq TSS_b\)</span>.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Orthogonality</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q06 : base_om_2021_fall_test_02_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Абу Али Яхья ибн Галиб аль-Хайят оценил множественную регрессию <span class="math inline">\(\hat y_i = \hat\beta_1 + \hat\beta_x x_i + \hat\beta_z z_i\)</span>. Обозначим вектор остатков с помощью <span class="math inline">\(\hat u\)</span>.</p>
+<p>Выберите пары ортогональных векторов.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Ортогональные векторы.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(y \perp x\)</span> и <span class="math inline">\(y \perp x + z\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(x \perp y\)</span> и <span class="math inline">\(x \perp y + z\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat y \perp x\)</span> и <span class="math inline">\(\hat y \perp x + z\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(y \perp \hat u\)</span> и <span class="math inline">\(y \perp y + \hat u\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u \perp y\)</span> и <span class="math inline">\(\hat u \perp y + z\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat u \perp x\)</span> и <span class="math inline">\(\hat u \perp x + z\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Sum of squares</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q07 : base_om_2021_fall_test_02_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>У исследователя всего четыре наблюдения, <span class="math inline">\(y= (1, 3, 5, 7)\)</span>.</p>
+<p>Найдите общую сумму квадратов <span class="math inline">\(TSS\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>По определению <span class="math inline">\(TSS\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>20</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Sum of squares</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q08 : base_om_2021_fall_test_02_08 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>В модели множественной регрессии с константой оказалось, что сумма квадратов остатков равна <span class="math inline">\(100\)</span>, а общая сумма квадратов равна <span class="math inline">\(1000\)</span>.</p>
+<p>Найдите <span class="math inline">\(\sum_i (y_i - \hat y_i)^2\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Теорема Пифагора в действии.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>900</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Sum of squares</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q09 : base_om_2021_fall_test_02_09 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>В модели множественной регрессии <span class="math inline">\(\hat y_i = 2 + 3 x_i + 7 z_i -6 w_i\)</span> оценённая сумма квадратов равна <span class="math inline">\(777\)</span>. Для оценивания использовали 200 наблюдений.</p>
+<p>Найдите сумму <span class="math inline">\(\sum_i \hat y_i (\hat y_i - \bar y)\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>По определению <span class="math inline">\(TSS\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>777</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/OLS/Orthogonality</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q10 : base_om_2021_fall_test_02_10 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>В модели множественной регрессии <span class="math inline">\(\hat y_i = 2 + 3 x_i + 7 z_i -6 w_i\)</span> оценённая сумма квадратов равна <span class="math inline">\(777\)</span>. Для оценивания использовали 200 наблюдений. Остатки обозначим вектором <span class="math inline">\(\hat u\)</span>.</p>
+<p>Найдите сумму <span class="math inline">\(\sum_i \hat y_i \hat u_i\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Остатки ортогональны регрессорам, а прогнозы строятся из регрессоров.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+</quiz>
