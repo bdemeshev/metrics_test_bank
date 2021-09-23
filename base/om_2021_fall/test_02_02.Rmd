@@ -1,0 +1,22 @@
+Question
+========
+
+Исследовательница Василиса построила парную регрессию $\hat y_i = 2 - 3 x_i$ c $R^2=0.64$.
+
+Найдите выборочную корреляцию между зависимой переменной $y$ и предиктором $x$. 
+
+Solution
+========
+
+Прогнозы линейно зависят от предиктора...
+
+Meta-information
+================
+exname: calculate sample correlation given R2
+extype: num
+exsolution: -0.8
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/R2

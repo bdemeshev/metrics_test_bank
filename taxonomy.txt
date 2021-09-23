@@ -5,6 +5,7 @@ Moments
 
 # ols without statistics
 OLS
+OLS/Orthogonality
 OLS/Sum of squares
 OLS/R2
 OLS/Residuals
