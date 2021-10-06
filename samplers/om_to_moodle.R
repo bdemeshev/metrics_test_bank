@@ -7,7 +7,7 @@ library(rio)
 library(exams)
 # library(rexamsconverter)
 
-files_df = tibble(filename = list.files('../base/om_2021_fall/', pattern = "test_02", full.names = TRUE, recursive = TRUE))
+files_df = tibble(filename = list.files('../base/om_2021_fall/', pattern = "test_03", full.names = TRUE, recursive = TRUE))
 
 files_df
 
@@ -30,3 +30,4 @@ res = exams2moodle(files_df$filename,
                    schoice = list(shuffle = TRUE, enumerate = FALSE))
 
 # ПЕРЕИМЕНУЙТЕ СРАЗУ ФАЙЛ xml УНИКАЛЬНЫМ ИМЕНЕМ
+file.rename('../snapshots/moodlequiz.xml', '../snapshots/om_test_03.xml')

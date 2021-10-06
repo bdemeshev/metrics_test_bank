@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/Distributions/Continuous/t-distribution</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q01 : base_om_2021_fall_test_03_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Случайная величина <span class="math inline">\(X\)</span> имеет <span class="math inline">\(t\)</span>-распределение с пятью степенями свободы.</p>
+<p>Найдите вероятность <span class="math inline">\(\mathbb{P}(X &gt; 1)\)</span>.</p>
+<p>Можно использовать статистические функции в R/Python или других программах. Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>В R можно использовать функцию pt.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.18</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/Distributions/Continuous/Chi-squared</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q02 : base_om_2021_fall_test_03_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Случайная величина <span class="math inline">\(X\)</span> имеет <span class="math inline">\(\chi^2\)</span>-распределение с шестью степенями свободы.</p>
+<p>Найдите число <span class="math inline">\(a\)</span>, такое что <span class="math inline">\(\mathbb{P}(X &gt; a) = 0.05\)</span>.</p>
+<p>Можно использовать статистические функции в R/Python или других программах. Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>В R можно использовать функцию qchisq.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>12.59</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/Probability/Elementary Probability/Random variables/Expected value conditional on random variable</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q03 : base_om_2021_fall_test_03_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Случайные величины <span class="math inline">\(r\)</span> и <span class="math inline">\(s\)</span> независимы и равновероятно равны <span class="math inline">\(0\)</span> или <span class="math inline">\(1\)</span>. Чему равно условное ожидание <span class="math inline">\(\mathbb E(rs + s^2 \mid r)\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Для независимых величин <span class="math inline">\(\mathbb E(s \mid r) = \mathbb E(s)\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(rs + s^2\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.5r + 0.5\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(r + 0.5\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.5r + 0.25\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(r + 1\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/Probability/Elementary Probability/Random variables/Variance conditional on random variable</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q04 : base_om_2021_fall_test_03_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Случайные величины <span class="math inline">\(r\)</span> и <span class="math inline">\(s\)</span> независимы и равновероятно равны <span class="math inline">\(0\)</span> или <span class="math inline">\(1\)</span>. Чему равна условная дисперсия <span class="math inline">\(\mathrm{Var}(r + s^2 \mid r)\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Для независимых величин <span class="math inline">\(\mathbb E(s \mid r) = \mathbb E(s)\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(r + 0.5\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(r + 0.25\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(r\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.25\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.5\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/OLS/Expected values</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q05 : base_om_2021_fall_test_03_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель <span class="math display">\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i.
+\]</span></p>
+<p>Буквой <span class="math inline">\(X\)</span> обозначена матрица всех предикторов. Выполнены классические предпосылки на ошибку <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i \mid X) = 0\)</span>.</p>
+<p>Найдите условное ожидание <span class="math inline">\(\mathbb E(y_i \mid X)\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подумайте, какие величины являются константами или известными случайными величинами, если известна матрица <span class="math inline">\(X\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\beta_1 + \beta_2 x_i + \beta_3 x_i^2\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat y_i\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\beta_1 + \beta_2 x_i\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\hat\beta_1 + \hat\beta_2 x_i + \hat\beta_3 x_i^2\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q06 : base_om_2021_fall_test_03_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель <span class="math display">\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i\cdot x_i.
+\]</span></p>
+<p>Буквой <span class="math inline">\(X\)</span> обозначена матрица всех предикторов. Выполнены классические предпосылки на ошибку <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i \mid X) = 0\)</span>.</p>
+<p>Найдите условную дисперсию <span class="math inline">\(\mathrm{Var}(y_i \mid X)\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подумайте, какие величины являются константами или известными случайными величинами, если известна матрица <span class="math inline">\(X\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sigma x_i\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sigma^2 \cdot x_i^2\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\sigma^2\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(x_i^2\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(x_i\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(u_i^2\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q07 : base_om_2021_fall_test_03_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель <span class="math display">\[
+y_i = \beta_1 + \beta_2 x_i + u_i.
+\]</span></p>
+<p>Буквой <span class="math inline">\(X\)</span> обозначена матрица всех предикторов. Выполнены классические предпосылки на ошибку <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i \mid X) = 0\)</span>.</p>
+<p>По 100 наблюдениям оказалось, что <span class="math inline">\(\sum x_i^2 = 40\)</span>, <span class="math inline">\(\sum (x_i - \bar x)^2 = 20\)</span>.</p>
+<p>Найдите величину <span class="math inline">\(\mathrm{Var}(\hat \beta_2 \mid X) / \sigma^2\)</span>.</p>
+<p>Ответ вводите с точность до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Можно воспользоваться готовой формулой для условной дисперсии :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.05</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q08 : base_om_2021_fall_test_03_08 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель <span class="math display">\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+\]</span></p>
+<p>Все предпосылки классической регрессионной модели выполнены. По 25 наблюдениям оказалось, что сумма квадратов остатков равна <span class="math inline">\(RSS = 60\)</span>.</p>
+<p>Найдите несмещённую оценку для дисперсии случайной ошибки.</p>
+<p>Ответ вводите с точность до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Обратите внимание на число регрессоров!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.73</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q09 : base_om_2021_fall_test_03_09 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель <span class="math display">\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+\]</span></p>
+<p>Все предпосылки классической регрессионной модели выполнены. По 25 наблюдениям оказалось, что сумма квадратов остатков равна <span class="math inline">\(RSS = 60\)</span>.</p>
+<p>В регрессии <span class="math inline">\(z\)</span> на остальные предикторы оказалось, что <span class="math inline">\(RSS_z = 30\)</span>.</p>
+<p>Найдите оценку дисперсии <span class="math inline">\(\widehat{\mathrm{Var}}(\hat \beta_3 \mid X)\)</span>.</p>
+<p>Ответ вводите с точность до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Обратите внимание на число предикторов :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.09</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/moodlequiz/combat_03/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q10 : base_om_2021_fall_test_03_10 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель <span class="math display">\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+\]</span></p>
+<p>Оценка ковариационной матрицы коэффициентов равна <span class="math display">\[
+\begin{pmatrix}
+10 &amp; -2 &amp; -1 \\
+? &amp; 20 &amp; 2 \\
+? &amp; ? &amp; 30 \\
+\end{pmatrix}
+\]</span></p>
+<p>Найдите оценку дисперсии <span class="math inline">\(\widehat{\mathrm{Var}}(\hat \beta_2 \mid X)\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Выберите нужное число :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>20</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+</quiz>
