@@ -1,0 +1,31 @@
+Question
+========
+
+Случайные величины $r$ и $s$ независимы и равновероятно равны $0$ или $1$. 
+Чему равно условное ожидание $\mathbb E(rs + s^2 \mid r)$?
+
+Answerlist
+----------
+* $0.5r + 0.5$
+* $0.5r + 0.25$
+* $r + 1$
+* $rs + s^2$
+* $r + 0.5$
+
+
+Solution
+========
+
+Для независимых величин $\mathbb E(s \mid r) = \mathbb E(s)$.
+
+Meta-information
+================
+exname: conditional expected value
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: combat_03/Probability/Elementary Probability/Random variables/Expected value conditional on random variable
+

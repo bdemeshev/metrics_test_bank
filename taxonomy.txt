@@ -15,6 +15,8 @@ OLS/Point forecast
 OLS/Dummy variables
 
 # ols under classical assumptions
+OLS/Expected values
+OLS/Variance and covariance
 OLS/Gauss-Markov theorem
 OLS/Coefficient t-test
 OLS/Coefficient confidence interval

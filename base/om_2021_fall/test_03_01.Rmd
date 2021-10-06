@@ -1,0 +1,27 @@
+Question
+========
+
+Случайная величина $X$ имеет $t$-распределение с пятью степенями свободы. 
+
+Найдите вероятность $\mathbb{P}(X > 1)$. 
+
+Можно использовать статистические функции в R/Python или других программах.
+Ответ вводите с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+В R можно использовать функцию pt.
+
+Meta-information
+================
+exname: student distribution probability
+extype: num
+exsolution: 0.18
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: combat_03/Distributions/Continuous/t-distribution
+
+
