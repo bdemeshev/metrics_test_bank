@@ -1,23 +1,30 @@
 Question
 ========
 
-В модели множественной регрессии с константой оказалось, что сумма квадратов остатков равна $100$, 
-а общая сумма квадратов равна $1000$.
+Рассмотрим модель
+$$
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+$$
 
-Найдите $\sum_i (y_i - \hat y_i)^2$.
+Все предпосылки классической регрессионной модели выполнены. 
+По 25 наблюдениям оказалось, что сумма квадратов остатков равна $RSS = 60$. 
+
+Найдите несмещённую оценку для дисперсии случайной ошибки. 
+
+Ответ вводите с точность до двух знаков после десятичной точки. 
 
 Solution
 ========
 
-Теорема Пифагора в действии. 
+Обратите внимание на число регрессоров!
 
 Meta-information
 ================
-exname: find ess
+exname: estimate error variance
 extype: num
-exsolution: 900
+exsolution: 2.73 
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Sum of squares
+exsection: combat_03/OLS/Variance and covariance

@@ -1,23 +1,34 @@
 Question
 ========
 
-В модели множественной регрессии $\hat y_i = 2 + 3 x_i + 7 z_i -6 w_i$ оценённая сумма квадратов равна $777$. 
-Для оценивания использовали 200 наблюдений. Остатки обозначим вектором $\hat u$.
+Рассмотрим модель
+$$
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+$$
 
-Найдите сумму $\sum_i \hat y_i \hat u_i$.
+Оценка ковариационной матрицы коэффициентов равна 
+$$
+\begin{pmatrix}
+10 & -2 & -1 \\
+? & 20 & 2 \\
+? & ? & 30 \\
+\end{pmatrix}
+$$
+
+Найдите оценку дисперсии $\widehat{\mathrm{Var}}(\hat \beta_2 \mid X)$.
 
 Solution
 ========
 
-Остатки ортогональны регрессорам, а прогнозы строятся из регрессоров. 
+Выберите нужное число :)
 
 Meta-information
 ================
-exname: orthogonality of residuals and predictions
+exname: the structure of cov matrix
 extype: num
-exsolution: 0
+exsolution: 20
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Orthogonality
+exsection: combat_03/OLS/Variance and covariance
