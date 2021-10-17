@@ -1,27 +1,32 @@
 Question
 ========
 
-Случайная величина $X$ имеет $t$-распределение с пятью степенями свободы. 
+Исследователь Августин оценивает парную регрессию $y_i = \beta_1 + \beta_2 x_i + u_i$.
+На ошибки выполнены классические предпосылки, $\mathbb E(u_i \mid X) = 0$, $\mathrm{Var}(u_i \mid X) = \sigma^2$,
+$\mathrm{Cov}(u_i, u_j \mid X) = 0$ для $i\neq j$.
 
-Найдите вероятность $\mathbb{P}(X > 1)$. 
+В отличие от обычных исследователей Августин знает истинное значение $\sigma^2 = 42$.
 
-Можно использовать статистические функции в R/Python или других программах.
+В регрессии по выборке из 100 наблюдений оказалось, что $\sum (x_i - \bar x)^2 = 200$.
+
+Чему равно истинное значение дисперсии $\mathrm{Var}(\hat\beta_2 \mid X)$?
+
 Ответ вводите с точностью до двух знаков после десятичной точки. 
 
 Solution
 ========
 
-В R можно использовать функцию pt.
+Можно без доказательства пользоваться формулой истинной дисперсии :)
 
 Meta-information
 ================
-exname: student distribution probability
+exname: true conditional variance 
 extype: num
-exsolution: 0.18
+exsolution: 0.21
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: combat_03/Distributions/Continuous/t-distribution
+exsection: OLS/Variance and covariance
 
 
