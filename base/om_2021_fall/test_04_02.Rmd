@@ -1,27 +1,31 @@
 Question
 ========
 
-Случайная величина $X$ имеет $\chi^2$-распределение с шестью степенями свободы. 
+Исследователь Пантелеймон оценивает парную регрессию $y_i = \beta_1 + \beta_2 x_i + u_i$.
+На ошибки выполнены классические предпосылки, $\mathbb E(u_i \mid X) = 0$, $\mathrm{Var}(u_i \mid X) = \sigma^2$,
+$\mathrm{Cov}(u_i, u_j \mid X) = 0$ для $i\neq j$.
 
-Найдите число $a$, такое что $\mathbb{P}(X > a) = 0.05$. 
+Пантелеймон знает, что сумма квадратов остатков в исходной регрессии оказалась равной $100$, а во вспомогательной регрессии 
+$\hat x_i = \hat \gamma$ сумма квадратов остатков равна $20$. Обе регрессии построены по 102 наблюдениям.
 
-Можно использовать статистические функции в R/Python или других программах.
+Какую несмещённую оценку для $\mathrm{Var}(\hat\beta_2 \bar X)$ получит Пантелеймон?
+
 Ответ вводите с точностью до двух знаков после десятичной точки. 
 
 Solution
 ========
 
-В R можно использовать функцию qchisq.
+Можно без доказательства пользоваться формулой истинной дисперсии :)
 
 Meta-information
 ================
-exname: chi squared quantile
+exname: estimated conditional variance 
 extype: num
-exsolution: 12.59
+exsolution: 0.05
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: combat_03/Distributions/Continuous/Chi-squared
+exsection: OLS/Variance and covariance
 
 
