@@ -1,0 +1,27 @@
+Question
+========
+
+Случайная величина $X$ имеет $\chi^2$-распределение с шестью степенями свободы. 
+
+Найдите число $a$, такое что $\mathbb{P}(X > a) = 0.05$. 
+
+Можно использовать статистические функции в R/Python или других программах.
+Ответ вводите с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+В R можно использовать функцию qchisq.
+
+Meta-information
+================
+exname: chi squared quantile
+extype: num
+exsolution: 12.59
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: combat_03/Distributions/Continuous/Chi-squared
+
+

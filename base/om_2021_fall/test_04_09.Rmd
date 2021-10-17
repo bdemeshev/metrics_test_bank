@@ -1,0 +1,32 @@
+Question
+========
+
+Рассмотрим модель
+$$
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+$$
+
+Все предпосылки классической регрессионной модели выполнены. 
+По 25 наблюдениям оказалось, что сумма квадратов остатков равна $RSS = 60$. 
+
+В регрессии $z$ на остальные предикторы оказалось, что $RSS_z = 30$.
+
+Найдите оценку дисперсии $\widehat{\mathrm{Var}}(\hat \beta_3 \mid X)$.
+
+Ответ вводите с точность до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Обратите внимание на число предикторов :)
+
+Meta-information
+================
+exname: estimate beta hat variance
+extype: num
+exsolution: 0.09
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: combat_03/OLS/Variance and covariance
