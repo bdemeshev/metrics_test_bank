@@ -1,31 +1,26 @@
 Question
 ========
 
-Случайные величины $r$ и $s$ независимы и равновероятно равны $0$ или $1$. 
-Чему равно условное ожидание $\mathbb E(rs + s^2 \mid r)$?
+Пантелеймон включил в модель 200 совершенно бессмысленных регрессоров, которые никак не влияют 
+на переменную $y$. 
+Пантелеймон не знает этого и проверяет значимость коэффициента при каждом коэффициенте на уровне значимости $\alpha = 0.02$.
 
-Answerlist
-----------
-* $0.5r + 0.5$
-* $0.5r + 0.25$
-* $r + 1$
-* $rs + s^2$
-* $r + 0.5$
-
+Сколько ложно значимых регрессоров в среднем обнаружит Пантелеймон?
 
 Solution
 ========
 
-Для независимых величин $\mathbb E(s \mid r) = \mathbb E(s)$.
+Ожидаемое количество равно произведению числа попыток на вероятность ложного срабатывания. 
 
 Meta-information
 ================
-exname: conditional expected value
-extype: schoice
-exsolution: 10000
-exshuffle: 5
+exname: expected value of spurious significance
+extype: num
+exsolution: 4
+extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: combat_03/Probability/Elementary Probability/Random variables/Expected value conditional on random variable
+exsection: OLS/Coefficient t-test
+
 

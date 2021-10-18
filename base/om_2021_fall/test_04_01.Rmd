@@ -1,28 +1,30 @@
 Question
 ========
 
-Исследователь Августин оценивает парную регрессию $y_i = \beta_1 + \beta_2 x_i + u_i$.
-На ошибки выполнены классические предпосылки, $\mathbb E(u_i \mid X) = 0$, $\mathrm{Var}(u_i \mid X) = \sigma^2$,
-$\mathrm{Cov}(u_i, u_j \mid X) = 0$ для $i\neq j$.
+Оценка ковариационной матрицы оценок коэффициентов $(\hat\beta_1, \hat\beta_2, \hat\beta_3)$ имеет вид
+$$
+\begin{pmatrix}
+5 & 1 & 1 \\
+1 & 6 & -1 \\
+1 & -1 & 9 \\
+\end{pmatrix}.
+$$
 
-В отличие от обычных исследователей Августин знает истинное значение $\sigma^2 = 42$.
-
-В регрессии по выборке из 100 наблюдений оказалось, что $\sum (x_i - \bar x)^2 = 200$.
-
-Чему равно истинное значение дисперсии $\mathrm{Var}(\hat\beta_2 \mid X)$?
+Найдите стандартную ошибку $se(\hat\beta_2 - \hat\beta_3)$.
 
 Ответ вводите с точностью до двух знаков после десятичной точки. 
+
 
 Solution
 ========
 
-Можно без доказательства пользоваться формулой истинной дисперсии :)
+Дисперсия разности равна сумме дисперсий минус удвоенные ковариации. 
 
 Meta-information
 ================
-exname: true conditional variance 
+exname: square root of variance
 extype: num
-exsolution: 0.21
+exsolution: 4.12
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian

@@ -1,34 +1,40 @@
 Question
 ========
 
-Рассмотрим модель
-$$
-y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
-$$
+Капитолина оценила регрессию $\hat y_i = 0.7 + 2x_i + 3w_i$ с помощью МНК по 1000 наблюдениям.
 
-Оценка ковариационной матрицы коэффициентов равна 
-$$
-\begin{pmatrix}
-10 & -2 & -1 \\
-? & 20 & 2 \\
-? & ? & 30 \\
-\end{pmatrix}
-$$
+Она хочет проверить гипотезу $\beta_x = \beta_w$, однако не хочет ничего рассчитывать руками.
+Как поступить Капитолине, чтобы легко проверить желаемую гипотезу по стандартной табличке,
+выдаваемой статистическими программами?
 
-Найдите оценку дисперсии $\widehat{\mathrm{Var}}(\hat \beta_2 \mid X)$.
+Answerlist
+----------
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i$,
+посмотреть на значимость коэффициента $\hat\beta_3$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i$,
+посмотреть на значимость коэффициента $\hat\beta_3$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i$,
+посмотреть на значимость коэффициента $\hat\beta_2$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i$,
+посмотреть на значимость коэффициента $\hat\beta_2$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 (w_i - x_i)$,
+посмотреть на значимость коэффициента $\hat\beta_3$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 (x_i - w_i)$,
+посмотреть на значимость коэффициента $\hat\beta_2$.
+
 
 Solution
 ========
 
-Выберите нужное число :)
+Какая из предложенных моделей будет соответствовать нулевой гипотезе при замене оценки коэффициента на ноль?
 
 Meta-information
 ================
-exname: the structure of cov matrix
-extype: num
-exsolution: 20
-extol: 0.01
+exname: regression to test automatically
+extype: schoice
+exsolution: 100000
+exshuffle: 6
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: combat_03/OLS/Variance and covariance
+exsection: OLS/Coefficient t-test

@@ -1,32 +1,29 @@
 Question
 ========
 
-Случайные величины $r$ и $s$ независимы и равновероятно равны $0$ или $1$. 
-Чему равна условная дисперсия $\mathrm{Var}(r + s^2 \mid r)$?
+Агнесса оценила регрессию $\hat y_i = 0.7 + 2x_i + 3w_i$ с помощью МНК по 1000 наблюдений.
+Классические стандартные ошибки коэффициентов равны $0.1$, $0.2$ и $0.3$ соответственно. 
 
-Answerlist
-----------
-* $0.25$
-* $0.5$
-* $1$
-* $r$
-* $r + 0.25$
-* $r + 0.5$
+Наблюдения являются независимыми, на ошибки выполнены классические предпосылки, $\mathbb E(u_i \mid X) = 0$, $\mathrm{Var}(u_i \mid X) = \sigma^2$,
+$\mathrm{Cov}(u_i, u_j \mid X) = 0$ для $i\neq j$.
 
+Найдите 80\% доверительный интервал для коэффициента $\beta_x$. 
+
+В ответе укажите правую границу интервала с точнотью до двух знаков после десятичной точки. 
 
 Solution
 ========
 
-Для независимых величин $\mathbb E(s \mid r) = \mathbb E(s)$.
+Обратите внимание на требуемое критическое значение статистики. 
 
 Meta-information
 ================
-exname: conditional variance
-extype: schoice
-exsolution: 100000
-exshuffle: 6
+exname: confidence interval for coefficient asymptotic
+extype: num
+exsolution: 2.26
+extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: combat_03/Probability/Elementary Probability/Random variables/Variance conditional on random variable
+exsection: OLS/Coefficient confidence interval
 

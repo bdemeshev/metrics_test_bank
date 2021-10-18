@@ -1,41 +1,29 @@
 Question
 ========
 
-Рассмотрим модель
-$$
-y_i = \beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i.
-$$
+Капитолина оценила регрессию $\hat y_i = 0.7 + 2x_i + 3w_i$ с помощью МНК по 10 наблюдениям.
+Классические стандартные ошибки коэффициентов равны $0.1$, $0.2$ и $0.3$ соответственно. 
 
-Буквой $X$ обозначена матрица всех предикторов. 
-Выполнены классические предпосылки на ошибку $\mathbb E(u_i \mid X) = 0$, $\mathrm{Var}(u_i \mid X) = \sigma^2$, $\mathrm{Cov}(u_i \mid X) = 0$.
+Наблюдения являются независимыми, 
+на ошибки выполнены классические предпосылки и предпосылка о нормальности, $u_i\sim \mathcal N(0;\sigma^2)$, $\mathrm{Cov}(u_i, u_j \mid X) = 0$ для $i\neq j$.
 
-Найдите условное ожидание $\mathbb E(y_i \mid X)$.
+Найдите 80\% доверительный интервал для коэффициента $\beta_x$. 
 
-
-Answerlist
-----------
-* $\beta_1 + \beta_2 x_i + \beta_3 x_i^2$
-* $\hat\beta_1 + \hat\beta_2 x_i + \hat\beta_3 x_i^2$
-* $\hat y_i$
-* $0$
-* $\beta_1 + \beta_2 x_i$
-* $\beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i$
-
+В ответе укажите левую границу интервала с точнотью до двух знаков после десятичной точки. 
 
 Solution
 ========
 
-Подумайте, какие величины являются константами или известными случайными величинами, если известна матрица $X$. 
+Обратите внимание на требуемое критическое значение статистики. 
 
 Meta-information
 ================
-exname: conditional expected value in regression
-extype: schoice
-exsolution: 100000
-exshuffle: 6
+exname: confidence interval for coefficient small n
+extype: num
+exsolution: 0.59
+extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: combat_03/OLS/Expected values
-
+exsection: OLS/Coefficient confidence interval
 
