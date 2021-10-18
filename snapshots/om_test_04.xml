@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q01 : base_om_2021_fall_test_04_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Оценка ковариационной матрицы оценок коэффициентов <span class="math inline">\((\hat\beta_1, \hat\beta_2, \hat\beta_3)\)</span> имеет вид <span class="math display">\[
+\begin{pmatrix}
+5 &amp; 1 &amp; 1 \\
+1 &amp; 6 &amp; -1 \\
+1 &amp; -1 &amp; 9 \\
+\end{pmatrix}.
+\]</span></p>
+<p>Найдите стандартную ошибку <span class="math inline">\(se(\hat\beta_2 - \hat\beta_3)\)</span>.</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Дисперсия разности равна сумме дисперсий минус удвоенные ковариации.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4.12</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q02 : base_om_2021_fall_test_04_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Исследователь Пантелеймон оценивает парную регрессию <span class="math inline">\(y_i = \beta_1 + \beta_2 x_i + u_i\)</span>. На ошибки выполнены классические предпосылки, <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i, u_j \mid X) = 0\)</span> для <span class="math inline">\(i\neq j\)</span>.</p>
+<p>Пантелеймон знает, что сумма квадратов остатков в исходной регрессии оказалась равной <span class="math inline">\(100\)</span>, а во вспомогательной регрессии <span class="math inline">\(\hat x_i = \hat \gamma\)</span> сумма квадратов остатков равна <span class="math inline">\(20\)</span>. Обе регрессии построены по 102 наблюдениям.</p>
+<p>Какую несмещённую оценку для <span class="math inline">\(\mathrm{Var}(\hat\beta_2 \bar X)\)</span> получит Пантелеймон?</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Можно без доказательства пользоваться формулой истинной дисперсии :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.05</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Coefficient t-test</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q03 : base_om_2021_fall_test_04_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Пантелеймон включил в модель 200 совершенно бессмысленных регрессоров, которые никак не влияют на переменную <span class="math inline">\(y\)</span>. Пантелеймон не знает этого и проверяет значимость коэффициента при каждом коэффициенте на уровне значимости <span class="math inline">\(\alpha = 0.02\)</span>.</p>
+<p>Сколько ложно значимых регрессоров в среднем обнаружит Пантелеймон?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Ожидаемое количество равно произведению числа попыток на вероятность ложного срабатывания.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>4</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Coefficient confidence interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q04 : base_om_2021_fall_test_04_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Агнесса оценила регрессию <span class="math inline">\(\hat y_i = 0.7 + 2x_i + 3w_i\)</span> с помощью МНК по 1000 наблюдений. Классические стандартные ошибки коэффициентов равны <span class="math inline">\(0.1\)</span>, <span class="math inline">\(0.2\)</span> и <span class="math inline">\(0.3\)</span> соответственно.</p>
+<p>Наблюдения являются независимыми, на ошибки выполнены классические предпосылки, <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i, u_j \mid X) = 0\)</span> для <span class="math inline">\(i\neq j\)</span>.</p>
+<p>Найдите 80% доверительный интервал для коэффициента <span class="math inline">\(\beta_x\)</span>.</p>
+<p>В ответе укажите правую границу интервала с точнотью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Обратите внимание на требуемое критическое значение статистики.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.26</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Coefficient confidence interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q05 : base_om_2021_fall_test_04_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Капитолина оценила регрессию <span class="math inline">\(\hat y_i = 0.7 + 2x_i + 3w_i\)</span> с помощью МНК по 10 наблюдениям. Классические стандартные ошибки коэффициентов равны <span class="math inline">\(0.1\)</span>, <span class="math inline">\(0.2\)</span> и <span class="math inline">\(0.3\)</span> соответственно.</p>
+<p>Наблюдения являются независимыми, на ошибки выполнены классические предпосылки и предпосылка о нормальности, <span class="math inline">\(u_i\sim \mathcal N(0;\sigma^2)\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i, u_j \mid X) = 0\)</span> для <span class="math inline">\(i\neq j\)</span>.</p>
+<p>Найдите 80% доверительный интервал для коэффициента <span class="math inline">\(\beta_x\)</span>.</p>
+<p>В ответе укажите левую границу интервала с точнотью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Обратите внимание на требуемое критическое значение статистики.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.59</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Coefficient confidence interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q06 : base_om_2021_fall_test_04_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Винни-Пух построил классический доверительный интервал для коэффициента <span class="math inline">\(\beta_z\)</span> в модели <span class="math inline">\(y_i = \beta_1 + \beta_x x_i + \beta_z z_i + u_i\)</span>. Интервал получился широкий, <span class="math inline">\([-20; 40]\)</span>.</p>
+<p>Какую оценку <span class="math inline">\(\hat\beta_z\)</span> получил Винни-Пух?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Классический доверительный интервал симметричен относительно точечной оценки.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Coefficient t-test</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q07 : base_om_2021_fall_test_04_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Петя и Вася проверяют гипотезу <span class="math inline">\(\beta_x=0\)</span> против альтернативной <span class="math inline">\(\beta_x \neq 0\)</span> по одним и тем же данным, одни и тем же способом. Единственная разница в том, что Петя использует уровень значимости <span class="math inline">\(\alpha = 0.01\)</span>, а Вася — <span class="math inline">\(0.02\)</span>.</p>
+<p>Рассмотрим 4 ситуации:</p>
+<p>А. Петя отверг <span class="math inline">\(H_0\)</span>, Вася отверг <span class="math inline">\(H_0\)</span>.</p>
+<p>Б. Петя отверг <span class="math inline">\(H_0\)</span>, Вася не отверг <span class="math inline">\(H_0\)</span>.</p>
+<p>В. Петя не отверг <span class="math inline">\(H_0\)</span>, Вася отверг <span class="math inline">\(H_0\)</span>.</p>
+<p>Г. Петя не отверг <span class="math inline">\(H_0\)</span>, Вася не отверг <span class="math inline">\(H_0\)</span>.</p>
+<p>Какие из этих ситуаций возможны?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Более высокая ошибка первого рода означает более частое отвержение <span class="math inline">\(H_0\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+только В, Г
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+все возможны
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+только А и Г
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+только А, Б, Г
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+только А, Б
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+только А, В и Г
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Coefficient confidence interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q08 : base_om_2021_fall_test_04_08 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Петя и Вася строят доверительные интервалы для коэффициента наклона в модели парной регрессии. Оба строят интервалы по общему набору данных в 1000 наблюдений. Петя строит 95%-й интервал, а Вася — в два раза более узкий.</p>
+<p>Какую вероятность накрытия имеет Васин интервал?</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+<p>Можно использовать функции из статистических пакетов или таблицы.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подумайте, во сколько раз нужно сократить критическое значение нормального распределения, чтобы ширина доверительного интервала сократилась вдвое.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.67</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Coefficient confidence interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q09 : base_om_2021_fall_test_04_09 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Капитолина оценила регрессию <span class="math inline">\(\hat y_i = 0.7 + 2x_i + 3w_i\)</span> с помощью МНК по 1000 наблюдениям.</p>
+<p>Оценённая ковариационная матрица оценок коэффициентов равна <span class="math display">\[
+\mathrm{Var}(\hat\beta) = 
+\begin{pmatrix}
+4 &amp; 1 &amp; -1 \\
+1 &amp; 9 &amp; 0 \\
+-1 &amp; 0 &amp; 16 \\
+\end{pmatrix}.
+\]</span></p>
+<p>Наблюдения являются независимыми, на ошибки выполнены классические предпосылки, <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i, u_j \mid X) = 0\)</span> для <span class="math inline">\(i\neq j\)</span>.</p>
+<p>Постройте 95%-й доверительный интервал для разницы <span class="math inline">\(\beta_x - \beta_w\)</span>.</p>
+<p>В ответ введите правую границу с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Для некоррелированных величин дисперсия разности равна сумме дисперсий.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>8.8</text>
+<tolerance>0.02</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_04/OLS/Coefficient t-test</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q10 : base_om_2021_fall_test_04_10 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Капитолина оценила регрессию <span class="math inline">\(\hat y_i = 0.7 + 2x_i + 3w_i\)</span> с помощью МНК по 1000 наблюдениям.</p>
+<p>Она хочет проверить гипотезу <span class="math inline">\(\beta_x = \beta_w\)</span>, однако не хочет ничего рассчитывать руками. Как поступить Капитолине, чтобы легко проверить желаемую гипотезу по стандартной табличке, выдаваемой статистическими программами?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Какая из предложенных моделей будет соответствовать нулевой гипотезе при замене оценки коэффициента на ноль?</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 (x_i - w_i)\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 (w_i - x_i)\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>
