@@ -9,6 +9,8 @@ Question
 
 Найдите 80\% доверительный интервал для коэффициента $\beta_x$. 
 
+Можно использовать функции из статистических пакетов или таблицы. 
+
 В ответе укажите левую границу интервала с точнотью до двух знаков после десятичной точки. 
 
 Solution
@@ -20,7 +22,7 @@ Meta-information
 ================
 exname: confidence interval for coefficient small n
 extype: num
-exsolution: 0.59
+exsolution: 1.72
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
