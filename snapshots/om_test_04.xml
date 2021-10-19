@@ -55,7 +55,7 @@
 <text><![CDATA[<p>
 <p>Исследователь Пантелеймон оценивает парную регрессию <span class="math inline">\(y_i = \beta_1 + \beta_2 x_i + u_i\)</span>. На ошибки выполнены классические предпосылки, <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i, u_j \mid X) = 0\)</span> для <span class="math inline">\(i\neq j\)</span>.</p>
 <p>Пантелеймон знает, что сумма квадратов остатков в исходной регрессии оказалась равной <span class="math inline">\(100\)</span>, а во вспомогательной регрессии <span class="math inline">\(\hat x_i = \hat \gamma\)</span> сумма квадратов остатков равна <span class="math inline">\(20\)</span>. Обе регрессии построены по 102 наблюдениям.</p>
-<p>Какую несмещённую оценку для <span class="math inline">\(\mathrm{Var}(\hat\beta_2 \bar X)\)</span> получит Пантелеймон?</p>
+<p>Какую несмещённую оценку для <span class="math inline">\(\mathrm{Var}(\hat\beta_2 \mid X)\)</span> получит Пантелеймон?</p>
 <p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
 </p>]]></text>
 </questiontext>
@@ -120,6 +120,7 @@
 <p>Агнесса оценила регрессию <span class="math inline">\(\hat y_i = 0.7 + 2x_i + 3w_i\)</span> с помощью МНК по 1000 наблюдений. Классические стандартные ошибки коэффициентов равны <span class="math inline">\(0.1\)</span>, <span class="math inline">\(0.2\)</span> и <span class="math inline">\(0.3\)</span> соответственно.</p>
 <p>Наблюдения являются независимыми, на ошибки выполнены классические предпосылки, <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i, u_j \mid X) = 0\)</span> для <span class="math inline">\(i\neq j\)</span>.</p>
 <p>Найдите 80% доверительный интервал для коэффициента <span class="math inline">\(\beta_x\)</span>.</p>
+<p>Можно использовать функции из статистических пакетов или таблицы.</p>
 <p>В ответе укажите правую границу интервала с точнотью до двух знаков после десятичной точки.</p>
 </p>]]></text>
 </questiontext>
@@ -153,6 +154,7 @@
 <p>Капитолина оценила регрессию <span class="math inline">\(\hat y_i = 0.7 + 2x_i + 3w_i\)</span> с помощью МНК по 10 наблюдениям. Классические стандартные ошибки коэффициентов равны <span class="math inline">\(0.1\)</span>, <span class="math inline">\(0.2\)</span> и <span class="math inline">\(0.3\)</span> соответственно.</p>
 <p>Наблюдения являются независимыми, на ошибки выполнены классические предпосылки и предпосылка о нормальности, <span class="math inline">\(u_i\sim \mathcal N(0;\sigma^2)\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i, u_j \mid X) = 0\)</span> для <span class="math inline">\(i\neq j\)</span>.</p>
 <p>Найдите 80% доверительный интервал для коэффициента <span class="math inline">\(\beta_x\)</span>.</p>
+<p>Можно использовать функции из статистических пакетов или таблицы.</p>
 <p>В ответе укажите левую границу интервала с точнотью до двух знаков после десятичной точки.</p>
 </p>]]></text>
 </questiontext>
@@ -164,7 +166,7 @@
 <penalty>0</penalty>
 <defaultgrade>1</defaultgrade>
 <answer fraction="100" format="moodle_auto_format">
-<text>0.59</text>
+<text>1.72</text>
 <tolerance>0.01</tolerance>
 </answer>
 </question>
@@ -233,6 +235,16 @@
 <shuffleanswers>true</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+только А, В и Г
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+только А, Б, Г
+</p>]]></text>
+</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 только В, Г
@@ -245,22 +257,12 @@
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-только А и Г
-</p>]]></text>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-только А, Б, Г
-</p>]]></text>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
 только А, Б
 </p>]]></text>
 </answer>
-<answer fraction="100" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-только А, В и Г
+только А и Г
 </p>]]></text>
 </answer>
 </question>
@@ -323,6 +325,7 @@
 \]</span></p>
 <p>Наблюдения являются независимыми, на ошибки выполнены классические предпосылки, <span class="math inline">\(\mathbb E(u_i \mid X) = 0\)</span>, <span class="math inline">\(\mathrm{Var}(u_i \mid X) = \sigma^2\)</span>, <span class="math inline">\(\mathrm{Cov}(u_i, u_j \mid X) = 0\)</span> для <span class="math inline">\(i\neq j\)</span>.</p>
 <p>Постройте 95%-й доверительный интервал для разницы <span class="math inline">\(\beta_x - \beta_w\)</span>.</p>
+<p>Можно использовать функции из статистических пакетов или таблицы.</p>
 <p>В ответ введите правую границу с точностью до двух знаков после десятичной точки.</p>
 </p>]]></text>
 </questiontext>
@@ -367,16 +370,6 @@
 <shuffleanswers>true</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
-</p>]]></text>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
-</p>]]></text>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 (x_i - w_i)\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
@@ -384,7 +377,12 @@
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 (w_i - x_i)\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
 </p>]]></text>
 </answer>
 <answer fraction="-20" format="html">
@@ -394,7 +392,12 @@
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 (w_i - x_i)\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
 </p>]]></text>
 </answer>
 </question>
