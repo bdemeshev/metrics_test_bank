@@ -1,0 +1,37 @@
+Question
+========
+
+Эконометресса Агнесса была очень недовольна тем, что оценили регрессию 
+$$
+\hat y_i = 5.42 + 3.25 \cdot x_i - 2.51 male_i.
+$$
+Ведь переменная $male_i$ равна единице для мужчин и нулю для женщин. 
+
+Поэтому Агнесса переоценила модель с помощью переменной $female_i$, 
+которая равна нулю для мужчин и единице для женщин:
+$$
+\hat y_i = \hat\alpha_1 + \hat\alpha_2 x_i + \hat\alpha_3 female_i.
+$$
+
+Какую оценку $\hat\alpha_1$ получила Агнесса?
+
+Ответ вводите с точностью до двух знаков после десятичной точки. 
+
+
+Solution
+========
+
+Можно приравнять прогнозные значения для женщин по обеим моделям. И для мужчин :)
+
+Meta-information
+================
+exname: male to female dummy
+extype: num
+exsolution: 2.91
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Variance and covariance
+
+

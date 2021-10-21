@@ -1,0 +1,40 @@
+Question
+========
+
+Капитолина оценила регрессию $\hat y_i = 0.7 + 2x_i + 3w_i$ с помощью МНК по 1000 наблюдениям.
+
+Она хочет проверить гипотезу $\beta_x = \beta_w$, однако не хочет ничего рассчитывать руками.
+Как поступить Капитолине, чтобы легко проверить желаемую гипотезу по стандартной табличке,
+выдаваемой статистическими программами?
+
+Answerlist
+----------
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i$,
+посмотреть на значимость коэффициента $\hat\beta_3$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i$,
+посмотреть на значимость коэффициента $\hat\beta_3$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i$,
+посмотреть на значимость коэффициента $\hat\beta_2$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i$,
+посмотреть на значимость коэффициента $\hat\beta_2$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 (w_i - x_i)$,
+посмотреть на значимость коэффициента $\hat\beta_3$.
+* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 (x_i - w_i)$,
+посмотреть на значимость коэффициента $\hat\beta_2$.
+
+
+Solution
+========
+
+Какая из предложенных моделей будет соответствовать нулевой гипотезе при замене оценки коэффициента на ноль?
+
+Meta-information
+================
+exname: regression to test automatically
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient t-test
