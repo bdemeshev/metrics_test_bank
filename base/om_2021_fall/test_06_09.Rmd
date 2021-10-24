@@ -1,0 +1,32 @@
+Question
+========
+
+Сулейман оценил две модели множественной регрессии по 304 наблюдениям.
+Модель А:
+$$
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + \beta_4 w_i + u_i, RSS_a = 150.
+$$
+Модель Б:
+$$
+y_i = \beta_1 + \beta_4 w_i + u_i, RSS_b = 200.
+$$
+
+Найдите значение $F$-статистики для проверки гипотезы об истинности ограниченной модели. 
+
+
+Solution
+========
+$$
+F = \frac{(RSS_r - RSS_{ur}) / r}{RSS_{ur} / (n - k_{ur})}.
+$$
+
+Meta-information
+================
+exname: F statistics
+extype: num
+exsolution: 100
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Nested models F-test
