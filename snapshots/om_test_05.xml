@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q01 : base_om_2021_fall_test_05_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Эконометресса Агнесса была очень недовольна тем, что оценили регрессию <span class="math display">\[
+\hat y_i = 5.42 + 3.25 \cdot x_i - 2.51 male_i.
+\]</span> Ведь переменная <span class="math inline">\(male_i\)</span> равна единице для мужчин и нулю для женщин.</p>
+<p>Поэтому Агнесса переоценила модель с помощью переменной <span class="math inline">\(female_i\)</span>, которая равна нулю для мужчин и единице для женщин: <span class="math display">\[
+\hat y_i = \hat\alpha_1 + \hat\alpha_2 x_i + \hat\alpha_3 female_i.
+\]</span></p>
+<p>Какую оценку <span class="math inline">\(\hat\alpha_1\)</span> получила Агнесса?</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Можно приравнять прогнозные значения для женщин по обеим моделям. И для мужчин :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.91</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Variance and covariance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q02 : base_om_2021_fall_test_05_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Пантелеймон оценил парную регрессию по 50 наблюдениям <span class="math display">\[
+\hat y_i = 8.9 + 12.9 x_i.
+\]</span> Оценка ковариационной матрицы оценок коэффициентов имеет вид <span class="math display">\[
+\begin{pmatrix}
+16.7 &amp; -4.6 \\
+-4.6 &amp; 1.74 \\
+\end{pmatrix}.
+\]</span> Величина суммы квадратов остатков равна <span class="math inline">\(10871\)</span>.</p>
+<p>Предпосылки классической линейной модели выполнены, ошибки имеют нормальное распределение.</p>
+<p>Оцените дисперсию прогноза для <span class="math inline">\(x=1\)</span>.</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p><span class="math display">\[
+\mathrm{Var}(\hat\beta_1 + \hat\beta2 \cdot 1) =\mathrm{Var}(\hat\beta_1) + \mathrm{Var}(\hat\beta_2) +2\mathrm{Cov}(\hat\beta_1, \hat\beta_2)
+\]</span></p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9.24</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Predictive interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q03 : base_om_2021_fall_test_05_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Пантелеймон оценил парную регрессию по 50 наблюдениям <span class="math display">\[
+\hat y_i = 8.9 + 12.9 x_i.
+\]</span> Оценка дисперсии прогноза при <span class="math inline">\(x=1\)</span> равна <span class="math inline">\(100\)</span>. Оценка дисперсии случайной ошибки равна <span class="math inline">\(400\)</span>.</p>
+<p>Предпосылки классической линейной модели выполнены, ошибки имеют нормальное распределение.</p>
+<p>Постройте 95%-й предиктивный интервал для <span class="math inline">\(y_i\)</span> при <span class="math inline">\(x_i = 1\)</span>.</p>
+<p>В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>К точечному прогнозу прибавим критическое значение умножить на стандартную ошибку.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>66.76</text>
+<tolerance>0.1</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Mean forecast confidence interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q04 : base_om_2021_fall_test_05_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Пантелеймон оценил парную регрессию по 50 наблюдениям <span class="math display">\[
+\hat y_i = 8.9 + 12.9 x_i.
+\]</span> Оценка дисперсии прогноза при <span class="math inline">\(x=1\)</span> равна <span class="math inline">\(100\)</span>. Оценка дисперсии случайной ошибки равна <span class="math inline">\(400\)</span>.</p>
+<p>Предпосылки классической линейной модели выполнены, ошибки имеют нормальное распределение.</p>
+<p>Постройте 95%-й доверительный интервал для <span class="math inline">\(\mathbb{E}(y_i \mid x_i = 1)\)</span>.</p>
+<p>В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>К точечному прогнозу прибавим критическое значение умножить на стандартную ошибку.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>41.91</text>
+<tolerance>0.1</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Mean forecast confidence interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q05 : base_om_2021_fall_test_05_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>По набору данных cars из R оцените модель <span class="math display">\[
+dist_i = \beta_1 + \beta_2 speed_i + u_i.
+\]</span></p>
+<p>Ошибки модели нормально распределены и удовлетворяют классическим предпосылкам.</p>
+<p>Для машины со стартовой скоростью 20 миль в час постройте 95%-й доверительный интервал для ожидаемой длины тормозного пути в футах.</p>
+<p>В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки.</p>
+<p>Набор данных встроен в R и доступен по ссылке: https://github.com/vincentarelbundock/Rdatasets/raw/master/csv/datasets/cars.csv</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<pre class="text"><code>model = lm(data = cars, dist ~ ...)
+new = data.frame(speed = ...)
+predict(model, ..., interval = &#39;...&#39;)</code></pre>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>66.89</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Predictive interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q06 : base_om_2021_fall_test_05_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>По набору данных cars из R оцените модель <span class="math display">\[
+dist_i = \beta_1 + \beta_2 speed_i + u_i.
+\]</span></p>
+<p>Ошибки модели нормально распределены и удовлетворяют классическим предпосылкам.</p>
+<p>Для машины со стартовой скоростью 20 миль в час постройте 95%-й предиктивный интервал для фактической длины тормозного пути в футах.</p>
+<p>В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки.</p>
+<p>Набор данных встроен в R и доступен по ссылке: https://github.com/vincentarelbundock/Rdatasets/raw/master/csv/datasets/cars.csv</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<pre class="text"><code>model = lm(data = cars, dist ~ ...)
+new = data.frame(speed = ...)
+predict(model, ..., interval = &#39;...&#39;)</code></pre>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>92.54</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Coefficients interpretation</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q07 : base_om_2021_fall_test_05_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Пантелеймон оценил модель парной регрессии <span class="math display">\[
+\ln \hat y_i = 0.4 + 1.2 \ln x_i.
+\]</span></p>
+<p>Какая интерпретация уравнения является верной?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Коэффициент у модели в логарифмах интерпретируется как эластичность.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+с ростом <span class="math inline">\(x\)</span> на единицу величина <span class="math inline">\(y\)</span> растёт в среднем на 1.2 единицы
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+с ростом <span class="math inline">\(x\)</span> на единицу величина <span class="math inline">\(y\)</span> растёт в среднем на 1.2 процента
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+с ростом <span class="math inline">\(x\)</span> на единицу величина <span class="math inline">\(y\)</span> растёт в среднем на 120 процентов
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+с ростом <span class="math inline">\(x\)</span> на один процент величина <span class="math inline">\(y\)</span> растёт в среднем на 1.2 процента
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+с ростом <span class="math inline">\(x\)</span> на один процент величина <span class="math inline">\(y\)</span> растёт в среднем на 1.2 единицы
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Dummy variables</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q08 : base_om_2021_fall_test_05_08 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Пантелеймон предполагает, что зависимость <span class="math inline">\(y\)</span> от <span class="math inline">\(x\)</span> линейная. У Пантелеймона данные по 10 городам. Он считает, что коэффициент наклона не зависит от города, а вот константа в каждом городе может быть своя.</p>
+<p>Всего у Пантелеймона 200 наблюдений.</p>
+<p>Сколько дамми-переменных понадобиться ввести Пантелеймону в дополнение к модели парной регрессии?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Количество дамми-переменных на одну меньше числа значений признака.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Nested models F-test</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q09 : base_om_2021_fall_test_05_09 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Сулейман оценил две модели множественной регрессии по 304 наблюдениям. Модель А: <span class="math display">\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + \beta_4 w_i + u_i, RSS_a = 150.
+\]</span> Модель Б: <span class="math display">\[
+y_i = \beta_1 + \beta_4 w_i + u_i, RSS_b = 200.
+\]</span></p>
+<p>Найдите значение <span class="math inline">\(F\)</span>-статистики для проверки гипотезы об истинности ограниченной модели.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p><span class="math display">\[
+F = \frac{(RSS_r - RSS_{ur}) / r}{RSS_{ur} / (n - k_{ur})}.
+\]</span></p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>100</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_05/OLS/Chaw F-test</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q10 : base_om_2021_fall_test_05_10 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Гюльчатай оценила одну и ту же модель зависимости зарплаты от опыта работы по трём разным группам наблюдений.</p>
+<p>Для 1000 сельских жителей: <span class="math display">\[
+wage_i = \beta_1 + \beta_2 exp_i + u_i, RSS_a = 150.
+\]</span> Для 2004 городских жителей: <span class="math display">\[
+wage_i = \gamma_1 + \gamma_2 exp_i + u_i, RSS_b = 200.
+\]</span> Для всех жителей сразу: <span class="math display">\[
+wage_i = \delta_1 + \delta_2 exp_i + u_i, RSS_c = 400.
+\]</span></p>
+<p>Найдите значение <span class="math inline">\(F\)</span>-статистики теста Чоу для проверки гипотезы об одинаковой зависимости для всех жителей.</p>
+<p>Ответ укажите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p><span class="math display">\[
+F = \frac{(RSS_r - RSS_{ur}) / r}{RSS_{ur} / (n - k_{ur})}, RSS_{ur} = RSS_1 + RSS_2.
+\]</span></p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>214.29</text>
+<tolerance>1</tolerance>
+</answer>
+</question>
+
+</quiz>

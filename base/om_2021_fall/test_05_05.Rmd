@@ -1,31 +1,41 @@
 Question
 ========
 
-Капитолина оценила регрессию $\hat y_i = 0.7 + 2x_i + 3w_i$ с помощью МНК по 10 наблюдениям.
-Классические стандартные ошибки коэффициентов равны $0.1$, $0.2$ и $0.3$ соответственно. 
+По набору данных cars из R оцените модель
+$$
+dist_i = \beta_1 + \beta_2 speed_i + u_i.
+$$
 
-Наблюдения являются независимыми, 
-на ошибки выполнены классические предпосылки и предпосылка о нормальности, $u_i\sim \mathcal N(0;\sigma^2)$, $\mathrm{Cov}(u_i, u_j \mid X) = 0$ для $i\neq j$.
+Ошибки модели нормально распределены и удовлетворяют классическим предпосылкам. 
 
-Найдите 80\% доверительный интервал для коэффициента $\beta_x$. 
+Для машины со стартовой скоростью 20 миль в час постройте 95\%-й доверительный интервал для 
+ожидаемой длины тормозного пути в футах. 
 
-Можно использовать функции из статистических пакетов или таблицы. 
+В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки. 
 
-В ответе укажите левую границу интервала с точнотью до двух знаков после десятичной точки. 
+
+Набор данных встроен в R и доступен по ссылке:
+https://github.com/vincentarelbundock/Rdatasets/raw/master/csv/datasets/cars.csv
+
 
 Solution
 ========
 
-Обратите внимание на требуемое критическое значение статистики. 
+```{r, eval=FALSE}
+model = lm(data = cars, dist ~ ...)
+new = data.frame(speed = ...)
+predict(model, ..., interval = '...')
+```
+
 
 Meta-information
 ================
-exname: confidence interval for coefficient small n
+exname: confidence interval for mean R
 extype: num
-exsolution: 1.72
+exsolution: 66.89
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Coefficient confidence interval
+exsection: OLS/Mean forecast confidence interval
 

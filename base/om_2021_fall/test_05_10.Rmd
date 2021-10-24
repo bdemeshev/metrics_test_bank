@@ -1,40 +1,40 @@
 Question
 ========
 
-Капитолина оценила регрессию $\hat y_i = 0.7 + 2x_i + 3w_i$ с помощью МНК по 1000 наблюдениям.
+Гюльчатай оценила одну и ту же модель зависимости зарплаты от опыта работы по трём разным группам наблюдений. 
 
-Она хочет проверить гипотезу $\beta_x = \beta_w$, однако не хочет ничего рассчитывать руками.
-Как поступить Капитолине, чтобы легко проверить желаемую гипотезу по стандартной табличке,
-выдаваемой статистическими программами?
+Для 1000 сельских жителей:
+$$
+wage_i = \beta_1 + \beta_2 exp_i + u_i, RSS_a = 150.
+$$
+Для 2004 городских жителей:
+$$
+wage_i = \gamma_1 + \gamma_2 exp_i + u_i, RSS_b = 200.
+$$
+Для всех жителей сразу:
+$$
+wage_i = \delta_1 + \delta_2 exp_i + u_i, RSS_c = 400.
+$$
 
-Answerlist
-----------
-* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i$,
-посмотреть на значимость коэффициента $\hat\beta_3$.
-* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i$,
-посмотреть на значимость коэффициента $\hat\beta_3$.
-* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i$,
-посмотреть на значимость коэффициента $\hat\beta_2$.
-* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i$,
-посмотреть на значимость коэффициента $\hat\beta_2$.
-* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 (w_i - x_i)$,
-посмотреть на значимость коэффициента $\hat\beta_3$.
-* Оценить регрессию $\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 (x_i - w_i)$,
-посмотреть на значимость коэффициента $\hat\beta_2$.
+Найдите значение $F$-статистики теста Чоу для проверки гипотезы об одинаковой зависимости для всех жителей. 
+
+Ответ укажите с точностью до двух знаков после десятичной точки. 
 
 
 Solution
 ========
-
-Какая из предложенных моделей будет соответствовать нулевой гипотезе при замене оценки коэффициента на ноль?
+$$
+F = \frac{(RSS_r - RSS_{ur}) / r}{RSS_{ur} / (n - k_{ur})}, RSS_{ur} = RSS_1 + RSS_2.
+$$
 
 Meta-information
 ================
-exname: regression to test automatically
-extype: schoice
-exsolution: 100000
-exshuffle: 6
+exname: F statistics
+extype: num
+exsolution: 214.29
+extol: 1
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Coefficient t-test
+exsection: OLS/Chaw F-test
+

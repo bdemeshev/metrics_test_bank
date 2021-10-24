@@ -1,25 +1,42 @@
 Question
 ========
 
-Винни-Пух построил классический доверительный интервал для коэффициента $\beta_z$ в модели 
-$y_i = \beta_1 + \beta_x x_i + \beta_z z_i + u_i$. 
-Интервал получился широкий, $[-20; 40]$.
+По набору данных cars из R оцените модель
+$$
+dist_i = \beta_1 + \beta_2 speed_i + u_i.
+$$
 
-Какую оценку $\hat\beta_z$ получил Винни-Пух?
+Ошибки модели нормально распределены и удовлетворяют классическим предпосылкам. 
+
+Для машины со стартовой скоростью 20 миль в час постройте 95\%-й предиктивный интервал для 
+фактической длины тормозного пути в футах. 
+
+В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки. 
+
+
+Набор данных встроен в R и доступен по ссылке:
+https://github.com/vincentarelbundock/Rdatasets/raw/master/csv/datasets/cars.csv
+
 
 Solution
 ========
 
-Классический доверительный интервал симметричен относительно точечной оценки. 
+```{r, eval=FALSE}
+model = lm(data = cars, dist ~ ...)
+new = data.frame(speed = ...)
+predict(model, ..., interval = '...')
+```
+
 
 Meta-information
 ================
-exname: find the middle point of an interval
+exname: prediction interval R
 extype: num
-exsolution: 10
+exsolution: 92.54
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Coefficient confidence interval
+exsection: OLS/Predictive interval
+
 

@@ -25,6 +25,7 @@ OLS/Mean forecast confidence interval
 OLS/Linear restrictions
 OLS/Model selection
 OLS/Nested models F-test
+OLS/Chaw F-test
 OLS/Nested models LR test
 OLS/Nested models LM test
 OLS/Nested models Wald test

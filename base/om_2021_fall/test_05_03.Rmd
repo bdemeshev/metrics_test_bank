@@ -5,14 +5,8 @@ Question
 $$
 \hat y_i = 8.9 + 12.9 x_i.
 $$
-Оценка ковариационной матрицы оценок коэффициентов имеет вид 
-$$
-\begin{pmatrix}
-16.7 & -4.6 \\
--4.6 & 1.74 \\
-\end{pmatrix}.
-$$
-Величина суммы квадратов остатков равна $10871$.
+Оценка дисперсии прогноза при $x=1$ равна $100$. 
+Оценка дисперсии случайной ошибки равна $400$.
 
 Предпосылки классической линейной модели выполнены, ошибки имеют нормальное распределение. 
 
@@ -28,10 +22,10 @@ Solution
 
 Meta-information
 ================
-exname: predictive interval interval
+exname: predictive interval
 extype: num
-exsolution: 52.7
-extol: 0.2
+exsolution: 66.76
+extol: 0.1
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
