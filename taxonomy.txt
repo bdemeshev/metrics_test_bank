@@ -34,6 +34,11 @@ OLS/Nested models Wald test
 Multicollinearity
 Multicollinearity/VIF
 
+# regularization
+LASSO
+Ridge regression
+Elastic net regression
+
 # violations
 Heteroskedasticity
 Heteroskedasticity/Robust standard errors
