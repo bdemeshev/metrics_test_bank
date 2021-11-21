@@ -235,11 +235,6 @@
 <shuffleanswers>true</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-только А, В и Г
-</p>]]></text>
-</answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 только А, Б, Г
@@ -257,12 +252,17 @@
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-только А, Б
+только А и Г
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+только А, В и Г
 </p>]]></text>
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-только А и Г
+только А, Б
 </p>]]></text>
 </answer>
 </question>
@@ -372,12 +372,22 @@
 <answernumbering>abc</answernumbering>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 (x_i - w_i)\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
 </p>]]></text>
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
 Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 (w_i - x_i)\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 (x_i - w_i)\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
 </p>]]></text>
 </answer>
 <answer fraction="100" format="html">
@@ -387,17 +397,7 @@
 </answer>
 <answer fraction="-20" format="html">
 <text><![CDATA[<p>
-Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_3\)</span>.
-</p>]]></text>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
 Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
-</p>]]></text>
-</answer>
-<answer fraction="-20" format="html">
-<text><![CDATA[<p>
-Оценить регрессию <span class="math inline">\(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\)</span>, посмотреть на значимость коэффициента <span class="math inline">\(\hat\beta_2\)</span>.
 </p>]]></text>
 </answer>
 </question>

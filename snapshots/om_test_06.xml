@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/Multicollinearity</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q01 : base_om_2021_fall_test_06_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верное утверждение про мультиколлинеарность.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Зависимость зависимой переменной от предикторов мы как раз пытаемся оценить.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Мультиколлинеарность — это нелинейная зависимость между зависимой переменной и случайной ошибкой.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Мультиколлинеарность — это линейная зависимость между зависимой переменной и регрессорами.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Мультиколлинеарность — это линейная зависимость между регрессорами и случайной ошибкой.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Мультиколлинеарность — это линейная зависимость между зависимой переменной и случайной ошибкой.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Мультиколлинеарность — это нелинейная зависимость между регрессорами.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Мультиколлинеарность — это линейная зависимость между регрессорами.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/Multicollinearity</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q02 : base_om_2021_fall_test_06_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верный признак мультиколлинеарности.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Зависимость зависимой переменной от предикторов мы как раз пытаемся оценить.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Каждый регрессор значим по отдельности, регрессия в целом не значима.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Каждый регрессор незначим по отдельности, однако регрессия в целом значима.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Каждый регрессор значим по отдельности, регрессия в целом значима.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Часть регрессоров значима по отдельности, часть регрессоров — не значима по отдельности.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Каждый регрессор незначим по отдельности, регрессия в целом не значима.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/Multicollinearity</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q03 : base_om_2021_fall_test_06_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Какие последствия имеет нестрогая мультиколлинеарность?</p>
+</p>]]></text>
+</questiontext>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов остаются несмещёнными, однако доверительные интервалы шире по сравнению с отсутствием мультиколлинеарности.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов становятся несостоятельными.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Предиктивные интервалы резко расширяются по сравнению с отсутствием мультиколлинеарности.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов остаются несмещёнными, однако доверительные интервалы уже по сравнению с отсутствием мультиколлинеарности.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов становятся смещёнными.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Предиктивные интервалы резко сужаются по сравнению с отсутствием мультиколлинеарности.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/LASSO</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q04 : base_om_2021_fall_test_06_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Для какой цели используют LASSO?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Большая дисперсия и смещение — это нежелательные свойства.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сильно увеличить дисперсию оценок за счёт небольшого смещения оценок.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Сильно уменьшить дисперсию оценок за счёт небольшого смещения оценок.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сильно уменьшить смещение оценок за счёт небольшого роста дисперсии оценок.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сильно увеличить дисперсию оценок без смещения оценок.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сильно уменьшить дисперсию оценок без смещения оценок.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сильно уменьшить смещение оценок за счёт небольшого падения дисперсии оценок.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/LASSO</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q05 : base_om_2021_fall_test_06_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верное утверждение про штрафную функцию LASSO.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Штрафуем за большие по модулю коэффициенты и большие квадраты остатков.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Падает при росте <span class="math inline">\(RSS\)</span>, но растёт по мере удаление оценок коэффициентов от нуля.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Растёт при росте <span class="math inline">\(RSS\)</span>, но падает по мере удаление оценок коэффициентов от нуля.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Растёт при росте <span class="math inline">\(RSS\)</span>, не зависит от удалённости оценок коэффициентов от нуля.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Не зависит от <span class="math inline">\(RSS\)</span>, падает по мере удаление оценок коэффициентов от нуля.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Растёт при росте <span class="math inline">\(RSS\)</span> и по мере удаление оценок коэффициентов от нуля.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Падает при росте <span class="math inline">\(RSS\)</span> и по мере удаление оценок коэффициентов от нуля.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/Multicollinearity/VIF</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q06 : base_om_2021_fall_test_06_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Что показывает коэффициент вздутия дисперсии <span class="math inline">\(VIF\)</span> оценки коэффициента регрессии?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Коэффициент вздутия <span class="math inline">\(VIF\)</span> будет равен 1, если во вспомогательной регрессии <span class="math inline">\(R^2\)</span> будет равен 0.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией с одинаковыми предикторами.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией со стандартизированными предикторами.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией с несмещёнными предикторами.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией парной регрессии.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией с некоррелированными предикторами.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/PCA</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q07 : base_om_2021_fall_test_06_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Рассмотрим метод главных компонент для переменных с разными единицами измерения.</p>
+<p>Выберите верное утверждение.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Метод главных компонент находит линейную комбинацию исходных переменных.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Важно убедиться в некоррелированности исходных переменных.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Важно убедиться в ортогональности исходных переменных.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Обязательно нужно сохранить исходные единицы измерения переменных.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Необходимо и достаточно центрировать исходные переменные.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Обязательно нужно привести переменные к общему масштабу.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/PCA</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q08 : base_om_2021_fall_test_06_08 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Рассмотрим веса, с которыми исходные переменные входят в первую главную компоненту.</p>
+<p>Выберите верное утверждение.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Метод главных компонент находит линейную комбинацию исходных переменных.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сумма весов равна 1, веса могут быть отрицательными.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Веса могут быть абсолютно произвольными.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Сумма квадратов весов равна 1.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сумма весов равна 1, веса неотрицательные.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сумма модулей весов равна 1.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Сумма весов равна 0.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/PCA</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q09 : base_om_2021_fall_test_06_09 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верное утверждение про главные компоненты.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Метод главных компонент находит линейную комбинацию исходных переменных.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Главные компоненты имеют единичную длину.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Главные компоненты некоррелированны.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Первая главная компонента совпадает с зависимой переменной.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Главные компоненты сохраняют среднее значение исходных переменных.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Первая главная компонента имеет наибольшее среднее значение.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Первая главная компонента имеет наименьшую выборочную дисперсию.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_06/LASSO</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q10 : base_om_2021_fall_test_06_10 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Исследователь Винни-Пух оценил регрессию <span class="math inline">\(\hat y_i = \hat\beta_1 + \hat\beta_2 x_i\)</span> с помощью LASSO с очень-очень большим штрафом.</p>
+<p>Известно, что <span class="math inline">\(\bar x = 10\)</span>, <span class="math inline">\(\bar y = 20\)</span>, <span class="math inline">\(n = 100\)</span>.</p>
+<p>Найдите полученную им оценку <span class="math inline">\(\hat\beta_2\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Коэффициент при константе не штрафуется.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+</quiz>
