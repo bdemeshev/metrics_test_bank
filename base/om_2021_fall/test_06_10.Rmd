@@ -1,40 +1,25 @@
 Question
 ========
 
-Гюльчатай оценила одну и ту же модель зависимости зарплаты от опыта работы по трём разным группам наблюдений. 
+Исследователь Винни-Пух оценил регрессию $\hat y_i = \hat\beta_1 + \hat\beta_2 x_i$ 
+с помощью LASSO с очень-очень большим штрафом. 
 
-Для 1000 сельских жителей:
-$$
-wage_i = \beta_1 + \beta_2 exp_i + u_i, RSS_a = 150.
-$$
-Для 2004 городских жителей:
-$$
-wage_i = \gamma_1 + \gamma_2 exp_i + u_i, RSS_b = 200.
-$$
-Для всех жителей сразу:
-$$
-wage_i = \delta_1 + \delta_2 exp_i + u_i, RSS_c = 400.
-$$
+Известно, что $\bar x = 10$, $\bar y = 20$, $n = 100$.
 
-Найдите значение $F$-статистики теста Чоу для проверки гипотезы об одинаковой зависимости для всех жителей. 
-
-Ответ укажите с точностью до двух знаков после десятичной точки. 
-
+Найдите полученную им оценку $\hat\beta_2$. 
 
 Solution
 ========
-$$
-F = \frac{(RSS_r - RSS_{ur}) / r}{RSS_{ur} / (n - k_{ur})}, RSS_{ur} = RSS_1 + RSS_2.
-$$
+
+Коэффициент при константе не штрафуется. 
 
 Meta-information
 ================
-exname: F statistics
+exname: big lambda in LASSO
 extype: num
-exsolution: 214.29
-extol: 1
+exsolution: 0
+extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: OLS/Chaw F-test
-
+exsection: LASSO
