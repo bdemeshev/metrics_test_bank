@@ -1,0 +1,25 @@
+Question
+========
+
+Исследователь Винни-Пух оценил регрессию $\hat y_i = \hat\beta_1 + \hat\beta_2 x_i$ 
+с помощью LASSO с очень-очень большим штрафом. 
+
+Известно, что $\bar x = 10$, $\bar y = 20$, $n = 100$.
+
+Найдите полученную им оценку $\hat\beta_2$. 
+
+Solution
+========
+
+Коэффициент при константе не штрафуется. 
+
+Meta-information
+================
+exname: big lambda in LASSO
+extype: num
+exsolution: 0
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: LASSO
