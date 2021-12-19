@@ -1,25 +1,22 @@
 Question
 ========
 
-Исследователь Винни-Пух оценил регрессию $\hat y_i = \hat\beta_1 + \hat\beta_2 x_i$ 
-с помощью LASSO с очень-очень большим штрафом. 
+Леонардо оценил модель логистической регрессии $\hat \mathbb P(y_i = 1) = \Lambda(2 + 0.05 x_i - 0.07 z_i)$.
 
-Известно, что $\bar x = 10$, $\bar y = 20$, $n = 100$.
-
-Найдите полученную им оценку $\hat\beta_2$. 
+Найдите предел прогноза вероятности $\hat \mathbb P(y_i = 1)$ при $z_i$ стремящемся к плюс бесконечности. 
 
 Solution
 ========
 
-Коэффициент при константе не штрафуется. 
+Вспоминаем формулу логистической функции. Или картинку!
 
 Meta-information
 ================
-exname: big lambda in LASSO
+exname: limiting probability
 extype: num
 exsolution: 0
 extol: 0.01
 exextra[Type]: Calculation
 exextra[Language]: Russian
 exextra[Level]: Literacy
-exsection: LASSO
+exsection: Logit
