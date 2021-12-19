@@ -8,7 +8,7 @@ library(exams)
 # library(rexamsconverter)
 
 files_df = tibble(filename = list.files('../base/om_2021_fall/',
-                                        pattern = "test_04", full.names = TRUE, recursive = TRUE))
+                                        pattern = "test_09", full.names = TRUE, recursive = TRUE))
 
 files_df
 
@@ -27,7 +27,7 @@ files_df
 # to moodle!
 res = exams2moodle(files_df$filename,
                    dir = '../snapshots/',
-                   name = 'om_test_04',
+                   name = 'om_test_09',
                    mchoice = list(shuffle = TRUE, enumerate = FALSE),
                    schoice = list(shuffle = TRUE, enumerate = FALSE))
 

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Binary models</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q01 : base_om_2021_fall_test_09_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верное утверждение про модели бинарного выбора.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Бинарные предикторы можно использовать и в обычной регрессии.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Модели бинарного выбора предназначены для моделирования зависимой переменной с пропущенными значениями.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Модели бинарного выбора предназначены для выбора одной из двух возможных линейных моделей.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Модели бинарного выбора предназначены для моделирования зависимой переменной, принимающей два значения.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Модели бинарного выбора предназначены для выбора одного из двух возможных предикторов.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Модели бинарного выбора предназначены для моделирования зависимой переменной, принимающей счетноё число значений.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Модели бинарного выбора предназначены для включения предиктора, принимающего два значения.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Maximum Likelihood</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q02 : base_om_2021_fall_test_09_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верное утверждение про метод максимального правдоподобия.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Параметры — это константы.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Метод подбирает значения параметров, минимизирующие вероятность наибольшей ошибки прогнозов.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Метод подбирает значения параметров, при которых вероятность имеющейся выборки максимальна.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Метод подбирает наиболее вероятные значения параметров.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Метод минимизирует сумму квадратов ошибок прогнозов.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Метод подбирает значения параметров, максимизирующие вероятность наименьшей ошибки прогнозов.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Logit</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q03 : base_om_2021_fall_test_09_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Рассмотрим логистическую модель с константой и одним регрессором <span class="math inline">\(x_i\)</span>. Обозначим логарифм отношения шансов как <span class="math inline">\(h(x_i) = \ln (\mathbb P(y_i = 1) / \mathbb P(y_i = 0))\)</span>.</p>
+<p>Найдите верное утверждение про производную <span class="math inline">\(h&#39;(x_i)\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Логистическая модель обещает нам простую функцию.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Производная <span class="math inline">\(h&#39;(x_i)\)</span> достигает максимума только при <span class="math inline">\(x_i = 0\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Производная <span class="math inline">\(h&#39;(x_i)\)</span> достигает минимума только при <span class="math inline">\(x_i = 0\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Производная <span class="math inline">\(h&#39;(x_i)\)</span> линейна по <span class="math inline">\(x_i\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Производная <span class="math inline">\(h&#39;(x_i)\)</span> равна константе.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Производная <span class="math inline">\(h&#39;(x_i)\)</span> произвольным образом зависит от <span class="math inline">\(x_i\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Производная <span class="math inline">\(h&#39;(x_i)\)</span> равна логистической функции от <span class="math inline">\(x_i\)</span>.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Logit</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q04 : base_om_2021_fall_test_09_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Исследователь Леонардо оценил модель логистической регрессии <span class="math inline">\(\hat \mathbb P(y_i = 1) = \Lambda(0.4 - 0.2 x_i)\)</span>.</p>
+<p>Найдите по этой модели прогноз вероятности для <span class="math inline">\(x_i = 2\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подставляем ноль в логистическую функцию.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.5\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.75\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\exp(0.5)\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.25\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Logit</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q05 : base_om_2021_fall_test_09_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Как изменятся оценки логистической регрессии, если заменить у зависимой переменной нули единицами, а единицы — нулями?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Можно посмотреть на условия первого порядка или провести эксперимент.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Новые оценки коэффициентов будут обратными к старым.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов увеличатся.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов поменяют знак.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов изменятся непредсказуемым образом.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов не изменятся.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов уменьшатся.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Logit</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q06 : base_om_2021_fall_test_09_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верное утверждение про оценки коэффициентов логит-модели.</p>
+</p>]]></text>
+</questiontext>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов не являются случайными.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Доверительный интервал для коэффициентов строится с помощью t-распределения.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов строго больше соответствующих оценок модели линейной регрессии.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов являются асимптотически нормальными.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов строго меньше соответствующих оценок модели линейной регрессии.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Logit</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q07 : base_om_2021_fall_test_09_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите верное утверждение о ситуации, в которой оценки логит-модели не существуют.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Можно также применить байесовский подход.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Нужно рассмотреть пробит-модель вместо логит-модели.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Разумно исключить из модели константу.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Такая ситуация невозможна, оценки максимального правдоподобия всегда существуют.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Проблему разумно решить введением в целевую функцию дополнительного штрафа за отклонение оценок коэффициентов от нуля.
+</p>]]></text>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+Разумно включить квадраты и кросс-произведения исходных переменных.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Logit</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q08 : base_om_2021_fall_test_09_08 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Леонардо оценил логит-регрессию <span class="math inline">\(\hat \mathbb P(y_i = 1) = \Lambda ( 0.3 - 0.6 x_i + 0.5 z_i)\)</span>. Для некоторого наблюдения прогноз вероятности равен <span class="math inline">\(\hat \mathbb P(y_i = 1) = 0.7\)</span>.</p>
+<p>Оцените предельный эффект увеличения <span class="math inline">\(z_i\)</span> для этого наблюдения.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p><span class="math display">\[
+\Lambda&#39;(t) = \Lambda(t)(1 - \Lambda(t))
+\]</span></p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+недостаточно информации
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.105\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.15\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.7\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.35\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(0.5\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Maximum Likelihood</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q09 : base_om_2021_fall_test_09_09 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Рассмотрим метод максимального правдоподобия для оценки одного параметра. Как можно получить оценку дисперсии оценки параметра?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Озвучиваем формулу из лекций :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Посчитать первую производную лог-правдоподобия со знаком минус.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Посчитать вторую производную лог-правдоподобия со знаком минус.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Обратить вторую производную лог-правдоподобия со знаком минус.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Обратить первую производную лог-правдоподобия.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Обратить первую производную лог-правдоподобия со знаком минус.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+Обратить вторую производную лог-правдоподобия.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_test_09/Logit</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q10 : base_om_2021_fall_test_09_10 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Леонардо оценил модель логистической регрессии <span class="math inline">\(\hat \mathbb P(y_i = 1) = \Lambda(2 + 0.05 x_i - 0.07 z_i)\)</span>.</p>
+<p>Найдите предел прогноза вероятности <span class="math inline">\(\hat \mathbb P(y_i = 1)\)</span> при <span class="math inline">\(z_i\)</span> стремящемся к плюс бесконечности.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспоминаем формулу логистической функции. Или картинку!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+</quiz>
