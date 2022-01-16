@@ -1,0 +1,25 @@
+Question
+========
+
+Рассмотрим короткий ряд из четырех наблюдений: $5$, $4$, $6$, $5$.
+
+Предположим, что ряд описывается моделью $y_t = \mu + u_t$, где величины $(u_t)$ независимы 
+и нормально распределены $\mathcal{N}(0;\sigma^2)$. 
+
+Найдите оценку $\hat\sigma^2$ методом максимального правдоподобия с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Пользуемся готовой формулой или явно решаем задачу оптимизации. 
+
+Meta-information
+================
+exname: maximum likelihood for iid model
+extype: num
+exsolution: 0.5
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Maximum Likelihood/IID model

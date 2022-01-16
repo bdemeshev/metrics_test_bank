@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_01/TS/Decomposition</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : base_om_ts_2022_spring_test_01_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Исследователь Иа-Иа использует мультипликативное разложение ряда. Очередное наблюдение равно <span class="math inline">\(60\)</span>, трендовая составляющая равна <span class="math inline">\(40\)</span>, сезонная составляющая <span class="math inline">\(2\)</span>.</p>
+<p>Найдите остаточную компоненту с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Разложение мультипликативное.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.75</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_01/LOESS</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q2 : base_om_ts_2022_spring_test_01_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выберите утверждение про модель локальной линейной регрессии LOESS.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Смотрим на целевую функцию LOESS!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+LOESS можно использовать только на данных временных рядов.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+LOESS позволяет оценить коэффициенты, но не позволяет строить прогнозы.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Оценки коэффициентов бета с крышкой зависят от точки, для которой строится прогноз.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+LOESS работает гораздо быстрее, чем аналогичная парная регрессия.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+LOESS можно оценить только для предикторов в малой окрестности нуля.
+</p>]]></text>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+В качестве ядерной функции разумно выбрать любую монотонно возрастающую функцию.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_01/TS/Decomposition</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q3 : base_om_ts_2022_spring_test_01_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Выборочная дисперсия остаточной компоненты ряда равна 100, выборочная дисперсия суммы тренда и остаточной компоненты равна 90.</p>
+<p>Найдите силу выраженности тренда с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Не забываем про сравнение с нулём!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_01/TS/White noise</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q4 : base_om_ts_2022_spring_test_01_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Ряд <span class="math inline">\((u_t)\)</span> — белый шум с дисперсией равной 16.</p>
+<p>Найдите ковариацию <span class="math inline">\(\mathrm{Cov}(u_t + 2 u_{t-1} + 4u_{t-2}, u_{t-1} + 2u_{t-2} + 7u_{t-3})\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Ковариация линейна.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>160</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_01/TS/PACF</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q5 : base_om_ts_2022_spring_test_01_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>По исходному временному ряду была оценена множественная регрессия <span class="math display">\[
+\hat y_t = 3 + 0.6 y_{t-1} - 0.09 y_{t-2}.
+\]</span></p>
+<p>Найдите второе значение выборочной частной автокорреляционной функции <span class="math inline">\(PACF_2\)</span> с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Внимательно смотрим на коэффициенты модели.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-0.09</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_01/Maximum Likelihood/IID model</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q6 : base_om_ts_2022_spring_test_01_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Рассмотрим короткий ряд из четырех наблюдений: <span class="math inline">\(5\)</span>, <span class="math inline">\(4\)</span>, <span class="math inline">\(6\)</span>, <span class="math inline">\(5\)</span>.</p>
+<p>Предположим, что ряд описывается моделью <span class="math inline">\(y_t = \mu + u_t\)</span>, где величины <span class="math inline">\((u_t)\)</span> независимы и нормально распределены <span class="math inline">\(\mathcal{N}(0;\sigma^2)\)</span>.</p>
+<p>Найдите оценку <span class="math inline">\(\hat\sigma^2\)</span> методом максимального правдоподобия с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Пользуемся готовой формулой или явно решаем задачу оптимизации.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.5</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_01/IID model/Predictive interval</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q7 : base_om_ts_2022_spring_test_01_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Рассмотрим временной ряд из 100 наблюдений, оканчивающийся наблюдениями <span class="math inline">\(6\)</span> и <span class="math inline">\(5\)</span>.</p>
+<p>Ряд описывается моделью <span class="math inline">\(y_t = 6 + u_t\)</span>, где величины <span class="math inline">\((u_t)\)</span> независимы и нормально распределены <span class="math inline">\(\mathcal{N}(0; 4)\)</span>.</p>
+<p>Постройте 95%-й предиктивный интервал для <span class="math inline">\(y_{101}\)</span>. В ответе укажите правую границу интервала с точностью до двух знаков после запятой.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспоминаем квантили нормального распределения.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9.92</text>
+<tolerance>0.1</tolerance>
+</answer>
+</question>
+
+</quiz>
