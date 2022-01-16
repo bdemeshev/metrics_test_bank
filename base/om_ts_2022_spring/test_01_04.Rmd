@@ -1,0 +1,22 @@
+Question
+========
+
+Ряд $(u_t)$ — белый шум с дисперсией равной 16. 
+
+Найдите ковариацию $\mathrm{Cov}(u_t + 2 u_{t-1} + 4u_{t-2}, u_{t-1} + 2u_{t-2} + 7u_{t-3})$. 
+
+Solution
+========
+
+Ковариация линейна.
+
+Meta-information
+================
+exname: covariance given white noise
+extype: num
+exsolution: 160
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/White noise
