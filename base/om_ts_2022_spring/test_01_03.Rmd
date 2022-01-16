@@ -1,0 +1,23 @@
+Question
+========
+
+Выборочная дисперсия остаточной компоненты ряда равна 100,
+выборочная дисперсия суммы тренда и остаточной компоненты равна 90. 
+
+Найдите силу выраженности тренда с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Не забываем про сравнение с нулём!
+
+Meta-information
+================
+exname: trend intensity
+extype: num
+exsolution: 0
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Decomposition

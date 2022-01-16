@@ -1,0 +1,24 @@
+Question
+========
+
+Исследователь Иа-Иа использует мультипликативное разложение ряда. 
+Очередное наблюдение равно $60$, трендовая составляющая равна $40$, 
+сезонная составляющая $2$. 
+
+Найдите остаточную компоненту с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Разложение мультипликативное. 
+
+Meta-information
+================
+exname: find remainder
+extype: num
+exsolution: 0.75
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Decomposition
