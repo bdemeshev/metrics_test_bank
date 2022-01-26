@@ -1,0 +1,23 @@
+Question
+========
+
+Логарифм наблюдаемой величины описывается ETS(AAN) моделью, $\ln y_t \sim ETS(AAN)$.
+Условная медиана $y_{T+1}$ в два раза меньше условного ожидания.
+
+Найдите ширину 95\%-го предиктивного интервал для $\ln y_{T+1}$ с точностью до двух знаков после запятой. 
+
+Solution
+========
+
+Обращаем внимание на различие ожидания и медианы!
+
+Meta-information
+================
+exname: ETS(AAN)
+extype: num
+exsolution: 4.62
+extol: 0.1
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS/AAN

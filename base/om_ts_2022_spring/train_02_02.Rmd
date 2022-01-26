@@ -1,0 +1,23 @@
+Question
+========
+
+Логарифм наблюдаемой величины описывается ETS(AAN) моделью, $\ln y_t \sim ETS(AAN)$.
+Обычный 95\%-й предиктивный интервал для $\ln y_{T+1}$ имеет вид $[10;20]$.
+
+Найдите условное ожидание $y_{T+1}$ с точностью до целых.
+
+Solution
+========
+
+Обращаем внимание на различие ожидания и медианы!
+
+Meta-information
+================
+exname: ETS(AAN)
+extype: num
+exsolution: 7374164
+extol: 374164
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS/AAN
