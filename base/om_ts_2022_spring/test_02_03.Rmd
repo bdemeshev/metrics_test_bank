@@ -1,0 +1,20 @@
+Question
+========
+
+Сколько свободных параметров оценивается в $ETS(ANA)$ модели по квартальным данным?
+
+Solution
+========
+
+Подсказка: двух рук хватит :)
+
+Meta-information
+================
+exname: ETS(ANA)
+extype: num
+exsolution: 7
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS/ANA

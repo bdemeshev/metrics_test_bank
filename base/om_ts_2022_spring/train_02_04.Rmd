@@ -1,0 +1,22 @@
+Question
+========
+
+В модели 10 параметров и функция правдоподобия в точке максимума равна $10^{-10}$.
+
+Найдите значение критерия Акаике с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Не забудьте взять логарифм :)
+
+Meta-information
+================
+exname: AIC
+extype: num
+exsolution: 66.05
+extol: 0.06
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: AIC
