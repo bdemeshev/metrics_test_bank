@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_02/ETS/ANN</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : base_om_ts_2022_spring_train_02_01 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>В рамках ETS(ANN) модели найдите точечный прогноз на один шаг вперёд, Последнее значение уровня (сглаженного ряда) равно <span class="math inline">\(100\)</span>, <span class="math inline">\(\ell_t = \ell_{t-1} + 0.3 u_t\)</span>, <span class="math inline">\(u_t \sim \mathcal{N}(0; 16)\)</span>, <span class="math inline">\(y_t = \ell_{t-1} + u_t\)</span>.</p>
+<p>Ответ введите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подсказка: это очень простая задача.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>100</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_02/ETS/AAN</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q2 : base_om_ts_2022_spring_train_02_02 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Логарифм наблюдаемой величины описывается ETS(AAN) моделью, <span class="math inline">\(\ln y_t \sim ETS(AAN)\)</span>. Обычный 95%-й предиктивный интервал для <span class="math inline">\(\ln y_{T+1}\)</span> имеет вид <span class="math inline">\([10;20]\)</span>.</p>
+<p>Найдите условное ожидание <span class="math inline">\(y_{T+1}\)</span> с точностью до целых.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Обращаем внимание на различие ожидания и медианы!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>7374164</text>
+<tolerance>374164</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_02/ETS/ANN</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q3 : base_om_ts_2022_spring_train_02_03 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Сколько свободных параметров оценивается в <span class="math inline">\(ETS(AAA)\)</span> модели по квартальным данным?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Подсказка: двух рук хватит :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_02/AIC</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q4 : base_om_ts_2022_spring_train_02_04 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>В модели 10 параметров и функция правдоподобия в точке максимума равна <span class="math inline">\(10^{-10}\)</span>.</p>
+<p>Найдите значение критерия Акаике с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Не забудьте взять логарифм :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>66.05</text>
+<tolerance>0.06</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_02/CV</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q5 : base_om_ts_2022_spring_train_02_05 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>У Агнессы 120 наблюдений и она оценивает качество прогнозов на один шаг вперёд с помощью кросс-валидации скользящим окном. Ширина окна равна 70.</p>
+<p>Сколько раз будет оценена каждая модель при выполнении кросс-валидации?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Задачка в одно действие!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>50</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_02/MAE</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q6 : base_om_ts_2022_spring_train_02_06 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>Василий сменил единицы измерения ряда с тысяч рублей на рубли.</p>
+<p>На какое число при этом домножится средняя абсолютная ошибка наивной модели?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вычислять тут почти нечего :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1000</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_02/ETS/AAN</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q7 : base_om_ts_2022_spring_train_02_07 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[<p>
+<p>В рамках ETS(AAN) модели постройте 95%-й предиктивный интервал на один шаг вперёд, Последнее значение сглаженного ряда (тренда) равно <span class="math inline">\(100\)</span>, последний наклон сглаженного ряда (тренда) равен 5, <span class="math inline">\(\alpha = \beta = 0.3\)</span>, <span class="math inline">\(u_t \sim \mathcal{N}(0; 16)\)</span>.</p>
+<p>В ответ введите правую границу предиктивного интервала с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Нужно отступить на нужное количество стандартных отклонений от ожидания.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>112.9</text>
+<tolerance>0.11</tolerance>
+</answer>
+</question>
+
+</quiz>
