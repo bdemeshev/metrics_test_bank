@@ -1,0 +1,20 @@
+Question
+========
+
+Сколько свободных параметров оценивается в ETS(MAdM) модели на квартальных данных?
+
+Solution
+========
+
+Смотрим на уравнения модели и не забываем начальные условия. 
+
+Meta-information
+================
+exname: ETS(MAdM)
+extype: num
+exsolution: 10
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS(MAdM)

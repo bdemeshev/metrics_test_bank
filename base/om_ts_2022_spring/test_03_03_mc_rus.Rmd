@@ -1,0 +1,29 @@
+Question
+========
+
+Какая модель соответствует аддитивному методу Хольта-Винтерса?
+
+Answerlist
+----------
+* ETS(AAA)
+* ETS(AAN)
+* ETS(AAdA)
+* ETS(ANA)
+* ETS(ANN)
+* нет верного ответа
+
+Solution
+========
+
+Смотрим спецификации различных ETS моделей.
+
+Meta-information
+================
+exname: holt-winters
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: holt-winters
