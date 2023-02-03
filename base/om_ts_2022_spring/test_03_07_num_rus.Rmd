@@ -1,0 +1,26 @@
+Question
+========
+
+Рассмотрим ETS модель с мультипликативной сезонностью для месячных данных. 
+Известно, что $s_{5} = 0.8$, $u_{17} = 1$, $\gamma = 0.3$. 
+
+
+На сколько процентов сезонный эффект увеличивает значение наблюдаемого ряда в момент времени $t=17$?
+
+В ответе укажите целое число процентов. 
+
+Solution
+========
+
+Найдите $s_{17}$ и проинтерпретируйте. 
+
+Meta-information
+================
+exname: ETS with multiplicative seasonality
+extype: num
+exsolution: 4
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS with multiplicative seasonality

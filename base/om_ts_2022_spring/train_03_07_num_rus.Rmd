@@ -1,0 +1,26 @@
+Question
+========
+
+Рассмотрим ETS модель с мультипликативной сезонностью для месячных данных. 
+Известно, что $s_{5} = 0.8$, $u_{17} = 1.2$, $u_{29} = -1$, $\gamma = 0.5$. 
+
+
+На сколько процентов сезонный эффект уменьшает значение наблюдаемого ряда в момент времени $t=29$?
+
+В ответе укажите целое число процентов. 
+
+Solution
+========
+
+Найдите $s_{29}$ и проинтерпретируйте. 
+
+Meta-information
+================
+exname: ETS with multiplicative seasonality
+extype: num
+exsolution: 36
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS with multiplicative seasonality
