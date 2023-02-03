@@ -1,0 +1,29 @@
+Question
+========
+
+Частным случаем какой модели является модель за тета-методом?
+
+Answerlist
+----------
+* ETS(AAN) с $\beta=0$
+* ETS(AAA) с $\alpha=1$
+* ETS(AAA) с $\gamma=1$
+* ETS(MMM) с $\alpha=0$
+* ETS(MMM) с $\beta=0$
+* нет верного ответа
+
+Solution
+========
+
+Смотрим уравнения статистической модели тета-метода.
+
+Meta-information
+================
+exname: theta-method
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: theta-method
