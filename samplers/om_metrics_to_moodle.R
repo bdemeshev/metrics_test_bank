@@ -29,5 +29,6 @@ res = exams2moodle(files_df$filename,
                    dir = '../snapshots/',
                    name = 'om_test_09',
                    mchoice = list(shuffle = TRUE, enumerate = FALSE),
-                   schoice = list(shuffle = TRUE, enumerate = FALSE))
+                   schoice = list(shuffle = TRUE, enumerate = FALSE,
+                eval = list(negative = 0, partial = TRUE, rule = 'none')))
 

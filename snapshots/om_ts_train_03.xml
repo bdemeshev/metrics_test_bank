@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_03/theta-method</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : base_om_ts_2022_spring_train_03_01_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель, стоящую за тета-методом,
+<span class="math display">\[
+\begin{cases}
+y_t = \ell_{t-1} + 2 + u_t \\
+\ell_t = \ell_{t-1} + 2 + 0.3 u_t
+\end{cases}.
+\]</span></p>
+<p>Перепишите эту модель в виде
+<span class="math display">\[
+\Delta y_t = \theta_1 + \theta_2 u_{t-1} + u_t.
+\]</span>
+В ответ укажите коэффициент <span class="math inline">\(\theta_2\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Перейдите к разностям в первом уравнении.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-0.7</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_03/theta-method</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q2 : base_om_ts_2022_spring_train_03_02_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Частным случаем какой модели является модель за тета-методом?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Смотрим уравнения статистической модели тета-метода.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(MMM) с <span class="math inline">\(\beta=0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(MMM) с <span class="math inline">\(\alpha=0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(AAA) с <span class="math inline">\(\gamma=1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(AAA) с <span class="math inline">\(\alpha=1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+ETS(AAN) с <span class="math inline">\(\beta=0\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_03/ses</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q3 : base_om_ts_2022_spring_train_03_03_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Какая модель простому экспоненциальному сглаживанию?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Смотрим спецификации различных ETS моделей.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(ANA)
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(AAN)
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(AAdA)
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+ETS(ANN)
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(AAA)
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_03/ETS(MAdM)</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q4 : base_om_ts_2022_spring_train_03_04_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Сколько свободных параметров оценивается в ETS(MAdM) модели на квартальных данных?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Смотрим на уравнения модели и не забываем начальные условия.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>10</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_03/ETS</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q5 : base_om_ts_2022_spring_train_03_05_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Перед Винни-Пухом временной ряд потребления мёда без тренда и сезонными колебаниями постоянной амплитуды.
+Какая модель из предложенных лучше подходит для описания данного ряда?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Смотрим уравнения ETS моделей</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(MAM)
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(AAN)
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(MNM)
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(AAA)
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+ETS(ANA)
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ETS(AAdA)
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_03/ETS(AAdN)</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q6 : base_om_ts_2022_spring_train_03_06_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим модель ETS(AAdN).
+Для последнего наблюдения <span class="math inline">\(\ell_{100} = 100\)</span>, <span class="math inline">\(b_{100} = 4\)</span>, <span class="math inline">\(\phi = 0.5\)</span>.</p>
+<p>Найдите точечный прогноз для <span class="math inline">\(y_{104}\)</span>. Ответ укажите с точностью до двух знаков после запятой.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Берём уравнение ETS модели и считаем условное ожидание.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>103.75</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_03/ETS with multiplicative seasonality</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q7 : base_om_ts_2022_spring_train_03_07_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим ETS модель с мультипликативной сезонностью для месячных данных.
+Известно, что <span class="math inline">\(s_{5} = 0.8\)</span>, <span class="math inline">\(u_{17} = 1.2\)</span>, <span class="math inline">\(u_{29} = -1\)</span>, <span class="math inline">\(\gamma = 0.5\)</span>.</p>
+<p>На сколько процентов сезонный эффект уменьшает значение наблюдаемого ряда в момент времени <span class="math inline">\(t=29\)</span>?</p>
+<p>В ответе укажите целое число процентов.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Найдите <span class="math inline">\(s_{29}\)</span> и проинтерпретируйте.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>36</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+</quiz>
