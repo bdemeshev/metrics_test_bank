@@ -1,0 +1,35 @@
+```{r}
+k = sample(1:9, size=1)
+from1 = sample(100:111, size=1)
+to1 = from1 + k
+from2 = 120
+to2 = from2 + k
+```
+
+
+Question
+========
+
+Процесс $(y_t)$ стационарный. 
+
+Найдите максимальное значение $t$, при котором гарантированно выполнено условие 
+$$
+ \mathrm{Cov}(y_{`r from1`}, y_{`r to1`}) = \mathrm{Cov}(y_{`r from2`}, y_t).
+$$
+
+
+Solution
+========
+
+Вспомните определение стационарного процесса.
+
+Meta-information
+================
+exname: stationarity
+extype: num
+exsolution: `r to2`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: stationarity
