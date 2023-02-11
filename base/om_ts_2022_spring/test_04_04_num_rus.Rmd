@@ -1,0 +1,27 @@
+```{r}
+k = sample(2:9, size=1)
+m = sample(2:4, size=1)
+ans = k + choose(m, 2)
+```
+
+
+Question
+========
+
+Найдите коэффициент при $y_{t-2}$ в выражении $(7 + `r k`L^2 + (1+L)^{`r m`})y_t$.
+
+Solution
+========
+
+Раскройте скобки и вспомните, что $Ly_t = y_{t-1}$.
+
+Meta-information
+================
+exname: lag operator
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: lag operator

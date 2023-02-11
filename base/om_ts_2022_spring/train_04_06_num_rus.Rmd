@@ -1,0 +1,39 @@
+```{r}
+ma1 = sample(2:9, size=1)
+varu = sample(2:9, size=1)
+
+k = 1 / ma1
+k_rounded = round(k, digits=2)
+varv = varu * (1 + ma1^2) / (1 + (1 / ma1)^2)
+varv_rounded = round(varv, digits=2)
+```
+
+
+Question
+========
+
+Рассмотрим два процесса.
+
+Первый, $y_t = 5 + u_t + `r ma1` u_{t-1}$, где $(u_t)$ — белый шум с дисперсией $`r varu`$.
+
+Второй, $x_t = 5 + v_t + k v_{t-1}$, где $k\neq `r ma1`$ и  $(v_t)$ — белый шум с дисперсией $\sigma^2$.
+
+Известно, что у процессов $(y_t)$ и $(x_t)$ одинаковые автоковариационные функции. 
+Найдите $k$ с точностью до двух знаков после десятичной точки.
+
+
+Solution
+========
+
+Вспомните определения автоковариационной функции. 
+
+Meta-information
+================
+exname: ma1
+extype: num
+exsolution: `r k_rounded`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ma1

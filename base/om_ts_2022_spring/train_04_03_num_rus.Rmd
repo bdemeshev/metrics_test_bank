@@ -1,0 +1,30 @@
+```{r}
+n = sample(5:20, size=1)
+pcorr = round(- 1/(n - 1), digits=2)
+```
+
+Question
+========
+
+Величины $X_1$, \ldots, $X_{`r n`}$ одинаково распределены и независимы.
+Обозначим их сумму буквой $S$. 
+
+Найдите частную корреляцию $\mathrm{pCorr}(X_1, X_2; S)$.
+
+Ответ вводите с точностью до двух знаков после десятичной точки.
+
+Solution
+========
+
+Вспомните определение частной корреляции.
+
+Meta-information
+================
+exname: partial correlation
+extype: num
+exsolution: `r pcorr`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: partial correlation

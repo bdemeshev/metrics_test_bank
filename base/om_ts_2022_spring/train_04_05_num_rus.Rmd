@@ -1,0 +1,32 @@
+```{r}
+ma1 = sample(2:9, size=1)
+varu = sample(2:9, size=1)
+rho1 = ma1 / (1 + ma1^2)
+rho1_rounded = round(rho1, digits=2)
+phi22 = (0 - rho1^2) / (1 - rho1^2)
+phi22_rounded = round(phi22, digits=2)
+```
+
+
+Question
+========
+
+Известно, что $y_t = 5 + u_t + `r ma1` u_{t-1}$, где $(u_t)$ — белый шум с дисперсией `r varu`.
+
+Найдите частную автокорреляцию второго порядка $\phi_{22}$ процесса $(y_t)$ с точностью до двух знаков после десятичной точки.
+
+Solution
+========
+
+Вспомните определения автокорреляционной функции. 
+
+Meta-information
+================
+exname: ma1
+extype: num
+exsolution: `r phi22_rounded`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ma1
