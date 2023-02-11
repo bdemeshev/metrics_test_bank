@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_04/stationarity</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : base_om_ts_2022_spring_test_04_01_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Процесс <span class="math inline">\((y_t)\)</span> стационарный.</p>
+<p>Найдите максимальное значение <span class="math inline">\(t\)</span>, при котором гарантированно выполнено условие
+<span class="math display">\[
+ \mathrm{Cov}(y_{105}, y_{110}) = \mathrm{Cov}(y_{120}, y_t).
+\]</span></p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определение стационарного процесса.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>125</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_04/ACF</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q2 : base_om_ts_2022_spring_test_04_02_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Известно два значения автоковариационной функции стационарного процесса <span class="math inline">\(\gamma_0 = 300\)</span> и <span class="math inline">\(\gamma_7 = 180\)</span>.</p>
+<p>Найдите точное значение автокорреляционной функции <span class="math inline">\(\rho_7\)</span>.</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определение автокорреляционной функции.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.6</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_04/partial correlation</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q3 : base_om_ts_2022_spring_test_04_03_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Величины <span class="math inline">\(X_1\)</span>, , <span class="math inline">\(X_{12}\)</span> одинаково распределены и независимы.
+Обозначим их сумму буквой <span class="math inline">\(S\)</span>.</p>
+<p>Найдите частную корреляцию <span class="math inline">\(\mathrm{pCorr}(X_1, X_2; S)\)</span>.</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определение частной корреляции.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-0.09</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_04/lag operator</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q4 : base_om_ts_2022_spring_test_04_04_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Найдите коэффициент при <span class="math inline">\(y_{t-2}\)</span> в выражении <span class="math inline">\((7 + 5L^2 + (1+L)^{3})y_t\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Раскройте скобки и вспомните, что <span class="math inline">\(Ly_t = y_{t-1}\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>8</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_04/ma1</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q5 : base_om_ts_2022_spring_test_04_05_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Известно, что <span class="math inline">\(y_t = 5 + u_t + 9 u_{t-1}\)</span>, где <span class="math inline">\((u_t)\)</span> — белый шум с дисперсией 5.</p>
+<p>Найдите автокорреляцию первого порядка <span class="math inline">\(\rho_1\)</span> процесса <span class="math inline">\((y_t)\)</span> с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определения автокорреляционной функции.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.11</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_04/ma1</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q6 : base_om_ts_2022_spring_test_04_06_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим два процесса.</p>
+<p>Первый, <span class="math inline">\(y_t = 5 + u_t + 5 u_{t-1}\)</span>, где <span class="math inline">\((u_t)\)</span> — белый шум с дисперсией <span class="math inline">\(2\)</span>.</p>
+<p>Второй, <span class="math inline">\(x_t = 5 + v_t + k v_{t-1}\)</span>, где <span class="math inline">\(k\neq 5\)</span> и <span class="math inline">\((v_t)\)</span> — белый шум с дисперсией <span class="math inline">\(\sigma^2\)</span>.</p>
+<p>Известно, что у процессов <span class="math inline">\((y_t)\)</span> и <span class="math inline">\((x_t)\)</span> одинаковые автоковариационные функции.
+Найдите <span class="math inline">\(\sigma^2\)</span> с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определения автоковариационной функции.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>50</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_04/ma1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q7 : base_om_ts_2022_spring_test_04_07_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим <span class="math inline">\(MA(2)\)</span> процесс <span class="math inline">\(y_t = 6 + u_t + \alpha_1 u_{t-1} + \alpha_2 u_{t-2}\)</span>,
+где <span class="math inline">\((u_t)\)</span> — белый шум.
+Пусть <span class="math inline">\(\lambda_1\)</span> и <span class="math inline">\(\lambda_2\)</span> — корни характеристического уравнения <span class="math inline">\(MA\)</span>-части,
+<span class="math inline">\(\lambda_2 + \alpha_1 \lambda + \alpha_2=0\)</span>.</p>
+<p>В каком из предложенных случаев процесс <span class="math inline">\((y_t)\)</span> является обратимым относительно белого шума <span class="math inline">\((u_t)\)</span>?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Смотрим уравнения ETS моделей</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\lambda_1 = 1\)</span>, <span class="math inline">\(\lambda_2 = -1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\lambda_1 = 1.3\)</span>, <span class="math inline">\(\lambda_2 = 1.8\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\lambda_1 = -2\)</span>, <span class="math inline">\(\lambda_2 = -7\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\lambda_1 = 0.3\)</span>, <span class="math inline">\(\lambda_2 = 1.8\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\lambda_1 = 0.3\)</span>, <span class="math inline">\(\lambda_2 = -0.8\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>

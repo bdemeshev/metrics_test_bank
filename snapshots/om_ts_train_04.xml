@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_04/stationarity</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : base_om_ts_2022_spring_train_04_01_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Процесс <span class="math inline">\((y_t)\)</span> стационарный.</p>
+<p>Найдите максимальное значение <span class="math inline">\(t\)</span>, при котором гарантированно выполнено условие
+<span class="math display">\[
+ \mathrm{Cov}(y_{105}, y_{111}) = \mathrm{Cov}(y_{120}, y_t).
+\]</span></p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определение стационарного процесса.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>126</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_04/ACF</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q2 : base_om_ts_2022_spring_train_04_02_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Известно значение автоковариационной функции стационарного процесса <span class="math inline">\(\gamma_9 = 450\)</span> и значение его автокорреляционной функции <span class="math inline">\(\rho_9 = 0.5\)</span>.</p>
+<p>Найдите дисперсию случайного процесса.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определение автокорреляционной функции.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>900</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_04/partial correlation</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q3 : base_om_ts_2022_spring_train_04_03_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Величины <span class="math inline">\(X_1\)</span>, , <span class="math inline">\(X_{10}\)</span> одинаково распределены и независимы.
+Обозначим их сумму буквой <span class="math inline">\(S\)</span>.</p>
+<p>Найдите частную корреляцию <span class="math inline">\(\mathrm{pCorr}(X_1, X_2; S)\)</span>.</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определение частной корреляции.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-0.11</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_04/lag operator</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q4 : base_om_ts_2022_spring_train_04_04_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Найдите коэффициент при <span class="math inline">\(y_{t-2}\)</span> в выражении <span class="math inline">\((7 + 7L^2 + (1+L)^{4})y_t\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Раскройте скобки и вспомните, что <span class="math inline">\(Ly_t = y_{t-1}\)</span>.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>13</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_04/ma1</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q5 : base_om_ts_2022_spring_train_04_05_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Известно, что <span class="math inline">\(y_t = 5 + u_t + 2 u_{t-1}\)</span>, где <span class="math inline">\((u_t)\)</span> — белый шум с дисперсией 7.</p>
+<p>Найдите частную автокорреляцию второго порядка <span class="math inline">\(\phi_{22}\)</span> процесса <span class="math inline">\((y_t)\)</span> с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определения автокорреляционной функции.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-0.19</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_04/ma1</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q6 : base_om_ts_2022_spring_train_04_06_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим два процесса.</p>
+<p>Первый, <span class="math inline">\(y_t = 5 + u_t + 3 u_{t-1}\)</span>, где <span class="math inline">\((u_t)\)</span> — белый шум с дисперсией <span class="math inline">\(3\)</span>.</p>
+<p>Второй, <span class="math inline">\(x_t = 5 + v_t + k v_{t-1}\)</span>, где <span class="math inline">\(k\neq 3\)</span> и <span class="math inline">\((v_t)\)</span> — белый шум с дисперсией <span class="math inline">\(\sigma^2\)</span>.</p>
+<p>Известно, что у процессов <span class="math inline">\((y_t)\)</span> и <span class="math inline">\((x_t)\)</span> одинаковые автоковариационные функции.
+Найдите <span class="math inline">\(k\)</span> с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определения автоковариационной функции.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.33</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_04/ma1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q7 : base_om_ts_2022_spring_train_04_07_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>С какой целью при оценивании модели <span class="math inline">\(MA(2)\)</span> накладывают требование обратимости процесса?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Смотрим уравнения ETS моделей</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+чтобы обратить характеристический многочлен
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+чтобы гарантировать нулевые корреляции высоких порядков
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+чтобы гарантировать стационарность процесса
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+чтобы гарантировать единственность оценок
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+чтобы обратить лаговый многочлен
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+чтобы гарантировать неотрицательность дисперсии процесса
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>
