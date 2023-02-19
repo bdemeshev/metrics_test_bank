@@ -1,0 +1,42 @@
+```{r}
+a = sample(2:20, size=1)
+b = sample(2:20, size=1)
+```
+
+Question
+========
+
+Рассмотрим уравнение 
+$$
+y_t = `r b` + `r a` y_{t-1} +  u_t + 0.3 u_{t-1},
+$$
+где $(u_t)$ — белый шум. 
+
+
+Сколько стационарных решений имеет это уравнение?
+
+
+Answerlist
+----------
+* 1
+* 2
+* 3
+* 4
+* 0
+* бесконечно много
+
+Solution
+========
+
+Раскручивайте время вперёд!
+
+Meta-information
+================
+exname: uniqueness of stationary solutions
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: arma11
