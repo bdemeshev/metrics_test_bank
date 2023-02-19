@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_05/ar characterestic roots</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : base_om_ts_2022_spring_test_05_01_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Найдите наибольший корень характеристического уравнения <span class="math inline">\(AR\)</span>-части рекуррентного уравнения
+<span class="math display">\[
+y_t = y_{t-1} + 8 y_{t-2} + u_t.
+\]</span></p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните, как строится характеристическое уравнение.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>3.37</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_05/ar2</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q2 : base_om_ts_2022_spring_test_05_02_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим уравнение
+<span class="math display">\[
+y_t = 19 y_{t-1} + 9 y_{t-2} + u_t,
+\]</span>
+где <span class="math inline">\((u_t)\)</span> — белый шум.</p>
+<p>Сколько нестационарных решений оно имеет?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Возьмите практически любые начальные условия.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+2
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+бесконечность
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+3
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+1
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+4
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_05/ar characterestic roots</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q3 : base_om_ts_2022_spring_test_05_03_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Корни лагового многочлена <span class="math inline">\(AR\)</span>-части уравнения равны <span class="math inline">\(\ell_1 = 16\)</span> и <span class="math inline">\(\ell_2 = 32\)</span>.</p>
+<p>Найдите наибольший корень характеристического уравнения <span class="math inline">\(AR\)</span>-части.</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните, как строятся характеристический и лаговый многочлены.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.06</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_05/arma11</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q4 : base_om_ts_2022_spring_test_05_04_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим уравнение
+<span class="math display">\[
+y_t = 18 + 3 y_{t-1} +  u_t + 0.3 u_{t-1},
+\]</span>
+где <span class="math inline">\((u_t)\)</span> — белый шум.</p>
+<p>Сколько стационарных решений имеет это уравнение?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Раскручивайте время вперёд!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+1
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+бесконечно много
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+3
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+0
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+4
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+2
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_05/lag polynomials</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q5 : base_om_ts_2022_spring_test_05_05_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим лаговые многочлены <span class="math inline">\(P(L) = 1 - 0.3 L\)</span> и <span class="math inline">\(Q(L) = 1 + 8 L + \alpha L^2\)</span>.</p>
+<p>При каком значении <span class="math inline">\(\alpha\)</span> многочлены будут сократимыми?</p>
+<p>Ответ вводите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Найдите корень одного из многочленов.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>-2.49</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_05/arma11</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q6 : base_om_ts_2022_spring_test_05_06_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим уравнение
+<span class="math display">\[
+y_t = 3 + 0.7 y_{t-1} + u_t + 6 u_{t-1},
+\]</span>
+где <span class="math inline">\((u_t)\)</span> — белый шум.</p>
+<p>Определите, являются ли верными утверждения A и B.</p>
+<p>A: уравнение имеет одно стационарное решение вида <span class="math inline">\(MA(\infty)\)</span> относительно <span class="math inline">\((u_t)\)</span>.</p>
+<p>B: для <span class="math inline">\(MA\)</span>-части уравнения выполнено условие обратимости.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определение обратимости и теорему о виде стационарных решений.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A неверно, B неверно.
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A верно, B верно.
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A верно, B неверно.
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A неверно, B верно.
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_05/arma</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q7 : base_om_ts_2022_spring_test_05_07_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Выберите верное утверждение про стационарный <span class="math inline">\(ARMA(p, q)\)</span> процесс относительно белого шума <span class="math inline">\((u_t)\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>ARMA — не AR и не MA :)</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+является частным случаем <span class="math inline">\(MA(\infty)\)</span> процесса относительно <span class="math inline">\((u_t)\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+является частным случаем <span class="math inline">\(AR(q)\)</span> процесса относительно <span class="math inline">\((u_t)\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+является частным случаем <span class="math inline">\(MA(p)\)</span> процесса относительно <span class="math inline">\((u_t)\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+является частным случаем <span class="math inline">\(MA(q)\)</span> процесса относительно <span class="math inline">\((u_t)\)</span>.
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+является частным случаем <span class="math inline">\(AR(p)\)</span> процесса относительно <span class="math inline">\((u_t)\)</span>.
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>
