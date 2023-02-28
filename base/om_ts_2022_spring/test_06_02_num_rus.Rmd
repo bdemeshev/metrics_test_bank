@@ -1,0 +1,29 @@
+```{r}
+p = sample(1:5, size=1)
+q = sample(1:5, size=1)
+log_lik = sample(10:20, size=1) * (-10)
+ans = 2 * (p + q + 2) - 2 * log_lik
+```
+
+Question
+========
+
+У $ARMA(`r p`, `r q`)$-модели с ненулевым ожиданием и нормально распределенными ошибками логарифм правдоподобия оказался равен $`r log_lik`$. 
+
+Найдите значение информационного критерия Акаике. 
+
+Solution
+========
+
+Не забудьте верно посчитать число параметров!
+
+Meta-information
+================
+exname: aic
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: aic

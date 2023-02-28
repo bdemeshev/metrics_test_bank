@@ -1,0 +1,26 @@
+```{r}
+p = sample(1:5, size=1)
+q = sample(1:5, size=1)
+ans = p + q + 2
+```
+
+Question
+========
+
+Укажите число параметров в $ARIMA(`r p`, 1, `r q`)$ модели с ненулевым математическим ожиданием и нормально распределенными ошибками. 
+
+Solution
+========
+
+Помните про дисперсию и математическое ожидание. 
+
+Meta-information
+================
+exname: arima
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: arima

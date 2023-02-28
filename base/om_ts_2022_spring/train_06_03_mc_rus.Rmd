@@ -1,0 +1,33 @@
+Question
+========
+
+Рассмотрим две конкурирующие модели: $ARMA(2, 1)$ с ненулевым ожиданием 
+и $ARMA(1, 2)$ с нулевым ожиданием. 
+
+Каким способом разумно выбрать наилучшую из них?
+
+
+Answerlist
+----------
+* критерий Акаике
+* ADF тест с константой
+* ADF тест с трендом
+* KPSS тест с константой
+* ADF тест без константы
+* нет верного ответа
+
+Solution
+========
+
+Посмотрите предпосылки тестов.
+
+Meta-information
+================
+exname: aic
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: aic

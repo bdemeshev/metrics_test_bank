@@ -1,0 +1,30 @@
+Question
+========
+
+Какая зависимость математического ожидания исходного процесса от времени предполагается в нулевой гипотезе $KPSS$-теста с константой?
+
+
+Answerlist
+----------
+* $\mathbb{E}(y_t) = \mu$
+* $\mathbb{E}(y_t) = \mu + \alpha t$
+* $\mathbb{E}(y_t) = \mu + \alpha t + \beta t^2$
+* $\mathbb{E}(y_t)$ строго возрастает 
+* $\mathbb{E}(y_t)$ строго монотонна 
+* нет верного ответа
+
+Solution
+========
+
+Посмотрите предпосылки тестов.
+
+Meta-information
+================
+exname: adf
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: adf

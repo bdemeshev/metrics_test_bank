@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_06/arima</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : base_om_ts_2022_spring_train_06_01_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Укажите число параметров в <span class="math inline">\(ARIMA(2, 1, 5)\)</span> модели с ненулевым математическим ожиданием и нормально распределенными ошибками.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Помните про дисперсию и математическое ожидание.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>9</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_06/aic</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q2 : base_om_ts_2022_spring_train_06_02_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>У <span class="math inline">\(ARMA(2, 5)\)</span>-модели с нулевым ожиданием и нормально распределенными ошибками логарифм правдоподобия оказался равен <span class="math inline">\(-200\)</span>.</p>
+<p>Найдите значение информационного критерия Акаике.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Не забудьте верно посчитать число параметров!</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>416</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_06/aic</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q3 : base_om_ts_2022_spring_train_06_03_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим две конкурирующие модели: <span class="math inline">\(ARMA(2, 1)\)</span> с ненулевым ожиданием
+и <span class="math inline">\(ARMA(1, 2)\)</span> с нулевым ожиданием.</p>
+<p>Каким способом разумно выбрать наилучшую из них?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Посмотрите предпосылки тестов.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+критерий Акаике
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ADF тест с константой
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+KPSS тест с константой
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ADF тест без константы
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+ADF тест с трендом
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_06/adf</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q4 : base_om_ts_2022_spring_train_06_04_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Какая зависимость математического ожидания исходного процесса от времени предполагается в альтернативной гипотезе <span class="math inline">\(ADF\)</span>-теста с константой?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Посмотрите предпосылки тестов.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t) = \mu\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t)\)</span> строго возрастает
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t) = \mu + \alpha t\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t) = \mu + \alpha t + \beta t^2\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t)\)</span> строго монотонна
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_06/adf</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q5 : base_om_ts_2022_spring_train_06_05_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Какая зависимость математического ожидания исходного процесса от времени предполагается в альтернативной гипотезе <span class="math inline">\(KPSS\)</span>-теста с константой?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Посмотрите предпосылки тестов.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t)\)</span> строго монотонна
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t) = \mu + \alpha t + \beta t^2\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t) = \mu + \alpha t\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t) = \mu\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(\mathbb{E}(y_t)\)</span> строго возрастает
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_06/long-run variance</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q6 : base_om_ts_2022_spring_train_06_06_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим <span class="math inline">\(MA(1)\)</span> модель <span class="math inline">\(y_t = u_t + 3 u_{t-1}\)</span>,
+где <span class="math inline">\((u_t)\)</span> — белый шум с дисперсией <span class="math inline">\(3\)</span>.</p>
+<p>Найдите долгосрочную дисперсию процесса <span class="math inline">\((y_t)\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните определение долгосрочной дисперсии.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>48</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_train_06/sarima</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q7 : base_om_ts_2022_spring_train_06_07_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Найдите наименьшее возможное значение <span class="math inline">\(q\)</span>, если известно, что <span class="math inline">\(SARIMA(1, 0, 2)(3, 0, 3)[12]\)</span>-модель является частным случаем <span class="math inline">\(ARMA(p, q)\)</span>-модели.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните формулу <span class="math inline">\(SARIMA\)</span> модели и обратите внимание на наибольшую степень лага.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>38</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+</quiz>
