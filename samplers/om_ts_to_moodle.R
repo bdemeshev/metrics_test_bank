@@ -7,7 +7,7 @@ library(rio)
 library(exams)
 # library(rexamsconverter)
 
-end_name = 'test_06' # 'test_01', 'train_02' etc
+end_name = 'train_07' # 'test_01', 'train_02' etc
 
 files_df = tibble(filename = list.files('../base/om_ts_2022_spring/',
                                         pattern = end_name, full.names = TRUE, recursive = TRUE))

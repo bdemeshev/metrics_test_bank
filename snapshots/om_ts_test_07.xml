@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_07/bootstrap</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : base_om_ts_2022_spring_test_07_01_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>В исходной выборке 9 наблюдений.
+Найдите ожидаемое количество копий второго наблюдения в очередной бутстрэп выборке.</p>
+<p>Ответ укажите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните принцип построения бутстрэп выборки.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>1</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_07/gradient boosting</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q2 : base_om_ts_2022_spring_test_07_02_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим алгоритм градиентного бустинга над решающими деревьями для задачи регрессии.
+Каждое дерево даёт свой прогноз.</p>
+<p>Выберите верное утверждение о механизме агрегирования прогнозов отдельных деревьев в прогноз всего алгоритма.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Посмотрите описание алгоритма градиентного бустинга.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+вес, с которым прогноз дерева учитывается в итоговом прогнозе, линейно растёт по номеру дерева
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+вес, с которым прогноз дерева учитывается в итоговом прогнозе, нелинейно растёт по номеру дерева
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+прогнозы деревьев складываются и домножаются на темп обучения
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+вес, с которым прогноз дерева учитывается в итоговом прогнозе, нелинейно убывает по номеру дерева
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+вес, с которым прогноз дерева учитывается в итоговом прогнозе, линейно убывает по номеру дерева
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_07/gradient boosting</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q3 : base_om_ts_2022_spring_test_07_03_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим алгоритм градиентного бустинга над решающими деревьями для задачи регрессии.</p>
+<p>Выберите верное утверждение о том, какие наблюдения используются для обучения каждого дерева.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Посмотрите описание алгоритма градиентного бустинга.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+каждое последующее дерево использует всё меньше и меньше наблюдений
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+каждое дерево использует свою бутстрэп-реплику исходных наблюдений
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+каждое последующее дерево использует всё больше и больше наблюдений
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+наблюдения распределяются примерно поровну между деревьями случайным образом
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+каждое дерево использует все исходные наблюдения
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_07/gradient boosting</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q4 : base_om_ts_2022_spring_test_07_04_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Рассмотрим алгоритм градиентного бустинга над решающими деревьями для задачи регрессии.</p>
+<p>Какую целевую переменную «учится» прогнозировать дерево номер 4?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Посмотрите описание градиентного бустинга.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+разницу между исходной переменной <span class="math inline">\(y_t\)</span> и прогнозом третьего дерева, домноженным на темп обучения
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+разницу между исходной переменной <span class="math inline">\(y_t\)</span> и суммой прогнозов первых трёх деревьев, домноженной на темп обучения
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+разницу между исходной переменной <span class="math inline">\(y_t\)</span> и суммой прогнозов первых трёх деревьев
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+исходную переменную <span class="math inline">\(y_t\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+разницу между исходной переменной <span class="math inline">\(y_t\)</span> и прогнозом третьего дерева
+</p>]]></text>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_07/fourier</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q5 : base_om_ts_2022_spring_test_07_05_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Какой период у функции <span class="math inline">\(\sin(6 \pi t / 365)\)</span>?</p>
+<p>Ответ укажите с точностью до двух знаков после десятичной точки.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните период косинуса и синуса.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>121.67</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_07/sample size</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q6 : base_om_ts_2022_spring_test_07_06_num_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>У Винни-Пуха был временной ряд из 1000 наблюдений.
+Винни использует алгоритм случайного леса, причем в качестве предикторов он берёт лаги <span class="math inline">\(y_{t-1}\)</span>, , <span class="math inline">\(y_{t - 3}\)</span>.</p>
+<p>По скольки наблюдениям обучается каждое из деревьев?</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Вспомните описание случайного леса.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>997</text>
+<tolerance>0.01</tolerance>
+</answer>
+</question>
+
+
+<question type="category">
+<category>
+<text>$course$/om_ts_test_07/ARDL</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q7 : base_om_ts_2022_spring_test_07_07_mc_rus </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<p>
+<p>Выберите верное утверждение про ARDL модель с зависимой переменной <span class="math inline">\(y_t\)</span> и предиктором <span class="math inline">\(x_t\)</span>.</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>Посмотрите описание ARDL модели.</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>true</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(y_t\)</span> является <span class="math inline">\(ARMA(p, q)\)</span> процессом c <span class="math inline">\(p \geq 1\)</span> и <span class="math inline">\(q \geq 1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+нет верного ответа
+</p>]]></text>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(y_t\)</span> является нестационарным
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(y_t\)</span> является стационарным
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(y_t\)</span> является <span class="math inline">\(MA(q)\)</span> процессом c <span class="math inline">\(q \geq 1\)</span>
+</p>]]></text>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+<span class="math inline">\(y_t\)</span> является <span class="math inline">\(AR(p)\)</span> процессом c <span class="math inline">\(p \geq 1\)</span>
+</p>]]></text>
+</answer>
+</question>
+
+</quiz>
