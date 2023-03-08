@@ -1,0 +1,30 @@
+```{r}
+n = sample(5:10, size=1)
+n_copy = sample(2:4, size=1)
+exact_prob = dbinom(n_copy, size=n, prob=1/n) 
+ans = round(exact_prob, digits = 2)
+```
+
+Question
+========
+
+В исходной выборке `r n` наблюдений. 
+Найдите вероятность того, что второе наблюдение из исходной выборки  попадёт в очередную бутстрэп выборку ровно `r n_copy` раз.
+
+Ответ укажите с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Вспомните принцип построения бутстрэп выборки. 
+
+Meta-information
+================
+exname: bootstrap 
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: bootstrap
