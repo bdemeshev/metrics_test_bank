@@ -1,0 +1,30 @@
+```{r}
+k = sample(2:9, size=1) 
+y1 = sample(3:10, size=1)
+y10 = sample(20:30, size=1)
+yk = y1 + (y10 -  y1) * (k - 1) / (10 - 1)
+ans = round(yk, digits=2)
+```
+
+Question
+========
+
+Известно, что $y_1 = `r y1`$, $y_{10} = `r y10`$, а остальные наблюдения — пропущенные. 
+
+С помощью линейной интерполяции восстановите $y_{`r k`}$ с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Линейная интерполяция — это знакомая со школы арифметическая прогрессия!
+
+Meta-information
+================
+exname: linear interpolation
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: missing observations

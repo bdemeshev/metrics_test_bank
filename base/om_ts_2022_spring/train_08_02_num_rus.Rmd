@@ -1,0 +1,31 @@
+```{r}
+b = sample(2:9, size=1) / 10
+y1 = sample(3:10, size=1)
+y2 = sample(3:10, size=1)
+y4 = 4 + b * (4 + b * y2)
+ans = round(y4, digits=2)
+```
+
+Question
+========
+
+Известно, что $y_1 = `r y1`$, $y_{2} = `r y2`$, а остальные наблюдения — пропущенные. 
+Для восстановления наблюдений Винни-Пух использует модель $\mathbb{E}(y_t \mid y_{t-1}, \ldots, y_1) = 4 + `r b` y_{t-1}$.
+
+Помогите Винни-Пуху восстановить $y_{`r k`}$ с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Задача восстановления очень похожа на задачу прогнозирования.
+
+Meta-information
+================
+exname: model for missing observations
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: missing observations
