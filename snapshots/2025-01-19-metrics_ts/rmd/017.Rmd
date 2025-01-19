@@ -1,0 +1,37 @@
+Question
+========
+В парной регрессии на уровне значимости 5\%-ов гипотеза $H_0$: $\beta_2 = 2016$ не отвергается.
+Из этого можно сделать вывод, что на соответствующем уровне значимости
+
+
+Answerlist
+----------
+*  нет верного ответа
+*  $H_0$: $\beta_2 = 0$ отвергается
+*  $H_0$: $\beta_2 = 0$ не отвергается
+*  $H_a$: $\beta_2 \neq 0$ не отвергается
+*  $H_a$: $\beta_2 \neq 0$ отвергается
+*  доверительный интервал для $\beta_2$ не содержит ноль
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: hypothesis check
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient confidence interval

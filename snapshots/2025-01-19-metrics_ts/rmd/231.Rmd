@@ -1,0 +1,20 @@
+Question
+========
+
+Сколько свободных параметров оценивается в ETS(MNM) модели на квартальных данных?
+
+Solution
+========
+
+Смотрим на уравнения модели и не забываем начальные условия. 
+
+Meta-information
+================
+exname: ETS(MNM)
+extype: num
+exsolution: 7
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS(MNM)

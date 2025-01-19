@@ -1,0 +1,22 @@
+Question
+========
+
+Ряд $(u_t)$ — белый шум с дисперсией равной 25. 
+
+Найдите дисперсию $\mathrm{Var}(2u_t + 2 u_{t-1} + \sqrt{2} u_{t-2})$. 
+
+Solution
+========
+
+Ковариация линейна.
+
+Meta-information
+================
+exname: variance given white noise
+extype: num
+exsolution: 250
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/White noise

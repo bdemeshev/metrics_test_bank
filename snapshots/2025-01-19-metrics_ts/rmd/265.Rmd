@@ -1,0 +1,23 @@
+Question
+========
+
+Выборочная дисперсия остаточной компоненты ряда равна 100,
+выборочная дисперсия суммы сезонной и остаточной компоненты равна 150. 
+
+Найдите силу выраженности сезонности с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Не забываем про сравнение с нулём!
+
+Meta-information
+================
+exname: seasonal intensity
+extype: num
+exsolution: 0.33
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Decomposition

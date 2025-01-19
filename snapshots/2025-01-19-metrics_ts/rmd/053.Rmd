@@ -1,0 +1,45 @@
+Question
+========
+Оценка регрессионной зависимости с помощью МНК по 1234 наблюдениям имеет вид $\hat Y_i = 1 - 3X_i + 4Z_i$. Оценка ковариационной матрицы имеет вид
+$$
+\mathrm{Var}(\hat \beta)=
+\begin{pmatrix}
+1 & 0.1 & 0.2 \\
+0.1 & 4 & 1.5 \\
+0.2 & 1.5 & 18 \\
+\end{pmatrix}.
+$$
+
+Длина 95\%-го доверительного интервала для $\beta_2 + \beta_3$ примерно равна
+
+
+
+Answerlist
+----------
+*  $20$
+*  $10$
+*  $25$
+*  $5$
+*  $1.96$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: coefficients_intervals
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient confidence interval

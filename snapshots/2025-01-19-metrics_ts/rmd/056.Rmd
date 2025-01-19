@@ -1,0 +1,34 @@
+Question
+========
+При работе с панельными данными для выбора между моделью с фиксированными эффектами и моделью со случайными эффектами используется
+
+
+Answerlist
+----------
+*  тест Хаусмана
+*  тест Бройша–Пагана
+*  тест Голдфелда-Квандта
+*  тест отношения правдоподобия
+*  поиск на сетке
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: panel_fe_re
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Panel Models

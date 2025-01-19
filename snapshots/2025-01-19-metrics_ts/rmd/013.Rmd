@@ -1,0 +1,36 @@
+Question
+========
+Свободно распространяемым программным обеспечением является
+
+
+Answerlist
+----------
+*  R
+*  Excel
+*  Stata
+*  Eviews
+*  SPSS
+*  Matlab
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: programs
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Others

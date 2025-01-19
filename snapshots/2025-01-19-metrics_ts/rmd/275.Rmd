@@ -1,0 +1,22 @@
+Question
+========
+
+Василий сменил единицы измерения ряда с тысяч рублей на рубли.
+
+На какое число при этом домножится средняя абсолютная ошибка наивной модели?
+
+Solution
+========
+
+Вычислять тут почти нечего :)
+
+Meta-information
+================
+exname: MAE
+extype: num
+exsolution: 1000
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: MAE

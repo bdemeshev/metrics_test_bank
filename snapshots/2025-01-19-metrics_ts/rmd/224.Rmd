@@ -1,0 +1,22 @@
+Question
+========
+
+В модели функция правдоподобия в точке максимума равна $10^{-10}$ а критерий Акаике равен $62.05$.
+
+Сколько параметров оценивается в модели?
+
+Solution
+========
+
+Не забудьте взять логарифм :)
+
+Meta-information
+================
+exname: AIC
+extype: num
+exsolution: 8
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: AIC

@@ -1,0 +1,40 @@
+Question
+========
+
+Гюльчатай оценила одну и ту же модель зависимости зарплаты от опыта работы по трём разным группам наблюдений. 
+
+Для 1000 сельских жителей:
+$$
+wage_i = \beta_1 + \beta_2 exp_i + u_i, RSS_a = 150.
+$$
+Для 2004 городских жителей:
+$$
+wage_i = \gamma_1 + \gamma_2 exp_i + u_i, RSS_b = 200.
+$$
+Для всех жителей сразу:
+$$
+wage_i = \delta_1 + \delta_2 exp_i + u_i, RSS_c = 400.
+$$
+
+Найдите значение $F$-статистики теста Чоу для проверки гипотезы об одинаковой зависимости для всех жителей. 
+
+Ответ укажите с точностью до двух знаков после десятичной точки. 
+
+
+Solution
+========
+$$
+F = \frac{(RSS_r - RSS_{ur}) / r}{RSS_{ur} / (n - k_{ur})}, RSS_{ur} = RSS_1 + RSS_2.
+$$
+
+Meta-information
+================
+exname: F statistics
+extype: num
+exsolution: 214.29
+extol: 1
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Chaw F-test
+

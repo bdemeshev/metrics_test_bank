@@ -1,0 +1,37 @@
+Question
+========
+Если $\mathbb{E}(X) = 4$, $\mathbb{E}(Y) = 3$, $\mathrm{Var}(X) = 6$, $\mathrm{Var}(Y) = 7$,
+$\mathrm{Cov}(X,Y) = -1$, то $\mathrm{Cov}(1 - X + 2Y, X)$  равна
+
+
+Answerlist
+----------
+*  -8
+*  8
+*  4
+*  -4
+*  -9
+*  9
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: covariance_calculation
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Moments

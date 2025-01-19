@@ -1,0 +1,20 @@
+Question
+========
+
+Сколько свободных параметров оценивается в $ETS(AAA)$ модели по квартальным данным?
+
+Solution
+========
+
+Подсказка: двух рук хватит :)
+
+Meta-information
+================
+exname: ETS(AAdA)
+extype: num
+exsolution: 9
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS/ANN

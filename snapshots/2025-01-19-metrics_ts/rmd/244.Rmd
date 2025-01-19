@@ -1,0 +1,32 @@
+```{r}
+x1 = sample(2:20, size=1)
+x2 = sample(21:40, size=1)
+
+inv_max = 1 / x1
+ans = round(inv_max, digits=2)
+```
+
+Question
+========
+
+Корни лагового многочлена $AR$-части уравнения равны $\ell_1 = `r x1`$ и $\ell_2 = `r x2`$.
+
+Найдите наибольший корень характеристического уравнения $AR$-части. 
+
+Ответ вводите с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Вспомните, как строятся характеристический и лаговый многочлены. 
+
+Meta-information
+================
+exname: ar characterestic roots
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ar characterestic roots

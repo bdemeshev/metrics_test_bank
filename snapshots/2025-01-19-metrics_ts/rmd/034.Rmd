@@ -1,0 +1,38 @@
+Question
+========
+Если для регрессора используется преобразование Бокса-Кокса с параметром $\theta=-1$,
+а для зависимой переменной — с параметром $\lambda = 1$,
+то регрессионное уравнение представимо в виде
+
+
+Answerlist
+----------
+*  $Y_i = \beta_1 + \beta_2 \frac{1}{X_i} + u_i$
+*  $\ln Y_i = \beta_1 + \beta_2 \ln X_i + u_i$
+*  $\ln Y_i = \beta_1 + \beta_2 X_i + u_i$
+*  $Y_i = \beta_1 + \beta_2 \ln X_i + u_i$
+*  $Y_i = \beta_1 + \beta_2 X_i + u_i$
+*  $\ln Y_i = \beta_1 - \beta_2 \ln X_i + u_i$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: box_cox
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Gauss-Markov theorem

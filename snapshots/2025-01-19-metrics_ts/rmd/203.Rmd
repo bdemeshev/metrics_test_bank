@@ -1,0 +1,22 @@
+Question
+========
+
+Леонардо оценил модель логистической регрессии $\hat{\mathbb{P}}(y_i = 1) = \Lambda(2 + 0.05 x_i - 0.07 z_i)$.
+
+Найдите предел прогноза вероятности $\hat{\mathbb{P}}(y_i = 1)$ при $z_i$ стремящемся к плюс бесконечности. 
+
+Solution
+========
+
+Вспоминаем формулу логистической функции. Или картинку!
+
+Meta-information
+================
+exname: limiting probability
+extype: num
+exsolution: 0
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Logit

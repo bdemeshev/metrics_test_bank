@@ -1,0 +1,36 @@
+Question
+========
+Для модели парной регрессии $y = \beta_1 s + \beta_2 x + u$, 
+где $y = (y_1, \ldots, y_n), x = (x_1, \ldots, x_n), 
+s = (1, \ldots, 1), \hat u = (\hat u_1, \ldots, \hat u_n), \hat y = \hat \beta_1 s + \hat \beta_2 x, \hat u = y - \hat y$ в пространстве $\mathbb R^n$ ортогональны вектора
+
+
+Answerlist
+----------
+*  $\hat u$ и $s$
+*  $u$ и $\hat y$
+*  $y$ и $\hat y$
+*  $y$ и $s$
+*  $x$ и $\hat y$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: ols_assumptions
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS

@@ -5,7 +5,7 @@ library(tidyverse)
 library(rio)
 
 library(exams)
-# library(rexamsconverter)
+library(rexamsconverter)
 
 files_df = tibble(filename = list.files('../base/', pattern = "*.Rmd", full.names = TRUE, recursive = TRUE))
 
@@ -29,3 +29,16 @@ res = exams2moodle(files_df$filename, dir = '../snapshots/',
                    schoice = list(shuffle = TRUE, enumerate = FALSE))
 
 # ПЕРЕИМЕНУЙТЕ СРАЗУ ФАЙЛ xml УНИКАЛЬНЫМ ИМЕНЕМ
+
+options(texi2dvi = Sys.which('xelatex'), exams_tex = 'tools')
+# 'tools' means 'dont use tinytex', and then select engine!
+
+
+# to pdf:
+res = exams2pdf_source(files_df$filename, date = "2025-01-19", add_seed = 777,
+                       n_vars = 1,
+                       title = "Метрика", institution = "Поехали :)",
+                       nops = FALSE, shuffle = TRUE,
+                       template = "../templates/2025-01-19-new-template.tex",
+                       output_dir = "../snapshots/2025-01-19-metrics_ts")
+

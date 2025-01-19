@@ -1,0 +1,41 @@
+Question
+========
+
+Рассмотрим модель
+$$
+y_i = \beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i.
+$$
+
+Буквой $X$ обозначена матрица всех предикторов. 
+Выполнены классические предпосылки на ошибку $\mathbb E(u_i \mid X) = 0$, $\mathrm{Var}(u_i \mid X) = \sigma^2$, $\mathrm{Cov}(u_i \mid X) = 0$.
+
+Найдите условное ожидание $\mathbb E(y_i \mid X)$.
+
+
+Answerlist
+----------
+* $\beta_1 + \beta_2 x_i + \beta_3 x_i^2$
+* $\hat\beta_1 + \hat\beta_2 x_i + \hat\beta_3 x_i^2$
+* $\hat y_i$
+* $0$
+* $\beta_1 + \beta_2 x_i$
+* $\beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i$
+
+
+Solution
+========
+
+Подумайте, какие величины являются константами или известными случайными величинами, если известна матрица $X$. 
+
+Meta-information
+================
+exname: conditional expected value in regression
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: combat_03/OLS/Expected values
+
+

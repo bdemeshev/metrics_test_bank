@@ -1,0 +1,34 @@
+Question
+========
+Истинной является модель $Y_i = \beta_1 + \beta_2 X_i + u_i$. Глафира оценивает две регрессии: $\hat Y_i = \hat \beta_1 + \hat \beta_2X_i$ и  $\hat Y_i = \hat \gamma_1 + \hat \gamma_2 X_i + \hat \gamma_3 Z_i$ с помощью МНК. Для коэффициента $\beta_2$
+
+
+Answerlist
+----------
+*  оценки $\hat \beta_2$ и $\hat\gamma_2$ являются несмещёнными
+*  оценки $\hat \beta_2$ и $\hat\gamma_2$ являются эффективными
+*  оценка $\hat \beta_2$ является несмещённой, а оценка  $\hat\gamma_2$ — смещённой
+*  оценки $\hat \beta_2$ и $\hat\gamma_2$ являются неэффективными
+*  оценка $\hat \beta_2$ является смещённой, а оценка  $\hat\gamma_2$ — несмещённой
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: omitted_vars
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Model selection

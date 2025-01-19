@@ -1,0 +1,32 @@
+Question
+========
+
+Случайные величины $r$ и $s$ независимы и равновероятно равны $0$ или $1$. 
+Чему равна условная дисперсия $\mathrm{Var}(r + s^2 \mid r)$?
+
+Answerlist
+----------
+* $0.25$
+* $0.5$
+* $1$
+* $r$
+* $r + 0.25$
+* $r + 0.5$
+
+
+Solution
+========
+
+Для независимых величин $\mathbb E(s \mid r) = \mathbb E(s)$.
+
+Meta-information
+================
+exname: conditional variance
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: combat_03/Probability/Elementary Probability/Random variables/Variance conditional on random variable
+

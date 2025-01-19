@@ -1,0 +1,42 @@
+Question
+========
+
+По набору данных cars из R оцените модель
+$$
+dist_i = \beta_1 + \beta_2 speed_i + u_i.
+$$
+
+Ошибки модели нормально распределены и удовлетворяют классическим предпосылкам. 
+
+Для машины со стартовой скоростью 20 миль в час постройте 95\%-й предиктивный интервал для 
+фактической длины тормозного пути в футах. 
+
+В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки. 
+
+
+Набор данных встроен в R и доступен по ссылке:
+https://github.com/vincentarelbundock/Rdatasets/raw/master/csv/datasets/cars.csv
+
+
+Solution
+========
+
+```{r, eval=FALSE}
+model = lm(data = cars, dist ~ ...)
+new = data.frame(speed = ...)
+predict(model, ..., interval = '...')
+```
+
+
+Meta-information
+================
+exname: prediction interval R
+extype: num
+exsolution: 92.54
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Predictive interval
+
+

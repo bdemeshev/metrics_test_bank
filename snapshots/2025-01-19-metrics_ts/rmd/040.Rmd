@@ -1,0 +1,36 @@
+Question
+========
+Гипотеза о неадекватности множественной регрессии проверяется с помощью статистики равной
+
+
+Answerlist
+----------
+*  $\frac{ESS/(k-1)}{RSS/(n-k)}$
+*  $\frac{\hat \beta - \beta}{se(\hat \beta)}$
+*  $\frac{TSS/(n-1)}{RSS/(n-k)}$
+*  $\frac{TSS/(n-1)}{ESS/(k-1)}$
+*  $\frac{ESS}{TSS}$
+*  $\frac{RSS}{TSS}$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: adequacy
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Sum of squares

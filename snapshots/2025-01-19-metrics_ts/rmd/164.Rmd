@@ -1,0 +1,34 @@
+Question
+========
+
+Оценка ковариационной матрицы оценок коэффициентов $(\hat\beta_1, \hat\beta_2, \hat\beta_3)$ имеет вид
+$$
+\begin{pmatrix}
+5 & 1 & 1 \\
+1 & 6 & -1 \\
+1 & -1 & 9 \\
+\end{pmatrix}.
+$$
+
+Найдите стандартную ошибку $se(\hat\beta_2 - \hat\beta_3)$.
+
+Ответ вводите с точностью до двух знаков после десятичной точки. 
+
+
+Solution
+========
+
+Дисперсия разности равна сумме дисперсий минус удвоенные ковариации. 
+
+Meta-information
+================
+exname: square root of variance
+extype: num
+exsolution: 4.12
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Variance and covariance
+
+

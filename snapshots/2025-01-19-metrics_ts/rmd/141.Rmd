@@ -1,0 +1,31 @@
+Question
+========
+
+Выберите верное равенство для множественной регрессии $y_i = \beta_x x_i + \beta z z_i + \beta_w w_i + u_i$, оцениваемой с помощью МНК.
+
+Остатки обозначим $\hat u_i$.
+
+Answerlist
+----------
+* $\sum w_i \hat u_i = 0$
+* $\sum \hat u_i = 0$
+* $\sum \hat u_i y_i = 0$
+* $\sum x_i y_i = 0$
+* $\sum x_i z_i = 0$
+* $\sum x_i u_i = 0$
+
+Solution
+========
+
+Модель без константы!
+
+Meta-information
+================
+exname: regression foc
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients formula

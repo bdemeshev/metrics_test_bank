@@ -1,0 +1,37 @@
+Question
+========
+При отсутствии автокорреляции в регрессии по $n$ наблюдениям статистика Дарбина-Уотсона имеет
+
+
+Answerlist
+----------
+*  нет верного ответа
+*  $t_n$-распределение
+*  $\mathcal{N}(0;1)$-распределение
+*  $\mathcal{N}(\mu;\sigma^2)$-распределение
+*  $F_{k,n}$-распределение
+*  $t_{n-k}$-распределение
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: dw_distribution
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS
+

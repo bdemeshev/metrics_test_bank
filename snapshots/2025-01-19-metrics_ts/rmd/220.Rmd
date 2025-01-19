@@ -1,0 +1,26 @@
+Question
+========
+
+Рассмотрим временной ряд из 100 наблюдений, оканчивающийся наблюдениями $6$ и $5$.
+
+Ряд описывается моделью $y_t = 6 + u_t$, где величины $(u_t)$ независимы 
+и нормально распределены $\mathcal{N}(0; 4)$. 
+
+Постройте 95\%-й предиктивный интервал для $y_{101}$. 
+В ответе укажите правую границу интервала с точностью до двух знаков после запятой. 
+
+Solution
+========
+
+Вспоминаем квантили нормального распределения.
+
+Meta-information
+================
+exname: predictive interval 
+extype: num
+exsolution: 9.92
+extol: 0.1
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: IID model/Predictive interval

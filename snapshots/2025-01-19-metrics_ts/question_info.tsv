@@ -1,0 +1,1314 @@
+var_no	q_no	ans_no	ans_letter	text	Language	Level	name	solution	solution1	solution2	solution3	solution4	solution5	solution6	solution7	Type	option_1	option_2	option_3	option_4	option_5	option_6	option_7	filename	local_filename
+1	1	6	f	Какая зависимость математического ожидания исходного процесса от времени предполагается в альтернативной гипотезе \(ADF\)-теста с константой?	Russian	Literacy	adf	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	нет верного ответа	\(\mathbb{E}(y_t)\) строго возрастает	\(\mathbb{E}(y_t) = \mu + \alpha t + \beta t^2\)	\(\mathbb{E}(y_t)\) строго монотонна	\(\mathbb{E}(y_t) = \mu + \alpha t\)	\(\mathbb{E}(y_t) = \mu\)	NA	../base//om_ts_2022_spring/train_06_04_mc_rus.Rmd	301.Rmd
+1	2	NA	NA	У меня набор данных из трёх наблюдений: \(x = (1, 2, 3)\), \(y = (5, 6, 10)\).
+
+Чему равна МНК-оценка \(\hat\beta\) в модели \(y_i = \beta + u_i\)?	Russian	Literacy	calculate beta on constant	7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_01.Rmd	132.Rmd
+1	3	1	a	Леонардо оценил логит-регрессию \(\hat{\mathbb{P}}(y_i = 1) = \Lambda ( 0.3 - 0.6 x_i + 0.5 z_i)\).
+Для некоторого наблюдения прогноз вероятности равен \(\hat{\mathbb{P}}(y_i = 1) = 0.7\).
+
+Оцените предельный эффект увеличения \(z_i\) для этого наблюдения.	Russian	Literacy	marginal effect	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(0.105\)	недостаточно информации	\(0.5\)	\(0.15\)	\(0.35\)	\(0.7\)	NA	../base//om_metrics_2021_fall/test_09_08.Rmd	201.Rmd
+1	4	2	b	Метод максимального правдоподобия для оценки коэффициентов регрессии \(Y = X\beta  + u\) НЕ МОЖЕТ быть применён, если	Russian	Literacy	ml_application	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(u \sim \mathcal{N}(0; \Omega)\) и \(\Omega = 2017 \cdot I\), где \(I\) --- единичная матрица	\(u \sim \mathcal{N}(0; \Omega)\) и структура \(\Omega\) неизвестна	\(u \sim \mathcal{N}(0; \Omega)\) и \(\Omega =  b \cdot I\), где \(b\) --- неизвестный параметр	\(u \sim \mathcal{N}(0; \Omega)\) и структура \(\Omega\) известна, но зависит от набора неизвестных параметров	закон распределения вектора \(u\) известен, но не является нормальным	NA	NA	../base//2016_kr_03/4.Rmd	046.Rmd
+1	5	4	d	Чудо-швабры производятся на разных заводах по одной из двух технологий, \(A\) или \(B\).
+Исследователь оценил две модели зависимости выпуска, \(Y\), от количества сырья, \(X\), и технологии:
+
+\(\hat Y_i = \hat \alpha_0 + \hat\alpha_1 A_i + \hat\alpha_2 X_i + \hat\alpha_3 A_i X_i\);
+
+\(\hat Y_i = \hat \beta_0 + \hat\beta_1 B_i + \hat\beta_2 X_i + \hat\beta_3 B_i X_i\).
+
+Переменная \(A_i\) равна единице для заводов с технологией \(A\) и нулю иначе, а переменная \(B_i\) равна единице для
+заводов с технологией \(B\) и нулю иначе.
+
+Оценки коэффициентов связаны соотношением	Russian	Literacy	mi_10_dummy	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\hat\alpha_1 = \hat\beta_0\)	\(\hat\alpha_0  = \hat\beta_0\)	\(\hat\alpha_2 = \hat\beta_2\)	\(\hat\alpha_0 + \hat\alpha_1 = \hat\beta_0\)	\(\hat\alpha_0 = \hat\beta_0 + \hat\beta_1\)	NA	NA	../base//2018_19_midterm/mi_10.Rmd	131.Rmd
+1	6	1	a	Рассмотрим алгоритм градиентного бустинга над решающими деревьями для задачи регрессии.
+Каждое дерево даёт свой прогноз.
+
+Выберите верное утверждение о механизме агрегирования прогнозов отдельных деревьев в прогноз всего алгоритма.	Russian	Literacy	gradient boosting	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	прогнозы деревьев складываются и домножаются на темп обучения	вес, с которым прогноз дерева учитывается в итоговом прогнозе, нелинейно убывает по номеру дерева	вес, с которым прогноз дерева учитывается в итоговом прогнозе, линейно убывает по номеру дерева	вес, с которым прогноз дерева учитывается в итоговом прогнозе, линейно растёт по номеру дерева	нет верного ответа	вес, с которым прогноз дерева учитывается в итоговом прогнозе, нелинейно растёт по номеру дерева	NA	../base//om_ts_2022_spring/test_07_02_mc_rus.Rmd	257.Rmd
+1	7	2	b	При оценивании модели \(Y_t = X_t' \beta + u_t\) была обнаружена автокорреляция первого порядка с \(\hat\rho = -0.6\). Чтобы провести корректное оценивание, можно применить метод наименьших квадратов к преобразованным данным. При этом первое наблюдение окажется домноженным на	Russian	Literacy	autocorrelation	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(\sqrt{0.6}\)	\(0.8\)	\(\sqrt{0.84}\)	\(0.4\)	\(0.6\)	\(-0.6\)	NA	../base//2016_final_spring_demo/5.Rmd	006.Rmd
+1	8	2	b	Чебурашка оценил модель \(Y_i = \beta_0 + \beta_1 X_i + u_i\), а Крокодил Гена --- модель \(X_i = \gamma_0 + \gamma_1 Y_i + u_i\).
+Оказалось, что \(\hat\gamma_1 = 0.25/\hat\beta_1\). Величина \(R^2\) в регрессии Чебурашки равна	Russian	Literacy	r2_formula	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(0.5\)	\(0.25\)	\(0.75\)	\(1\)	\(0\)	NA	NA	../base//2018_19_kr1/question_03.Rmd	104.Rmd
+1	9	NA	NA	Рассмотрим модель
+\[
+y_i = \beta_1 + \beta_2 x_i + u_i.
+\]
+
+Буквой \(X\) обозначена матрица всех предикторов.
+Выполнены классические предпосылки на ошибку \(\mathbb E(u_i \mid X) = 0\), \(\mathrm{Var}(u_i \mid X) = \sigma^2\), \(\mathrm{Cov}(u_i \mid X) = 0\).
+
+По 100 наблюдениям оказалось, что \(\sum x_i^2 = 40\), \(\sum (x_i - \bar x)^2 = 20\).
+
+Найдите величину \(\mathrm{Var}(\hat \beta_2 \mid X) / \sigma^2\).
+
+Ответ вводите с точность до двух знаков после десятичной точки.	Russian	Literacy	plug-in variance exercise	0.05	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_03_07.Rmd	160.Rmd
+1	10	3	c	Рассмотрим логистическую модель с константой и одним регрессором \(x_i\).
+Обозначим логарифм шансов как \(h(x_i) = \ln (\mathbb{P}(y_i = 1) / \mathbb{P}(y_i = 0))\).
+
+Найдите верное утверждение про производную \(h'(x_i)\).	Russian	Literacy	logistic model definition	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	Производная \(h'(x_i)\) линейна по \(x_i\).	Производная \(h'(x_i)\) равна логистической функции от \(x_i\).	Производная \(h'(x_i)\) равна константе.	Производная \(h'(x_i)\) достигает максимума только при \(x_i = 0\).	Производная \(h'(x_i)\) произвольным образом зависит от \(x_i\).	Производная \(h'(x_i)\) достигает минимума только при \(x_i = 0\).	NA	../base//om_metrics_2021_fall/test_09_03.Rmd	196.Rmd
+1	11	3	c	Известно, что регрессоры \(X\) и \(Z\) ортогональны,
+а истинная зависимость описывается уравнением
+\(Y_i = \alpha_1 + \alpha_2 X_i + \alpha_3 Z_i + u_i\).
+Исследователь оценивает с помощью МНК две регрессии:
+\(\hat Y_i = \hat \beta_1 + \hat \beta_2 X_i\) и \(\hat Y_i = \hat \gamma_1 + \hat \gamma_2 Z_i\).
+При этом	Russian	Literacy	missing_variables	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	\(\hat \beta_2\) --- смещённая оценка для \(\alpha_2\); \(\hat \gamma_2\) --- несмещённая оценка для \(\alpha_3\)	\(\hat \beta_2\) --- несмещённая оценка для \(\alpha_2\); \(\hat \gamma_2\) --- смещённая оценка для \(\alpha_3\)	\(\hat \beta_2\) --- несмещённая оценка для \(\alpha_2\); \(\hat \gamma_2\) --- несмещённая оценка для \(\alpha_3\)	\(\hat \beta_2\) --- смещённая оценка для \(\alpha_2\); \(\hat \gamma_2\) --- смещённая оценка для \(\alpha_3\)	\(\hat \beta_2\) --- эффективная оценка для \(\alpha_2\); \(\hat \gamma_2\) --- эффективная оценка для \(\alpha_3\)	NA	NA	../base//2016_kr_02_midterm/3.Rmd	035.Rmd
+1	12	5	e	При оценивании коэффициентов моделей бинарного выбора	Russian	Literacy	logit_vs_probit	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	оценки логит и пробит моделей имеют противоположные знаки	оценки логит моделей всегда выше, чем пробит	оценки логит и пробит моделей всегда совпадают	оценки пробит моделей всегда выше, чем логит	нет верного ответа	оценки пробит модели имеют более высокую значимосить, чем логит	NA	../base//2016_kr_04_final/6.Rmd	058.Rmd
+1	13	3	c	Модель коррекции ошибками имеет следующий вид	Russian	Literacy	error_correction_model	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	\(\Delta Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t\)	\(\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} ) + u_t\)	\(\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t\)	\(Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t\)	\(Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t\)	NA	NA	../base//2017_kr_04_final/6.Rmd	088.Rmd
+1	14	3	c	В линейной модели \(Y_i = \beta_0 + \beta_1 X_i + u_i\) стохастический регрессор
+и случайный член \(u_i\) коррелированы. Состоятельные оценки коэффициентов можно получить
+с помощью	Russian	Literacy	correlated_x	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	метода главных компонент	обобщённого МНК	метода инструментальных переменных	взвешенного МНК	метода наименьших квадратов	NA	NA	../base//2018_19_kr3/question_08.Rmd	119.Rmd
+1	15	NA	NA	Пантелеймон предполагает, что зависимость \(y\) от \(x\) линейная.
+У Пантелеймона данные по 10 городам.
+Он считает, что коэффициент наклона не зависит от города,
+а вот константа в каждом городе может быть своя.
+
+Всего у Пантелеймона 200 наблюдений.
+
+Сколько дамми-переменных понадобиться ввести Пантелеймону в дополнение к модели парной регрессии?	Russian	Literacy	number of dummy variables	9	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_08.Rmd	181.Rmd
+1	16	1	a	Если квадраты остатков оценённой с помощью МНК регрессионной модели линейно и значимо зависят от квадрата регрессора \(Z\), то гетероскедастичность можно попытаться устранить,	Russian	Literacy	heteroscedastic	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	поделив исходное уравнение на \(Z\)	поделив исходное уравнение на \(\sqrt Z\)	поделив исходное уравнение на \({Z^2}\)	умножив исходное уравнение на \({Z^2}\)	умножив исходное уравнение на \(Z\)	умножив исходное уравнение на \(\sqrt Z\)	NA	../base//2016_kr_03/1.Rmd	042.Rmd
+1	17	NA	NA	Какой период у функции \(\sin(5 \pi t / 365)\)?
+
+Ответ укажите с точностью до двух знаков после десятичной точки.	Russian	Literacy	fourier	146	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_07_05_num_rus.Rmd	260.Rmd
+1	18	2	b	Рассмотрим уравнение
+\[
+y_t = 14 y_{t-1} + 19 y_{t-2} + u_t,
+\]
+где \((u_t)\) --- белый шум.
+
+При каких начальных условиях получится нестационарное решение?	Russian	Literacy	infinity of non-stationary solutions	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	только при \(y_0 = 1\) и \(y_1 = 1\)	нет верного ответа	только при \(y_0 = 0\) и \(y_1 = 1\)	только при \(y_0 = u_0\) и \(y_1 = u_1\)	только при \(y_0 = 0\) и \(y_1=0\)	только при \(y_0 = 1\) и \(y_1 = 0\)	NA	../base//om_ts_2022_spring/train_05_02_mc_rus.Rmd	292.Rmd
+1	19	NA	NA	В рамках ETS(AAN) модели постройте 95\%-й предиктивный интервал на один шаг вперёд,
+Последнее значение сглаженного ряда (тренда) равно \(100\),
+последний наклон сглаженного ряда (тренда) равен 5, \(\alpha = \beta = 0.3\),
+\(u_t \sim \mathcal{N}(0; 16)\).
+
+В ответ введите правую границу предиктивного интервала с точностью до двух знаков после десятичной точки.	Russian	Literacy	ETS(AAN)	112.9	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_02_07.Rmd	276.Rmd
+1	20	2	b	Крокодил Гена оценил с помощью МНК зависимость \(Y_i = \beta_0 + \beta_1 X_i + u_i\). Оказалось, что \(\hat \beta_0 = 90\), а \(\hat\beta_1 = 3\).
+Чебурашка увеличил переменные \(X\) и \(Y\) на 10\% и снова оценил уравнение регрессии. В результате этой корректировки	Russian	Literacy	update_x_y	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	оценки \(\hat\beta_0\) и \(\hat\beta_1\) увеличились	оценка \(\hat\beta_0\) увеличилась, а оценка \(\hat\beta_1\) не изменилась	оценка \(\hat\beta_0\) уменьшилась, а оценка \(\hat\beta_1\) не изменилась	оценки \(\hat\beta_0\) и \(\hat\beta_1\) уменьшились	оценки \(\hat\beta_0\) и \(\hat\beta_1\) не изменились	NA	NA	../base//2018_19_kr1/question_06.Rmd	107.Rmd
+1	21	3	c	Крокодил Гена оценивает модель регрессии \(Y_i = \beta_0 + \beta_1 X_i + u_i\) с помощью МНК.
+Чебурашка получит такую же оценку коэффициента \(\beta_1\), если будет минимизировать	Russian	Literacy	rss	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	выборочную дисперсию объясняемой переменной	выборочную дисперсию объясняющей переменной	выборочную дисперсию остатков	коэффициент детерминации	выборочную ковариацию регрессора и объясняемой переменной	NA	NA	../base//2018_19_kr1/question_02.Rmd	103.Rmd
+1	22	2	b	Джеймс Бонд оценил парную регрессию и оказалось,
+что \(\hat Y_i = 5 + 6 X_i\).
+Если Джеймс Бонд оценит регрессию без константы, то окажется, что	Russian	Literacy	no_constant	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	Calculation	\(\hat Y_i = 6 X_i\)	нет верного ответа	\(\hat Y_i = 5.5 X_i\)	\(\hat Y_i = 11 X_i\)	\(\hat Y_i = 5.5\)	\(\hat Y_i = 11\)	\(\hat Y_i = 5\)	../base//2016_kr_01/2.Rmd	014.Rmd
+1	23	NA	NA	Известно, что \(y_t = 5 + u_t + 9 u_{t-1}\), где \((u_t)\) --- белый шум с дисперсией 8.
+
+Найдите частную автокорреляцию второго порядка \(\phi_{22}\) процесса \((y_t)\) с точностью до двух знаков после десятичной точки.	Russian	Literacy	ma1	-0.01	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_04_05_num_rus.Rmd	288.Rmd
+1	24	3	c	Рассмотрим логит-модель \(\hat Y_i^* = \hat \beta_1 + \hat \beta_2 X_i + \hat \beta_3 D_i\), и \(Y_i = 1\), если \(Y_i^* > 0\). Если переменная \(X_i\) является количественной, то предельный эффект увеличения \(X_i\) можно посчитать по формуле	Russian	Literacy	logit_margins	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	\(\hat \beta_2 / f^2(\hat Y_i^*)\)	\(\hat \beta_2 / F(\hat Y_i^*)\)	\(\hat \beta_2 f(\hat Y_i^*)\)	\(\hat \beta_2 /F^2(\hat Y_i^*)\)	\(\hat \beta_2 /f(\hat Y_i^*)\)	NA	NA	../base//2016_kr_04_final/7.Rmd	059.Rmd
+1	25	2	b	Выберите верное утверждение про стационарный \(ARMA(p, q)\) процесс относительно белого шума \((u_t)\).	Russian	Literacy	arma as ma infinity	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	является частным случаем \(AR(p)\) процесса относительно \((u_t)\).	является частным случаем \(MA(\infty)\) процесса относительно \((u_t)\).	является частным случаем \(AR(q)\) процесса относительно \((u_t)\).	является частным случаем \(MA(p)\) процесса относительно \((u_t)\).	является частным случаем \(MA(q)\) процесса относительно \((u_t)\).	нет верного ответа	NA	../base//om_ts_2022_spring/test_05_07_mc_rus.Rmd	248.Rmd
+1	26	2	b	Из откровений внеземного разума известно, что эндогенности в модели \(Y_i = \beta_0 + \beta_1 X_i + u_i\) нет. Однако Вовочка нашёл хороший инструмент \(z_i\), отвечающий всем требованиям, предъявляемым к инструментам, и оценил \(\beta_1\) методом инструментальных переменных. Его оценка \(\beta_1\) окажется	Russian	Literacy	overfitting	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	несостоятельной	состоятельной, но не эффективной	состоятельной и эффективной	состоятельной	невозможно сказать по имеющимся данным	NA	NA	../base//2017_kr_04_final/4.Rmd	086.Rmd
+1	27	4	d	Известны 95\%-ые доверительные интервалы для коэффициентов регрессии:
+\(\beta_1 \in [-4; 10]\), \(\beta_2 \in [2; 10]\). На уровне значимости 5\%	Russian	Literacy	ci	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\hat \beta_1\) значим, \(\hat \beta_2\) значим	\(\hat \beta_1\) значим, \(\hat \beta_2\) не значим	\(\hat \beta_1\) не значим, \(\hat \beta_2\) не значим	\(\hat \beta_1\) не значим, \(\hat \beta_2\) значим	значимость проверить невозможно	NA	NA	../base//2016_kr_02_midterm_demo/9.Rmd	031.Rmd
+1	28	4	d	Условием теоремы Гаусса-Маркова, необходимым для несмещённости оценок
+коэффициентов регрессии в модели \(Y_i = \beta_1 + \beta_2 X_i + u_i\) является	Russian	Literacy	bias	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	некоррелированность случайных ошибок	гомоскедастичность случайных ошибок	гетероскедастичность случайных ошибок	\(\mathbb{E}(u_i)=0\)	нормальность случайных ошибок	\(\mathbb{E}(u_i)\neq 0\)	NA	../base//2016_kr_01/7.Rmd	019.Rmd
+1	29	NA	NA	Найдите наименьшее возможное значение \(p\), если известно, что \(SARIMA(2, 0, 2)(3, 0, 3)[12]\)-модель является частным случаем \(ARMA(p, q)\)-модели.	Russian	Literacy	sarima	38	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_06_07_num_rus.Rmd	255.Rmd
+1	30	5	e	Оценка регрессионной зависимости с помощью МНК по 1234 наблюдениям имеет вид \(\hat Y_i = 1 - 3X_i + 4Z_i\). Оценка ковариационной матрицы имеет вид
+\[
+\mathrm{Var}(\hat \beta)=
+\begin{pmatrix}
+1 & 0.1 & 0.2 \\
+0.1 & 4 & 1.5 \\
+0.2 & 1.5 & 18 \\
+\end{pmatrix}.
+\]
+
+Длина 95\%-го доверительного интервала для \(\beta_2 + \beta_3\) примерно равна	Russian	Literacy	coefficients_intervals	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	\(5\)	\(25\)	\(10\)	\(1.96\)	\(20\)	NA	NA	../base//2016_kr_04_final/10.Rmd	053.Rmd
+1	31	2	b	По 546 наблюдениям за 1987 г. оценили зависимость стоимости частных домов в Канаде price (измеряемой в долларах США) от общей площади square (измеряемой в кв. м.) наличия подъездного пути driveway (1 --- если есть, 0 --- если нет):
+
+\begin{tabular}{lrrrr}
+\toprule
+переменная & коэффициент & ст. ошибка & $t$-статистика & $P$-значение \\
+\midrule
+square & 2.724 & 2.15 & 1.27 & 0.206 \\
+driveway & -922.563 & 8602.312 & -0.11 & 0.915 \\
+square*driveway & 3.479 & 1.43 & 2.42 & 0.016 \\
+$const$ & 38731.07 & 8156.39 & 4.75 & 0.000 \\
+\bottomrule
+\end{tabular}
+
+Согласно полученным результатам, при уровне значимости 5\%, наличие подъездного пути увеличивает стоимость каждого квадратного метра жилья на	Russian	Literacy	ols_interpretation	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	6.203 \$	3.479 \$	2.724 \$	-922.563 \$	0	NA	NA	../base//2017_kr_02_midterm/4.Rmd	076.Rmd
+1	32	NA	NA	Рассмотрим модель
+\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+\]
+
+Оценка ковариационной матрицы коэффициентов равна
+\[
+\begin{pmatrix}
+10 & -2 & -1 \\
+? & 20 & 2 \\
+? & ? & 30 \\
+\end{pmatrix}
+\]
+
+Найдите оценку дисперсии \(\widehat{\mathrm{Var}}(\hat \beta_2 \mid X)\).	Russian	Literacy	the structure of cov matrix	20	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_03_10.Rmd	163.Rmd
+1	33	1	a	Храбрый исследователь Вениамин оценил регрессию \(\hat Y_i = \underset{(5)}{23} + \underset{(2)}{10}X_i\),
+в скобках приведены стандартные ошибки.
+Доверительный интервал для свободного члена равен \([14; 32]\).
+Доверительный интервал для коэффициента наклона при том же уровне доверия будет равен	Russian	Literacy	ci_beta_x	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\([6.4; 13.6]\)	\([6; 14]\)	\([6.08; 13.92]\)	\([1; 19]\)	\([5; 15]\)	NA	NA	../base//2018_19_kr1/question_08.Rmd	109.Rmd
+1	34	NA	NA	У Винни-Пуха был временной ряд из 200 наблюдений.
+Винни использует алгоритм градиентного бустинга над деревьями,
+причем в качестве предикторов он берёт лаги \(y_{t-1}\), \ldots, \(y_{t - 8}\).
+
+По скольки наблюдениям обучается каждое из деревьев?	Russian	Literacy	sample size	192	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_07_06_num_rus.Rmd	310.Rmd
+1	35	4	d	Стьюдентизированные остатки регрессии используются	Russian	Literacy	studentized_residuals	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	в методе главных компонент	в тесте Саргана	на первом шаге двухшагового МНК	для выявления выбросов	на первом шаге при проведении теста Годфельда-Квандта	NA	NA	../base//2018_19_kr3/question_02.Rmd	113.Rmd
+1	36	2	b	Рассмотрим веса, с которыми исходные переменные входят в первую главную компоненту.
+
+Выберите верное утверждение.	Russian	Literacy	weights of original variables	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	Веса могут быть абсолютно произвольными.	Сумма квадратов весов равна 1.	Сумма весов равна 0.	Сумма весов равна 1, веса могут быть отрицательными.	Сумма модулей весов равна 1.	Сумма весов равна 1, веса неотрицательные.	NA	../base//om_metrics_2021_fall/test_06_08.Rmd	191.Rmd
+1	37	NA	NA	У Агнессы 120 наблюдений и она оценивает качество прогнозов на два шага вперёд с помощью кросс-валидации
+растущим окном. Стартовая ширина окна равна 70.
+
+Сколько раз будет оценена каждая модель при выполнении кросс-валидации?	Russian	Literacy	stretching window CV	49	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_02_05.Rmd	225.Rmd
+1	38	NA	NA	У \(ARMA(2, 3)\)-модели с нулевым ожиданием и нормально распределенными ошибками логарифм правдоподобия оказался равен \(-130\).
+
+Найдите значение информационного критерия Акаике.	Russian	Literacy	aic	272	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_06_02_num_rus.Rmd	299.Rmd
+1	39	1	a	Аркадий оценил модель множественной регрессии с константой,
+а Борислав добавил в эту модель ещё два предиктора.
+
+Они, соответственно, получили суммы квадратов остатков \(RSS_a\) и \(RSS_b\),
+общие суммы квадратов \(TSS_a\) и \(TSS_b\), и оценённые суммы квадратов
+\(ESS_a\), \(ESS_b\).
+
+Выберите верное утверждение.	Russian	Literacy	sum of squares for two regressions	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(TSS_a = TSS_b\), \(RSS_a \geq RSS_b\).	\(TSS_a = TSS_b\), \(RSS_a \leq RSS_b\).	\(ESS_a = ESS_b\), \(TSS_a \leq TSS_b\).	\(RSS_a = RSS_b\), \(ESS_a \geq ESS_b\).	\(ESS_a = ESS_b\), \(TSS_a \geq TSS_b\).	\(RSS_a = RSS_b\), \(ESS_a \leq ESS_b\).	NA	../base//om_metrics_2021_fall/test_02_05.Rmd	148.Rmd
+1	40	3	c	Гипотеза о неадекватности множественной регрессии проверяется с помощью статистики равной	Russian	Literacy	adequacy	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	\(\frac{RSS}{TSS}\)	\(\frac{TSS/(n-1)}{ESS/(k-1)}\)	\(\frac{ESS/(k-1)}{RSS/(n-k)}\)	\(\frac{TSS/(n-1)}{RSS/(n-k)}\)	\(\frac{\hat \beta - \beta}{se(\hat \beta)}\)	\(\frac{ESS}{TSS}\)	NA	../base//2016_kr_02_midterm/8.Rmd	040.Rmd
+1	41	NA	NA	Рассмотрим короткий ряд из четырех наблюдений: \(5\), \(4\), \(6\), \(5\).
+
+Предположим, что ряд описывается моделью \(y_t = \mu + u_t\), где величины \((u_t)\) независимы
+и нормально распределены \(\mathcal{N}(0;\sigma^2)\).
+
+Найдите оценку \(\hat\sigma^2\) методом максимального правдоподобия с точностью до двух знаков после десятичной точки.	Russian	Literacy	maximum likelihood for iid model	0.5	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_01_06.Rmd	219.Rmd
+1	42	2	b	В модели парной регрессии \(R^2 = 0.9\), \(TSS = 100\) и \(12\) наблюдений.
+Несмещённая оценка дисперсии случайной ошибки равна	Russian	Literacy	variance calculations	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(1.1\)	\(1\)	\(0.8\)	\(1.3\)	\(1.2\)	\(0.9\)	NA	../base//2016_kr_01/8.Rmd	020.Rmd
+1	43	NA	NA	Найдите коэффициент при \(y_{t-2}\) в выражении \((7 + 7L^2 + (1+L)^{3})y_t\).	Russian	Literacy	lag operator	10	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_04_04_num_rus.Rmd	238.Rmd
+1	44	1	a	Арамис построил регрессию по 66 наблюдениям:
+\[
+\hat Y_i = \underset{(0.4)}{4} + \underset{(5)}{6}X_i + \underset{(2)}{4.4} Z_i - \underset{(2)}{3} Q_i - \underset{(3)}{9} R_i + \underset{(10)}{16} S_i.
+\]
+Показатель \(R^2_{adj}\) \emph{может} увеличиться при удалении из модели группы факторов	Russian	Literacy	mi_08_root_r	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(X\), \(Q\), \(S\)	\(X\), \(S\)	\(Q\), \(S\)	\(S\)	\(X\), \(Q\)	NA	NA	../base//2018_19_midterm/mi_08.Rmd	129.Rmd
+1	45	1	a	Процесс \(u_t\) является белым шумом. Нестационарным является процесс	Russian	Literacy	white_noise	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(Y_t = - Y_{t-1} + u_t\)	\(Y_t = 7 + u_t + 0.2 u_{t-1} - 1.2 u_t{-2}\)	\(Y_t\) независимо и одинаково распределены \(\mathcal{N}(7; 16)\)	\(Y_t = u_t + 2u_{t-1}\)	\(Y_t = 5 + 0.1 Y_{t-1} + u_{t} + 0.2 u_{t-1}\)	NA	NA	../base//2016_final_spring_demo/10.Rmd	002.Rmd
+1	46	NA	NA	Модель \(y_i = \beta_1 + \beta_x x_i + u_i\) оценивают с помощью МНК.
+Известно, что \(\bar x= 2\), \(\bar y = 4\), и \(\hat \beta_x = 5\).
+
+Чему равна ордината пересечения линии регрессии с вертикальной осью \(Oy\)?	Russian	Literacy	calculate beta x	-6	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_09.Rmd	140.Rmd
+1	47	NA	NA	У меня набор данных из трёх наблюдений: \(x = (0, 1, 1)\), \(y = (1, 2, 8)\).
+
+Чему равен МНК-прогноз \(\hat y_3\) в модели \(y_i = \beta_1 + \beta x x_i + u_i\)?	Russian	Literacy	calculate forecast	5	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_05.Rmd	136.Rmd
+1	48	5	e	Если \(\mathbb{E}(X) = 4\), \(\mathbb{E}(Y) = 3\), \(\mathrm{Var}(X) = 6\), \(\mathrm{Var}(Y) = 7\),
+\(\mathrm{Cov}(X,Y) = -1\), то \(\mathrm{Cov}(1 - X + 2Y, X)\) равна	Russian	Literacy	covariance_calculation	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	-4	-9	4	8	-8	9	NA	../base//2016_kr_01/1.Rmd	011.Rmd
+1	49	NA	NA	Выборочная дисперсия остаточной компоненты ряда равна 100,
+выборочная дисперсия суммы сезонной и остаточной компоненты равна 150.
+
+Найдите силу выраженности сезонности с точностью до двух знаков после десятичной точки.	Russian	Literacy	seasonal intensity	0.33	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_01_03.Rmd	265.Rmd
+1	50	NA	NA	Известно два значения автоковариационной функции стационарного процесса \(\gamma_0 = 500\) и \(\gamma_7 = 200\).
+
+Найдите точное значение автокорреляционной функции \(\rho_7\).
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	ACF	0.4	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_04_02_num_rus.Rmd	236.Rmd
+1	51	5	e	В множественной регрессии с константой матрица \(X\) имеет размер
+\(55 \times 5\), \(TSS=600\), \(ESS=100\).
+Несмещённая оценка для дисперсии случайных ошибок модели равна	Russian	Literacy	variance calculations	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	\(30\)	\(5.48\)	\(20\)	\(4.47\)	\(10\)	\(9\)	NA	../base//2016_kr_02_midterm_demo/1.Rmd	022.Rmd
+1	52	NA	NA	Укажите число параметров в \(ARIMA(2, 2, 2)\) модели с ненулевым математическим ожиданием и нормально распределенными ошибками.	Russian	Literacy	arima	6	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_06_01_num_rus.Rmd	249.Rmd
+1	53	2	b	Для набора панельных данных истинна спецификация модели со случайными эффектами, однако Вовочка оценивает модель с фиксированными эффектами. Вовочкины оценки коэффициентов \(\beta\) окажутся	Russian	Literacy	fe_or_re	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	несмещёнными и эффективными	состоятельными и неэффективными	смещёнными и неэффективными	состоятельными и эффективными	несостоятельными	NA	NA	../base//2017_kr_04_final/1.Rmd	082.Rmd
+1	54	1	a	Используя метод наименьших квадратов в задаче парной регрессии, исследователь	Russian	Literacy	regression goal	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	может найти оценки коэффициентов, но не истинные значения коэффициентов.	может найти и оценки коэффициентов, и истинные значения коэффициентов.	может найти истинные значения коэффициентов и построить доверительный интервал для них.	может найти истинные значения коэффициентов, но не оценки коэффициентов.	не может найти оценки коэффициентов, но может построить доверительный интервал для них.	NA	NA	../base//om_metrics_2021_fall/test_01_12.Rmd	143.Rmd
+1	55	NA	NA	По набору данных cars из R оцените модель
+\[
+dist_i = \beta_1 + \beta_2 speed_i + u_i.
+\]
+
+Ошибки модели нормально распределены и удовлетворяют классическим предпосылкам.
+
+Для машины со стартовой скоростью 20 миль в час постройте 95\%-й предиктивный интервал для
+фактической длины тормозного пути в футах.
+
+В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки.
+
+Набор данных встроен в R и доступен по ссылке:
+https://github.com/vincentarelbundock/Rdatasets/raw/master/csv/datasets/cars.csv	Russian	Literacy	prediction interval R	92.54	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_06.Rmd	179.Rmd
+1	56	1	a	Если гипотеза \(\beta_2 + \beta_3 = 1\) верна, то модель \(\ln Y_i = \beta_1 + \beta_2 \ln X_i + \beta_3 \ln Z_i + u_i\) совпадает с моделью	Russian	Literacy	linear_restrictions	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(\ln (Y_i/Z_i) = \beta_1 + \beta_2 \ln (X_i/Z_i) + u_i\)	\(\ln (Y_i/Z_i) = \beta_1 + \beta_2 \ln (Y_i/X_i) + u_i\)	\(\ln (Y_i/Z_i) = \beta_1 + \beta_2 \ln (Y_i/Z_i) + u_i\)	\(\ln Y_i = \beta_1 + \beta_2 \ln (X_i/Z_i) + u_i\)	\(\ln Y_i = \beta_1 + \beta_2 \ln (Z_i/Y_i) + u_i\)	NA	NA	../base//2016_kr_02_midterm/7.Rmd	039.Rmd
+1	57	NA	NA	У меня набор данных из трёх наблюдений: \(x = (1, 2, 3)\), \(y = (5, 6, 10)\).
+
+Чему равна МНК-оценка \(\hat\beta\) в модели \(y_i = 3 + \beta x_i + u_i\)?
+
+Ответ вводите с точностью до двух знаков после запятой.	Russian	Literacy	calculate beta x with restrictions	2.07	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_04.Rmd	135.Rmd
+1	58	NA	NA	Сколько свободных параметров оценивается в \(ETS(ANA)\) модели по квартальным данным?	Russian	Literacy	ETS(ANA)	7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_02_03.Rmd	223.Rmd
+1	59	2	b	Оценка \(\hat \beta_{2SLS}\) модели \(Y = X\beta + u\) получена двухшаговым МНК с матрицей инструментальных переменных \(Z\).
+Если число инструментов превышает количество включенных в модель факторов, то \(\hat \beta_{2SLS}\) имеет вид	Russian	Literacy	2sls_instruments	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\((Z'X)^{-1}Z'Y\)	\((X'Z(Z'Z)^{-1}Z'X)^{-1}X'Z(Z'Z)^{-1}Z'Y\)	\(Z(Z'Z)^{-1}Z'X\)	\((Z'Z)^{-1}Z'Y\)	\((X'Z(Z'Z)^{-1}Z'X)^{-1}Z'Z(Z'Z)^{-1}X'Y\)	NA	NA	../base//2016_kr_04_final/2.Rmd	054.Rmd
+1	60	NA	NA	Сколько свободных параметров оценивается в ETS(MAdM) модели на квартальных данных?	Russian	Literacy	ETS(MAdM)	10	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_03_04_num_rus.Rmd	280.Rmd
+1	61	2	b	Основная гипотеза модели адаптивных ожиданий состоит в том, что	Russian	Literacy	adapt_model	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(X_{t+1}^e - X_{t}^e = \lambda (X_{t} - X_{t}^e), \; 0 \leq \lambda < 1\)	\(Y_t - Y_{t-1} = \delta (Y_t^e - Y_{t-1}), \; 0 < \delta \leq 1\)	\(X_t^e - X_{t-1}^e = (1-\lambda) (X_t - X_{t-1}), \; 0 \leq \lambda < 1\)	\(Y_t - Y_{t-1}^e = \delta (Y_t^e - Y_{t-1}), \; 0 < \delta \leq 1\)	\(Y_t^e = \left(1 - \frac{1}{\delta}\right) Y_{t-1} + \frac{1}{\delta} Y_{t}, \; 0 < \delta \leq 1\)	NA	NA	../base//2018_19_final/question_07.Rmd	098.Rmd
+1	62	2	b	Винни-Пух пытается понять, от каких переменных может зависеть его потребление мёда. Собрав 100 разных переменных, он построил 100 парных регрессий и проверил в них значимость коэффициента при каждой из переменных на уровне значимости 0.05. Пятачок понимает, что все 100 переменных не имеют никакого отношения к потреблению мёда и на самом деле просто случайные числа. Помогите Пятачку определить, сколько значимых переменных скорее всего найдёт Винни-Пух.	Russian	Literacy	significance	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	Не хватает данных для ответа	5	10	100	0	NA	NA	../base//2017_kr_04_final/2.Rmd	084.Rmd
+1	63	NA	NA	Известно, что \(y_t = 5 + u_t + 9 u_{t-1}\), где \((u_t)\) --- белый шум с дисперсией 7.
+
+Найдите автокорреляцию первого порядка \(\rho_1\) процесса \((y_t)\) с точностью до двух знаков после десятичной точки.	Russian	Literacy	ma1	0.11	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_04_05_num_rus.Rmd	239.Rmd
+1	64	4	d	Уоррен Баффет проверяет гипотезу \(H_0\): \(g(\beta)=0\) для модели
+\(Y_i = \beta_0 + \beta_1 X_{i1} + \ldots + \beta_k X_{ik} + u_i\) с помощью теста множителей Лагранжа.
+Для теста Уоррену необходимо знать оценки параметров	Russian	Literacy	lm_test_model	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	регрессии на константу	регрессии на все факторы кроме константы	только модели без ограничений	только модели с ограничениями	модели с ограничениями, и модели без ограничений	NA	NA	../base//2018_19_kr3/question_04.Rmd	115.Rmd
+1	65	NA	NA	Рассмотрим два процесса.
+
+Первый, \(y_t = 5 + u_t + 9 u_{t-1}\), где \((u_t)\) --- белый шум с дисперсией \(3\).
+
+Второй, \(x_t = 5 + v_t + k v_{t-1}\), где \(k\neq 9\) и \((v_t)\) --- белый шум с дисперсией \(\sigma^2\).
+
+Известно, что у процессов \((y_t)\) и \((x_t)\) одинаковые автоковариационные функции.
+Найдите \(k\) с точностью до двух знаков после десятичной точки.	Russian	Literacy	ma1	0.11	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_04_06_num_rus.Rmd	289.Rmd
+1	66	NA	NA	Известно, что \(y_1 = 6\), \(y_{10} = 30\), а остальные наблюдения --- пропущенные.
+
+С помощью линейной интерполяции восстановите \(y_{2}\) с точностью до двух знаков после десятичной точки.	Russian	Literacy	linear interpolation	8.67	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_08_01_num_rus.Rmd	312.Rmd
+1	67	2	b	Рассмотрим \(MA(2)\) процесс \(y_t = 6 + u_t + \alpha_1 u_{t-1} + \alpha_2 u_{t-2}\),
+где \((u_t)\) --- белый шум.
+Пусть \(\lambda_1\) и \(\lambda_2\) --- корни характеристического уравнения \(MA\)-части,
+\(\lambda_2 + \alpha_1 \lambda + \alpha_2=0\).
+
+В каком из предложенных случаев процесс \((y_t)\) является обратимым относительно белого шума \((u_t)\)?	Russian	Literacy	ma1	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(\lambda_1 = 1.3\), \(\lambda_2 = 1.8\)	\(\lambda_1 = 0.3\), \(\lambda_2 = -0.8\)	\(\lambda_1 = 0.3\), \(\lambda_2 = 1.8\)	нет верного ответа	\(\lambda_1 = 1\), \(\lambda_2 = -1\)	\(\lambda_1 = -2\), \(\lambda_2 = -7\)	NA	../base//om_ts_2022_spring/test_04_07_mc_rus.Rmd	241.Rmd
+1	68	NA	NA	Рассмотрим лаговые многочлены \(P(L) = 1 - 0.2 L\) и \(Q(L) = 1 + 4 L + \alpha L^2\).
+
+При каком значении \(\alpha\) многочлены будут сократимыми?
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	two polynomials	-0.84	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_05_05_num_rus.Rmd	246.Rmd
+1	69	1	a	Рассмотрим модель \(Y_i= \beta_0 + \beta_z Z_{i} + \beta_w W_{i} + u\) при гетероскедастичности.
+Василий рассчитывает стандартную ошибку \(se(\hat\beta_w)\) по формуле \(se(\hat\beta_w)=\sqrt{RSS \cdot (X'X)^{-1}_{33}/(n-3)}\),
+где \(X\) --- матрица всех регрессоров.
+
+Эта стандартная ошибка является	Russian	Literacy	homo_se_formula	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	смещённой	смещённой вниз	несмещённой	смещённой вверх	состоятельной	NA	NA	../base//2018_19_kr3/question_01.Rmd	112.Rmd
+1	70	2	b	Для регрессии \(Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 + u\), оцененной по 36 наблюдениям с \(R^2 = 0.9\), значение тестовой статистики для проверки гипотезы об адекватности регрессии равно	Russian	Literacy	f_stat	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	32/27	96	11/9	невозможно вычислить по имеющимся данным	99	NA	NA	../base//2017_kr_02_midterm/2.Rmd	074.Rmd
+1	71	5	e	При оценивании регрессионной модели \(Y_t = a_0 + \sum_{j=1}^3 a_j X_{jt} + u_t\) по 20 наблюдениям получено значение статистики Дарбина-Уотсона \(d = 0.8\). При уровне значимости 1\% это свидетельствует о	Russian	Literacy	dw	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	Тест Дарбина-Уотсона вообще не проверяет наличие автокорреляции	Отсутствии автокорреляции	3 и 4	Отрицательной автокорреляции	Попадании в зону неопределенности	Положительной автокорреляции	NA	../base//2017_kr_04_final/10.Rmd	083.Rmd
+1	72	4	d	Для модели \(Y_i = \beta_1 + \beta_2 X_i + u_i\), где \(u_i \sim \mathcal{N}(0, \sigma^2_u)\)
+тестовая статистика \(\frac{ \hat \beta_2 - \beta^0_2 }{ se(\hat \beta_2)}\) имеет распределение	Russian	Literacy	t_test	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\chi^2_{n-2}\)	\(\mathcal{N}(0,1)\)	\(\chi^2_1\)	\(t_{n-2}\)	\(\mathcal{N}(0, \sigma_u^2)\)	NA	NA	../base//2017_kr_01/8.Rmd	070.Rmd
+1	73	NA	NA	Логарифм наблюдаемой величины описывается ETS(AAN) моделью, \(\ln y_t \sim ETS(AAN)\).
+Условная медиана \(y_{T+1}\) в два раза меньше условного ожидания.
+
+Найдите ширину 95\%-го предиктивного интервал для \(\ln y_{T+1}\) с точностью до двух знаков после запятой.	Russian	Literacy	ETS(AAN)	4.62	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_02_02.Rmd	222.Rmd
+1	74	2	b	Общеизвестно, что потребление мёда Винни-Пухом зависит, при этом положительно, от количества стихов, сочинённых им за день.
+К сожалению, Винни-Пух забывчив и всегда называет число сочинённых им стихов с ошибкой.
+Тогда оценка \(\beta_1\) в регрессии \(Honey_i = \beta_0 + \beta_1 Poems_i + u_i\) окажется	Russian	Literacy	E(e_i)	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	Несостоятельной	Несостоятельной, заниженной	Смещённой, но состоятельной	Несмещенной, но не состоятельной	Несостоятельной, завышенной	NA	NA	../base//2017_kr_04_final/3.Rmd	085.Rmd
+1	75	2	b	В парной регрессии величина \(\bar Y - \hat\beta_1 - \hat\beta_2 \bar X\)	Russian	Literacy	estimation errors	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	не существует	равна 0	может принимать любое неотрицательное значение	равна 1	равна (-1)	может принимать любое положительное значение	NA	../base//2016_kr_01/6.Rmd	018.Rmd
+1	76	5	e	Рассмотрим модель без константы \(y_i = \beta x_i + u_i\), оцениваемую с помощью МНК.
+Вектор остатков обозначим \(\hat u\), а вектор из единичек обозначим \(s\).
+
+Выберите верное утверждение	Russian	Literacy	orthogonality	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	\(\hat u \perp s\)	\(\hat x \perp \hat u\)	\(\hat y \perp x\)	\(x \perp u\)	\(\hat u \perp x\)	\(\hat y \perp u\)	NA	../base//om_metrics_2021_fall/train_02_01.Rmd	209.Rmd
+1	77	NA	NA	Исследовательница Надежда по пяти наблюдениям оценила регрессию
+\(\hat y_i = \hat \beta_1 + \hat\beta_x x_i + \hat\beta_w w_i\) с помощью МНК.
+
+И получила вектор остатков \((5, 4, 3, 2, ?)\), а последний остаток Надежда забыла записать.
+
+Чему равен пропущенный остаток?	Russian	Literacy	recover missing residual	-14	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/train_01_04.Rmd	207.Rmd
+1	78	5	e	По данным 570 индивидуумов оценили зависимость почасовой оплаты в долларах,
+\(EARN\), от длительности обучения индивидуума в годах, \(S\),
+от результата тестирования индивида в баллах, \(ASVABC\),
+и пола индивидуума, \(MALE\), (1 --- для мужчин, 0 --- для женщин):
+\[
+\widehat{\ln EARN}_i = \underset{(0.124)}{0.904} +
+\underset{(0.056)}{0.01}S_i + \underset{(0.002)}{0.0157} ASVABC_i + \underset{(0.1)}{0.27} MALE_i
+\]
+Почасовая оплата труда мужчин	Russian	Literacy	dummy coefficients	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	больше на 0.27 доллара	больше на 0.27 процента	не отличается от оплаты труда женщин	больше на 27 долларов	больше на 27 процентов	NA	NA	../base//2016_kr_02_midterm_demo/3.Rmd	025.Rmd
+1	79	NA	NA	Найдите коэффициент при \(y_{t-2}\) в выражении \((7 + 6L^2 + (1+L)^{4})y_t\).	Russian	Literacy	lag operator	12	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_04_04_num_rus.Rmd	287.Rmd
+1	80	NA	NA	Капитолина оценила регрессию \(\hat y_i = 0.7 + 2x_i + 3w_i\) с помощью МНК по 10 наблюдениям.
+Классические стандартные ошибки коэффициентов равны \(0.1\), \(0.2\) и \(0.3\) соответственно.
+
+Наблюдения являются независимыми,
+на ошибки выполнены классические предпосылки и предпосылка о нормальности, \(u_i\sim \mathcal N(0;\sigma^2)\), \(\mathrm{Cov}(u_i, u_j \mid X) = 0\) для \(i\neq j\).
+
+Найдите 80\% доверительный интервал для коэффициента \(\beta_x\).
+
+Можно использовать функции из статистических пакетов или таблицы.
+
+В ответе укажите левую границу интервала с точнотью до двух знаков после десятичной точки.	Russian	Literacy	confidence interval for coefficient small n	1.72	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_04_05.Rmd	168.Rmd
+1	81	NA	NA	Рассмотрим модель
+\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+\]
+
+Все предпосылки классической регрессионной модели выполнены.
+По 25 наблюдениям оказалось, что сумма квадратов остатков равна \(RSS = 60\).
+
+В регрессии \(z\) на остальные предикторы оказалось, что \(RSS_z = 30\).
+
+Найдите оценку дисперсии \(\widehat{\mathrm{Var}}(\hat \beta_3 \mid X)\).
+
+Ответ вводите с точность до двух знаков после десятичной точки.	Russian	Literacy	estimate beta hat variance	0.09	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_03_09.Rmd	162.Rmd
+1	82	1	a	По данным для 27 фирм была оценена зависимость выпуска Y от труда L и капитала K с помощью моделей:
+
+\(\ln Y_i = b_1 + b_2 \ln L_i + b_3 \ln K_i + u_i\) (1)
+
+\(\ln Y_i = b_1 + b_2 (\ln L_i + \ln K_i) + u_i\) (2)
+
+Суммы квадратов остатков в этих моделях известны, \(RSS_1=8\) и \(RSS_2=10\). \(F\)-статистика для проверки гипотезы о равенстве эластичностей по труду и по капиталу равна	Russian	Literacy	2models_restrictions	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	6	12	4	2	8	NA	NA	../base//2017_kr_02_midterm/7.Rmd	079.Rmd
+1	83	NA	NA	В модели множественной регрессии с константой оказалось, что сумма квадратов остатков равна \(100\),
+а общая сумма квадратов равна \(1000\).
+
+Найдите \(\sum_i (y_i - \hat y_i)^2\).	Russian	Literacy	find ess	900	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_02_08.Rmd	151.Rmd
+1	84	1	a	Рассмотрим уравнение
+\[
+y_t = 3 + 0.7 y_{t-1} + u_t + 6 u_{t-1},
+\]
+где \((u_t)\) --- белый шум.
+
+Определите, являются ли верными утверждения A и B.
+
+A: уравнение имеет одно стационарное решение вида \(MA(\infty)\) относительно \((u_t)\).
+
+B: для \(MA\)-части уравнения выполнено условие обратимости.	Russian	Literacy	uniqueness of stationary solutions	NA	TRUE	FALSE	FALSE	FALSE	NA	NA	NA	Calculation	A верно, B неверно.	A неверно, B верно.	A верно, B верно.	A неверно, B неверно.	NA	NA	NA	../base//om_ts_2022_spring/test_05_06_mc_rus.Rmd	247.Rmd
+1	85	3	c	Рассмотрим модель
+\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i\cdot x_i.
+\]
+
+Буквой \(X\) обозначена матрица всех предикторов.
+Выполнены классические предпосылки на ошибку \(\mathbb E(u_i \mid X) = 0\), \(\mathrm{Var}(u_i \mid X) = \sigma^2\), \(\mathrm{Cov}(u_i \mid X) = 0\).
+
+Найдите условную дисперсию \(\mathrm{Var}(y_i \mid X)\).	Russian	Literacy	conditional variance in regression	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	\(\sigma^2\)	\(\sigma x_i\)	\(\sigma^2 \cdot x_i^2\)	\(x_i\)	\(u_i^2\)	\(x_i^2\)	NA	../base//om_metrics_2021_fall/test_03_06.Rmd	159.Rmd
+1	86	4	d	Инструмент \(Z_t\) для состоятельной оценки динамической модели \(Y_{t} =\alpha +\beta_0 X_t + \beta_1 Y_{t-1} + u_t\),
+где \(u_t = u_t + \lambda_1 u_{t-1} + \lambda_2 u_{t-2}\),	Russian	Literacy	instrument	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	удовлетворяет условию \(\Corr(Z_t, Y_{t-1}) =0\)	удовлетворяет условию \(\Corr(Z_t, X_t) =0\)	удовлетворяет условию \(\Corr(Z_t, u_t) \to 1\)	удовлетворяет условию \(\Corr(Z_t, Y_{t-1}) \neq 0\)	не требуется	NA	NA	../base//2018_19_final/question_02.Rmd	093.Rmd
+1	87	4	d	Рассмотрим алгоритм градиентного бустинга над решающими деревьями для задачи регрессии.
+
+Выберите верное утверждение о том, какие наблюдения используются для обучения каждого дерева.	Russian	Literacy	gradient boosting	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	нет верного ответа	каждое дерево использует свою бутстрэп-реплику исходных наблюдений	наблюдения распределяются примерно поровну между деревьями случайным образом	каждое дерево использует все исходные наблюдения	каждое последующее дерево использует всё больше и больше наблюдений	каждое последующее дерево использует всё меньше и меньше наблюдений	NA	../base//om_ts_2022_spring/test_07_03_mc_rus.Rmd	258.Rmd
+1	88	5	e	Перед Винни-Пухом временной ряд потребления мёда без тренда и сезонными колебаниями постоянной амплитуды.
+Какая модель из предложенных лучше подходит для описания данного ряда?	Russian	Literacy	ETS	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	ETS(MNM)	ETS(AAN)	ETS(MAM)	ETS(AAA)	ETS(ANA)	ETS(AAdA)	NA	../base//om_ts_2022_spring/train_03_05_mc_rus.Rmd	281.Rmd
+1	89	3	c	Какая модель простому экспоненциальному сглаживанию?	Russian	Literacy	ses	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	ETS(ANA)	ETS(AAdA)	ETS(ANN)	ETS(AAN)	ETS(AAA)	нет верного ответа	NA	../base//om_ts_2022_spring/train_03_03_mc_rus.Rmd	279.Rmd
+1	90	2	b	По \(n=450\) наблюдениям была оценена регрессия:
+\[
+Y_i = \beta_1 + \beta_2 X_{i2} + \ldots + \beta_k X_{ik} + u_i.
+\]
+Затем была оценена регрессия \(|\hat u_i| = \alpha_1 + \alpha_2 \frac{1}{Z_i} + \nu_i\).
+Оказалось, что \(\hat\alpha_2 = 20\) и \(se(\hat\alpha_2) = 5\).
+
+Согласно этим данным, на уровне значимости 5\% гипотеза о	Russian	Literacy	homoscedastic_errors	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	пропущенной переменной \(1/Z_{i}\) отвергается	гомоскедастичности отвергается	пропущенной переменной \(1/Z_{i}\) не отвергается	верной функциональной форме отвергается	гомоскедастичности не отвергается	верной функциональной форме не отвергается	NA	../base//2016_kr_03/8.Rmd	050.Rmd
+1	91	5	e	Выберите верное утверждение про модели бинарного выбора.	Russian	Literacy	binary choice model	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	Модели бинарного выбора предназначены для выбора одного из двух возможных предикторов.	Модели бинарного выбора предназначены для включения предиктора, принимающего два значения.	Модели бинарного выбора предназначены для моделирования зависимой переменной, принимающей счетноё число значений.	Модели бинарного выбора предназначены для выбора одной из двух возможных линейных моделей.	Модели бинарного выбора предназначены для моделирования зависимой переменной, принимающей два значения.	Модели бинарного выбора предназначены для моделирования зависимой переменной с пропущенными значениями.	NA	../base//om_metrics_2021_fall/test_09_01.Rmd	194.Rmd
+1	92	3	c	Если процесс является стационарным в широком смысле, то	Russian	Literacy	weak stationarity leads to	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	он является стационарным в узком смысле	для него выполняется основная гипотеза в тесте Дикки-Фуллера	его приращения являются стационарным процессом	его автоковариационная функция является постоянной	это AR процесс с корнями характеристического уравнения, меньшими 1	это белый шум	NA	../base//2017_kr_04_final/9.Rmd	091.Rmd
+1	93	5	e	Если нулевая гипотеза в расширенном тесте Дики-Фуллера с константой отвергается, то
+исходный ряд можно считать	Russian	Literacy	df_test	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	стационарным в первых разностях	стационарным во вторых разностях	нестационарным	возрастающим	стационарным	NA	NA	../base//2018_19_final/question_04.Rmd	095.Rmd
+1	94	NA	NA	В исходной выборке 9 наблюдений.
+Найдите вероятность того, что второе наблюдение из исходной выборки попадёт в очередную бутстрэп выборку ровно 3 раз.
+
+Ответ укажите с точностью до двух знаков после десятичной точки.	Russian	Literacy	bootstrap	0.06	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_07_01_num_rus.Rmd	305.Rmd
+1	95	5	e	У Маши две монетки: медная и серебряная. Маша подкинула каждую монетку 100 раз. Затем с помощью метода максимального правдоподобия
+Маша трижды оценила вероятность выпадения орла: для медной монетки, для серебряной и по объединённой выборке.
+Значения функции правдоподобия равны \(\ell_{copper} = -300\), \(\ell_{silver}=-200\) и \(\ell_{common} = -510\).
+
+\(LR\) статистика, проверяющая гипотезу о равенстве вероятностей выпадения орла для двух монеток, равна	Russian	Literacy	lr_test	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	\(10\)	\(1010\)	\(5\)	\(500\)	\(20\)	NA	NA	../base//2018_19_final/question_10.Rmd	101.Rmd
+1	96	2	b	Исследователь Феофан оценил с помощью МНК модель \(Y = \beta_0 I + \beta_1 Z + \beta_2 W + u\), где \(I\) --- столбец из единиц.
+Для матрицы факторов, \(X = (I Z W)\), известно, что
+\[
+(X'X)^{-1} = \begin{pmatrix}
+0.04 & 0.012 & -0.008 \\
+0.012 & 0.03 & -0.007 \\
+-0.008 & -0.007 & 0.02 
+\end{pmatrix}
+\]
+Предпосылки теоремы Гаусса-Маркова выполнены. Отношение дисперсии оценки \(\hat \beta_0\) к дисперсии оценки \(\hat \beta_2\) равно	Russian	Literacy	mi_02_var_ratio	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(3/2\)	\(2\)	\(1/2\)	\(-5/1\)	\(10/3\)	NA	NA	../base//2018_19_midterm/mi_02.Rmd	123.Rmd
+1	97	NA	NA	Рассмотрим модель, стоящую за тета-методом,
+\[
+\begin{cases}
+y_t = \ell_{t-1} + 2 + u_t \\
+\ell_t = \ell_{t-1} + 2 + 0.3 u_t
+\end{cases}.
+\]
+
+Перепишите эту модель в виде
+\[
+\Delta y_t = \theta_1 + \theta_2 u_{t-1} + u_t.
+\]
+В ответ укажите коэффициент \(\theta_2\).	Russian	Literacy	theta-method	-0.7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_03_01_num_rus.Rmd	277.Rmd
+1	98	NA	NA	Исследователь Винни-Пух оценил регрессию \(\hat y_i = \hat\beta_1 + \hat\beta_2 x_i\)
+с помощью LASSO с очень-очень большим штрафом.
+
+Известно, что \(\bar x = 10\), \(\bar y = 20\), \(n = 100\).
+
+Найдите полученную им оценку \(\hat\beta_2\).	Russian	Literacy	big lambda in LASSO	0	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_06_10.Rmd	193.Rmd
+1	99	1	a	Какие последствия имеет нестрогая мультиколлинеарность?	Russian	Literacy	Multicollinearity consequences	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	Оценки коэффициентов остаются несмещёнными, однако доверительные интервалы шире по сравнению с отсутствием мультиколлинеарности.	Оценки коэффициентов становятся несостоятельными.	Предиктивные интервалы резко сужаются по сравнению с отсутствием мультиколлинеарности.	Предиктивные интервалы резко расширяются по сравнению с отсутствием мультиколлинеарности.	Оценки коэффициентов становятся смещёнными.	Оценки коэффициентов остаются несмещёнными, однако доверительные интервалы уже по сравнению с отсутствием мультиколлинеарности.	NA	../base//om_metrics_2021_fall/test_06_03.Rmd	186.Rmd
+1	100	NA	NA	Василий сменил единицы измерения ряда с рублей на тысячи рублей.
+
+На какое число при этом домножится средняя абсолютная процентная ошибка наивной модели?	Russian	Literacy	MAPE	1	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_02_06.Rmd	226.Rmd
+1	101	3	c	Василий хочет оценить константу \(\mu\) в модели \(Y_i = \mu + u_i\), где \(\mathbb{E}(u_i)=0\), \(\mathbb{E}(u_i u_j)=0\) при \(i\neq j\), \(\mathrm{Var}(u_i)=\sigma^2 X_i\) и \(X_i>0\).
+
+В классе линейных несмещенных оценок наиболее эффективной является:	Russian	Literacy	constant model with heteroskedasticity	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	\((I'I)^{-1}I'Y\)	\(\bar Y\)	\(\frac{\sum Y_i / X_i}{\sum 1/X_i}\)	\(\frac{\sum Y_i X_i}{\sum X_i^2}\)	\(\frac{\sum Y_i / X_i}{\sum 1/X_i^2}\)	\(\frac{\sum Y_i X_i}{\sum X_i}\)	NA	../base//2016_kr_03/10.Rmd	043.Rmd
+1	102	1	a	Выберите верное утверждение про мультиколлинеарность.	Russian	Literacy	Multicollinearity definition	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	Мультиколлинеарность --- это линейная зависимость между регрессорами.	Мультиколлинеарность --- это нелинейная зависимость между регрессорами.	Мультиколлинеарность --- это линейная зависимость между зависимой переменной и случайной ошибкой.	Мультиколлинеарность --- это линейная зависимость между регрессорами и случайной ошибкой.	Мультиколлинеарность --- это нелинейная зависимость между зависимой переменной и случайной ошибкой.	Мультиколлинеарность --- это линейная зависимость между зависимой переменной и регрессорами.	NA	../base//om_metrics_2021_fall/test_06_01.Rmd	184.Rmd
+1	103	1	a	Тест Саргана для проверки валидности инструментов можно использовать только в том случае, если
+число инструментов	Russian	Literacy	sargan_test	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	больше числа эндогенных переменных	совпадает с числом эндогенных переменных	совпадает с числом экзогенных переменных	меньше числа экзогенных переменных	меньше числа эндогенных переменных	NA	NA	../base//2018_19_kr3/question_06.Rmd	117.Rmd
+1	104	3	c	Капитолина оценила регрессию \(\hat y_i = 0.7 + 2x_i + 3w_i\) с помощью МНК по 1000 наблюдениям.
+
+Она хочет проверить гипотезу \(\beta_x = \beta_w\), однако не хочет ничего рассчитывать руками.
+Как поступить Капитолине, чтобы легко проверить желаемую гипотезу по стандартной табличке,
+выдаваемой статистическими программами?	Russian	Literacy	regression to test automatically	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	Оценить регрессию \(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\), посмотреть на значимость коэффициента \(\hat\beta_2\).	Оценить регрессию \(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\), посмотреть на значимость коэффициента \(\hat\beta_2\).	Оценить регрессию \(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 w_i\), посмотреть на значимость коэффициента \(\hat\beta_3\).	Оценить регрессию \(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i + w_i) + \hat\beta_3 (x_i - w_i)\), посмотреть на значимость коэффициента \(\hat\beta_2\).	Оценить регрессию \(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 (w_i - x_i)\), посмотреть на значимость коэффициента \(\hat\beta_3\).	Оценить регрессию \(\hat y_i = \hat \beta_1 + \hat\beta_2 (x_i - w_i) + \hat\beta_3 w_i\), посмотреть на значимость коэффициента \(\hat\beta_3\).	NA	../base//om_metrics_2021_fall/test_04_10.Rmd	173.Rmd
+1	105	2	b	Выберите верное утверждение про оценки коэффициентов логит-модели.	Russian	Literacy	logit estimators distribution	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	Оценки коэффициентов не являются случайными.	Оценки коэффициентов являются асимптотически нормальными.	Доверительный интервал для коэффициентов строится с помощью t-распределения.	Оценки коэффициентов строго больше соответствующих оценок модели линейной регрессии.	Оценки коэффициентов строго меньше соответствующих оценок модели линейной регрессии.	NA	NA	../base//om_metrics_2021_fall/test_09_06.Rmd	199.Rmd
+1	106	3	c	На панельных данных коэффициенты при факторах, постоянных во времени, НЕ могут быть оценены с помощью	Russian	Literacy	constant_factors	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	метода максимального правдоподобия	RE-оценки	МНК для модели с полным набором дамми-переменных для каждого индивида	сквозной регрессии	between-регрессии	NA	NA	../base//2018_19_final/question_05.Rmd	096.Rmd
+1	107	NA	NA	Капитолина оценила регрессию \(\hat y_i = 0.7 + 2x_i + 3w_i\) с помощью МНК по 1000 наблюдениям.
+
+Оценённая ковариационная матрица оценок коэффициентов равна
+\[
+\mathrm{Var}(\hat\beta) = 
+\begin{pmatrix}
+4 & 1 & -1 \\
+1 & 9 & 0 \\
+-1 & 0 & 16 \\
+\end{pmatrix}.
+\]
+
+Наблюдения являются независимыми, на ошибки выполнены классические предпосылки, \(\mathbb E(u_i \mid X) = 0\), \(\mathrm{Var}(u_i \mid X) = \sigma^2\),
+\(\mathrm{Cov}(u_i, u_j \mid X) = 0\) для \(i\neq j\).
+
+Постройте 95\%-й доверительный интервал для разницы \(\beta_x - \beta_w\).
+
+Можно использовать функции из статистических пакетов или таблицы.
+
+В ответ введите правую границу с точностью до двух знаков после десятичной точки.	Russian	Literacy	estimate beta difference	8.8	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_04_09.Rmd	172.Rmd
+1	108	4	d	При работе с панельными данными для выбора между моделью с фиксированными эффектами и моделью со случайными эффектами используется	Russian	Literacy	panel_fe_re	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	тест отношения правдоподобия	поиск на сетке	тест Голдфелда-Квандта	тест Хаусмана	тест Бройша--Пагана	NA	NA	../base//2016_kr_04_final/4.Rmd	056.Rmd
+1	109	NA	NA	У Агнессы 120 наблюдений и она оценивает качество прогнозов на один шаг вперёд с помощью кросс-валидации
+скользящим окном. Ширина окна равна 70.
+
+Сколько раз будет оценена каждая модель при выполнении кросс-валидации?	Russian	Literacy	sliding window CV	50	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_02_05.Rmd	274.Rmd
+1	110	NA	NA	Пантелеймон оценил парную регрессию по 50 наблюдениям
+\[
+\hat y_i = 8.9 + 12.9 x_i.
+\]
+Оценка ковариационной матрицы оценок коэффициентов имеет вид
+\[
+\begin{pmatrix}
+16.7 & -4.6 \\
+-4.6 & 1.74 \\
+\end{pmatrix}.
+\]
+Величина суммы квадратов остатков равна \(10871\).
+
+Предпосылки классической линейной модели выполнены, ошибки имеют нормальное распределение.
+
+Оцените дисперсию прогноза для \(x=1\).
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	estimate var of forecast	9.24	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_02.Rmd	175.Rmd
+1	111	NA	NA	Пантелеймон оценил парную регрессию по 50 наблюдениям
+\[
+\hat y_i = 8.9 + 12.9 x_i.
+\]
+Оценка дисперсии прогноза при \(x=1\) равна \(100\).
+Оценка дисперсии случайной ошибки равна \(400\).
+
+Предпосылки классической линейной модели выполнены, ошибки имеют нормальное распределение.
+
+Постройте 95\%-й предиктивный интервал для \(y_i\) при \(x_i = 1\).
+
+В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки.	Russian	Literacy	predictive interval	66.76	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_03.Rmd	176.Rmd
+1	112	3	c	При проверке гипотезы о значимости коэффициента линейной регрессии p-значение, соответствующее тестовой статистике, оказалось равным 0.07. Отсюда следует, что	Russian	Literacy	p_value	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	длина 95\% доверительного интервала для этого коэффициента больше 0.07	длина 95\% доверительного интервала для этого коэффициента меньше 0.07	соответствующий коэффициент не значим при уровне значимости 5\%	соответствующий коэффициент значим при уровне значимости 1\%	длина 95\% доверительного интервала для этого коэффициента равна 0.07	NA	NA	../base//2017_kr_01/7.Rmd	069.Rmd
+1	113	NA	NA	У меня набор данных из трёх наблюдений: \(x = (2, 2, 2)\), \(y = (3, 6, 12)\).
+
+Чему равен МНК-прогноз \(\hat y_3\) в модели \(y_i = \beta x_i + u_i\)?	Russian	Literacy	calculate beta x	7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_06.Rmd	137.Rmd
+1	114	NA	NA	Сколько свободных параметров оценивается в ETS(MNM) модели на квартальных данных?	Russian	Literacy	ETS(MNM)	7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_03_04_num_rus.Rmd	231.Rmd
+1	115	NA	NA	У меня набор данных из трёх наблюдений: \(x = (1, 2, 3)\), \(y = (5, 6, 10)\).
+
+Чему равна МНК-оценка \(\hat\beta\) в модели \(y_i = \beta x_i + u_i\)?
+
+Ответ вводите с точностью до двух знаков после запятой.	Russian	Literacy	calculate beta wo constant	3.36	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_02.Rmd	133.Rmd
+1	116	NA	NA	В рамках ETS(ANN) модели найдите точечный прогноз на три шага вперёд,
+Последнее значение уровня (сглаженного ряда) равно \(200\), \(\ell_t = \ell_{t-1} + 0.3 u_t\),
+\(u_t \sim \mathcal{N}(0; 16)\), \(y_t = \ell_{t-1} + u_t\).
+
+Ответ введите с точностью до двух знаков после десятичной точки.	Russian	Literacy	ETS(ANN)	200	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_02_01.Rmd	221.Rmd
+1	117	1	a	Исследовательница Клеопатра оценила модель \(\ln Y_i = \beta_0 + \beta_1 \ln X_i + \beta_2 \ln Z_i + \beta_3 \ln W_i + u_i\).
+Клеопатра хочет протестировать гипотезу \(H_0\): \(\beta_3 + 2\beta_1 = 1\).
+Для этой цели можно оценить вспомогательную регрессию	Russian	Literacy	mi_04_short_model	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(\ln(Y_i/W_i) = \gamma_0 + \gamma_1 \ln(X_i/W_i^2) + \gamma_2 \ln{Z_i} + u_i\)	\(\ln(Y_i/W_i) = \gamma_0 + \gamma_1 \ln (X_i \cdot W_i^2) + \gamma_2 \ln Z_i + u_i\)	\(\ln(Y_i/W_i^2) = \gamma_0 + \gamma_1 \ln (X_i/W_i) + \gamma_2 \ln Z_i + u_i\)	\(\ln(Y_i \cdot W_i) = \gamma_0 + \gamma_1 \ln (X_i/W_i^2) + \gamma_2 \ln Z_i + u_i\)	\(\ln(Y_i \cdot W_i) = \gamma_0 + \gamma_1 \ln (X_i \cdot W_i^2) + \gamma_2 \ln Z_i + u_i\)	NA	NA	../base//2018_19_midterm/mi_04.Rmd	125.Rmd
+1	118	3	c	Рассмотрим две конкурирующие модели: \(ARMA(2, 1)\) с ненулевым ожиданием
+и \(ARIMA(0, 1, 2)\) с нулевым ожиданием.
+
+Каким способом разумно выбрать наилучшую из них?	Russian	Literacy	kpss-test	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	нет верного ответа	ADF тест без константы	KPSS тест с константой	KPSS тест с трендом	ADF тест с трендом	критерий Акаике	NA	../base//om_ts_2022_spring/test_06_03_mc_rus.Rmd	251.Rmd
+1	119	4	d	Для регрессионной модели со свободным членом известно, что
+\[
+X'X = \begin{pmatrix}
+20 & 0 & 0 \\
+0 & 4 & 3 \\
+0 & 3 & 5 
+\end{pmatrix}, \; \;
+X'Y = \begin{pmatrix}
+40 \\
+10 \\
+13
+\end{pmatrix}, \;\;
+\sum_{i=1}^n Y_i^2 = 140.
+\]
+Коэффициент \(R^2\) в этой модели равен	Russian	Literacy	mi_03_r2	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	недостаточно информации, чтобы вычислить \(R^2\)	\(0.5\)	\(9/35\)	\(0.6\)	\(13/14\)	NA	NA	../base//2018_19_midterm/mi_03.Rmd	124.Rmd
+1	120	4	d	Рассеянная исследовательница Надежда ошибочно оценила модель \(y_i = \beta_1 + \beta_x x_i + \beta_w w_i + u_i\) и получила неверные оценки \(\hat \beta\).
+
+А затем, используя неверные оценки коэффициентов, посчитала \(\sum \hat u_i^2\) и \(\sum \hat u_i\).
+
+Сравните эти две суммы с верно рассчитанными.	Russian	Literacy	wrong estimates	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	\(\sum \hat u_i^2\) занижена, а \(\sum \hat u_i\) завышена.	\(\sum \hat u_i^2\) может быть и завышена, и занижена, а \(\sum \hat u_i\) занижена.	обе суммы могут быть и завышены, и занижены.	\(\sum \hat u_i^2\) завышена, а \(\sum \hat u_i\) может быть и завышена, и занижена.	\(\sum \hat u_i^2\) завышена, а \(\sum \hat u_i\) занижена.	\(\sum \hat u_i^2\) может быть и завышена, и занижена, а \(\sum \hat u_i\) завышена.	NA	../base//om_metrics_2021_fall/train_01_05.Rmd	208.Rmd
+1	121	NA	NA	У исследователя всего четыре наблюдения, \(y= (1, 3, 5, 7)\).
+
+Найдите общую сумму квадратов \(TSS\).	Russian	Literacy	find tss	20	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_02_07.Rmd	150.Rmd
+1	122	4	d	Выберите верное утверждение про главные компоненты.	Russian	Literacy	principal components	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	Главные компоненты сохраняют среднее значение исходных переменных.	Первая главная компонента совпадает с зависимой переменной.	Первая главная компонента имеет наименьшую выборочную дисперсию.	Главные компоненты некоррелированны.	Главные компоненты имеют единичную длину.	Первая главная компонента имеет наибольшее среднее значение.	NA	../base//om_metrics_2021_fall/test_06_09.Rmd	192.Rmd
+1	123	NA	NA	Пантелеймон включил в модель 200 совершенно бессмысленных регрессоров, которые никак не влияют
+на переменную \(y\).
+Пантелеймон не знает этого и проверяет значимость коэффициента при каждом коэффициенте на уровне значимости \(\alpha = 0.02\).
+
+Сколько ложно значимых регрессоров в среднем обнаружит Пантелеймон?	Russian	Literacy	expected value of spurious significance	4	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_04_03.Rmd	166.Rmd
+1	124	2	b	Для регрессии \(\hat Y_i = \hat\beta_0 + \hat\beta_1 X_i + \hat\beta_2 Z_i + \hat\beta_3 W_i\), оценённой по 24 наблюдениям, \(R^2=0.9\).
+
+При проверке гипотезы о неадекватности модели \(F\)-статистика равна	Russian	Literacy	mi_05_f_stat	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(189/2\)	\(60\)	\(5/9\)	\(45\)	\(200.27\)	NA	NA	../base//2018_19_midterm/mi_05.Rmd	126.Rmd
+1	125	2	b	В парной регрессии на уровне значимости 5\%-ов гипотеза \(H_0\): \(\beta_2 = 2016\) не отвергается.
+Из этого можно сделать вывод, что на соответствующем уровне значимости	Russian	Literacy	hypothesis check	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(H_a\): \(\beta_2 \neq 0\) отвергается	нет верного ответа	\(H_a\): \(\beta_2 \neq 0\) не отвергается	доверительный интервал для \(\beta_2\) не содержит ноль	\(H_0\): \(\beta_2 = 0\) отвергается	\(H_0\): \(\beta_2 = 0\) не отвергается	NA	../base//2016_kr_01/5.Rmd	017.Rmd
+1	126	1	a	Рассмотрим уравнение
+\[
+y_t = 3 + 0.7 y_{t-1} + u_t + 0.6 u_{t-1},
+\]
+где \((u_t)\) --- белый шум.
+
+Определите, являются ли верными утверждения A и B.
+
+A: уравнение имеет одно стационарное решение вида \(MA(\infty)\) относительно \((u_t)\).
+
+B: для \(MA\)-части уравнения выполнено условие обратимости.	Russian	Literacy	uniqueness of stationary solutions	NA	TRUE	FALSE	FALSE	FALSE	NA	NA	NA	Calculation	A верно, B верно.	A верно, B неверно.	A неверно, B неверно.	A неверно, B верно.	NA	NA	NA	../base//om_ts_2022_spring/train_05_06_mc_rus.Rmd	296.Rmd
+1	127	4	d	Выборочная корреляция между регрессорами \(X\) и \(Z\) равна \(0.5\).
+В регрессии \(\hat Y_i = \hat\beta_0 + \hat\beta_1 X_i + \hat\beta_2 Z_i\) показатель \(VIF\) для регрессора \(X\) равен	Russian	Literacy	mi_07_vif	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(1/2\)	\(2\)	\(3/4\)	\(4/3\)	\(1/4\)	NA	NA	../base//2018_19_midterm/mi_07.Rmd	128.Rmd
+1	128	1	a	Использование скорректированных стандартных ошибок Уайта при гомоскедастичности приведет к	Russian	Literacy	r2_formula	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	получению состоятельной оценки дисперсии случайной ошибки	понижению эффективности МНК оценок коэффициентов	смещённости МНК оценок коэффициентов	несостоятельности МНК оценок коэффициентов	повышению эффективности МНК оценок коэффициентов	NA	NA	../base//2018_19_kr3/question_03.Rmd	114.Rmd
+1	129	2	b	Рассмотрим модель множественной регрессии \(Y=X\beta+u\), где \(\hat Y = X\hat\beta\), \(e=Y-\hat Y\).
+Величина \(RSS\) --- это квадрат длины вектора	Russian	Literacy	rss	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(\hat Y - \bar Y\)	\(e\)	\(\hat Y\)	\(u\)	\(Y-\bar Y\)	NA	NA	../base//2018_19_kr1/question_10.Rmd	111.Rmd
+1	130	2	b	Коэффициент \(R^2\) может быть представлен в виде	Russian	Literacy	r_sq formula	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(\sum_{j=2}^k \beta_j \frac{\mathrm{sVar}(Y)}{\mathrm{sCov}(X_j, Y)}\)	\(\sum_{j=2}^k \hat \beta_j \frac{\mathrm{sCov}(X_j, Y)}{\mathrm{sVar}(Y)}\)	\(\sum_{j=2}^k \hat \beta_j \frac{\mathrm{sCorr}(X_j, Y)}{\mathrm{sVar}(\hat Y)}\)	\(\sum_{j=2}^k \hat \beta_j \frac{\mathrm{sCorr}(X_j, Y)}{\mathrm{sVar}(Y)}\)	\(\sum_{j=2}^k \beta_j \frac{\mathrm{sCorr}(X_j, Y)}{\mathrm{sVar}(\hat Y)}\)	\(\sum_{j=2}^k \hat \beta_j \frac{\mathrm{sVar}(Y)}{\mathrm{sCov}(X_j, Y)}\)	NA	../base//2016_kr_02_midterm_demo/2.Rmd	024.Rmd
+1	131	6	f	Рассмотрим модель
+\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i.
+\]
+
+Буквой \(X\) обозначена матрица всех предикторов.
+Выполнены классические предпосылки на ошибку \(\mathbb E(u_i \mid X) = 0\), \(\mathrm{Var}(u_i \mid X) = \sigma^2\), \(\mathrm{Cov}(u_i \mid X) = 0\).
+
+Найдите условное ожидание \(\mathbb E(y_i \mid X)\).	Russian	Literacy	conditional expected value in regression	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(\beta_1 + \beta_2 x_i + \beta_3 x_i^2 + u_i\)	\(\hat y_i\)	\(\hat\beta_1 + \hat\beta_2 x_i + \hat\beta_3 x_i^2\)	\(\beta_1 + \beta_2 x_i\)	\(0\)	\(\beta_1 + \beta_2 x_i + \beta_3 x_i^2\)	NA	../base//om_metrics_2021_fall/test_03_05.Rmd	158.Rmd
+1	132	NA	NA	В модели парной регрессии выборочная корреляция между
+зависимой переменной и предиктором равна \(-0.7\).
+
+Найдите выборочную корреляцию между зависимой переменной и прогнозами.	Russian	Literacy	correlation of y and forecasts	0.7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_02_01.Rmd	144.Rmd
+1	133	6	f	Случайные величины \(r\) и \(s\) независимы и равновероятно равны \(0\) или \(1\).
+Чему равна условная дисперсия \(\mathrm{Var}(r + s^2 \mid r)\)?	Russian	Literacy	conditional variance	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(r + 0.25\)	\(r\)	\(1\)	\(r + 0.5\)	\(0.5\)	\(0.25\)	NA	../base//om_metrics_2021_fall/test_03_04.Rmd	157.Rmd
+1	134	NA	NA	Рассмотрим ETS модель с мультипликативной сезонностью для месячных данных.
+Известно, что \(s_{5} = 0.8\), \(u_{17} = 1\), \(\gamma = 0.3\).
+
+На сколько процентов сезонный эффект увеличивает значение наблюдаемого ряда в момент времени \(t=17\)?
+
+В ответе укажите целое число процентов.	Russian	Literacy	ETS with multiplicative seasonality	4	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_03_07_num_rus.Rmd	234.Rmd
+1	135	3	c	Если оценивается модель \(\hat Y_i = \hat \beta_1 + \hat \beta_2 X_i\),
+а истинной является модель \(Y_i = \beta_1 + \beta_2 X_i + \beta_3 Z_i + u_i\),
+то МНК-оценка \(\hat \beta_2\) оказывается	Russian	Literacy	omitted variables	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	всегда несмещённой	несмещённой при \(\beta_1 = 0\)	несмещённой при нулевой выборочной ковариации \(X\) и \(Z\)	эффективной	всегда смещённой	равной нулю	NA	../base//2016_kr_02_midterm_demo/6.Rmd	028.Rmd
+1	136	3	c	По 20 наблюдениям Чебурашка оценил модель \(Y_i = \beta_0 + \beta_1 X_i + u_i\).
+Известно, что \(\sum X_i = -10\), \(\sum X_i^2 = 40\), \(\sum X_i Y_i = 10\), \(\sum Y_i = 50\).
+
+Сумма оценок МНК коэффициентов \(\hat \beta_0 + \hat \beta_1\) равна	Russian	Literacy	sum_of_estimates	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	\(3\)	\(5\)	\(4\)	\(1\)	\(2\)	NA	NA	../base//2018_19_kr1/question_05.Rmd	106.Rmd
+1	137	NA	NA	Ряд \((u_t)\) --- белый шум с дисперсией равной 25.
+
+Найдите дисперсию \(\mathrm{Var}(2u_t + 2 u_{t-1} + \sqrt{2} u_{t-2})\).	Russian	Literacy	variance given white noise	250	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_01_04.Rmd	266.Rmd
+1	138	NA	NA	Корни характеристического многочлена \(AR\)-части уравнения равны \(\lambda_1 = 0.02\) и \(\lambda_2 = 0.28\).
+
+Найдите наименьший корень лагового многочлена \(AR\)-части.
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	ar characterestic roots	3.57	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_05_03_num_rus.Rmd	293.Rmd
+1	139	NA	NA	Рассмотрим два процесса.
+
+Первый, \(y_t = 5 + u_t + 2 u_{t-1}\), где \((u_t)\) --- белый шум с дисперсией \(8\).
+
+Второй, \(x_t = 5 + v_t + k v_{t-1}\), где \(k\neq 2\) и \((v_t)\) --- белый шум с дисперсией \(\sigma^2\).
+
+Известно, что у процессов \((y_t)\) и \((x_t)\) одинаковые автоковариационные функции.
+Найдите \(\sigma^2\) с точностью до двух знаков после десятичной точки.	Russian	Literacy	ma1	32	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_04_06_num_rus.Rmd	240.Rmd
+1	140	4	d	Рассмотрим логистическую регрессию с пятью регрессорами помимо константы, оцениваемую
+методом максимального правдоподобия по \(n\) наблюдениям.
+Cтатистика \(\hat \beta_3 / se(\hat\beta_3)\) для проверки значимости коэффициента \(\beta_3\) имеет	Russian	Literacy	sum_of_estimates	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(t\)-распределение с \(n-5\) степенями свободы	\(t\)-распределение с \(n-6\) степенями свободы	\(t\)-распределение с \(n\) степенями свободы	асимптотически нормальное распределение	\(\chi^2\)-распределение с одной степенью свободы	NA	NA	../base//2018_19_kr3/question_05.Rmd	116.Rmd
+1	141	1	a	Процесс \(u_t\) является белым шумом. Нестационарным является процесс	Russian	Literacy	white_noise	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(Y_t = -1Y_{t-1} + u_t\)	\(Y_t = u_t + 0.1u_{t-1} + 1.5u_{t-2}\)	\(Y_t = 0.1Y_{t-1} + u_t\)	\(Y_t = 2017\)	\(Y_t = 2017u_t\)	NA	NA	../base//2016_kr_04_final/8.Rmd	060.Rmd
+1	142	2	b	Обобщенный МНК служит для оценивания регрессионных моделей в случае нарушений следующего условия теоремы Гаусса-Маркова:	Russian	Literacy	gls	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(\mathrm{rank} X = k\)	\(\mathrm{Var}(u) = \sigma^2 I\)	Величина \(Y_i\) линейна по \(\beta_1\), \(\beta_2\), \ldots	\(\mathbb{E}(u_i)=0\)	\(u_i\) распределены нормально	NA	NA	../base//2016_kr_03/9.Rmd	051.Rmd
+1	143	4	d	При выполненных условиях регулярности оценки метода максимального правдоподобия могут \textbf{НЕ} являться	Russian	Literacy	ml_properties	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	состоятельными	асимптотически эффективными	асимптотически нормальными	несмещёнными	инвариантными	NA	NA	../base//2018_19_kr3/question_07.Rmd	118.Rmd
+1	144	5	e	Выберите верное утверждение о ситуации, в которой
+оценки логит-модели не существуют.	Russian	Literacy	non-existence of logit estimators	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	Нужно рассмотреть пробит-модель вместо логит-модели.	Такая ситуация невозможна, оценки максимального правдоподобия всегда существуют.	Разумно исключить из модели константу.	Разумно включить квадраты и кросс-произведения исходных переменных.	Проблему разумно решить введением в целевую функцию дополнительного штрафа за отклонение оценок коэффициентов от нуля.	NA	NA	../base//om_metrics_2021_fall/test_09_07.Rmd	200.Rmd
+1	145	2	b	Исследовательница Надежда оценила регрессию в отклонениях, \(\hat y_i =  x_i + 2 z_i\) с помощью МНК.
+Известно, что \(\bar Y=5\), \(\bar X =6\), \(\bar Z=-2\).
+В регрессии нецентрированных переменных, \(\hat Y_i = \hat \beta_0 + \hat \beta_1 X_i + \hat \beta_2 Z_i\),
+оценка коэффициента \(\hat \beta_0\) равна	Russian	Literacy	mi_01_centered	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(2\)	\(3\)	\(5\)	\(1\)	\(4\)	NA	NA	../base//2018_19_midterm/mi_01.Rmd	122.Rmd
+1	146	NA	NA	Известны средние \(\bar x = 3\), \(\bar y =2\) и скалярное произведение \(\langle x, y\rangle = 9\).
+
+Определим \(a_i = x_i - \bar x\) и \(b_i = y_i - \bar y\).
+
+Чему равно скалярное произведение \(\langle a, b\rangle\)?	Russian	Literacy	scalar product of centered variables	3	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/train_02_02.Rmd	210.Rmd
+1	147	NA	NA	У \(ARMA(4, 1)\)-модели с ненулевым ожиданием и нормально распределенными ошибками логарифм правдоподобия оказался равен \(-190\).
+
+Найдите значение информационного критерия Акаике.	Russian	Literacy	aic	394	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_06_02_num_rus.Rmd	250.Rmd
+1	148	3	c	Исследователь Борис оценил параметры нескольких моделей:
+
+\begin{tabular}{rl}
+\toprule
+Модель & Уравнение \\
+\midrule
+1 &  $Y = \beta_1 + \beta_2 X_2 + \beta_3 X_3 + u$ \\
+2 &  $\ln Y = \beta_1 + \beta_2 X_2 + \beta_3 X_3 + u$ \\
+3 &  $Y = \beta_1 + \beta_4 X_4 + \beta_5 X_5 + u$ \\
+4 &  $Y/X_2 = \beta_1 + \beta_2 X_2 + \beta_3 X_3 + u$ \\
+\bottomrule
+\end{tabular}
+
+С помощью \(R^2_{adj}\) можно выбрать лучшую из пар моделей	Russian	Literacy	r_sq_adj	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	2 и 4	1 и 4	1 и 3	2 и 3	1 и 2	3 и 4	NA	../base//2017_kr_02_midterm/10.Rmd	073.Rmd
+1	149	NA	NA	Рассмотрим ETS модель с мультипликативной сезонностью и мультипликативной ошибкой для месячных данных.
+Известно, что \(s_{5} = 0.8\), \(u_{17} = 1.2\), \(u_{29} = -1\), \(\gamma = 0.5\).
+
+На сколько процентов сезонный эффект уменьшает значение наблюдаемого ряда в момент времени \(t=41\)?
+
+В ответе укажите целое число процентов.	Russian	Literacy	ETS with multiplicative seasonality	36	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_03_07_num_rus.Rmd	283.Rmd
+1	150	1	a	Выберите верное утверждение про стационарный \(ARMA(3, 2)\) процесс.	Russian	Literacy	acf pacf for arma	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	нет верного ответа	автокорреляционная функция зануляется начиная с лага 3.	автокорреляционная функция зануляется начиная с лага 4.	частная автокорреляционная функция зануляется начиная с лага 4.	частная автокорреляционная функция зануляется начиная с лага 2.	частная автокорреляционная функция зануляется начиная с лага 3.	NA	../base//om_ts_2022_spring/train_05_07_mc_rus.Rmd	297.Rmd
+1	151	1	a	Выберите стационарный процесс (уравнение, которое имеет стационарное решение, не заглядывающее в будущее), если \(u_t\) --- белый шум.	Russian	Literacy	stationarity	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(y_t = 1.2 y_{t-1} + u_t\)	\(y_t = u_1 + u_2 + \ldots + u_t\)	\(y_t = tu_{t}\)	\(y_t = 1.2 + 0.8 y_{t-1} - 0.12 y_{t-2} + u_t - 3u_{t-1}\)	\(y_t = 2 + 3t + u_t + u_{t-1}\)	NA	NA	../base//2018_19_final/question_03.Rmd	094.Rmd
+1	152	2	b	Оценка максимального правдоподобия параметра \(\lambda\) по случайной выборке \(X_1\), \ldots, \(X_n\) из распределения с функцией плотности
+\[
+f(x|\lambda ) = \begin{cases}
+\lambda^{-1} x^{- 1 + 1/\lambda},
+\text{ если }0 < x < 1; \\
+0, \text{ иначе.}
+\end{cases}
+\]
+имеет вид:	Russian	Literacy	ml_estimates	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(\hat\lambda_{ML} = \frac{X_1^2 + \ldots + X_n^2}{n}\)	\(\hat\lambda_{ML} = -\frac{\ln X_1 + \ldots + \ln X_n}{n}\)	\(\hat\lambda_{ML} = \frac{X_1 + \ldots + X_n}{n}\)	\(\hat\lambda_{ML} = \frac{\ln X_1 + \ldots + \ln X_n}{n}\)	\(\hat\lambda_{ML} = -\frac{X_1 + \ldots + X_n}{n}\)	NA	NA	../base//2016_kr_03/7.Rmd	049.Rmd
+1	153	1	a	Что показывает коэффициент вздутия дисперсии \(VIF\) оценки коэффициента регрессии?	Russian	Literacy	VIF meaning	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией с некоррелированными предикторами.	Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией со стандартизированными предикторами.	Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией с одинаковыми предикторами.	Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией с несмещёнными предикторами.	Во сколько раз дисперсия оценки коэффициента больше по сравнению с идеальной ситуацией парной регрессии.	NA	NA	../base//om_metrics_2021_fall/test_06_06.Rmd	189.Rmd
+1	154	NA	NA	Известно значение автоковариационной функции стационарного процесса \(\gamma_9 = 120\) и значение его автокорреляционной функции \(\rho_9 = 0.6\).
+
+Найдите дисперсию случайного процесса.	Russian	Literacy	ACF	200	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_04_02_num_rus.Rmd	285.Rmd
+1	155	NA	NA	Известно, что \(y_3 = 2\), а соответствующий остаток равен \(5\).
+
+Чему равен прогноз \(\hat y_3\) в модели множественной регрессии?	Russian	Literacy	calculate forecast given residual and y	-3	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_07.Rmd	138.Rmd
+1	156	2	b	Какая зависимость математического ожидания исходного процесса от времени предполагается в нулевой гипотезе \(ADF\)-теста с константой?	Russian	Literacy	adf	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(\mathbb{E}(y_t)\) строго возрастает	\(\mathbb{E}(y_t) = \mu + \alpha t\)	\(\mathbb{E}(y_t) = \mu\)	\(\mathbb{E}(y_t) = \mu + \alpha t + \beta t^2\)	\(\mathbb{E}(y_t)\) строго монотонна	нет верного ответа	NA	../base//om_ts_2022_spring/test_06_04_mc_rus.Rmd	252.Rmd
+1	157	2	b	Для регрессии \(Y_i = \beta_1 + \beta_2 X_i + u_i\), оценённой по 30 наблюдениям с суммой квадратов остатков, равной 15, несмещенная оценка дисперсии случайной составляющей равна	Russian	Literacy	variance_estimation	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	\(15/32\)	\(15/28\)	\(13/30\)	\(13/28\)	\(2\)	\(0.5\)	NA	../base//2017_kr_01/10.Rmd	063.Rmd
+1	158	NA	NA	Случайная величина \(X\) имеет \(t\)-распределение с пятью степенями свободы.
+
+Найдите вероятность \(\mathbb{P}(X > 1)\).
+
+Можно использовать статистические функции в R/Python или других программах.
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	student distribution probability	0.18	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_03_01.Rmd	154.Rmd
+1	159	6	f	В регрессии с константой и тремя объясняющими переменными
+сумма квадратов остатков равна \(162\),
+а число наблюдений равно \(31\).
+Точечная оценка дисперсии случайной составляющей равна	Russian	Literacy	rss	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(2.83\)	\(7\)	\(8\)	\(2.45\)	\(2.65\)	\(6\)	NA	../base//2016_kr_02_midterm/1.Rmd	032.Rmd
+1	160	3	c	Использование робастных стандартных ошибок в форме Уайта при гетероскедастичности позволяет	Russian	Literacy	white_errors	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	получить эффективные оценки коэффициентов	увеличить точность прогнозов	строить корректные доверительные интервалы для коэффициентов	устранить смещённость оценок коэффициентов	сузить доверительные интервалы для коэффициентов	NA	NA	../base//2016_kr_04_final/9.Rmd	061.Rmd
+1	161	NA	NA	Эконометресса Агнесса была очень недовольна тем, что оценили регрессию
+\[
+\hat y_i = 5.42 + 3.25 \cdot x_i - 2.51 male_i.
+\]
+Ведь переменная \(male_i\) равна единице для мужчин и нулю для женщин.
+
+Поэтому Агнесса переоценила модель с помощью переменной \(female_i\),
+которая равна нулю для мужчин и единице для женщин:
+\[
+\hat y_i = \hat\alpha_1 + \hat\alpha_2 x_i + \hat\alpha_3 female_i.
+\]
+
+Какую оценку \(\hat\alpha_1\) получила Агнесса?
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	male to female dummy	2.91	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_01.Rmd	174.Rmd
+1	162	1	a	Оценка МНК неизвестного параметра \(\theta\) для модели \(Y_i = \theta X_{1i} + (1 + \theta) X_{2i} + u_i, i = 1, \ldots, n\) равна	Russian	Literacy	constant_ols	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{2i}) }{\sum_{i=1}^n (X_{1i} + X_{2i})^2 }\)	\(\frac{\sum_{i=1}^n (X_{1i} - Y_{i}) (Y_i - X_{2i}) }{\sum_{i=1}^n (X_{1i} + X_{2i})^2 }\)	\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{2i}) }{\sum_{i=1}^n (X_{1i} - Y_{i})^2 }\)	\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{2i}) }{\sum_{i=1}^n (Y_{i} - X_{2i})^2 }\)	\(\frac{\sum_{i=1}^n (X_{1i} + X_{2i}) (Y_i - X_{1i}) }{\sum_{i=1}^n (X_{1i} + X_{2i})^2 }\)	NA	NA	../base//2017_kr_01/3.Rmd	065.Rmd
+1	163	5	e	Метод наименьших квадратов в задаче парной регрессии подбирает оценки коэффициентов так, чтобы	Russian	Literacy	regression goal	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	прогнозы зависимой переменной были наименее похожими на фактические значения регрессора	прогнозы регрессора были наиболее похожими на фактические значения регрессора	прогнозы зависимой переменной были наиболее похожими на фактические значения регрессора	прогнозы зависимой переменной были наименее похожими на фактические значения зависимой переменной	прогнозы зависимой переменной были наиболее похожими на фактические значения зависимой переменной	NA	NA	../base//om_metrics_2021_fall/test_01_11.Rmd	142.Rmd
+1	164	4	d	Имеются данные по доходу жены, мужа и продолжительности брака. Доход семьи складывается из дохода жены и мужа. Вася оценил зависимость дохода семьи от продолжительности брака и получил регрессию \(\hat Y_i  = 20 + 3X_i\), Петя оценил зависимость дохода мужа от продолжительности брака и получил регрессию \(\hat Y_i  = 10 + 2X_i\). Маша оценивает зависимость дохода жены от продолжительности брака. Она получит регрессию:	Russian	Literacy	sum of regressions	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	\(\hat Y_i  = 20+3X_i\)	недостаточно данных для ответа	\(\hat Y_i  = 15+2.5X_i\)	\(\hat Y_i  = 10+X_i\)	\(\hat Y_i  = 30+5X_i\)	\(\hat Y_i  = 10-X_i\)	NA	../base//2016_kr_01/4.Rmd	016.Rmd
+1	165	1	a	При отсутствии автокорреляции в регрессии по \(n\) наблюдениям статистика Дарбина-Уотсона имеет	Russian	Literacy	dw_distribution	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	нет верного ответа	\(\mathcal{N}(\mu;\sigma^2)\)-распределение	\(t_n\)-распределение	\(\mathcal{N}(0;1)\)-распределение	\(F_{k,n}\)-распределение	\(t_{n-k}\)-распределение	NA	../base//2016_kr_04_final/5.Rmd	057.Rmd
+1	166	1	a	Рассмотрим алгоритм случайного леса для задачи регрессии.
+
+Выберите верное утверждение о том, какие наблюдения используются для обучения каждого дерева.	Russian	Literacy	random forest	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	каждое дерево использует свою бутстрэп-реплику исходных наблюдений	каждое последующее дерево использует всё меньше и меньше наблюдений	каждое дерево использует все исходные наблюдения	каждое последующее дерево использует всё больше и больше наблюдений	наблюдения распределяются примерно поровну между деревьями случайным образом	нет верного ответа	NA	../base//om_ts_2022_spring/train_07_03_mc_rus.Rmd	307.Rmd
+1	167	NA	NA	Леонардо оценил модель логистической регрессии \(\hat{\mathbb{P}}(y_i = 1) = \Lambda(2 + 0.05 x_i - 0.07 z_i)\).
+
+Найдите предел прогноза вероятности \(\hat{\mathbb{P}}(y_i = 1)\) при \(z_i\) стремящемся к плюс бесконечности.	Russian	Literacy	limiting probability	0	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_09_10.Rmd	203.Rmd
+1	168	4	d	Выберите утверждение про модель локальной линейной регрессии LOESS.	Russian	Literacy	LOESS	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	В качестве ядерной функции разумно взять периодическую функцию.	Существует единственный канонический вариант выбора ядерной функции.	LOESS можно использовать только на перекрестных данных.	В качестве ядерной функции разумно взять функцию дающую меньший вес для наблюдений вдали от рассматриваемого значения аргумента.	Ядерная функция должна принимать как положительные, так и отрицательне значения.	Обычная парная регрессия не может быть реализована как частный случай LOESS.	NA	../base//om_ts_2022_spring/train_01_02.Rmd	264.Rmd
+1	169	3	c	Как изменятся оценки логистической регрессии,
+если заменить у зависимой переменной нули единицами,
+а единицы --- нулями?	Russian	Literacy	change of sign	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	Оценки коэффициентов увеличатся.	Оценки коэффициентов не изменятся.	Оценки коэффициентов поменяют знак.	Новые оценки коэффициентов будут обратными к старым.	Оценки коэффициентов уменьшатся.	Оценки коэффициентов изменятся непредсказуемым образом.	NA	../base//om_metrics_2021_fall/test_09_05.Rmd	198.Rmd
+1	170	NA	NA	Сулейман оценил две модели множественной регрессии по 304 наблюдениям.
+Модель А:
+\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + \beta_4 w_i + u_i, RSS_a = 150.
+\]
+Модель Б:
+\[
+y_i = \beta_1 + \beta_4 w_i + u_i, RSS_b = 200.
+\]
+
+Найдите значение \(F\)-статистики для проверки гипотезы об истинности ограниченной модели.	Russian	Literacy	F statistics	100	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_09.Rmd	182.Rmd
+1	171	3	c	Рассмотрим две конкурирующие модели: \(ARMA(2, 1)\) с ненулевым ожиданием
+и \(ARMA(1, 2)\) с нулевым ожиданием.
+
+Каким способом разумно выбрать наилучшую из них?	Russian	Literacy	aic	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	ADF тест с трендом	нет верного ответа	критерий Акаике	ADF тест с константой	KPSS тест с константой	ADF тест без константы	NA	../base//om_ts_2022_spring/train_06_03_mc_rus.Rmd	300.Rmd
+1	172	5	e	Процесс случайного блуждания с дрейфом описывается уравнением	Russian	Literacy	rw_drift	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	\(X_t = \mu + u_t\)	\(X_t = \mu + 0.7 X_{t-1} + u_t\)	\(X_t = X_{t-1} + u_t\)	\(X_t = 0.7 X_{t-1} + u_t\)	\(X_t = \mu + X_{t-1} + u_t\)	NA	NA	../base//2017_kr_04_final/8.Rmd	090.Rmd
+1	173	4	d	При наличии сильной практической мультиколлинеарности нарушается следующее свойство МНК-оценок параметров классической регрессии:	Russian	Literacy	multicol	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	эффективность в классе линейных и несмещенных оценок	линейность по зависимой переменой	несмещённость	единственных оценок МНК не существует	равенство нулю суммы остатков	NA	NA	../base//2016_kr_03/5.Rmd	047.Rmd
+1	174	5	e	Рассмотрим уравнение
+\[
+y_t = 8 + 18 y_{t-1} +  u_t + 0.3 u_{t-1},
+\]
+где \((u_t)\) --- белый шум.
+
+Сколько стационарных решений вида \(MA(\infty)\) относительно шума \((u_t)\) имеет это уравнение?	Russian	Literacy	uniqueness of stationary solutions	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	1	3	бесконечно много	2	0	4	NA	../base//om_ts_2022_spring/train_05_04_mc_rus.Rmd	294.Rmd
+1	175	4	d	Рассмотрим алгоритм случайного леса для задачи регрессии.
+Каждое дерево даёт свой прогноз.
+
+Выберите верное утверждение о механизме агрегирования прогнозов отдельных деревьев в прогноз леса.	Russian	Literacy	random forest	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	вес, с которым прогноз дерева учитывается в прогнозе леса, линейно растёт по номеру дерева	вес, с которым прогноз дерева учитывается в прогнозе леса, нелинейно убывает по номеру дерева	вес, с которым прогноз дерева учитывается в прогнозе леса, нелинейно растёт по номеру дерева	прогноз леса равен среднему арифметическому прогнозов отдельных деревьев	нет верного ответа	вес, с которым прогноз дерева учитывается в прогнозе леса, линейно убывает по номеру дерева	NA	../base//om_ts_2022_spring/train_07_02_mc_rus.Rmd	306.Rmd
+1	176	NA	NA	В рамках ETS(ANN) модели найдите точечный прогноз на один шаг вперёд,
+Последнее значение уровня (сглаженного ряда) равно \(100\), \(\ell_t = \ell_{t-1} + 0.3 u_t\),
+\(u_t \sim \mathcal{N}(0; 16)\), \(y_t = \ell_{t-1} + u_t\).
+
+Ответ введите с точностью до двух знаков после десятичной точки.	Russian	Literacy	ETS(ANN)	100	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_02_01.Rmd	270.Rmd
+1	177	NA	NA	Винни-Пух построил классический доверительный интервал для коэффициента \(\beta_z\) в модели
+\(y_i = \beta_1 + \beta_x x_i + \beta_z z_i + u_i\).
+Интервал получился широкий, \([-20; 40]\).
+
+Какую оценку \(\hat\beta_z\) получил Винни-Пух?	Russian	Literacy	find the middle point of an interval	10	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_04_06.Rmd	169.Rmd
+1	178	NA	NA	Какой период у функции \(\cos(2 \pi t / 365)\)?
+
+Ответ укажите с точностью до двух знаков после десятичной точки.	Russian	Literacy	fourier	365	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_07_05_num_rus.Rmd	309.Rmd
+1	179	NA	NA	Рассмотрим модель ETS(AAdN).
+Для последнего наблюдения \(\ell_{100} = 100\), \(b_{100} = 4\), \(\phi = 0.5\).
+
+Найдите точечный прогноз для \(y_{104}\). Ответ укажите с точностью до двух знаков после запятой.	Russian	Literacy	ETS(AAdN)	103.75	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_03_06_num_rus.Rmd	282.Rmd
+1	180	NA	NA	Агнесса оценила регрессию \(\hat y_i = 0.7 + 2x_i + 3w_i\) с помощью МНК по 1000 наблюдений.
+Классические стандартные ошибки коэффициентов равны \(0.1\), \(0.2\) и \(0.3\) соответственно.
+
+Наблюдения являются независимыми, на ошибки выполнены классические предпосылки, \(\mathbb E(u_i \mid X) = 0\), \(\mathrm{Var}(u_i \mid X) = \sigma^2\),
+\(\mathrm{Cov}(u_i, u_j \mid X) = 0\) для \(i\neq j\).
+
+Найдите 80\% доверительный интервал для коэффициента \(\beta_x\).
+
+Можно использовать функции из статистических пакетов или таблицы.
+
+В ответе укажите правую границу интервала с точнотью до двух знаков после десятичной точки.	Russian	Literacy	confidence interval for coefficient asymptotic	2.26	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_04_04.Rmd	167.Rmd
+1	181	NA	NA	Процесс \((y_t)\) стационарный.
+
+Найдите максимальное значение \(t\), при котором гарантированно выполнено условие
+\[
+ \mathrm{Cov}(y_{106}, y_{113}) = \mathrm{Cov}(y_{120}, y_t).
+\]	Russian	Literacy	stationarity	127	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_04_01_num_rus.Rmd	235.Rmd
+1	182	NA	NA	Рассмотрим модель ETS(AAdN).
+Для последнего наблюдения \(\ell_{100} = 100\), \(b_{100} = 2\), \(\phi = 0.5\).
+
+Найдите точечный прогноз для \(y_{103}\). Ответ укажите с точностью до двух знаков после запятой.	Russian	Literacy	ETS(AAdN)	101.75	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_03_06_num_rus.Rmd	233.Rmd
+1	183	3	c	Выберите верное утверждение о модели бинарного выбора:	Russian	Literacy	binary_models	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	значимость коэффициентов проверяется с помощью статистики, имеющей \(t\)-распределение	нельзя включать в качестве независимых дамми-переменные	недостатком линейной вероятностной модели является возможная нереалистичность значений вероятности	оценки коэффициентов логит и пробит моделей всегда имеют один и тот же знак	ROC кривая является выпуклой для любой логит-модели	NA	NA	../base//2016_final_spring_demo/4.Rmd	005.Rmd
+1	184	NA	NA	Рассмотрим временной ряд из 100 наблюдений, оканчивающийся наблюдениями \(6\) и \(5\).
+
+Ряд описывается моделью \(y_t = y_{t-1} + 2 + u_t\), где величины \((u_t)\) независимы
+и нормально распределены \(\mathcal{N}(0; 4)\).
+
+Постройте 95\%-й предиктивный интервал для \(y_{101}\).
+В ответе укажите правую границу интервала с точностью до двух знаков после запятой.	Russian	Literacy	predictive interval for rw model	10.92	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_01_07.Rmd	269.Rmd
+1	185	NA	NA	Рассмотрим временной ряд из 100 наблюдений, оканчивающийся наблюдениями \(6\) и \(5\).
+
+Ряд описывается моделью \(y_t = 6 + u_t\), где величины \((u_t)\) независимы
+и нормально распределены \(\mathcal{N}(0; 4)\).
+
+Постройте 95\%-й предиктивный интервал для \(y_{101}\).
+В ответе укажите правую границу интервала с точностью до двух знаков после запятой.	Russian	Literacy	predictive interval	9.92	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_01_07.Rmd	220.Rmd
+1	186	NA	NA	Величины \(X_1\), \ldots, \(X_{17}\) одинаково распределены и независимы.
+Обозначим их сумму буквой \(S\).
+
+Найдите частную корреляцию \(\mathrm{pCorr}(X_1, X_2; S)\).
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	partial correlation	-0.06	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_04_03_num_rus.Rmd	286.Rmd
+1	187	5	e	По одним и тем же наблюдениям оценили две регрессии: \(\hat y = 1 + 3X_1\) и \(\hat y = 2 + 5X_2\).
+
+Известно, что \(\widehat{\mathrm{Cov}}(X_1, X_2) > 0\). Оценки МНК коэффициентов регрессии \(Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + u\):	Russian	Literacy	2models_coefficients	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	\(\hat \beta_0 = 1.5, \hat \beta_1 = 3, \hat \beta_2 = 5\)	\(\hat \beta_1, \hat \beta_2\) найти невозможно, \(\hat \beta_0 = 3\)	\(\hat \beta_0 = 3, \hat \beta_1 = 3, \hat \beta_2 = 5\)	\(\hat \beta_0\) найти невозможно, \(\hat \beta_1 = 3, \hat \beta_2 = 5\)	оценки коэффициентов невозможно найти по имеющимся данным	NA	NA	../base//2017_kr_02_midterm/8.Rmd	080.Rmd
+1	188	4	d	Выберите верную формулу	Russian	Literacy	correct formula for sums of xi yi	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i x_i + \sum \bar y  \bar x\)	\(\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i x_i\)	\(\sum (y_i - \bar y)(x_i - \bar x) = \bar y \bar x\)	\(\sum (y_i - \bar y)(x_i - \bar x) = \sum y_i (x_i - \bar x)\)	\(\sum (y_i - \bar y)(x_i - \bar x) = -\sum \bar y (x_i - \bar x)\)	NA	NA	../base//om_metrics_2021_fall/train_01_02.Rmd	205.Rmd
+1	189	2	b	Оценки коэффициентов линейной регрессии, полученные методом максимального правдоподобия и методом наименьших квадратов в случае нормально распределенной случайной составляющей, будут совпадать	Russian	Literacy	ols_vs_ml	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	если ковариационная матрица случайной составляющей нулевая	если ковариационная матрица случайной составляющей пропорциональна единичной	если ковариационная матрица случайной составляющей диагональна	никогда	всегда	NA	NA	../base//2016_kr_03/2.Rmd	044.Rmd
+1	190	5	e	Показатель \(R^2_{adj}\) можно вычислить по формуле	Russian	Literacy	r_sq	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	\(R^2_{adj} = \frac{k-1}{n-k} - R^2 \cdot \frac{n-1}{n-k}\)	\(R^2_{adj} = \frac{k-1}{n-k} + R^2 \cdot \frac{n-k}{n-1}\)	\(R^2_{adj} = \frac{k-1}{n-k} + R^2 \cdot \frac{n-1}{n-k}\)	\(R^2_{adj} = \frac{n-k}{k-1} + R^2 \cdot \frac{n-1}{n-k}\)	\(R^2_{adj} = (-1)\cdot \frac{k-1}{n-k} + R^2 \cdot \frac{n-1}{n-k}\)	\(R^2_{adj} = \frac{k}{n-k} + R^2 \cdot \frac{n-1}{n-k}\)	NA	../base//2016_kr_02_midterm/6.Rmd	038.Rmd
+1	191	NA	NA	Найдите наибольший корень характеристического уравнения \(AR\)-части рекуррентного уравнения
+\[
+y_t = y_{t-1} + 4 y_{t-2} + u_t.
+\]
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	ar characterestic roots	2.56	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_05_01_num_rus.Rmd	291.Rmd
+1	192	1	a	Имеются данные по 100 работникам: затраты на проезд в общественном транспорте (\(E_i\), руб.),
+количество часов работы в день (\(WH_i\), руб.),
+количество часов отдыха в день (\(LH_i\), руб.) и
+количество часов сна в день (\(SH_i\), руб.).
+Считая, что всё время суток распределяется между трудом, сном и отдыхом,
+оценка регрессии в виде
+\[
+E_i = {\beta_1} + {\beta_2}WH_i + {\beta _3}LH_i + {\beta _4}SH_i + u_i
+\]
+приведет к тому, что	Russian	Literacy	dummy_overfit	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	МНК--оценки получить не удастся	МНК-оценки параметров регрессии будут несмещенными и эффективными	коэффициент детерминации \(R^2\) окажется отрицательным	МНК-оценки параметров окажутся неэффективными в классе линейных и несмещённых	МНК-оценки параметров окажутся смещёнными	NA	NA	../base//2016_kr_03/6.Rmd	048.Rmd
+1	193	6	f	Если \(\alpha = 0.05\) и \(P\)-значение равно \(0.04\), то	Russian	Literacy	h0 hypothesis	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(H_a\) отвергается	\(H_0\) принимается	недостаточно информации для ответа	\(H_a\) принимается	\(H_a\) не отвергается	\(H_0\) отвергается	NA	../base//2016_kr_01/10.Rmd	012.Rmd
+1	194	3	c	Выберите верное утверждение про штрафную функцию LASSO.	Russian	Literacy	LASSO penalty	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	Растёт при росте \(RSS\), но падает по мере удаление оценок коэффициентов от нуля.	Не зависит от \(RSS\), падает по мере удаление оценок коэффициентов от нуля.	Растёт при росте \(RSS\) и по мере удаление оценок коэффициентов от нуля.	Падает при росте \(RSS\), но растёт по мере удаление оценок коэффициентов от нуля.	Растёт при росте \(RSS\), не зависит от удалённости оценок коэффициентов от нуля.	Падает при росте \(RSS\) и по мере удаление оценок коэффициентов от нуля.	NA	../base//om_metrics_2021_fall/test_06_05.Rmd	188.Rmd
+1	195	1	a	Рассмотрим уравнение
+\[
+y_t = 7 + 15 y_{t-1} +  u_t + 0.3 u_{t-1},
+\]
+где \((u_t)\) --- белый шум.
+
+Сколько стационарных решений имеет это уравнение?	Russian	Literacy	uniqueness of stationary solutions	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	1	3	4	бесконечно много	2	0	NA	../base//om_ts_2022_spring/test_05_04_mc_rus.Rmd	245.Rmd
+1	196	NA	NA	Известно, что \(y_1 = 7\), \(y_{2} = 10\), а остальные наблюдения --- пропущенные.
+Для восстановления наблюдений Винни-Пух использует модель \(\mathbb{E}(y_t \mid y_{t-1}, \ldots, y_1) = 4 + 0.4 y_{t-1}\).
+
+Помогите Винни-Пуху восстановить \(y_{4}\) с точностью до двух знаков после десятичной точки.	Russian	Literacy	model for missing observations	7.2	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_08_02_num_rus.Rmd	313.Rmd
+1	197	NA	NA	Исследователь Пантелеймон оценивает парную регрессию \(y_i = \beta_1 + \beta_2 x_i + u_i\).
+На ошибки выполнены классические предпосылки, \(\mathbb E(u_i \mid X) = 0\), \(\mathrm{Var}(u_i \mid X) = \sigma^2\),
+\(\mathrm{Cov}(u_i, u_j \mid X) = 0\) для \(i\neq j\).
+
+Пантелеймон знает, что сумма квадратов остатков в исходной регрессии оказалась равной \(100\), а во вспомогательной регрессии
+\(\hat x_i = \hat \gamma\) сумма квадратов остатков равна \(20\). Обе регрессии построены по 102 наблюдениям.
+
+Какую несмещённую оценку для \(\mathrm{Var}(\hat\beta_2 \mid X)\) получит Пантелеймон?
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	estimated conditional variance	0.05	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_04_02.Rmd	165.Rmd
+1	198	2	b	Свободно распространяемым программным обеспечением является	Russian	Literacy	programs	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	SPSS	R	Stata	Matlab	Excel	Eviews	NA	../base//2016_kr_01/11.Rmd	013.Rmd
+1	199	NA	NA	В модели 10 параметров и функция правдоподобия в точке максимума равна \(10^{-10}\).
+
+Найдите значение критерия Акаике с точностью до двух знаков после десятичной точки.	Russian	Literacy	AIC	66.05	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_02_04.Rmd	273.Rmd
+1	200	3	c	К несостоятельности МНК-оценок вектора коэффициентов приводит	Russian	Literacy	ols_consistency	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	корреляция ошибок по схеме AR(1)	условная гетероскедастичность ошибок	эндогенность одного из регрессоров	корреляция между регрессорами	корреляция ошибок по схеме MA(1)	нестрогая мультиколлинеарность	NA	../base//2016_final_spring_demo/9.Rmd	010.Rmd
+1	201	NA	NA	Рассмотрим \(MA(1)\) модель \(y_t = u_t + 8 u_{t-1}\),
+где \((u_t)\) --- белый шум с дисперсией \(7\).
+
+Найдите долгосрочную дисперсию процесса \((y_t)\).	Russian	Literacy	long-run variance	567	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_06_06_num_rus.Rmd	254.Rmd
+1	202	NA	NA	Рассмотрим \(MA(1)\) модель \(y_t = u_t + 7 u_{t-1}\),
+где \((u_t)\) --- белый шум с дисперсией \(7\).
+
+Найдите долгосрочную дисперсию процесса \((y_t)\).	Russian	Literacy	long-run variance	448	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_06_06_num_rus.Rmd	303.Rmd
+1	203	2	b	Если в регрессии обнаружена автокорреляция типа AR(1), то статистика Дарбина-Уотсона и оценка коэффициента автокорреляции \(\hat\rho\) связаны между собой соотношением	Russian	Literacy	DW_autocorr	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(\hat\rho \approx 2(1-DW)\)	\(DW \approx 2(1-\hat\rho)\)	\(DW \approx \hat\rho\)	\(DW \approx \hat\rho / 2\)	\(\hat\rho \approx DW/2\)	NA	NA	../base//2016_final_spring_demo/3.Rmd	004.Rmd
+1	204	6	f	Запись \(3.20E-16\) означает	Russian	Literacy	maths	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(3.2\cdot e - 16\)	Ошибка с кодом 16	\(3.2^{e-16}\)	\(3.2\cdot e^{-16}\)	\(3.2\cdot (e - 16)\)	\(3.2\cdot 10^{-16}\)	NA	../base//2016_kr_02_midterm_demo/10.Rmd	023.Rmd
+1	205	2	b	Если в уравнение регрессии не включена константа, то	Russian	Literacy	no_constant	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(R^2\) является показателем качества подгонки регрессии	К этой модели применима теорема Гаусса-Маркова	Сумма остатков регрессии равна 0	\(R^2_{adj}\) в этой модели всегда неотрицательный	Значимость коэффициентов регрессии нельзя проверять при помощи t-статистики	NA	NA	../base//2017_kr_02_midterm/3.Rmd	075.Rmd
+1	206	6	f	Если все \(Y_i\) в линейной регрессии увеличить в два раза, то оценка \(\hat\beta_2\)	Russian	Literacy	scaling in regression	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	изменится в произвольную сторону, в зависимости от \(X_i\)	поделится на \(4\)	не изменится	помножится на \(4\)	поделится на \(2\)	помножится на \(2\)	NA	../base//2016_kr_01/9.Rmd	021.Rmd
+1	207	4	d	В модели парной линейной регрессии со свободным членом
+\(Y_i = \beta_0 + \beta_1 X_i + u_i\)
+несмещённой оценкой дисперсии оценки МНК \(\hat\beta_1\) является	Russian	Literacy	hat_var_hat_beta	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(RSS/(n-2)\)	\(\sum (Y_i - \bar Y)^2 / (n-2)\)	\(\sum (Y_i - \bar Y)^2 / (n-1)\)	\(RSS/((n-2)\sum_i (X_i - \bar X)^2)\)	\(RSS/n\)	NA	NA	../base//2018_19_kr1/question_04.Rmd	105.Rmd
+1	208	NA	NA	В модели множественной регрессии \(\hat y_i = 2 + 3 x_i + 7 z_i -6 w_i\) оценённая сумма квадратов равна \(777\).
+Для оценивания использовали 200 наблюдений.
+
+Найдите сумму \(\sum_i \hat y_i (\hat y_i - \bar y)\).	Russian	Literacy	find modified ess	777	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_02_09.Rmd	152.Rmd
+1	209	3	c	Рассмотрим уравнение
+\[
+y_t = 8 y_{t-1} + 4 y_{t-2} + u_t,
+\]
+где \((u_t)\) --- белый шум.
+
+Сколько нестационарных решений оно имеет?	Russian	Literacy	infinity of non-stationary solutions	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	нет верного ответа	4	бесконечность	3	2	1	NA	../base//om_ts_2022_spring/test_05_02_mc_rus.Rmd	243.Rmd
+1	210	NA	NA	Исследователь Иа-Иа использует аддитивное разложение ряда.
+Очередное наблюдение равно \(60\), трендовая составляющая равна \(40\),
+сезонная составляющая \(30\).
+
+Найдите остаточную компоненту.	Russian	Literacy	find remainder	-10	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_01_01.Rmd	263.Rmd
+1	211	NA	NA	Пантелеймон оценил парную регрессию по 50 наблюдениям
+\[
+\hat y_i = 8.9 + 12.9 x_i.
+\]
+Оценка дисперсии прогноза при \(x=1\) равна \(100\).
+Оценка дисперсии случайной ошибки равна \(400\).
+
+Предпосылки классической линейной модели выполнены, ошибки имеют нормальное распределение.
+
+Постройте 95\%-й доверительный интервал для \(\mathbb{E}(y_i \mid x_i = 1)\).
+
+В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки.	Russian	Literacy	confidence interval for mean	41.91	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_04.Rmd	177.Rmd
+1	212	NA	NA	По набору данных cars из R оцените модель
+\[
+dist_i = \beta_1 + \beta_2 speed_i + u_i.
+\]
+
+Ошибки модели нормально распределены и удовлетворяют классическим предпосылкам.
+
+Для машины со стартовой скоростью 20 миль в час постройте 95\%-й доверительный интервал для
+ожидаемой длины тормозного пути в футах.
+
+В ответе укажите правую границу интервала с точностью до двух знаков после десятичной точки.
+
+Набор данных встроен в R и доступен по ссылке:
+https://github.com/vincentarelbundock/Rdatasets/raw/master/csv/datasets/cars.csv	Russian	Literacy	confidence interval for mean R	66.89	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_05.Rmd	178.Rmd
+1	213	6	f	Методом максимального правдоподобия Гоша оценил модель
+\[
+Y_i = \beta_1 + \beta_2 X_{i2} +  \ldots  + \beta _6 X_{i6} + u_i,
+\]
+где \(u \sim \mathcal{N} (0,\sigma_u^2I)\), по 12 наблюдениям. Оказалось, что \(RSS = 24\).\\
+Оценка дисперсии случайной составляющей равна	Russian	Literacy	ml_variance	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(2.4\)	\(0.48\)	\(0.5\)	\(24/7\)	не существует	\(2\)	NA	../base//2016_kr_03/3.Rmd	045.Rmd
+1	214	NA	NA	Оценка ковариационной матрицы оценок коэффициентов \((\hat\beta_1, \hat\beta_2, \hat\beta_3)\) имеет вид
+\[
+\begin{pmatrix}
+5 & 1 & 1 \\
+1 & 6 & -1 \\
+1 & -1 & 9 \\
+\end{pmatrix}.
+\]
+
+Найдите стандартную ошибку \(se(\hat\beta_2 - \hat\beta_3)\).
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	square root of variance	4.12	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_04_01.Rmd	164.Rmd
+1	215	NA	NA	Найдите наименьшее возможное значение \(q\), если известно, что \(SARIMA(3, 0, 3)(1, 0, 1)[12]\)-модель является частным случаем \(ARMA(p, q)\)-модели.	Russian	Literacy	sarima	15	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_06_07_num_rus.Rmd	304.Rmd
+1	216	NA	NA	Ряд \((u_t)\) --- белый шум с дисперсией равной 16.
+
+Найдите ковариацию \(\mathrm{Cov}(u_t + 2 u_{t-1} + 4u_{t-2}, u_{t-1} + 2u_{t-2} + 7u_{t-3})\).	Russian	Literacy	covariance given white noise	160	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_01_04.Rmd	217.Rmd
+1	217	5	e	Инструмент \(Z_t\) для оценивания динамической модели \(Y_t = \beta_1 + \beta_2 X_t + \beta_3 Y_{t-1} + u_t\)
+с экзогенным вектором \(X\) и AR(1) процессом в ошибках \(u_t\) должен удовлетворять требованию	Russian	Literacy	ts_instruments	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	\(\Corr(Y_{t-1}, Z_t)=0\)	\(\Corr(u_t, Z_t) \to 1\)	\(\Corr(X_t, Z_t)=0\)	\(\Corr(u_t, Z_t)=0\)	\(\Corr(Y_{t-1}, Z_t) \neq 0\)	NA	NA	../base//2016_final_spring_demo/7.Rmd	008.Rmd
+1	218	5	e	В модели \(Y_i = \beta_0 + \beta_1 X_i + u_i\) при выполненных предпосылках теоремы Гаусса-Маркова и нормальных ошибках тестовая статистика
+\((\hat\beta_1 - \beta_1)/se(\hat\beta_1)\) имеет распределение	Russian	Literacy	distribution	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	\(\mathcal{N}(0;\sigma^2)\)	\(\chi^2_1\)	\(\chi^2_{n-2}\)	\(\mathcal{N}(0;1)\)	\(t_{n-2}\)	NA	NA	../base//2018_19_kr1/question_07.Rmd	108.Rmd
+1	219	1	a	Рассмотрим метод главных компонент для переменных с разными единицами измерения.
+
+Выберите верное утверждение.	Russian	Literacy	standartization	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	Обязательно нужно привести переменные к общему масштабу.	Важно убедиться в некоррелированности исходных переменных.	Необходимо и достаточно центрировать исходные переменные.	Важно убедиться в ортогональности исходных переменных.	Обязательно нужно сохранить исходные единицы измерения переменных.	NA	NA	../base//om_metrics_2021_fall/test_06_07.Rmd	190.Rmd
+1	220	5	e	Рассеянная исследовательница Надежда ошибочно оценила модель \(y_i = \beta_1 + \beta_x x_i + \beta_w w_i + u_i\) и получила неверные оценки коэффициентов \(\hat \beta_{wrong}\).
+Корректно используя неверные оценки коэффициентов, она нашла остатки \(\hat u_{wrong}\) и прогнозы \(\hat y_{wrong}\).
+
+Верные величины обозначим \(\hat \beta\), \(\hat u\) и \(\hat y\).
+
+Выберите верное утверждение.	Russian	Literacy	wrong estimates orthogonality	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	\(\hat u_{wrong} \perp \hat y_{wrong}\)	\(\hat \beta \perp \hat \beta_{wrong}\)	\(\hat u \perp \hat \beta_{wrong}\)	\(\hat u_{wrong} \perp \hat y\)	\(\hat u \perp \hat y_{wrong}\)	\(\hat u_{wrong} \perp \hat \beta\)	NA	../base//om_metrics_2021_fall/train_02_05.Rmd	213.Rmd
+1	221	5	e	С какой целью при оценивании модели \(MA(2)\) накладывают требование обратимости процесса?	Russian	Literacy	ma1	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	чтобы гарантировать стационарность процесса	чтобы обратить характеристический многочлен	чтобы обратить лаговый многочлен	чтобы гарантировать неотрицательность дисперсии процесса	чтобы гарантировать единственность оценок	чтобы гарантировать нулевые корреляции высоких порядков	NA	../base//om_ts_2022_spring/train_04_07_mc_rus.Rmd	290.Rmd
+1	222	4	d	Оценена зависимость расходов потребителей на газ и электричество Y в США в 1977-1999 г. в постоянных ценах I квартала 1977 г. от времени (\(t = 1\) для 1977, \(t = 2\) для 1978 и т.д.) с учётом сезонных факторов (\(D_i = 1\), если наблюдение относится к i-ому кварталу и 0 иначе, \(i = 1, \ldots, 4\)):
+
+\(\hat y = 8 + 0.1t - 3 D_2 - 2.6 D_3 - 2 D_4\)
+
+Если в качестве базовой категории будет принят не первый квартал, а третий, уравнение регрессии примет вид	Russian	Literacy	dummy	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\hat y = 8 + 0.1t + 3 D_1 + 2.6 D_2 + 2D_4\)	\(\hat y = 5.4 + 0.1t - 3 D_1 - 2.6 D_2 - 2 D_4\)	\(\hat y = 5.4 + 0.1t - 3 D_1 - 0.4 D_2 - D_4\)	\(\hat y = 5.4 + 0.1t + 2.6 D_1 - 0.4 D_2 + 0.6D_4\)	\(\hat y = 8 + 0.1t - 3 D_1 - 2.6 D_2 - 2 D_4\)	NA	NA	../base//2017_kr_02_midterm/5.Rmd	077.Rmd
+1	223	NA	NA	Рассмотрим модель
+\[
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+\]
+
+Все предпосылки классической регрессионной модели выполнены.
+По 25 наблюдениям оказалось, что сумма квадратов остатков равна \(RSS = 60\).
+
+Найдите несмещённую оценку для дисперсии случайной ошибки.
+
+Ответ вводите с точность до двух знаков после десятичной точки.	Russian	Literacy	estimate error variance	2.73	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_03_08.Rmd	161.Rmd
+1	224	2	b	По 52 наблюдениям студент построил две регрессии, \(\hat Y_i = 3.1 + 0.8X_i\) и \(\hat X_i = -0.3 + 0.2Y_i\).
+Коэффициент \(R^2_{adj}\) для первой регрессии примерно равен	Russian	Literacy	adjusted_r2	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(0.40\)	\(0.14\)	\(0.16\)	\(0.32\)	\(0.37\)	NA	NA	../base//2018_19_final/question_08.Rmd	099.Rmd
+1	225	5	e	Для выбора между линейной и полулогарифмической моделями (где EARNINGS --- почасовая заработная плата в \$, S --- длительность обучения, ASVABC - результаты тестов, характеризующие успеваемость) был проведен тест Дэвидсона, Уайта и МакКиннона и получены следующие результаты:
+
+\begin{tabular}{l c c c c }
+\toprule
+& Зависимая: $Y$ & Зависимая: $\ln Y$  \\
+\midrule
+(Intercept) & $-26.148$     &  $-1.941$    \\
+& $(4.17)$     &  $(3.2499)$   \\
+S           &  $2.008$     &  $0.087$ \\
+& $(0.276)$    &  $(0.035)$ \\
+ASVABC      &  $0.393$    &   $0.017$ \\
+& $(0.079)$   &   $(0.007)$ \\
+lin\_add    &  $-15.373$   &     \\
+&   $(5.984)$  &     \\
+
+semilog\_add    &              & $-0.029$    \\
+&              & $(0.065)$  \\
+\midrule
+$R^2$        & 0.2071         & 0.2212        \\
+F            & 46.59          & 50.74          \\
+Adj. $R^2$   & 0.2027         & 0.2168        \\
+Num. obs.    & 540            & 540           \\
+RSS          & 90975.57          & 148.1      \\
+$\hat\sigma$ & 13.04        & 0.5256      \\
+\bottomrule
+\end{tabular}
+
+Где \(\text{lin\_add} = \ln(\hat y) - \widehat{\ln} Y, \text{semilog\_add} = \hat y - \exp(\widehat{\ln} Y)\) и в скобках указаны стандартные ошибки.
+
+На уровне значимости 5\% можно сделать вывод, что	Russian	Literacy	model_choice_tests	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	Лучше линейная модель	Между линейной и полулогарифмической моделями нет статистической разницы	Лучше линейная в логарифмах модель	Невозможно выбрать лучшую модель	Лучше полулогарифмическая модель	NA	NA	../base//2017_kr_02_midterm/6.Rmd	078.Rmd
+1	226	4	d	Предпосылки теоремы Гаусса-Маркова выполнены, случайные ошибки нормально распределены,
+уровень доверия равен \(80\)\%, критическое значение \(t\)-статистики равно
+\(1.64\), всего \(n\) наблюдений.
+Регрессия имеет вид \(\hat Y_i = \underset{(3)}{-4} + \underset{(0.2)}{5}X_i\),
+в скобках указаны стандартные ошибки. Доверительный интервал для \(\beta_2\) равен	Russian	Literacy	ci_beta2	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	\([1.72; 8.28]\)	не существует	\([4.27; 5.73]\)	\([4.67; 5.33]\)	\([4.85; 5.15]\)	\([3.36; 6.64]\)	NA	../base//2016_kr_01/3.Rmd	015.Rmd
+1	227	NA	NA	Илон Маск по 100 наблюдениям оценил множественную регрессию с константой с помощью МНК.
+Оказалось, что \(\sum (\hat y_i - \bar y)^2 = 200\), и \(\sum (y_i - \bar y)^2 = 600\).
+
+Чему равна средняя величина квадрата остатка?	Russian	Literacy	average value of squared residual	4	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/train_02_04.Rmd	212.Rmd
+1	228	4	d	Гипотеза Алмон при оценивании модели с распределенными лагами \(Y_t = \alpha + \sum_{j=0}^J\beta_j X_{t-j} + u_t\)
+состоит в том, что коэффициент \(\beta_j\) представим в виде	Russian	Literacy	almon hypothesis	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\alpha_0 + \alpha_1 \lambda + \alpha_2 \lambda^2 +\ldots + \alpha_j \lambda^j\)	\(\alpha_0 \ln j\)	\(\alpha_0 + \alpha_1 j + \alpha_2 j^2 + \ldots + \alpha_r j^r\)	\(\alpha_0 \lambda^j\)	\(\alpha_0 + \alpha_1 j\)	NA	NA	../base//2018_19_final/question_01.Rmd	092.Rmd
+1	229	4	d	Рассмотрим модель \(Y = X \beta + u\). Условия теоремы Гаусса-Маркова выполнены, причём \(\mathrm{Var}(u_i) = \sigma^2_{u}\), \(\hat y = PY\), \(P = X (X'X)^{-1} X'\) и \(I\) - единичная матрица. Ковариационная матрица случайного вектора \(e=Y-\hat y\) равна	Russian	Literacy	ols_covar	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\sigma^2_{u} (I+P)\)	\(\sigma^2_{u} (P-I)\)	\(\sigma^2_{u} P\)	\(\sigma^2_{u} (I - P)\)	\(\sigma^2_{u} I\)	NA	NA	../base//2017_kr_02_midterm/1.Rmd	072.Rmd
+1	230	NA	NA	В исходной выборке 10 наблюдений.
+Найдите ожидаемое количество копий второго наблюдения в очередной бутстрэп выборке.
+
+Ответ укажите с точностью до двух знаков после десятичной точки.	Russian	Literacy	bootstrap	1	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_07_01_num_rus.Rmd	256.Rmd
+1	231	NA	NA	Логарифм наблюдаемой величины описывается ETS(AAN) моделью, \(\ln y_t \sim ETS(AAN)\).
+Обычный 95\%-й предиктивный интервал для \(\ln y_{T+1}\) имеет вид \([10;20]\).
+
+Найдите условное ожидание \(y_{T+1}\) с точностью до целых.	Russian	Literacy	ETS(AAN)	7374164	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_02_02.Rmd	271.Rmd
+1	232	6	f	Петя и Вася проверяют гипотезу \(\beta_x=0\) против альтернативной \(\beta_x \neq 0\) по одним и тем же данным,
+одни и тем же способом.
+Единственная разница в том, что Петя использует уровень значимости \(\alpha = 0.01\), а Вася --- \(0.02\).
+
+Рассмотрим 4 ситуации:
+
+А. Петя отверг \(H_0\), Вася отверг \(H_0\).
+
+Б. Петя отверг \(H_0\), Вася не отверг \(H_0\).
+
+В. Петя не отверг \(H_0\), Вася отверг \(H_0\).
+
+Г. Петя не отверг \(H_0\), Вася не отверг \(H_0\).
+
+Какие из этих ситуаций возможны?	Russian	Literacy	significance level	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	только В, Г	только А и Г	все возможны	только А, Б, Г	только А, Б	только А, В и Г	NA	../base//om_metrics_2021_fall/test_04_07.Rmd	170.Rmd
+1	233	1	a	Исследователь выполнил второй шаг в PE-тесте МакКиннона. В регрессии \(\ln Y_i\) на исходные регрессоры и \(Z_i = \hat Y_i - \exp(\widehat{\ln Y_i})\) коэффициент при \(Z_i\) оказался значимым. А в регрессии \(Y_i\) на исходные регрессоры и \(W_i = \ln \hat Y_i - \widehat{\ln Y_i}\) коэффициент при \(W_i\) оказался незначимым. Из результатов следует сделать вывод, что	Russian	Literacy	MacKinnon_test	NA	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	следует предпочесть линейную модель	в исходной модели пропущен регрессор \(Z_i\)	следует предпочесть логарифмическую модель	в исходной модели пропущен регрессор \(W_i\)	тесты противоречат друг другу, ни одна из моделей не предпочитается	следует предпочесть полулогарифмеческую модель	NA	../base//2016_kr_02_midterm/9.Rmd	041.Rmd
+1	234	3	c	Частным случаем какой модели является модель за тета-методом?	Russian	Literacy	theta-method	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	ETS(MMM) с \(\alpha=1\)	нет верного ответа	ETS(AAN) с \(\beta=0\)	ETS(AAA) с \(\alpha=0\)	ETS(MMM) с \(\beta=1\)	ETS(AAA) с \(\gamma=0\)	NA	../base//om_ts_2022_spring/test_03_02_mc_rus.Rmd	229.Rmd
+1	235	NA	NA	Найдите наибольший корень характеристического уравнения \(AR\)-части рекуррентного уравнения
+\[
+y_t = y_{t-1} + 10 y_{t-2} + u_t.
+\]
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	ar characterestic roots	3.7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_05_01_num_rus.Rmd	242.Rmd
+1	236	5	e	Если основная гипотеза в тесте Дики-Фуллера отвергается, то временной ряд является	Russian	Literacy	DF-test	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	стационарным в первых разностях	нестационарным	нормально распределённым	коинтегрированным	стационарным	NA	NA	../base//2016_final_spring_demo/1.Rmd	001.Rmd
+1	237	NA	NA	Выборочная дисперсия остаточной компоненты ряда равна 100,
+выборочная дисперсия суммы тренда и остаточной компоненты равна 90.
+
+Найдите силу выраженности тренда с точностью до двух знаков после десятичной точки.	Russian	Literacy	trend intensity	0	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_01_03.Rmd	216.Rmd
+1	238	NA	NA	Спящая Красавица построила парную регрессию с \(R^2=0.9\) по 99 наблюдениям.
+Злая Фея-Крестная Карабос добавляет Спящей Красавице ровно одно наблюдение,
+чтобы максимально снизить коэффициент детерминации.
+
+Какого значения \(R^2\) сможет добиться Злая Фея?	Russian	Literacy	minimal value R2	0	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_02_04.Rmd	147.Rmd
+1	239	6	f	Выберите верное равенство для множественной регрессии \(y_i = \beta_x x_i + \beta z z_i + \beta_w w_i + u_i\), оцениваемой с помощью МНК.
+
+Остатки обозначим \(\hat u_i\).	Russian	Literacy	regression foc	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(\sum \hat u_i = 0\)	\(\sum x_i u_i = 0\)	\(\sum \hat u_i y_i = 0\)	\(\sum x_i y_i = 0\)	\(\sum x_i z_i = 0\)	\(\sum w_i \hat u_i = 0\)	NA	../base//om_metrics_2021_fall/test_01_10.Rmd	141.Rmd
+1	240	5	e	Рассмотрим алгоритм случайного леса для задачи регрессии.
+
+Какую целевую переменную «учится» прогнозировать дерево номер 4?	Russian	Literacy	random forest	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	разницу между исходной переменной \(y_t\) и суммой прогнозов первых трёх деревьев	нет верного ответа	разницу между исходной переменной \(y_t\) и суммой прогнозов первых трёх деревьев, домноженной на темп обучения	разницу между исходной переменной \(y_t\) и прогнозом третьего дерева	исходную переменную \(y_t\)	разницу между исходной переменной \(y_t\) и прогнозом третьего дерева, домноженным на темп обучения	NA	../base//om_ts_2022_spring/train_07_04_mc_rus.Rmd	308.Rmd
+1	241	NA	NA	Величины \(X_1\), \ldots, \(X_{20}\) одинаково распределены и независимы.
+Обозначим их сумму буквой \(S\).
+
+Найдите частную корреляцию \(\mathrm{pCorr}(X_1, X_2; S)\).
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	partial correlation	-0.05	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_04_03_num_rus.Rmd	237.Rmd
+1	242	2	b	Для оцениваемой по 30 наблюдениям регрессии \(Y_i = \alpha + \beta X_i + u_i, i = 1, \ldots, n\) известны суммы \(\sum_{i=1}^{30} X_i = -15, \sum_{i=1}^{30} X_i^2 = 60, \sum_{i=1}^{30} X_i Y_i = 15, \sum_{i=1}^{30} Y_i = 75\). Система нормальных уравнений для оценок коэффициентов регрессии \(\alpha, \beta\) методом наименьших квадратов равносильна системе	Russian	Literacy	ols_formulas	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(4 \alpha - 6 \beta = 1; 6 \alpha + 60 \beta = 75\)	\(2 \alpha -  \beta = 5;  \alpha - 4 \beta = -1\)	\(30 \alpha + 15 \beta = 75; 15 \alpha + 60 \beta = 15\)	\(2 \alpha - \beta = -1; \alpha - 4 \beta = 5\)	\(30 \alpha - 15 \beta = 15; -15 \alpha - 12 \beta = 1\)	NA	NA	../base//2017_kr_01/4.Rmd	066.Rmd
+1	243	4	d	Два временных ряда могут быть коинтегрированными, только если	Russian	Literacy	cointegration	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	один ряд стационарен, а второй --- нет	оба ряда нестационарны и имеют разные порядки интегрирования	оба ряда стационарны вокруг тренда	оба ряда нестационарны и имеют одинаковый порядок интегрирования	оба ряда стационарны	NA	NA	../base//2018_19_final/question_06.Rmd	097.Rmd
+1	244	2	b	Случайные величины \(r\) и \(s\) независимы и равновероятно равны \(0\) или \(1\).
+Чему равно условное ожидание \(\mathbb E(rs + s^2 \mid r)\)?	Russian	Literacy	conditional expected value	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(r + 0.5\)	\(0.5r + 0.5\)	\(rs + s^2\)	\(0.5r + 0.25\)	\(r + 1\)	NA	NA	../base//om_metrics_2021_fall/test_03_03.Rmd	156.Rmd
+1	245	NA	NA	Укажите число параметров в \(ARIMA(4, 1, 1)\) модели с ненулевым математическим ожиданием и нормально распределенными ошибками.	Russian	Literacy	arima	7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_06_01_num_rus.Rmd	298.Rmd
+1	246	4	d	Совместное распределение случайных величин \(X\) и \(Y\) задано с помощью таблицы
+
+\begin{tabular}{llll}
+\toprule
+& $X=3$     &  $X=4$    & $X=5$    \\
+\midrule
+$Y= 3$  & 0.1   &  0.3  & 0.1   \\
+$Y= 4$  & 0.15  &  0.05 & 0.05  \\
+$Y =6$  & 0.05  &  0.15 & 0.05  \\
+\bottomrule
+\end{tabular}
+
+Математическое ожидание случайной величины \(Y\) при условии, что \(X=3\), равно	Russian	Literacy	expected_value	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	2	3.4	6	4	2.4	NA	NA	../base//2017_kr_01/1.Rmd	062.Rmd
+1	247	4	d	Рассмотрим метод максимального правдоподобия для оценки одного параметра. Как можно получить оценку дисперсии оценки параметра?	Russian	Literacy	variance estimate for max likelihood	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	Посчитать вторую производную лог-правдоподобия со знаком минус.	Обратить вторую производную лог-правдоподобия.	Обратить первую производную лог-правдоподобия.	Обратить вторую производную лог-правдоподобия со знаком минус.	Обратить первую производную лог-правдоподобия со знаком минус.	Посчитать первую производную лог-правдоподобия со знаком минус.	NA	../base//om_metrics_2021_fall/test_09_09.Rmd	202.Rmd
+1	248	3	c	Если в регрессии отсутствует свободный член, то в общем случае	Russian	Literacy	model without intercept	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	\(\sum_i \hat Y_i = \sum_i Y_i\)	сумма остатков равна нулю	\(TSS \neq ESS + RSS\)	сумма квадратов остатков равна нулю	\(R^2\) является мерой качества подгонки регрессии	NA	NA	../base//2016_kr_02_midterm_demo/7.Rmd	029.Rmd
+1	249	5	e	Портос построил регрессию по 66 наблюдениям, \(\hat Y_i = \hat\beta_0 + \hat\beta_1 X_i + \hat\beta_2 W_i + \hat\beta_3 Z_i\), \(RSS=140\). Затем Портос оценил вспомогательную регрессию, \(\hat{\hat {Y}}_i = \hat\gamma_0 + \hat\gamma_1 X_i + \hat\gamma_2 W_i + \hat\gamma_3 Z_i + \hat\delta_2 \hat Y_i^2 + \hat\delta_3 \hat Y_i^3\), \(RSS=120\).
+
+При проверке гипотезы о правильной спецификации модели в тесте Рамсея \(F\)-статистика равна	Russian	Literacy	mi_09_ramsey	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	\(6\)	\(30/7\)	\(11/3\)	\(10/3\)	\(5\)	NA	NA	../base//2018_19_midterm/mi_09.Rmd	130.Rmd
+1	250	6	f	Условие порядка для любого уравнения из системы может быть сформулировано следующим образом.
+Число эндогенных переменных, включенных в уравнение, уменьшенное на 1, должно быть	Russian	Literacy	NA	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	не меньше числа экзогенных переменных, включенных в это уравнение	не меньше числа экзогенных переменных, исключенных из этого уравнения	не больше числа экзогенных переменных, включенных в это уравнение	не больше числа эндогенных переменных, включенных в это уравнение	не больше числа эндогенных переменных, исключенных из этого уравнения	не больше числа экзогенных переменных, исключенных из этого уравнения	NA	../base//2016_final_spring_demo/6.Rmd	007.Rmd
+1	251	6	f	Выберите верное утверждение про ARDL модель с зависимой переменной \(y_t\), предиктором \(x_t\) и ошибкой \(u_t\).	Russian	Literacy	ARDL	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(u_t\) является \(ARMA(p, q)\) процессом c \(p \geq 1\) и \(q \geq 1\)	\(u_t\) является \(AR(p)\) процессом c \(p \geq 1\)	\(u_t\) является \(MA(q)\) процессом c \(q \geq 1\)	\(\Delta y_t\) является нестационарным	нет верного ответа	\(u_t\) является белый шумом	NA	../base//om_ts_2022_spring/train_07_07_mc_rus.Rmd	311.Rmd
+1	252	NA	NA	Сколько свободных параметров оценивается в \(ETS(AAA)\) модели по квартальным данным?	Russian	Literacy	ETS(AAdA)	9	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_02_03.Rmd	272.Rmd
+1	253	NA	NA	По исходному временному ряду была оценена множественная регрессия
+\[
+\hat y_t = 3 + 0.6 y_{t-1} - 0.09 y_{t-2}.
+\]
+
+Найдите второе значение выборочной частной автокорреляционной функции \(PACF_2\) с точностью до двух знаков после десятичной точки.	Russian	Literacy	pacf	-0.09	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_01_05.Rmd	218.Rmd
+1	254	NA	NA	Исследователь Ярополк хочет оценить коэффициент \(\beta_x\) в модели \(y_i = \beta_1 + \beta_x x_i + u_i\).
+
+По исходным наблюдениям
+он рассчитал суммы \(\sum (x_i - \bar x)(y_i - \bar y)=300\), \(\sum (y_i - \bar y)^2=1000\) и \(\sum (x_i - \bar x)^2=100\).
+
+Чему равна МНК-оценка \(\hat\beta_x\)?	Russian	Literacy	calculate beta x	3	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/train_01_03.Rmd	206.Rmd
+1	255	1	a	По данным для 27 фирм исследована зависимость прибыли Y от числа работников X вида\textbackslash{}
+\(Y = \beta_0 + \beta_1 X + u\)
+и получено \(\hat \beta_0 = 8, \hat \beta_1 = 2, \hat \sigma^2 = 25\) и матрица \((X'X)^{-1} = \begin{pmatrix}
+0.36 & -0.03 \\
+-0.03 & 0.09
+\end{pmatrix}\).\textbackslash{} 95\% доверительный интервал для \(\beta_1\):	Russian	Literacy	ci_95	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	{[}-1.09; 5.09{]}	невозможно вычислить по имеющимся данным	{[}0.04; 3.96{]}	{[}-0.94; 4.94{]}	{[}1.82; 14.18{]}	NA	NA	../base//2017_kr_02_midterm/9.Rmd	081.Rmd
+1	256	5	e	Что может произойти с \(R^2\) при добавлении нового наблюдения в модель множественной регрессии с константой?	Russian	Literacy	R2 change with new observation	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	Коэффициент \(R^2\) может остаться неизменным или упасть.	Коэффициент \(R^2\) может остаться неизменным или вырасти.	Коэффициент \(R^2\) обязательно упадёт.	Коэффициент \(R^2\) обязательно вырастет.	Коэффициент \(R^2\) может измениться в любую сторону.	NA	NA	../base//om_metrics_2021_fall/test_02_03.Rmd	146.Rmd
+1	257	NA	NA	Корни лагового многочлена \(AR\)-части уравнения равны \(\ell_1 = 12\) и \(\ell_2 = 28\).
+
+Найдите наибольший корень характеристического уравнения \(AR\)-части.
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	ar characterestic roots	0.08	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_05_03_num_rus.Rmd	244.Rmd
+1	258	2	b	В предположениях нормальности ошибок ширина 95\%-го интервала для ожидаемого (среднего) значения \(Y_{n+1}\) равна \(1200\).
+Известно, что \(\hat\sigma = 400\) и \(n=60\).
+Ширина 95\%-го интервала для фактического (индивидуального) значения \(Y_{n+1}\) примерно равна	Russian	Literacy	predictive	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(1000\)	\(2000\)	\(1500\)	\(1400\)	\(1600\)	NA	NA	../base//2018_19_final/question_09.Rmd	100.Rmd
+1	259	3	c	Рассмотрим модель \(Y_i = {\beta_1} + {\beta_2}{X_{i2}} + {\beta_3}{X_{i3}} + {\beta_4}{X_{i4}} + {\beta_5}{X_{i5}} + u_i\).
+Гипотезу
+\[
+\begin{cases}
+{\beta_2} + {\beta _3} = 1\\
+{\beta_5} = 0 \\
+\end{cases}
+\]
+можно проверить с помощью оценки дополнительной модели	Russian	Literacy	linear_restrictions	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	\(Y_i - X_{i3} = \beta_1 + \beta_2 (X_{i2} + X_{i3}) + \beta_4 X_{i4} + u_i\)	\(Y_i - \beta_2 = \beta_1 + \beta_2 (X_{i2} + X_{i3}) + \beta_4 X_{i4} + u_i\)	\(Y_i - X_{i3} = \beta_1 + \beta_2 (X_{i2} - X_{i3}) + \beta_4 X_{i4} + u_i\)	\(Y_i = \beta_1 + \beta_2 (X_{i2} + X_{i3} - 1) + \beta_4 X_{i4} + u_i\)	\(Y_i - X_{i2} = \beta_1 + \beta_2 (X_{i2} - X_{i3}) + \beta_4 X_{i4} + u_i\)	NA	NA	../base//2016_final_spring_demo/8.Rmd	009.Rmd
+1	260	NA	NA	Рассмотрим короткий ряд из четырех наблюдений: \(5\), \(4\), \(6\), \(5\).
+
+Предположим, что ряд описывается моделью \(y_t = y_{t-1} + \mu + u_t\), где величины \((u_t)\) независимы
+и нормально распределены \(\mathcal{N}(0;\sigma^2)\).
+
+Трактуя \(y_1\) как фиксированную константу, найдите оценку \(\hat\sigma^2\) методом максимального правдоподобия с точностью до двух знаков после десятичной точки.	Russian	Literacy	maximum likelihood for rw model	2	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_01_06.Rmd	268.Rmd
+1	261	1	a	Распределение случайной величины \(X\) задано таблицей
+
+\begin{center}
+\begin{tabular}{ccccc}
+\toprule
+$x$ & 0 & 1 & 2 & 3 \\ 
+$\mathbb{P}(X=x)$ & $-b$ & $0.5-b$ & $0.5+b$ & $b$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Вероятность \(\mathbb{P}(X=1)\) равна	Russian	Literacy	distribution_discrete	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(0.5\)	\(0.3\)	\(0.2\)	\(0\)	\(0.4\)	NA	NA	../base//2018_19_kr1/question_01.Rmd	102.Rmd
+1	262	6	f	Какая зависимость математического ожидания исходного процесса от времени предполагается в нулевой гипотезе \(KPSS\)-теста с константой?	Russian	Literacy	adf	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(\mathbb{E}(y_t) = \mu + \alpha t\)	\(\mathbb{E}(y_t)\) строго монотонна	нет верного ответа	\(\mathbb{E}(y_t) = \mu + \alpha t + \beta t^2\)	\(\mathbb{E}(y_t)\) строго возрастает	\(\mathbb{E}(y_t) = \mu\)	NA	../base//om_ts_2022_spring/test_06_05_mc_rus.Rmd	253.Rmd
+1	263	6	f	Исследователь Леонардо оценил модель логистической регрессии
+\(\hat{\mathbb{P}}(y_i = 1) = \Lambda(0.4 - 0.2 x_i)\).
+
+Найдите по этой модели прогноз вероятности для \(x_i = 2\).	Russian	Literacy	zero in logistic function	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(\exp(0.5)\)	\(0.75\)	\(1\)	\(0.25\)	\(0\)	\(0.5\)	NA	../base//om_metrics_2021_fall/test_09_04.Rmd	197.Rmd
+1	264	2	b	Переменная \(Y_i\) принимает значения \(0\) или \(1\).
+Логарифмическая функция правдоподобия, используемая для оценивания логит и пробит моделей, имеет вид	Russian	Literacy	log_likelihood	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) - (1 - Y_i) \ln (1 - F(X_i \beta))\)	\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) + (1 - Y_i) \ln (1 - F(X_i \beta))\)	\(\ln L = \sum_{i=1}^n Y_i \ln (1 - F(X_i \beta)) + (1 - Y_i) \ln F(X_i \beta)\)	\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) - (1 - Y_i) \ln F(X_i \beta)\)	\(\ln L = \sum_{i=1}^n Y_i \ln F(X_i \beta) \cdot (1 - Y_i) \ln (1 - F(X_i \beta))\)	NA	NA	../base//2018_19_kr3/question_09.Rmd	120.Rmd
+1	265	4	d	Эмманюэль и Владимир оценили зависимость стоимости подержанных Пежо (одной серии) \(Y\)
+от пробега \(X\) (измеряемого в км) с помощью модели парной регрессии \(Y = \alpha + \beta X + u\) по по одной и той же выборке,
+однако Эмманюэль измерял стоимость машин в евро, а Владимир -- в рублях, 1 евро = 65 рублей.
+Оценки МНК коэффициента наклона регрессии, полученные Эмманюэлем \(\beta_E\) и Владимиром \(\beta_B\) связаны следующим образом:	Russian	Literacy	coefficient_scaling	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\hat \beta_B = \hat \beta_E\)	\(\hat \beta_B = 4225 \hat \beta_E\)	\(\hat \beta_E = 65 \hat \beta_B\)	\(\hat \beta_B = 65 \hat \beta_E\)	\(\hat \beta_E = 4225 \hat \beta_B\)	NA	NA	../base//2017_kr_01/6.Rmd	068.Rmd
+1	266	3	c	По данным 500 индивидуумов оценили зависимость веса индивидуума \(Y\),
+измеряемого в фунтах (1 фунт \(\approx\) 0.5 кг) от его роста \(Х\),
+измеряемого в в футах (1 фут \(\approx\) 30 см):
+\(\widehat{\ln Y}_i = -4.4 + 2.4 \ln X_i\).
+Если рост индивидуума будет измерен в метрах, а вес --- в килограммах,
+то коэффициент перед \(\ln X\) будет равен	Russian	Literacy	coefficient interpretation	NA	FALSE	FALSE	TRUE	FALSE	NA	NA	NA	Calculation	\(4.8\)	\(1.2\)	\(2.4\)	\(8\)	NA	NA	NA	../base//2016_kr_02_midterm_demo/5.Rmd	027.Rmd
+1	267	1	a	Какое условие НЕ требуется в теореме Гаусса-Маркова?	Russian	Literacy	mi_06_non_gm	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	случайные ошибки \(u_i\) нормально распределены	случайные ошибки \(u_i\) не коррелированы	случайные ошибки \(u_i\) имеют одинаковые дисперсии	матрица регрессоров \(X\) имеет полный ранг	модель \(Y=X\beta + u\) правильно специфицирована	NA	NA	../base//2018_19_midterm/mi_06.Rmd	127.Rmd
+1	268	NA	NA	Винни-Пух оценил модель множественной регрессии с константой с помощью МНК.
+Выборочная корреляция между прогнозами \(\hat y\) и фактическим вектором \(y\) оказалась равной \(0.7\).
+
+Чему равно отношение \(\sum (\hat y_i - \bar y)^2 /\sum (y_i - \bar y)^2\)?	Russian	Literacy	two definitions of r2	0.49	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/train_02_03.Rmd	211.Rmd
+1	269	5	e	У Винни-Пуха есть четыре наблюдения \(5\), \(6\), \(8\), \(9\) и он оценивает модель вида \(y_i = 1 + \beta + u_i\) с помощью МНК.
+
+Оценка \(\hat \beta\) окажется равна	Russian	Literacy	regression on constant	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	\(7\)	\(8\)	\(9\)	\(5\)	\(6\)	\(10\)	NA	../base//om_metrics_2021_fall/train_01_01.Rmd	204.Rmd
+1	270	4	d	Обобщенный МНК служит для оценивания регрессионной модели \(Y=X\beta + u\) в случае нарушения следующего условия теоремы Гаусса-Маркова	Russian	Literacy	gls	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\(\mathrm{Cov}(u_i, X_i)=0\)	\(\mathrm{Cov}(Y_i, u_i)=0\)	\(\mathbb{E}(u_i)=0\)	\(\mathrm{Var}(u_i)=\sigma^2_u\)	\(\mathrm{rank} X = k\)	NA	NA	../base//2016_kr_04_final/3.Rmd	055.Rmd
+1	271	NA	NA	По исходному временному ряду была оценена парная регрессия
+\[
+\hat y_t = 3 + 0.06 y_{t-2}.
+\]
+
+Найдите второе значение выборочной автокорреляционной функции \(ACF_2\) с точностью до двух знаков после десятичной точки.	Russian	Literacy	pacf	0.06	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_01_05.Rmd	267.Rmd
+1	272	6	f	Какая зависимость математического ожидания исходного процесса от времени предполагается в альтернативной гипотезе \(KPSS\)-теста с константой?	Russian	Literacy	adf	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	\(\mathbb{E}(y_t) = \mu + \alpha t\)	нет верного ответа	\(\mathbb{E}(y_t)\) строго возрастает	\(\mathbb{E}(y_t)\) строго монотонна	\(\mathbb{E}(y_t) = \mu + \alpha t + \beta t^2\)	\(\mathbb{E}(y_t) = \mu\)	NA	../base//om_ts_2022_spring/train_06_05_mc_rus.Rmd	302.Rmd
+1	273	3	c	На третьем шаге теста МакАлера исследователь получил следующие результаты:
+\[
+\widehat{\ln Y_i} = \underset{(0.20)}{1.54} - \underset{(0.05)}{1.2}X_i + \underset{(0.3)}{3.1}\hat v_{\exp(\widehat{\ln Y}),i}
+\]
+\[
+\hat Y_i = \underset{(0.02)}{1.24} + \underset{(0.03)}{1.1}X_i + \underset{(0.2)}{2.4}\hat v_{\ln \hat Y, i}
+\]
+
+На основании этих результатов исследователь	Russian	Literacy	model selection	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	должен сделать вывод об отсутствии пропущенных переменных	должен предпочесть линейную модель	не может выбрать ни логарифмическую, ни линейную модель	должен отвергнуть гипотезу об адекватности исходной модели	должен предпочесть полулогарифмическую модель	должен сделать вывод о наличии пропущенных переменных	NA	../base//2016_kr_02_midterm_demo/8.Rmd	030.Rmd
+1	274	4	d	Выберите верное утверждение про ARDL модель с зависимой переменной \(y_t\) и предиктором \(x_t\).	Russian	Literacy	ARDL	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	\(y_t\) является \(AR(p)\) процессом c \(p \geq 1\)	\(y_t\) является \(ARMA(p, q)\) процессом c \(p \geq 1\) и \(q \geq 1\)	\(y_t\) является \(MA(q)\) процессом c \(q \geq 1\)	\(y_t\) является нестационарным	\(y_t\) является стационарным	нет верного ответа	NA	../base//om_ts_2022_spring/test_07_07_mc_rus.Rmd	262.Rmd
+1	275	5	e	Если для регрессора используется преобразование Бокса-Кокса с параметром \(\theta=-1\),
+а для зависимой переменной --- с параметром \(\lambda = 1\),
+то регрессионное уравнение представимо в виде	Russian	Literacy	box_cox	NA	FALSE	FALSE	FALSE	FALSE	TRUE	FALSE	NA	Calculation	\(\ln Y_i = \beta_1 + \beta_2 \ln X_i + u_i\)	\(\ln Y_i = \beta_1 + \beta_2 X_i + u_i\)	\(Y_i = \beta_1 + \beta_2 \ln X_i + u_i\)	\(Y_i = \beta_1 + \beta_2 X_i + u_i\)	\(Y_i = \beta_1 + \beta_2 \frac{1}{X_i} + u_i\)	\(\ln Y_i = \beta_1 - \beta_2 \ln X_i + u_i\)	NA	../base//2016_kr_02_midterm/2.Rmd	034.Rmd
+1	276	2	b	С помощью МНК оценена зависимость потребления \(Y_i\) от дохода \(X_i\), \(\hat Y_i = 0.5 - 0.3 X_i\). Если же использовать центрированные и нормированные переменные, то зависимость примет вид \(\hat Y_i^{st} = -0.7 X_i^{st}\). Коэффициент множественной детерминации \(R^2\) для первой модели равен	Russian	Literacy	r_sq	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(0.3\)	\(0.49\)	\(0.21\)	\(0.7\)	\(0.09\)	NA	NA	../base//2016_kr_04_final/1.Rmd	052.Rmd
+1	277	NA	NA	В рамках ETS(AAN) модели постройте 95\%-й предиктивный интервал на два шага вперёд,
+Последнее значение сглаженного ряда (тренда) равно \(100\),
+последний наклон сглаженного ряда (тренда) равен 5, \(\alpha = \beta = 0.3\),
+\(u_t \sim \mathcal{N}(0; 16)\).
+
+В ответ введите левую границу предиктивного интервала с точностью до двух знаков после десятичной точки.	Russian	Literacy	ETS(AAN)	100.7	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_02_07.Rmd	227.Rmd
+1	278	2	b	Зависимость спроса на некоторый вид услуг \(Y\) от его цены \(Р\)
+имеет вид \(\widehat{\ln Y_i} = \underset{(2)}{30} - \underset{(0.001)}{0.03} P_i\).
+Чтобы спрос в среднем снизился на 3\% цена должна увеличиться на	Russian	Literacy	price elastisity	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	10 единиц	1 единицу	10\%	1\%	100 единиц	NA	NA	../base//2016_kr_02_midterm_demo/4.Rmd	026.Rmd
+1	279	3	c	Для модели \(Y_i = \beta X_i + u_i\) c \(\mathbb{E}(u_i) = 0\) известно,
+что оценка \(\hat \beta = \frac{\sum_{i=1}^n Y_i}{\sum_{i=1}^n X_i}\) обладает наименьшей дисперсией
+среди линейных несмещённых оценок.
+
+Дисперсии \(\mathrm{Var}(u_i)\) пропорциональны	Russian	Literacy	hetero	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	\(1/X_i^2\)	\(\sqrt{X_i}\)	\(X_i\)	\(X_i^2\)	\(1/X_i\)	NA	NA	../base//2018_19_kr3/question_10.Rmd	121.Rmd
+1	280	3	c	Оценка МНК коэффициента регрессии без свободного члена \(Y_i = \beta X_i + u_i, i = 1, \ldots, n\),
+где \(x_i = X_i - \bar X, y_i = Y_i - \bar Y\), находится по формуле	Russian	Literacy	no_const_ols	NA	FALSE	FALSE	TRUE	FALSE	FALSE	NA	NA	Calculation	\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n x_i^2}\)	\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n X_i^2}\)	\(\hat \beta = \frac{\sum_{i=1}^n X_i Y_i }{\sum_{i=1}^n X_i^2}\)	\(\hat \beta = \frac{\sum_{i=1}^n x_i y_i }{\sum_{i=1}^n y_i^2}\)	\(\hat \beta = \frac{\sum_{i=1}^n X_i Y_i }{\sum_{i=1}^n Y_i^2}\)	NA	NA	../base//2017_kr_01/2.Rmd	064.Rmd
+1	281	NA	NA	Василий сменил единицы измерения ряда с тысяч рублей на рубли.
+
+На какое число при этом домножится средняя абсолютная ошибка наивной модели?	Russian	Literacy	MAE	1000	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_02_06.Rmd	275.Rmd
+1	282	5	e	Выберите верное утверждение про метод максимального правдоподобия.	Russian	Literacy	Maximum Likelihood definition	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	Метод подбирает значения параметров, минимизирующие вероятность наибольшей ошибки прогнозов.	Метод подбирает наиболее вероятные значения параметров.	Метод подбирает значения параметров, максимизирующие вероятность наименьшей ошибки прогнозов.	Метод минимизирует сумму квадратов ошибок прогнозов.	Метод подбирает значения параметров, при которых вероятность имеющейся выборки максимальна.	NA	NA	../base//om_metrics_2021_fall/test_09_02.Rmd	195.Rmd
+1	283	NA	NA	Рассмотрим лаговые многочлены \(P(L) = 1 - 0.2 L\) и \(Q(L) = 1 + 6 L + \alpha L^2\).
+
+При каком значении \(\alpha\) многочлены будут сократимыми?
+
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	two polynomials	-1.24	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_05_05_num_rus.Rmd	295.Rmd
+1	284	2	b	Элеонора исследует зависимость цены номера в отеле от звёздности отеля, \(star\),
+(от 1 до 3 звёзд) и расстояния до моря, \(dist\).
+Элеонора хочет оценить модель вида
+\(price_i = \beta_1 + \beta_2 star_i + \beta_3 dist_i + u_i\).
+Чтобы считаться богиней эконометрики Элеоноре стоит	Russian	Literacy	dummy	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	заменить переменную \(star_i\) на дамми-переменные \(one_i\), \(two_i\) и \(three_i\), равные 1 для отелей с одной, двумя и тремя звёздами соответственно	заменить переменную \(star_i\) на дамми-переменные \(one_i\) и \(two_i\), равные 1 для отелей с одной и двумя звёздами соответственно	добавить дамми-переменные \(one_i\), \(two_i\) и \(three_i\), равные 1 для отелей с одной, двумя и тремя звёздами соответственно	добавить в модель переменную \(z_i = star^2_i\), так как эффект звёздности наверняка нелинейный	добавить в модель переменную \(z_i = star_i \cdot dist_i\)	использовать МНК для оценки данной модели	NA	../base//2016_kr_02_midterm/5.Rmd	037.Rmd
+1	285	NA	NA	Рассмотрим модель, стоящую за тета-методом,
+\[
+\begin{cases}
+y_t = \ell_{t-1} + 2 + u_t \\
+\ell_t = \ell_{t-1} + 2 + 0.3 u_t
+\end{cases}.
+\]
+
+Перепишите эту модель в виде
+\[
+\Delta y_t = \theta_1 + \theta_2 u_{t-1} + u_t.
+\]
+В ответ укажите коэффициент \(\theta_1\).	Russian	Literacy	theta-method	2	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_03_01_num_rus.Rmd	228.Rmd
+1	286	NA	NA	Исследователь Иа-Иа использует мультипликативное разложение ряда.
+Очередное наблюдение равно \(60\), трендовая составляющая равна \(40\),
+сезонная составляющая \(2\).
+
+Найдите остаточную компоненту с точностью до двух знаков после десятичной точки.	Russian	Literacy	find remainder	0.75	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_01_01.Rmd	214.Rmd
+1	287	NA	NA	Петя и Вася строят доверительные интервалы для коэффициента наклона в модели парной регрессии.
+Оба строят интервалы по общему набору данных в 1000 наблюдений.
+Петя строит 95\%-й интервал, а Вася --- в два раза более узкий.
+
+Какую вероятность накрытия имеет Васин интервал?
+
+Ответ вводите с точностью до двух знаков после десятичной точки.
+
+Можно использовать функции из статистических пакетов или таблицы.	Russian	Literacy	halve ci width	0.67	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_04_08.Rmd	171.Rmd
+1	288	1	a	Пусть \(u_t\) - белый шум. Тогда стационарным будет следующий процесс	Russian	Literacy	white_noise	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(Y_t = \sum_{i = 0}^{10} u_{t-i}\)	\(Y_t = Y_{t-1} - u_t\)	\(Y_t = 2018t + u_t\)	\(Y_t = t u_t\)	\(Y_t = 2Y_{t-1} - u_t\)	NA	NA	../base//2017_kr_04_final/7.Rmd	089.Rmd
+1	289	4	d	Для какой цели используют LASSO?	Russian	Literacy	LASSO idea	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	Сильно увеличить дисперсию оценок за счёт небольшого смещения оценок.	Сильно уменьшить смещение оценок за счёт небольшого падения дисперсии оценок.	Сильно уменьшить смещение оценок за счёт небольшого роста дисперсии оценок.	Сильно уменьшить дисперсию оценок за счёт небольшого смещения оценок.	Сильно увеличить дисперсию оценок без смещения оценок.	Сильно уменьшить дисперсию оценок без смещения оценок.	NA	../base//om_metrics_2021_fall/test_06_04.Rmd	187.Rmd
+1	290	6	f	Рассмотрим алгоритм градиентного бустинга над решающими деревьями для задачи регрессии.
+
+Какую целевую переменную «учится» прогнозировать дерево номер 4?	Russian	Literacy	gradient boosting	NA	FALSE	FALSE	FALSE	FALSE	FALSE	TRUE	NA	Calculation	разницу между исходной переменной \(y_t\) и прогнозом третьего дерева, домноженным на темп обучения	исходную переменную \(y_t\)	нет верного ответа	разницу между исходной переменной \(y_t\) и прогнозом третьего дерева	разницу между исходной переменной \(y_t\) и суммой прогнозов первых трёх деревьев	разницу между исходной переменной \(y_t\) и суммой прогнозов первых трёх деревьев, домноженной на темп обучения	NA	../base//om_ts_2022_spring/test_07_04_mc_rus.Rmd	259.Rmd
+1	291	NA	NA	Случайная величина \(X\) имеет \(\chi^2\)-распределение с шестью степенями свободы.
+
+Найдите число \(a\), такое что \(\mathbb{P}(X > a) = 0.05\).
+
+Можно использовать статистические функции в R/Python или других программах.
+Ответ вводите с точностью до двух знаков после десятичной точки.	Russian	Literacy	chi squared quantile	12.59	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_03_02.Rmd	155.Rmd
+1	292	NA	NA	В модели функция правдоподобия в точке максимума равна \(10^{-10}\) а критерий Акаике равен \(62.05\).
+
+Сколько параметров оценивается в модели?	Russian	Literacy	AIC	8	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_02_04.Rmd	224.Rmd
+1	293	NA	NA	В модели множественной регрессии \(\hat y_i = 2 + 3 x_i + 7 z_i -6 w_i\) оценённая сумма квадратов равна \(777\).
+Для оценивания использовали 200 наблюдений. Остатки обозначим вектором \(\hat u\).
+
+Найдите сумму \(\sum_i \hat y_i \hat u_i\).	Russian	Literacy	orthogonality of residuals and predictions	0	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_02_10.Rmd	153.Rmd
+1	294	5	e	Выберите верный признак мультиколлинеарности.	Russian	Literacy	Multicollinearity sign	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	Каждый регрессор незначим по отдельности, регрессия в целом не значима.	Часть регрессоров значима по отдельности, часть регрессоров --- не значима по отдельности.	Каждый регрессор значим по отдельности, регрессия в целом значима.	Каждый регрессор значим по отдельности, регрессия в целом не значима.	Каждый регрессор незначим по отдельности, однако регрессия в целом значима.	NA	NA	../base//om_metrics_2021_fall/test_06_02.Rmd	185.Rmd
+1	295	2	b	С помощью t-теста проверяется гипотеза о том, что	Russian	Literacy	ttest_meaning	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	стандартная ошибка коэффициента регрессии равна единице	коэффициент регрессии равен единице	оценка стандартной ошибки коэффициента регрессии равна единице	надо ходить на семинары по эконометрике	оценка коэффициента регрессии равна единице	NA	NA	../base//2017_kr_01/9.Rmd	071.Rmd
+1	296	5	e	Истинной является модель \(Y_i = \beta_1 + \beta_2 X_i + u_i\). Глафира оценивает две регрессии: \(\hat Y_i = \hat \beta_1 + \hat \beta_2X_i\) и \(\hat Y_i = \hat \gamma_1 + \hat \gamma_2 X_i + \hat \gamma_3 Z_i\) с помощью МНК. Для коэффициента \(\beta_2\)	Russian	Literacy	omitted_vars	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	оценки \(\hat \beta_2\) и \(\hat\gamma_2\) являются неэффективными	оценка \(\hat \beta_2\) является смещённой, а оценка \(\hat\gamma_2\) --- несмещённой	оценка \(\hat \beta_2\) является несмещённой, а оценка \(\hat\gamma_2\) --- смещённой	оценки \(\hat \beta_2\) и \(\hat\gamma_2\) являются эффективными	оценки \(\hat \beta_2\) и \(\hat\gamma_2\) являются несмещёнными	NA	NA	../base//2016_kr_02_midterm/10.Rmd	033.Rmd
+1	297	1	a	Взятием разностей может быть сведен к стационарному	Russian	Literacy	difference	NA	TRUE	FALSE	FALSE	FALSE	FALSE	NA	NA	Calculation	как временной ряд с детерминированным трендом, так и со случайным трендом	только коинтегрированный ряд	только временной ряд со случайным трендом	только временной ряд с детерминированным трендом	ни временной ряд с детерминированным трендом, ни со случайным трендом	NA	NA	../base//2016_final_spring_demo/2.Rmd	003.Rmd
+1	298	NA	NA	У меня набор данных из трёх наблюдений: \(x = (1, 2, 3)\), \(y = (5, 6, 10)\).
+
+Чему равна МНК-оценка \(\hat\beta_x\) в модели \(y_i = \beta_1 + \beta_x x_i + u_i\)?
+
+Ответ вводите с точностью до двух знаков после запятой.	Russian	Literacy	calculate beta x	2.5	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_03.Rmd	134.Rmd
+1	299	2	b	Пантелеймон оценил модель парной регрессии
+\[
+\ln \hat y_i = 0.4 + 1.2 \ln x_i.
+\]
+
+Какая интерпретация уравнения является верной?	Russian	Literacy	elasticity interpretation	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	с ростом \(x\) на один процент величина \(y\) растёт в среднем на 1.2 единицы	с ростом \(x\) на один процент величина \(y\) растёт в среднем на 1.2 процента	нет верного ответа	с ростом \(x\) на единицу величина \(y\) растёт в среднем на 120 процентов	с ростом \(x\) на единицу величина \(y\) растёт в среднем на 1.2 процента	с ростом \(x\) на единицу величина \(y\) растёт в среднем на 1.2 единицы	NA	../base//om_metrics_2021_fall/test_05_07.Rmd	180.Rmd
+1	300	NA	NA	Исследовательница Василиса построила парную регрессию \(\hat y_i = 2 - 3 x_i\) c \(R^2=0.64\).
+
+Найдите выборочную корреляцию между зависимой переменной \(y\) и предиктором \(x\).	Russian	Literacy	calculate sample correlation given R2	-0.8	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_02_02.Rmd	145.Rmd
+1	301	NA	NA	Гюльчатай оценила одну и ту же модель зависимости зарплаты от опыта работы по трём разным группам наблюдений.
+
+Для 1000 сельских жителей:
+\[
+wage_i = \beta_1 + \beta_2 exp_i + u_i, RSS_a = 150.
+\]
+Для 2004 городских жителей:
+\[
+wage_i = \gamma_1 + \gamma_2 exp_i + u_i, RSS_b = 200.
+\]
+Для всех жителей сразу:
+\[
+wage_i = \delta_1 + \delta_2 exp_i + u_i, RSS_c = 400.
+\]
+
+Найдите значение \(F\)-статистики теста Чоу для проверки гипотезы об одинаковой зависимости для всех жителей.
+
+Ответ укажите с точностью до двух знаков после десятичной точки.	Russian	Literacy	F statistics	214.29	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_05_10.Rmd	183.Rmd
+1	302	NA	NA	Процесс \((y_t)\) стационарный.
+
+Найдите максимальное значение \(t\), при котором гарантированно выполнено условие
+\[
+ \mathrm{Cov}(y_{108}, y_{109}) = \mathrm{Cov}(y_{120}, y_t).
+\]	Russian	Literacy	stationarity	121	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/train_04_01_num_rus.Rmd	284.Rmd
+1	303	NA	NA	Модель \(y_i = \beta_1 + \beta_x x_i + u_i\) оценивают с помощью МНК.
+Известно, что \(\bar x= 2\), \(\bar y = 4\), и \(\hat \beta_1 = 2\).
+
+Чему равна МНК-оценка \(\hat\beta_x\)?	Russian	Literacy	calculate beta x using mean point	1	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_metrics_2021_fall/test_01_08.Rmd	139.Rmd
+1	304	NA	NA	У Винни-Пуха был временной ряд из 1000 наблюдений.
+Винни использует алгоритм случайного леса, причем в качестве предикторов он берёт лаги \(y_{t-1}\), \ldots, \(y_{t - 9}\).
+
+По скольки наблюдениям обучается каждое из деревьев?	Russian	Literacy	sample size	991	NA	NA	NA	NA	NA	NA	NA	Calculation	NA	NA	NA	NA	NA	NA	NA	../base//om_ts_2022_spring/test_07_06_num_rus.Rmd	261.Rmd
+1	305	2	b	Для модели парной регрессии \(y = \beta_1 s + \beta_2 x + u\),
+где \(y = (y_1, \ldots, y_n), x = (x_1, \ldots, x_n),
+s = (1, \ldots, 1), \hat u = (\hat u_1, \ldots, \hat u_n), \hat y = \hat \beta_1 s + \hat \beta_2 x, \hat u = y - \hat y\) в пространстве \(\mathbb R^n\) ортогональны вектора	Russian	Literacy	ols_assumptions	NA	FALSE	TRUE	FALSE	FALSE	FALSE	NA	NA	Calculation	\(y\) и \(\hat y\)	\(\hat u\) и \(s\)	\(x\) и \(\hat y\)	\(u\) и \(\hat y\)	\(y\) и \(s\)	NA	NA	../base//2017_kr_01/5.Rmd	067.Rmd
+1	306	3	c	Перед Винни-Пухом временной ряд потребления мёда с восходящим трендом и сезонными колебаниями растущей амплитуды.
+Какая модель из предложенных лучше подходит для описания данного ряда?	Russian	Literacy	ETS	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	ETS(MMN)	ETS(AAA)	ETS(MAM)	ETS(MNM)	ETS(AAN)	ETS(AAdA)	NA	../base//om_ts_2022_spring/test_03_05_mc_rus.Rmd	232.Rmd
+1	307	3	c	Выберите утверждение про модель локальной линейной регрессии LOESS.	Russian	Literacy	LOESS	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	LOESS можно оценить только для предикторов в малой окрестности нуля.	В качестве ядерной функции разумно выбрать любую монотонно возрастающую функцию.	Оценки коэффициентов бета с крышкой зависят от точки, для которой строится прогноз.	LOESS позволяет оценить коэффициенты, но не позволяет строить прогнозы.	LOESS работает гораздо быстрее, чем аналогичная парная регрессия.	LOESS можно использовать только на данных временных рядов.	NA	../base//om_ts_2022_spring/test_01_02.Rmd	215.Rmd
+1	308	3	c	Гипотеза о том, что одновременно \(\beta_1 + \beta_2 =1\) и \(\beta_3=0\)
+в множественной линейной регрессии построенной по \(n\) наблюдениям
+проверяется с помощью статистики, имеющей распределение	Russian	Literacy	f_test	NA	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	NA	Calculation	\(t_{n-2}\)	\(t_n\)	\(F\)	\(N(0;1)\)	Демешева-Мамонтова	\(t_{n-k}\)	NA	../base//2016_kr_02_midterm/4.Rmd	036.Rmd
+1	309	4	d	Оценки МНК вектора коэффициентов регрессии \(Y=X\beta + u\)
+находятся по формуле	Russian	Literacy	vector_formula	NA	FALSE	FALSE	FALSE	TRUE	FALSE	NA	NA	Calculation	\((X'X)^{-1}YX\)	\(X'Y(X'X)^{-1}\)	\((XX')^{-1}X'Y\)	\((X'X)^{-1}X'Y\)	\((XX')^{-1}Y'X\)	NA	NA	../base//2018_19_kr1/question_09.Rmd	110.Rmd
+1	310	2	b	Частным случаем какой модели является модель за тета-методом?	Russian	Literacy	theta-method	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	ETS(MMM) с \(\beta=0\)	ETS(AAN) с \(\beta=0\)	ETS(AAA) с \(\gamma=1\)	нет верного ответа	ETS(AAA) с \(\alpha=1\)	ETS(MMM) с \(\alpha=0\)	NA	../base//om_ts_2022_spring/train_03_02_mc_rus.Rmd	278.Rmd
+1	311	2	b	Какая модель соответствует аддитивному методу Хольта-Винтерса?	Russian	Literacy	holt-winters	NA	FALSE	TRUE	FALSE	FALSE	FALSE	FALSE	NA	Calculation	ETS(ANA)	ETS(AAA)	ETS(AAdA)	нет верного ответа	ETS(AAN)	ETS(ANN)	NA	../base//om_ts_2022_spring/test_03_03_mc_rus.Rmd	230.Rmd
+1	312	4	d	Абу Али Яхья ибн Галиб аль-Хайят оценил множественную регрессию \(\hat y_i = \hat\beta_1 + \hat\beta_x x_i + \hat\beta_z z_i\).
+Обозначим вектор остатков с помощью \(\hat u\).
+
+Выберите пары ортогональных векторов.	Russian	Literacy	orthogonal vectors	NA	FALSE	FALSE	FALSE	TRUE	FALSE	FALSE	NA	Calculation	\(y \perp \hat u\) и \(y \perp y + \hat u\)	\(\hat y \perp x\) и \(\hat y \perp x + z\)	\(x \perp y\) и \(x \perp y + z\)	\(\hat u \perp x\) и \(\hat u \perp x + z\)	\(\hat u \perp y\) и \(\hat u \perp y + z\)	\(y \perp x\) и \(y \perp x + z\)	NA	../base//om_metrics_2021_fall/test_02_06.Rmd	149.Rmd
+1	313	5	e	Рассмотрим процесс \(Y_t = -0.2 Y_{t-1} + u_t\). 5-ое значение автокорреляционной функции равно	Russian	Literacy	autocorr_function	NA	FALSE	FALSE	FALSE	FALSE	TRUE	NA	NA	Calculation	0.2	0.00032	-0.2	0	-0.00032	NA	NA	../base//2017_kr_04_final/5.Rmd	087.Rmd

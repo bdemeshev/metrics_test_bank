@@ -1,0 +1,35 @@
+Question
+========
+Пусть $u_t$ - белый шум. Тогда стационарным будет следующий процесс
+
+
+
+Answerlist
+----------
+*  $Y_t = \sum_{i = 0}^{10} u_{t-i}$
+*  $Y_t = 2018t + u_t$
+*  $Y_t = t u_t$
+*  $Y_t = Y_{t-1} - u_t$
+*  $Y_t = 2Y_{t-1} - u_t$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: white_noise
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Stationarity

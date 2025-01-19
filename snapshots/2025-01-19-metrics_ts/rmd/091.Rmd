@@ -1,0 +1,37 @@
+Question
+========
+Если процесс является стационарным в широком смысле, то
+
+
+
+Answerlist
+----------
+* его приращения являются стационарным процессом
+* он является стационарным в узком смысле
+* для него выполняется основная гипотеза в тесте Дикки-Фуллера
+* его автоковариационная функция является постоянной
+* это белый шум
+* это AR процесс с корнями характеристического уравнения, меньшими 1
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: weak stationarity leads to
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Stationarity

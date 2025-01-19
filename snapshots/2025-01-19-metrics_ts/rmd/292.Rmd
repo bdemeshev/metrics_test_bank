@@ -1,0 +1,41 @@
+```{r}
+a = sample(2:20, size=1)
+b = sample(2:20, size=1)
+```
+
+Question
+========
+
+Рассмотрим уравнение 
+$$
+y_t = `r a` y_{t-1} + `r b` y_{t-2} + u_t,
+$$
+где $(u_t)$ — белый шум. 
+
+При каких начальных условиях получится нестационарное решение?
+
+
+Answerlist
+----------
+* нет верного ответа
+* только при $y_0 = 0$ и $y_1=0$
+* только при $y_0 = 1$ и $y_1 = 1$
+* только при $y_0 = 0$ и $y_1 = 1$
+* только при $y_0 = 1$ и $y_1 = 0$
+* только при $y_0 = u_0$ и $y_1 = u_1$
+
+Solution
+========
+
+Возьмите практически любые начальные условия. 
+
+Meta-information
+================
+exname: infinity of non-stationary solutions
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ar2

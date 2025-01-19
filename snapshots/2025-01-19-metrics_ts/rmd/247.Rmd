@@ -1,0 +1,39 @@
+Question
+========
+
+Рассмотрим уравнение 
+$$
+y_t = 3 + 0.7 y_{t-1} + u_t + 6 u_{t-1},
+$$
+где $(u_t)$ — белый шум. 
+
+Определите, являются ли верными утверждения A и B.
+
+A: уравнение имеет одно стационарное решение вида $MA(\infty)$ относительно $(u_t)$.
+
+B: для $MA$-части уравнения выполнено условие обратимости.
+
+
+
+Answerlist
+----------
+* A верно, B неверно. 
+* A верно, B верно. 
+* A неверно, B неверно. 
+* A неверно, B верно. 
+
+Solution
+========
+
+Вспомните определение обратимости и теорему о виде стационарных решений. 
+
+Meta-information
+================
+exname: uniqueness of stationary solutions
+extype: schoice
+exsolution: 1000
+exshuffle: 4
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: arma11

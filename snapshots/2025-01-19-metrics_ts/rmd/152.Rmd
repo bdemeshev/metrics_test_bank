@@ -1,0 +1,23 @@
+Question
+========
+
+В модели множественной регрессии $\hat y_i = 2 + 3 x_i + 7 z_i -6 w_i$ оценённая сумма квадратов равна $777$. 
+Для оценивания использовали 200 наблюдений. 
+
+Найдите сумму $\sum_i \hat y_i (\hat y_i - \bar y)$.
+
+Solution
+========
+
+По определению $TSS$.
+
+Meta-information
+================
+exname: find modified ess
+extype: num
+exsolution: 777
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Sum of squares

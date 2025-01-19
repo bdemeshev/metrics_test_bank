@@ -1,0 +1,34 @@
+Question
+========
+
+Абу Али Яхья ибн Галиб аль-Хайят оценил множественную регрессию $\hat y_i = \hat\beta_1 + \hat\beta_x x_i + \hat\beta_z z_i$.
+Обозначим вектор остатков с помощью $\hat u$. 
+
+Выберите пары ортогональных векторов.
+
+
+Answerlist
+----------
+* $\hat u \perp x$ и $\hat u \perp x + z$
+* $\hat y \perp x$ и $\hat y \perp x + z$
+* $\hat u \perp y$ и $\hat u \perp y + z$
+* $x \perp y$ и $x \perp y + z$
+* $y \perp x$ и $y \perp x + z$
+* $y \perp \hat u$ и $y \perp y + \hat u$
+
+
+Solution
+========
+
+Ортогональные векторы.
+
+Meta-information
+================
+exname: orthogonal vectors
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Orthogonality

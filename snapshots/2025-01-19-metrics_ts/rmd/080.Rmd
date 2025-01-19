@@ -1,0 +1,37 @@
+Question
+========
+По одним и тем же наблюдениям оценили две регрессии: $\hat y = 1 + 3X_1$ и $\hat y = 2 + 5X_2$.
+
+Известно, что $\widehat{\mathrm{Cov}}(X_1, X_2) > 0$. Оценки МНК коэффициентов регрессии $Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + u$:
+
+
+
+Answerlist
+----------
+*  оценки коэффициентов невозможно найти по имеющимся данным
+*  $\hat \beta_0$ найти невозможно, $\hat \beta_1 = 3, \hat \beta_2 = 5$
+*  $\hat \beta_0 = 3, \hat \beta_1 = 3, \hat \beta_2 = 5$
+*  $\hat \beta_0 = 1.5, \hat \beta_1 = 3, \hat \beta_2 = 5$
+*  $\hat \beta_1, \hat \beta_2$ найти невозможно, $\hat \beta_0 = 3$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: 2models_coefficients
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Linear restrictions

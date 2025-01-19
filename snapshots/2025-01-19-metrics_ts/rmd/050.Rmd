@@ -1,0 +1,44 @@
+Question
+========
+По $n=450$ наблюдениям была оценена регрессия:
+$$
+Y_i = \beta_1 + \beta_2 X_{i2} + \ldots + \beta_k X_{ik} + u_i.
+$$
+Затем была оценена регрессия $|\hat u_i| = \alpha_1 + \alpha_2 \frac{1}{Z_i} + \nu_i$.
+Оказалось, что $\hat\alpha_2 = 20$ и $se(\hat\alpha_2) = 5$.
+
+Согласно этим данным, на уровне значимости 5\% гипотеза о
+
+
+
+Answerlist
+----------
+*  гомоскедастичности отвергается
+*  гомоскедастичности не отвергается
+*  верной функциональной форме отвергается
+*  верной функциональной форме не отвергается
+*  пропущенной переменной $1/Z_{i}$ отвергается
+*  пропущенной переменной $1/Z_{i}$ не отвергается
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: homoscedastic_errors
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Heteroskedasticity

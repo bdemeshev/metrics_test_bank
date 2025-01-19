@@ -1,0 +1,40 @@
+Question
+========
+Элеонора исследует зависимость цены номера в отеле от звёздности отеля, $star$,
+(от 1 до 3 звёзд) и расстояния до моря, $dist$.
+Элеонора хочет оценить модель вида
+$price_i = \beta_1 + \beta_2 star_i + \beta_3 dist_i + u_i$.
+Чтобы считаться богиней эконометрики Элеоноре стоит
+
+
+Answerlist
+----------
+*  заменить переменную $star_i$ на дамми-переменные $one_i$ и $two_i$, равные 1 для отелей с одной и двумя звёздами соответственно
+*  использовать МНК для оценки данной модели
+*  добавить в модель переменную $z_i = star_i \cdot dist_i$
+*  добавить в модель переменную $z_i = star^2_i$, так как эффект звёздности наверняка нелинейный
+*  заменить переменную $star_i$ на дамми-переменные $one_i$, $two_i$ и $three_i$, равные 1 для отелей с одной, двумя и тремя звёздами соответственно
+*  добавить дамми-переменные $one_i$, $two_i$ и $three_i$, равные 1 для отелей с одной, двумя и тремя звёздами соответственно
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: dummy
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Dummy variables

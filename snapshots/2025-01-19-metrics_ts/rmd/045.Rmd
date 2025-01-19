@@ -1,0 +1,41 @@
+Question
+========
+Методом максимального правдоподобия Гоша оценил модель
+$$
+Y_i = \beta_1 + \beta_2 X_{i2} +  \ldots  + \beta _6 X_{i6} + u_i,
+$$
+где $u \sim \mathcal{N} (0,\sigma_u^2I)$, по 12 наблюдениям. Оказалось, что $RSS = 24$.  
+Оценка дисперсии случайной составляющей равна
+
+
+Answerlist
+----------
+*  $2$
+*  $0.5$
+*  $0.48$
+*  $2.4$
+*  $24/7$
+*  не существует
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: ml_variance
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Maximum Likelihood

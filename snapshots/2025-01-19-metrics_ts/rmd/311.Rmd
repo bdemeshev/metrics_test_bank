@@ -1,0 +1,29 @@
+Question
+========
+
+Выберите верное утверждение про ARDL модель с зависимой переменной $y_t$, предиктором $x_t$ и ошибкой $u_t$.
+
+Answerlist
+----------
+* $u_t$ является белый шумом
+* $\Delta y_t$ является нестационарным
+* $u_t$ является $AR(p)$ процессом c $p \geq 1$
+* $u_t$ является $MA(q)$ процессом c $q \geq 1$
+* $u_t$ является $ARMA(p, q)$ процессом c $p \geq 1$ и $q \geq 1$
+* нет верного ответа
+
+Solution
+========
+
+Посмотрите описание ARDL модели.
+
+Meta-information
+================
+exname: ARDL
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ARDL

@@ -1,0 +1,32 @@
+Question
+========
+
+Рассмотрим модель без константы $y_i = \beta x_i + u_i$, оцениваемую с помощью МНК.
+Вектор остатков обозначим $\hat u$, а вектор из единичек обозначим $s$.
+
+Выберите верное утверждение
+
+Answerlist
+----------
+*  $\hat u \perp x$
+*  $\hat u \perp s$
+*  $x \perp u$
+*  $\hat x \perp \hat u$ 
+*  $\hat y \perp x$
+*  $\hat y \perp u$
+
+Solution
+========
+
+По условию первого порядка остатки перпендикулярны регрессорам.
+
+Meta-information
+================
+exname: orthogonality
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Residuals

@@ -1,0 +1,23 @@
+Question
+========
+
+Илон Маск по 100 наблюдениям оценил множественную регрессию с константой с помощью МНК. 
+Оказалось, что $\sum (\hat y_i - \bar y)^2 = 200$, и $\sum (y_i - \bar y)^2 = 600$.
+
+Чему равна средняя величина квадрата остатка?
+
+Solution
+========
+
+Подсказка: $TSS = ESS + RSS$.
+
+Meta-information
+================
+exname: average value of squared residual
+extype: num
+exsolution: 4
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Residuals

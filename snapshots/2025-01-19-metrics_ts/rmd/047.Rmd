@@ -1,0 +1,34 @@
+Question
+========
+При наличии сильной практической мультиколлинеарности нарушается следующее свойство МНК-оценок параметров классической регрессии:
+
+Answerlist
+----------
+*  единственных оценок МНК не существует
+*  линейность по зависимой переменой
+*  несмещённость
+*  эффективность в классе линейных и несмещенных оценок
+*  равенство нулю суммы остатков
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: multicol
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Multicollinearity
+

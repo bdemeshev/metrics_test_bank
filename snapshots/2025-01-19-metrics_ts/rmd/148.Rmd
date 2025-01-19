@@ -1,0 +1,39 @@
+Question
+========
+
+Аркадий оценил модель множественной регрессии с константой, 
+а Борислав добавил в эту модель ещё два предиктора.
+
+Они, соответственно, получили суммы квадратов остатков $RSS_a$ и $RSS_b$, 
+общие суммы квадратов $TSS_a$ и $TSS_b$, и оценённые суммы квадратов 
+$ESS_a$, $ESS_b$.
+
+Выберите верное утверждение. 
+
+
+
+Answerlist
+----------
+* $TSS_a = TSS_b$, $RSS_a \geq RSS_b$.
+* $TSS_a = TSS_b$, $RSS_a \leq RSS_b$.
+* $RSS_a = RSS_b$, $ESS_a \geq ESS_b$.
+* $RSS_a = RSS_b$, $ESS_a \leq ESS_b$.
+* $ESS_a = ESS_b$, $TSS_a \leq TSS_b$.
+* $ESS_a = ESS_b$, $TSS_a \geq TSS_b$.
+
+
+Solution
+========
+
+Выбор модели не влияет на исходные значения $y_i$.
+
+Meta-information
+================
+exname: sum of squares for two regressions
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Sum of squares

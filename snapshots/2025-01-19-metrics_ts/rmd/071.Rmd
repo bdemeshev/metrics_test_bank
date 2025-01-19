@@ -1,0 +1,34 @@
+Question
+========
+С помощью t-теста проверяется гипотеза о том, что
+
+
+Answerlist
+----------
+*  коэффициент регрессии равен единице
+*  оценка коэффициента регрессии равна единице
+*  стандартная ошибка коэффициента регрессии равна единице
+*  оценка стандартной ошибки коэффициента регрессии равна единице
+*  надо ходить на семинары по эконометрике
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: ttest_meaning
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient t-test

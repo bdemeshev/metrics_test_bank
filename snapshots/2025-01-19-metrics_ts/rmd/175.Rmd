@@ -1,0 +1,43 @@
+Question
+========
+
+Пантелеймон оценил парную регрессию по 50 наблюдениям
+$$
+\hat y_i = 8.9 + 12.9 x_i.
+$$
+Оценка ковариационной матрицы оценок коэффициентов имеет вид 
+$$
+\begin{pmatrix}
+16.7 & -4.6 \\
+-4.6 & 1.74 \\
+\end{pmatrix}.
+$$
+Величина суммы квадратов остатков равна $10871$.
+
+Предпосылки классической линейной модели выполнены, ошибки имеют нормальное распределение. 
+
+Оцените дисперсию прогноза для $x=1$.
+
+Ответ вводите с точностью до двух знаков после десятичной точки. 
+
+
+Solution
+========
+
+$$
+\mathrm{Var}(\hat\beta_1 + \hat\beta2 \cdot 1) =\mathrm{Var}(\hat\beta_1) + \mathrm{Var}(\hat\beta_2) +2\mathrm{Cov}(\hat\beta_1, \hat\beta_2)
+$$
+
+Meta-information
+================
+exname: estimate var of forecast
+extype: num
+exsolution: 9.24
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Variance and covariance
+
+
+

@@ -1,0 +1,31 @@
+Question
+========
+
+Перед Винни-Пухом временной ряд потребления мёда без тренда и сезонными колебаниями постоянной амплитуды. 
+Какая модель из предложенных лучше подходит для описания данного ряда?
+
+Answerlist
+----------
+* ETS(ANA)
+* ETS(MAM)
+* ETS(AAN)
+* ETS(AAdA)
+* ETS(AAA)
+* ETS(MNM)
+
+
+Solution
+========
+
+Смотрим уравнения ETS моделей
+
+Meta-information
+================
+exname: ETS
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS

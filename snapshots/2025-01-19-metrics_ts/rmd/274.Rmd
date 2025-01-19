@@ -1,0 +1,24 @@
+Question
+========
+
+У Агнессы 120 наблюдений и она оценивает качество прогнозов на один шаг вперёд с помощью кросс-валидации 
+скользящим окном. Ширина окна равна 70.
+
+Сколько раз будет оценена каждая модель при выполнении кросс-валидации?
+
+
+Solution
+========
+
+Задачка в одно действие!
+
+Meta-information
+================
+exname: sliding window CV
+extype: num
+exsolution: 50
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: CV

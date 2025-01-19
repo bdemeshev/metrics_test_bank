@@ -1,0 +1,31 @@
+Question
+========
+
+Исследователь Пантелеймон оценивает парную регрессию $y_i = \beta_1 + \beta_2 x_i + u_i$.
+На ошибки выполнены классические предпосылки, $\mathbb E(u_i \mid X) = 0$, $\mathrm{Var}(u_i \mid X) = \sigma^2$,
+$\mathrm{Cov}(u_i, u_j \mid X) = 0$ для $i\neq j$.
+
+Пантелеймон знает, что сумма квадратов остатков в исходной регрессии оказалась равной $100$, а во вспомогательной регрессии 
+$\hat x_i = \hat \gamma$ сумма квадратов остатков равна $20$. Обе регрессии построены по 102 наблюдениям.
+
+Какую несмещённую оценку для $\mathrm{Var}(\hat\beta_2 \mid X)$ получит Пантелеймон?
+
+Ответ вводите с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Можно без доказательства пользоваться формулой истинной дисперсии :)
+
+Meta-information
+================
+exname: estimated conditional variance 
+extype: num
+exsolution: 0.05
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Variance and covariance
+
+

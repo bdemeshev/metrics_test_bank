@@ -1,0 +1,26 @@
+Question
+========
+
+Пантелеймон включил в модель 200 совершенно бессмысленных регрессоров, которые никак не влияют 
+на переменную $y$. 
+Пантелеймон не знает этого и проверяет значимость коэффициента при каждом коэффициенте на уровне значимости $\alpha = 0.02$.
+
+Сколько ложно значимых регрессоров в среднем обнаружит Пантелеймон?
+
+Solution
+========
+
+Ожидаемое количество равно произведению числа попыток на вероятность ложного срабатывания. 
+
+Meta-information
+================
+exname: expected value of spurious significance
+extype: num
+exsolution: 4
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient t-test
+
+

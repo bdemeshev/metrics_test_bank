@@ -1,0 +1,36 @@
+Question
+========
+Для регрессии $Y_i = \beta_1 + \beta_2 X_i + u_i$, оценённой по 30 наблюдениям с суммой квадратов остатков, равной 15, несмещенная оценка дисперсии случайной составляющей равна
+
+
+Answerlist
+----------
+*  $15/28$
+*  $0.5$
+*  $13/30$
+*  $13/28$
+*  $2$
+*  $15/32$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: variance_estimation
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Sum of squares

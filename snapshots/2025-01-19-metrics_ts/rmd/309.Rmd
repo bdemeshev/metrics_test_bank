@@ -1,0 +1,28 @@
+```{r}
+k = sample(2:10, size=1)
+exact_ans = 2 * 365 / k
+ans = round(exact_ans, digits = 2)
+```
+
+Question
+========
+
+Какой период у функции $\cos(`r k` \pi t / 365)$?
+
+Ответ укажите с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Вспомните период косинуса и синуса. 
+
+Meta-information
+================
+exname: fourier
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: fourier

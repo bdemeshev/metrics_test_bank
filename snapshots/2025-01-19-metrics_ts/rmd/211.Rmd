@@ -1,0 +1,23 @@
+Question
+========
+
+Винни-Пух оценил модель множественной регрессии с константой с помощью МНК.
+Выборочная корреляция между прогнозами $\hat y$ и фактическим вектором $y$ оказалась равной $0.7$.
+
+Чему равно отношение $\sum (\hat y_i - \bar y)^2 /\sum (y_i - \bar y)^2$?
+
+Solution
+========
+
+Подсказка: вспомните два смысла $R^2$.
+
+Meta-information
+================
+exname: two definitions of r2
+extype: num
+exsolution: 0.49
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/R2

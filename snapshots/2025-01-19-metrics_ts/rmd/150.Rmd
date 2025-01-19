@@ -1,0 +1,22 @@
+Question
+========
+
+У исследователя всего четыре наблюдения, $y= (1, 3, 5, 7)$. 
+
+Найдите общую сумму квадратов $TSS$.
+
+Solution
+========
+
+По определению $TSS$.
+
+Meta-information
+================
+exname: find tss
+extype: num
+exsolution: 20
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Sum of squares

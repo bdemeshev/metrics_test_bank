@@ -1,0 +1,33 @@
+Question
+========
+
+Исследователь Леонардо оценил модель логистической регрессии 
+$\hat{\mathbb{P}}(y_i = 1) = \Lambda(0.4 - 0.2 x_i)$.
+
+Найдите по этой модели прогноз вероятности для $x_i = 2$.
+
+
+Answerlist
+----------
+* $0.5$
+* $1$
+* $0$
+* $0.25$
+* $0.75$
+* $\exp(0.5)$
+
+Solution
+========
+
+Подставляем ноль в логистическую функцию. 
+
+Meta-information
+================
+exname: zero in logistic function
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Logit

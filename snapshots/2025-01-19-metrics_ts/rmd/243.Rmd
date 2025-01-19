@@ -1,0 +1,41 @@
+```{r}
+a = sample(2:20, size=1)
+b = sample(2:20, size=1)
+```
+
+Question
+========
+
+Рассмотрим уравнение 
+$$
+y_t = `r a` y_{t-1} + `r b` y_{t-2} + u_t,
+$$
+где $(u_t)$ — белый шум. 
+
+Сколько нестационарных решений оно имеет?
+
+
+Answerlist
+----------
+* бесконечность 
+* 1
+* 2
+* 3
+* 4
+* нет верного ответа
+
+Solution
+========
+
+Возьмите практически любые начальные условия. 
+
+Meta-information
+================
+exname: infinity of non-stationary solutions
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ar2

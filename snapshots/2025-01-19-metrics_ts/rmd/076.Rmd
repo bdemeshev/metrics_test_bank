@@ -1,0 +1,50 @@
+Question
+========
+По 546 наблюдениям за 1987 г. оценили зависимость стоимости частных домов в Канаде price (измеряемой в долларах США) от общей площади square (измеряемой в кв. м.) наличия подъездного пути driveway  (1 — если есть, 0 — если нет):
+
+\begin{tabular}{lrrrr}
+\toprule
+переменная & коэффициент & ст. ошибка & $t$-статистика & $P$-значение \\
+\midrule
+square & 2.724 & 2.15 & 1.27 & 0.206 \\
+driveway & -922.563 & 8602.312 & -0.11 & 0.915 \\
+square*driveway & 3.479 & 1.43 & 2.42 & 0.016 \\
+$const$ & 38731.07 & 8156.39 & 4.75 & 0.000 \\
+\bottomrule
+\end{tabular}
+
+
+
+Согласно полученным результатам, при уровне значимости 5\%, наличие подъездного пути увеличивает стоимость каждого квадратного метра жилья на
+
+
+
+Answerlist
+----------
+*  3.479 \$
+*  -922.563 \$
+*  2.724 \$
+*  6.203 \$
+*  0
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: ols_interpretation
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients interpretation

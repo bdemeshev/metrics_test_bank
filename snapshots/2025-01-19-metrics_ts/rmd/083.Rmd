@@ -1,0 +1,38 @@
+Question
+========
+При оценивании регрессионной модели $Y_t = a_0 + \sum_{j=1}^3 a_j X_{jt} + u_t$ по 20 наблюдениям получено значение статистики Дарбина-Уотсона $d = 0.8$. При уровне значимости 1\% это свидетельствует о
+
+
+
+
+Answerlist
+----------
+*  Попадании в зону неопределенности
+*  Положительной автокорреляции
+*  Отрицательной автокорреляции
+*  Отсутствии автокорреляции
+*  Тест Дарбина-Уотсона вообще не проверяет наличие автокорреляции
+*  3 и 4
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: dw
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Autocorrelation function

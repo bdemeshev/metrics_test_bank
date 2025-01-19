@@ -1,0 +1,37 @@
+Question
+========
+Общеизвестно, что потребление мёда Винни-Пухом зависит, при этом положительно, от количества стихов, сочинённых им за день. 
+К сожалению, Винни-Пух забывчив и всегда называет число сочинённых им стихов с ошибкой. 
+Тогда оценка $\beta_1$ в регрессии $Honey_i = \beta_0 + \beta_1 Poems_i + u_i$ окажется
+
+
+
+Answerlist
+----------
+*  Несостоятельной, заниженной
+*  Несостоятельной, завышенной
+*  Несостоятельной
+*  Смещённой, но состоятельной
+*  Несмещенной, но не состоятельной
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: E(e_i)
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Gauss-Markov theorem

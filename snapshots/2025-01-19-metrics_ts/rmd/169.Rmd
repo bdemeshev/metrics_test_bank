@@ -1,0 +1,25 @@
+Question
+========
+
+Винни-Пух построил классический доверительный интервал для коэффициента $\beta_z$ в модели 
+$y_i = \beta_1 + \beta_x x_i + \beta_z z_i + u_i$. 
+Интервал получился широкий, $[-20; 40]$.
+
+Какую оценку $\hat\beta_z$ получил Винни-Пух?
+
+Solution
+========
+
+Классический доверительный интервал симметричен относительно точечной оценки. 
+
+Meta-information
+================
+exname: find the middle point of an interval
+extype: num
+exsolution: 10
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient confidence interval
+

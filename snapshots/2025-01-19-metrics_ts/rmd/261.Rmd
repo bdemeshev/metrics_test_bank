@@ -1,0 +1,30 @@
+```{r}
+n = sample(1:10, size=1) * 100
+n_lag = sample(3:10, size=1)
+ans = n - n_lag
+```
+
+Question
+========
+
+У Винни-Пуха был временной ряд из `r n` наблюдений. 
+Винни использует алгоритм случайного леса, причем в качестве предикторов он берёт лаги $y_{t-1}$, \ldots, $y_{t - `r n_lag`}$.
+
+По скольки наблюдениям обучается каждое из деревьев?
+
+
+Solution
+========
+
+Вспомните описание случайного леса. 
+
+Meta-information
+================
+exname: sample size
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: sample size

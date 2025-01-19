@@ -1,0 +1,24 @@
+Question
+========
+
+Известны средние $\bar x = 3$, $\bar y =2$ и скалярное произведение $\langle x, y\rangle = 9$.
+
+Определим $a_i = x_i - \bar x$ и $b_i = y_i - \bar y$. 
+
+Чему равно скалярное произведение $\langle a, b\rangle$?
+
+Solution
+========
+
+Подсказка: запишите скалярные произведения как суммы.
+
+Meta-information
+================
+exname: scalar product of centered variables
+extype: num
+exsolution: 3
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients formula

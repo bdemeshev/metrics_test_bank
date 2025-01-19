@@ -1,0 +1,30 @@
+```{r}
+r7 = sample(1:9, size=1) / 10
+gamma0 = sample(1:9, size=1) * 100
+gamma7 = r7 * gamma0
+```
+
+
+Question
+========
+
+Известно значение автоковариационной функции стационарного процесса $\gamma_9 = `r gamma7`$ и значение его автокорреляционной функции $\rho_9 = `r r7`$.
+
+Найдите дисперсию случайного процесса. 
+
+
+Solution
+========
+
+Вспомните определение автокорреляционной функции.
+
+Meta-information
+================
+exname: ACF
+extype: num
+exsolution: `r gamma0`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ACF

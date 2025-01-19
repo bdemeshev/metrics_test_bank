@@ -1,0 +1,35 @@
+Question
+========
+По данным  500 индивидуумов оценили зависимость веса индивидуума $Y$,
+измеряемого в фунтах (1 фунт $\approx$ 0.5 кг) от его роста $Х$,
+измеряемого в в футах (1 фут $\approx$ 30 см):
+$\widehat{\ln Y}_i = -4.4 + 2.4 \ln X_i$.
+    Если рост индивидуума будет измерен в метрах, а вес — в килограммах,
+    то коэффициент перед $\ln X$ будет равен
+Answerlist
+----------
+*  $2.4$
+*  $8$
+*  $1.2$
+*  $4.8$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: coefficient interpretation
+extype: schoice
+exsolution: 1000
+exshuffle: 4
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients interpretation

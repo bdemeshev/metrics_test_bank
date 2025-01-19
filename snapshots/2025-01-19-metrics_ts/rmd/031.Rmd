@@ -1,0 +1,35 @@
+Question
+========
+Известны 95\%-ые доверительные интервалы для коэффициентов регрессии:
+$\beta_1 \in [-4; 10]$, $\beta_2 \in [2; 10]$. На уровне значимости 5\%
+
+
+Answerlist
+----------
+*  $\hat \beta_1$ не значим, $\hat \beta_2$ значим
+*  $\hat \beta_1$ значим, $\hat \beta_2$ значим
+*  $\hat \beta_1$ значим, $\hat \beta_2$ не значим
+*  $\hat \beta_1$ не значим, $\hat \beta_2$ не значим
+*  значимость проверить невозможно
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: ci
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient confidence interval

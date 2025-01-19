@@ -1,0 +1,30 @@
+```{r}
+p = sample(1:3, size=1)
+q = sample(1:3, size=1)
+P = sample(1:3, size=1)
+Q = sample(1:3, size=1)
+ans_p = p + 12 * P
+ans_q = q + 12 * Q
+```
+
+Question
+========
+
+Найдите наименьшее возможное значение $p$, если известно, что $SARIMA(`r p`, 0, `r q`)(`r P`, 0, `r Q`)[12]$-модель является частным случаем $ARMA(p, q)$-модели. 
+
+
+Solution
+========
+
+Вспомните формулу $SARIMA$ модели и обратите внимание на наибольшую степень лага.
+
+Meta-information
+================
+exname: sarima
+extype: num
+exsolution: `r ans_p`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: sarima

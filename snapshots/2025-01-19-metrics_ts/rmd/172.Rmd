@@ -1,0 +1,40 @@
+Question
+========
+
+Капитолина оценила регрессию $\hat y_i = 0.7 + 2x_i + 3w_i$ с помощью МНК по 1000 наблюдениям.
+
+Оценённая ковариационная матрица оценок коэффициентов равна 
+$$
+\mathrm{Var}(\hat\beta) = 
+\begin{pmatrix}
+4 & 1 & -1 \\
+1 & 9 & 0 \\
+-1 & 0 & 16 \\
+\end{pmatrix}.
+$$
+
+Наблюдения являются независимыми, на ошибки выполнены классические предпосылки, $\mathbb E(u_i \mid X) = 0$, $\mathrm{Var}(u_i \mid X) = \sigma^2$,
+$\mathrm{Cov}(u_i, u_j \mid X) = 0$ для $i\neq j$.
+
+
+Постройте 95\%-й доверительный интервал для разницы $\beta_x - \beta_w$.
+
+Можно использовать функции из статистических пакетов или таблицы. 
+
+В ответ введите правую границу с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Для некоррелированных величин дисперсия разности равна сумме дисперсий. 
+
+Meta-information
+================
+exname: estimate beta difference
+extype: num
+exsolution: 8.80
+extol: 0.02
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficient confidence interval

@@ -1,0 +1,36 @@
+Question
+========
+Показатель $R^2_{adj}$ можно вычислить по формуле
+
+
+Answerlist
+----------
+*  $R^2_{adj} = (-1)\cdot \frac{k-1}{n-k} + R^2 \cdot \frac{n-1}{n-k}$
+*  $R^2_{adj} = \frac{k-1}{n-k} + R^2 \cdot \frac{n-1}{n-k}$
+*  $R^2_{adj} = \frac{k-1}{n-k} - R^2 \cdot \frac{n-1}{n-k}$
+*  $R^2_{adj} = \frac{k-1}{n-k} + R^2 \cdot \frac{n-k}{n-1}$
+*  $R^2_{adj} = \frac{k}{n-k} + R^2 \cdot \frac{n-1}{n-k}$
+*  $R^2_{adj} = \frac{n-k}{k-1} + R^2 \cdot \frac{n-1}{n-k}$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: r_sq
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/R2

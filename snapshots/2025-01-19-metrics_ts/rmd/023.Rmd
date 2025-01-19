@@ -1,0 +1,36 @@
+Question
+========
+Запись $3.20E-16$ означает
+
+
+Answerlist
+----------
+*  $3.2\cdot 10^{-16}$
+*  $3.2\cdot e^{-16}$
+*  $3.2\cdot e - 16$
+*  $3.2\cdot (e - 16)$
+*  $3.2^{e-16}$
+*  Ошибка с кодом 16
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: maths
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Others

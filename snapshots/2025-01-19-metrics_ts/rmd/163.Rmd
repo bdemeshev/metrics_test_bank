@@ -1,0 +1,34 @@
+Question
+========
+
+Рассмотрим модель
+$$
+y_i = \beta_1 + \beta_2 x_i + \beta_3 z_i + u_i.
+$$
+
+Оценка ковариационной матрицы коэффициентов равна 
+$$
+\begin{pmatrix}
+10 & -2 & -1 \\
+? & 20 & 2 \\
+? & ? & 30 \\
+\end{pmatrix}
+$$
+
+Найдите оценку дисперсии $\widehat{\mathrm{Var}}(\hat \beta_2 \mid X)$.
+
+Solution
+========
+
+Выберите нужное число :)
+
+Meta-information
+================
+exname: the structure of cov matrix
+extype: num
+exsolution: 20
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: combat_03/OLS/Variance and covariance

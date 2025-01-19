@@ -1,0 +1,33 @@
+Question
+========
+
+Рассмотрим две конкурирующие модели: $ARMA(2, 1)$ с ненулевым ожиданием 
+и $ARIMA(0, 1, 2)$ с нулевым ожиданием. 
+
+Каким способом разумно выбрать наилучшую из них?
+
+
+Answerlist
+----------
+* KPSS тест с константой
+* критерий Акаике
+* KPSS тест с трендом
+* ADF тест с трендом
+* ADF тест без константы
+* нет верного ответа
+
+Solution
+========
+
+Посмотрите предпосылки тестов.
+
+Meta-information
+================
+exname: kpss-test
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: kpss-test

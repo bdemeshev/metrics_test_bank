@@ -1,0 +1,29 @@
+Question
+========
+
+Выберите верное утверждение про стационарный $ARMA(p, q)$ процесс относительно белого шума $(u_t)$.
+
+Answerlist
+----------
+* является частным случаем $MA(\infty)$ процесса относительно $(u_t)$.
+* является частным случаем $MA(q)$ процесса относительно $(u_t)$.
+* является частным случаем $AR(p)$ процесса относительно $(u_t)$.
+* является частным случаем $MA(p)$ процесса относительно $(u_t)$.
+* является частным случаем $AR(q)$ процесса относительно $(u_t)$.
+* нет верного ответа
+
+Solution
+========
+
+ARMA — не AR и не MA :)
+
+Meta-information
+================
+exname: arma as ma infinity
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: arma

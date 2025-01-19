@@ -1,0 +1,35 @@
+Question
+========
+Взятием разностей может быть сведен к стационарному
+
+
+
+Answerlist
+----------
+*  как временной ряд с детерминированным трендом, так и со случайным трендом
+*  только временной ряд с детерминированным трендом
+*  только временной ряд со случайным трендом
+*  ни временной ряд с детерминированным трендом, ни со случайным трендом
+*  только коинтегрированный ряд
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: difference
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS/Stationarity

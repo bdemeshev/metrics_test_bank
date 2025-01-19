@@ -1,0 +1,28 @@
+Question
+========
+Стьюдентизированные остатки регрессии используются
+
+
+Answerlist
+----------
+* для выявления выбросов
+* в методе главных компонент
+* на первом шаге при проведении теста Годфельда-Квандта
+* в тесте Саргана
+* на первом шаге двухшагового МНК
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: studentized_residuals
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Residuals

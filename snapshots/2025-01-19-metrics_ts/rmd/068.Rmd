@@ -1,0 +1,37 @@
+Question
+========
+Эмманюэль и Владимир оценили зависимость стоимости подержанных Пежо (одной серии) $Y$ 
+от пробега $X$ (измеряемого в км) с помощью модели парной регрессии $Y = \alpha + \beta X + u$ по по одной и той же выборке, 
+однако Эмманюэль измерял стоимость машин в евро, а Владимир – в рублях, 1 евро = 65 рублей. 
+Оценки МНК коэффициента наклона регрессии, полученные Эмманюэлем $\beta_E$ и Владимиром $\beta_B$ связаны следующим образом:
+
+
+Answerlist
+----------
+*  $\hat \beta_B = 65 \hat \beta_E$
+*  $\hat \beta_B = \hat \beta_E$
+*  $\hat \beta_E = 65 \hat \beta_B$
+*  $\hat \beta_E = 4225 \hat \beta_B$
+*  $\hat \beta_B = 4225 \hat \beta_E$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: coefficient_scaling
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Coefficients interpretation

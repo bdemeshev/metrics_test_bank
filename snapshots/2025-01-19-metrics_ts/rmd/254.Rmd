@@ -1,0 +1,30 @@
+```{r}
+k = sample(2:9, size=1)
+sigma2 = sample(2:9, size=1)
+ans = sigma2 * (1 + k^2 + 2*k)
+```
+
+Question
+========
+
+Рассмотрим $MA(1)$ модель $y_t = u_t + `r k` u_{t-1}$, 
+где $(u_t)$ — белый шум с дисперсией $`r sigma2`$.
+
+Найдите долгосрочную дисперсию процесса $(y_t)$.
+
+
+Solution
+========
+
+Вспомните определение долгосрочной дисперсии.
+
+Meta-information
+================
+exname: long-run variance
+extype: num
+exsolution: `r ans`
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: long-run variance

@@ -1,0 +1,35 @@
+Question
+========
+Рассмотрим модель $Y = X \beta + u$. Условия теоремы Гаусса-Маркова выполнены, причём $\mathrm{Var}(u_i) = \sigma^2_{u}$, $\hat y = PY$, $P = X (X'X)^{-1} X'$ и $I$ - единичная матрица. Ковариационная матрица случайного вектора $e=Y-\hat y$ равна
+
+
+
+Answerlist
+----------
+*  $\sigma^2_{u} (I - P)$
+*  $\sigma^2_{u} P$
+*  $\sigma^2_{u} (P-I)$
+*  $\sigma^2_{u} I$
+*  $\sigma^2_{u} (I+P)$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: ols_covar
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS

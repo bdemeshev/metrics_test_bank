@@ -1,0 +1,39 @@
+Question
+========
+Василий хочет оценить константу $\mu$ в  модели $Y_i = \mu + u_i$, где $\mathbb{E}(u_i)=0$, $\mathbb{E}(u_i u_j)=0$ при $i\neq j$, $\mathrm{Var}(u_i)=\sigma^2 X_i$ и $X_i>0$.
+
+В классе линейных несмещенных оценок наиболее эффективной является:
+
+
+
+Answerlist
+----------
+*  $\frac{\sum Y_i / X_i}{\sum 1/X_i}$
+*  $\frac{\sum Y_i / X_i}{\sum 1/X_i^2}$
+*  $\frac{\sum Y_i X_i}{\sum X_i}$
+*  $\frac{\sum Y_i X_i}{\sum X_i^2}$
+*  $\bar Y$
+*  $(I'I)^{-1}I'Y$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: constant model with heteroskedasticity
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Gauss-Markov theorem

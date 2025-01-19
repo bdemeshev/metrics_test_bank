@@ -1,0 +1,27 @@
+```{r}
+n = sample(5:10, size=1)
+```
+
+Question
+========
+
+В исходной выборке `r n` наблюдений. 
+Найдите ожидаемое количество копий второго наблюдения в очередной бутстрэп выборке. 
+
+Ответ укажите с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Вспомните принцип построения бутстрэп выборки. 
+
+Meta-information
+================
+exname: bootstrap 
+extype: num
+exsolution: 1
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: bootstrap

@@ -1,0 +1,35 @@
+Question
+========
+Если в регрессии обнаружена автокорреляция типа AR(1), то статистика Дарбина-Уотсона и оценка коэффициента автокорреляции $\hat\rho$ связаны между собой соотношением
+
+
+
+Answerlist
+----------
+*  $DW \approx 2(1-\hat\rho)$
+*  $DW \approx \hat\rho / 2$
+*  $DW \approx \hat\rho$
+*  $\hat\rho \approx DW/2$
+*  $\hat\rho \approx 2(1-DW)$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: DW_autocorr
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS

@@ -1,0 +1,36 @@
+Question
+========
+Модель коррекции ошибками имеет следующий вид
+
+
+
+
+Answerlist
+----------
+*  $\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t$
+*  $Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t$
+*  $\Delta Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t$
+*  $Y_t = \delta - \gamma (Y_{t-1} - \alpha - \beta X_{t-1}) + u_t$
+*  $\Delta Y_t = \delta + \phi \Delta X_{t-1} - \gamma (Y_{t-1} ) + u_t$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: error_correction_model
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS

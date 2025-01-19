@@ -1,0 +1,34 @@
+Question
+========
+Использование робастных стандартных ошибок в форме Уайта при гетероскедастичности позволяет
+
+
+Answerlist
+----------
+*  строить корректные доверительные интервалы для коэффициентов
+*  получить эффективные оценки коэффициентов
+*  устранить смещённость оценок коэффициентов
+*  увеличить точность прогнозов
+*  сузить доверительные интервалы для коэффициентов
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: white_errors
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: Heteroskedasticity/Robust standard errors

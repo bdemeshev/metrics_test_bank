@@ -1,0 +1,23 @@
+Question
+========
+
+В модели множественной регрессии с константой оказалось, что сумма квадратов остатков равна $100$, 
+а общая сумма квадратов равна $1000$.
+
+Найдите $\sum_i (y_i - \hat y_i)^2$.
+
+Solution
+========
+
+Теорема Пифагора в действии. 
+
+Meta-information
+================
+exname: find ess
+extype: num
+exsolution: 900
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Sum of squares

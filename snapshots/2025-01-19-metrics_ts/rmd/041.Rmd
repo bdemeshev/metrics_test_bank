@@ -1,0 +1,36 @@
+Question
+========
+Исследователь выполнил второй шаг в PE-тесте МакКиннона. В регрессии $\ln Y_i$ на исходные регрессоры и $Z_i = \hat Y_i - \exp(\widehat{\ln Y_i})$ коэффициент при $Z_i$ оказался значимым. А в регрессии $Y_i$ на исходные регрессоры и $W_i = \ln \hat Y_i - \widehat{\ln Y_i}$ коэффициент при $W_i$ оказался незначимым. Из результатов следует сделать вывод, что
+
+
+Answerlist
+----------
+*  следует предпочесть линейную модель
+*  следует предпочесть полулогарифмеческую модель
+*  следует предпочесть логарифмическую модель
+*  тесты противоречат друг другу, ни одна из моделей не предпочитается
+*  в исходной модели пропущен регрессор $Z_i$
+*  в исходной модели пропущен регрессор $W_i$
+
+Solution
+========
+
+Answerlist
+----------
+*  Good answer :)
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+*  Bad answer :(
+
+Meta-information
+================
+exname: MacKinnon_test
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: OLS/Model selection

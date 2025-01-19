@@ -1,0 +1,30 @@
+Question
+========
+
+Инструмент $Z_t$ для состоятельной оценки динамической модели $Y_{t} =\alpha +\beta_0 X_t + \beta_1 Y_{t-1} + u_t$,
+где $u_t = u_t + \lambda_1 u_{t-1} + \lambda_2 u_{t-2}$,
+
+
+Answerlist
+----------
+* удовлетворяет условию $\Corr(Z_t, Y_{t-1}) \neq 0$
+* не требуется
+* удовлетворяет условию $\Corr(Z_t, Y_{t-1}) =0$
+* удовлетворяет условию $\Corr(Z_t, X_t) =0$
+* удовлетворяет условию $\Corr(Z_t, u_t) \to 1$
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: instrument
+extype: schoice
+exsolution: 10000
+exshuffle: 5
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: TS

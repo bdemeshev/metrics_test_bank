@@ -1,0 +1,24 @@
+Question
+========
+
+В рамках ETS(ANN) модели найдите точечный прогноз на один шаг вперёд,
+Последнее значение уровня (сглаженного ряда) равно $100$, $\ell_t = \ell_{t-1} + 0.3 u_t$, 
+$u_t \sim \mathcal{N}(0; 16)$, $y_t = \ell_{t-1} + u_t$. 
+
+Ответ введите с точностью до двух знаков после десятичной точки. 
+
+Solution
+========
+
+Подсказка: это очень простая задача. 
+
+Meta-information
+================
+exname: ETS(ANN)
+extype: num
+exsolution: 100
+extol: 0.01
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Literacy
+exsection: ETS/ANN
